@@ -1,0 +1,1197 @@
+{
+  "count": 149,
+  "records": [
+    {
+      "file": "2024.nlp4pi-1.23.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2024.nlp4pi-1.23.pdf",
+      "pages": 8,
+      "title": "Proceedings of the Third Workshop on NLP for Positive Impact , pages 250–257",
+      "sample": "Proceedings of the Third Workshop on NLP for Positive Impact , pages 250–257 November 15, 2024 ©2024 Association for Computational Linguistics Explainable Identification of Hate Speech towards Islam using Graph",
+      "status": "ok"
+    },
+    {
+      "file": "2025.acl-long.102.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2025.acl-long.102.pdf",
+      "pages": 14,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 2064–2077",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 2064–2077 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics ECERC: Evidence-Cause Attention Network for Multi-Modal Emotion",
+      "status": "ok"
+    },
+    {
+      "file": "2025.acl-long.115.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2025.acl-long.115.pdf",
+      "pages": 25,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 2297–2321",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 2297–2321 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics HATEDAY: Insights from a Global Hate Speech Dataset",
+      "status": "ok"
+    },
+    {
+      "file": "2025.coling-main.170.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2025.coling-main.170.pdf",
+      "pages": 16,
+      "title": "DialogueMMT: Dialogue Scenes Understanding Enhanced Multi-modal Multi-task Tuning for Emotion Recognition in Conversations",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 2497–2512 January 19–24, 2025. ©2025 Association for Computational Linguistics DialogueMMT: Dialogue Scenes Understanding Enhanced Multi-modal",
+      "status": "ok"
+    },
+    {
+      "file": "2025.coling-main.18.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2025.coling-main.18.pdf",
+      "pages": 13,
+      "title": "Dynamic Graph Neural ODE Network for Multi-modal Emotion Recognition in Conversation",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 256–268 January 19–24, 2025. ©2025 Association for Computational Linguistics Dynamic Graph Neural Ordinary Differential Equation Network for",
+      "status": "ok"
+    },
+    {
+      "file": "2306.08804v2.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2306.08804v2.pdf",
+      "pages": 18,
+      "title": "PEACE: Cross-Platform Hate Speech Detection",
+      "sample": "PEACE: Cross-Platform Hate Speech Detection - A Causality-guided Framework Paras Sheth⋆\u0000 1 , Tharindu Kumarage⋆1 , Raha Moraffah1 , Aman Chadha⋆⋆2,3 ,",
+      "status": "ok"
+    },
+    {
+      "file": "2507.09076v2.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2507.09076v2.pdf",
+      "pages": 13,
+      "title": "Dynamic Parameter Memory: Temporary LoRA-Enhanced LLM for Long-Sequence Emotion Recognition in Conversation",
+      "sample": "Under review as a conference paper at ICLR 2026 DYNAMICPARAMETERMEMORY: TEMPORARY LORA-ENHANCEDLLMFORLONG-SEQUENCEEMO-",
+      "status": "ok"
+    },
+    {
+      "file": "2510.07707v2.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2510.07707v2.pdf",
+      "pages": 11,
+      "title": "Causality Guided Representation Learning for Cross-Style Hate Speech Detection",
+      "sample": "Causality Guided Representation Learning for Cross-Style Hate Speech Detection Chengshuai Zhao∗",
+      "status": "ok"
+    },
+    {
+      "file": "2654-rebuttal-2.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/2654-rebuttal-2.pdf",
+      "pages": 13,
+      "title": "https://openreview.net/forum?id=R7rjduAm6S&noteId=93p0ZVoGdl 1/13",
+      "sample": "2025/4/4 16:04 Establishing Information Transfer for Multilingual Intent Detection and Slot Filling | OpenReview https://openreview.net/forum?id=R7rjduAm6S&noteId=93p0ZVoGdl 1/13 Go to ACL ARR 2025 Februaryhomepage (/group?id=aclweb.org/ACL/ARR/2025/February)",
+      "status": "ok"
+    },
+    {
+      "file": "3553-rebuttal.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/3553-rebuttal.pdf",
+      "pages": 9,
+      "title": "https://openreview.net/forum?id=P0qnY1fFe3&noteId=WFybOUo2T5 1/9",
+      "sample": "2025/4/2 23:23 GenJSLU: A Unified Generative Framework for Joint Spoken Language Understanding with Heterogeneous Data | OpenReview https://openreview.net/forum?id=P0qnY1fFe3&noteId=WFybOUo2T5 1/9 Go to ACL ARR 2025 Februaryhomepage (/group?id=aclweb.org/ACL/ARR/2025/February)",
+      "status": "ok"
+    },
+    {
+      "file": "Agarwal 等 - 2023 - GASCOM Graph-based Attentive Semantic Context Modeling for Online Conversation Understanding.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Agarwal 等 - 2023 - GASCOM Graph-based Attentive Semantic Context Modeling for Online Conversation Understanding.pdf",
+      "pages": 10,
+      "title": "GASCOM: Graph-based Attentive Semantic Context Modeling for Online Conversation Understanding",
+      "sample": "GASCOM: Graph-based Attentive Semantic Context Modeling for Online Conversation Understanding Vibhor Agarwal",
+      "status": "ok"
+    },
+    {
+      "file": "Ahn 等 - 2024 - SharedCon Implicit Hate Speech Detection using Shared Semantics.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ahn 等 - 2024 - SharedCon Implicit Hate Speech Detection using Shared Semantics.pdf",
+      "pages": 12,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 10444–10455",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 10444–10455 August 11-16, 2024 ©2024 Association for Computational Linguistics SHARED CON: Implicit Hate Speech Detection using Shared Semantics",
+      "status": "ok"
+    },
+    {
+      "file": "Ahn 等 - 2024 - TimeChara Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ahn 等 - 2024 - TimeChara Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models.pdf",
+      "pages": 35,
+      "title": "TIME CHARA : Evaluating Point-in-Time Character Hallucination",
+      "sample": "TIME CHARA : Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models Jaewoo Ahn1 Taehyun Lee1 Junyoung Lim1",
+      "status": "ok"
+    },
+    {
+      "file": "Bai 等 - 2025 - STATE ToxiCN A Benchmark for Span-level Target-Aware Toxicity Extraction in Chinese Hate Speech Det.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Bai 等 - 2025 - STATE ToxiCN A Benchmark for Span-level Target-Aware Toxicity Extraction in Chinese Hate Speech Det.pdf",
+      "pages": 14,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 10206–10219",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 10206–10219 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics STATE ToxiCN: A Benchmark for Span-level Target-Aware Toxicity",
+      "status": "ok"
+    },
+    {
+      "file": "Balaraman 等 - 2021 - Recent Neural Methods on Dialogue State Tracking for Task-Oriented Dialogue Systems A Survey.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Balaraman 等 - 2021 - Recent Neural Methods on Dialogue State Tracking for Task-Oriented Dialogue Systems A Survey.pdf",
+      "pages": 13,
+      "title": "Recent Neural Methods on Dialogue State Tracking for Task-Oriented Dialogue Systems: A Survey",
+      "sample": "Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue , pages 239–251 July 29–31, 2021. ©2021 Association for Computational Linguistics Recent Neural Methods on Dialogue State Tracking for Task-Oriented",
+      "status": "ok"
+    },
+    {
+      "file": "Barel 等 - 2025 - Acquired TASTE Multimodal Stance Detection with Textual and Structural Embeddings.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Barel 等 - 2025 - Acquired TASTE Multimodal Stance Detection with Textual and Structural Embeddings.pdf",
+      "pages": 13,
+      "title": "Acquired TASTE: Multimodal Stance Detection with Textual and Structural Embeddings",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 6492–6504 January 19–24, 2025. ©2025 Association for Computational Linguistics Acquired TASTE:",
+      "status": "ok"
+    },
+    {
+      "file": "BehnamGhader 等 - 2024 - LLM2Vec Large Language Models Are Secretly Powerful Text Encoders.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/BehnamGhader 等 - 2024 - LLM2Vec Large Language Models Are Secretly Powerful Text Encoders.pdf",
+      "pages": 28,
+      "title": "Published as a conference paper at COLM 2024",
+      "sample": "Published as a conference paper at COLM 2024 LLM2V ec: Large Language Models Are Secretly Powerful T ext Encoders",
+      "status": "ok"
+    },
+    {
+      "file": "Butler 等 - 2023 - Convolutional Learning on Multigraphs.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Butler 等 - 2023 - Convolutional Learning on Multigraphs.pdf",
+      "pages": 14,
+      "title": "IEEE TRANSACTIONS ON SIGNAL PROCESSING (SUBMITTED) 1",
+      "sample": "IEEE TRANSACTIONS ON SIGNAL PROCESSING (SUBMITTED) 1 Convolutional Learning on Multigraphs Landon Butler , Alejandro Parada-Mayorga , and Alejandro Ribeiro",
+      "status": "ok"
+    },
+    {
+      "file": "Cai 等 - 2025 - Unpacking Hateful Memes Presupposed Context and False Claims.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Cai 等 - 2025 - Unpacking Hateful Memes Presupposed Context and False Claims.pdf",
+      "pages": 11,
+      "title": "Unpacking Hateful Memes: Presupposed Context and False Claims",
+      "sample": "Unpacking Hateful Memes: Presupposed Context and False Claims Weibin Cai",
+      "status": "ok"
+    },
+    {
+      "file": "Chen 等 - 2021 - Image Manipulation Detection by Multi-View Multi-Scale Supervision.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Chen 等 - 2021 - Image Manipulation Detection by Multi-View Multi-Scale Supervision.pdf",
+      "pages": 9,
+      "title": "Image Manipulation Detection by Multi-View Multi-Scale Supervision",
+      "sample": "Image Manipulation Detection by Multi-View Multi-Scale Supervision Xinru Chen1,2*, Chengbo Dong1,2*, Jiaqi Ji1,2, Juan Cao3,4, Xirong Li1,2† 1MoE Key Lab of Data Engineering and Knowledge Engineering, Renmin University of China",
+      "status": "ok"
+    },
+    {
+      "file": "Chen 等 - 2024 - CofiPara A Coarse-to-fine Paradigm for Multimodal Sarcasm Target Identification with Large Multimod.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Chen 等 - 2024 - CofiPara A Coarse-to-fine Paradigm for Multimodal Sarcasm Target Identification with Large Multimod.pdf",
+      "pages": 25,
+      "title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 9663–9687",
+      "sample": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 9663–9687 August 11-16, 2024 ©2024 Association for Computational Linguistics CofiPara: A Coarse-to-fine Paradigm for Multimodal Sarcasm Target",
+      "status": "ok"
+    },
+    {
+      "file": "Chen 等 - 2024 - SocialBench Sociality Evaluation of Role-Playing Conversational Agents.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Chen 等 - 2024 - SocialBench Sociality Evaluation of Role-Playing Conversational Agents.pdf",
+      "pages": 17,
+      "title": "SocialBench: Sociality Evaluation of Role-Playing Conversational Agents",
+      "sample": "SocialBench: Sociality Evaluation of Role-Playing Conversational Agents Hongzhan Chen1, Hehong Chen2, Ming Yan2*, Wenshen Xu2, Xing Gao2 Weizhou Shen1, Xiaojun Quan1*, Chenliang Li2, Ji Zhang2, Fei Huang2, Jingren Zhou2",
+      "status": "ok"
+    },
+    {
+      "file": "Choi 等 - 2024 - UniGen Universal Domain Generalization for Sentiment Classification via Zero-shot Dataset Generatio.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Choi 等 - 2024 - UniGen Universal Domain Generalization for Sentiment Classification via Zero-shot Dataset Generatio.pdf",
+      "pages": 14,
+      "title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 1–14",
+      "sample": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 1–14 November 12-16, 2024 ©2024 Association for Computational Linguistics UNIGEN: Universal Domain Generalization",
+      "status": "ok"
+    },
+    {
+      "file": "Cocchieri 等 - 2025 - “What do you call a dog that is incontrovertibly true Dogma” Testing LLM Generalization through Hu.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Cocchieri 等 - 2025 - “What do you call a dog that is incontrovertibly true Dogma” Testing LLM Generalization through Hu.pdf",
+      "pages": 16,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 22922–22937",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 22922–22937 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics “What do you call a dog that is incontrovertibly true? Dogma”:",
+      "status": "ok"
+    },
+    {
+      "file": "de Gibert 等 - 2018 - Hate Speech Dataset from a White Supremacy Forum.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/de Gibert 等 - 2018 - Hate Speech Dataset from a White Supremacy Forum.pdf",
+      "pages": 10,
+      "title": "Hate Speech Dataset from a White Supremacy Forum",
+      "sample": "Proceedings of the Second Workshop on Abusive Language Online (ALW2) , pages 11–20 Brussels, Belgium, October 31, 2018. c⃝2018 Association for Computational Linguistics Hate Speech Dataset from a White Supremacy Forum",
+      "status": "ok"
+    },
+    {
+      "file": "Ding 等 - 2024 - EDDA An Encoder-Decoder Data Augmentation Framework for Zero-Shot Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ding 等 - 2024 - EDDA An Encoder-Decoder Data Augmentation Framework for Zero-Shot Stance Detection.pdf",
+      "pages": 11,
+      "title": "EDDA: An Encoder-Decoder Data Augmentation Framework for Zero-Shot Stance Detection",
+      "sample": "LREC-COLING 2024, pages 5484–5494 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 EDDA: An Encoder-Decoder Data Augmentation Framework for",
+      "status": "ok"
+    },
+    {
+      "file": "Ding 等 - 2025 - Zero-Shot Conversational Stance Detection Dataset and Approaches.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ding 等 - 2025 - Zero-Shot Conversational Stance Detection Dataset and Approaches.pdf",
+      "pages": 15,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 3221–3235",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 3221–3235 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics Zero-Shot Conversational Stance Detection: Dataset and Approaches",
+      "status": "ok"
+    },
+    {
+      "file": "Dong 等 - 2023 - MVSS-Net Multi-View Multi-Scale Supervised Networks for Image Manipulation Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Dong 等 - 2023 - MVSS-Net Multi-View Multi-Scale Supervised Networks for Image Manipulation Detection.pdf",
+      "pages": 15,
+      "title": "MVSS-Net: Multi-View Multi-Scale Supervised Networks for Image Manipulation Detection",
+      "sample": "MVSS-Net: Multi-View Multi-Scale Supervised Networks for Image Manipulation Detection Chengbo Dong , Xinru Chen, Ruohan Hu , Juan Cao , and Xirong Li , Member, IEEE",
+      "status": "ok"
+    },
+    {
+      "file": "Duarte 等 - 2024 - LumberChunker Long-Form Narrative Document Segmentation.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Duarte 等 - 2024 - LumberChunker Long-Form Narrative Document Segmentation.pdf",
+      "pages": 14,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 6473–6486",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 6473–6486 November 12-16, 2024 ©2024 Association for Computational Linguistics LumberChunker: Long-Form Narrative Document Segmentation",
+      "status": "ok"
+    },
+    {
+      "file": "Dubreuil 等 - 2025 - Are Stereotypes Leading LLMs' Zero-Shot Stance Detection .pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Dubreuil 等 - 2025 - Are Stereotypes Leading LLMs' Zero-Shot Stance Detection .pdf",
+      "pages": 14,
+      "title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 31506–31519",
+      "sample": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 31506–31519 November 4-9, 2025 ©2025 Association for Computational Linguistics Are Stereotypes Leading LLMs’ Zero-Shot Stance Detection ?",
+      "status": "ok"
+    },
+    {
+      "file": "ElSherief 等 - 2021 - Latent Hatred A Benchmark for Understanding Implicit Hate Speech.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/ElSherief 等 - 2021 - Latent Hatred A Benchmark for Understanding Implicit Hate Speech.pdf",
+      "pages": 19,
+      "title": "Latent Hatred: A Benchmark for Understanding Implicit Hate Speech",
+      "sample": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing , pages 345–363 November 7–11, 2021. c⃝2021 Association for Computational Linguistics Latent Hatred: A Benchmark for Understanding Implicit Hate Speech",
+      "status": "ok"
+    },
+    {
+      "file": "Farha和Gall - 2019 - MS-TCN Multi-Stage Temporal Convolutional Network for Action Segmentation.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Farha和Gall - 2019 - MS-TCN Multi-Stage Temporal Convolutional Network for Action Segmentation.pdf",
+      "pages": 10,
+      "title": "MS-TCN: Multi-Stage Temporal Convolutional Network for Action",
+      "sample": "MS-TCN: Multi-Stage Temporal Convolutional Network for Action Segmentation Yazan Abu Farha and Juergen Gall",
+      "status": "ok"
+    },
+    {
+      "file": "Fu 等 - 2025 - LaERC-S Improving LLM-based Emotion Recognition in Conversation with Speaker Characteristics.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Fu 等 - 2025 - LaERC-S Improving LLM-based Emotion Recognition in Conversation with Speaker Characteristics.pdf",
+      "pages": 14,
+      "title": "LaERC-S: Improving LLM-based Emotion Recognition in Conversation with Speaker Characteristics",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 6748–6761 January 19–24, 2025. ©2025 Association for Computational Linguistics LaERC-S: Improving LLM-based Emotion Recognition in Conversation",
+      "status": "ok"
+    },
+    {
+      "file": "Garg 等 - 2026 - Just KIDDIN Knowledge Infusion and Distillation for Detection of INdecent Memes.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Garg 等 - 2026 - Just KIDDIN Knowledge Infusion and Distillation for Detection of INdecent Memes.pdf",
+      "pages": 20,
+      "title": "Just KIDDIN’: Knowledge Infusion and Distillation for Detection of",
+      "sample": "Just KIDDIN’: Knowledge Infusion and Distillation for Detection of INdecent Memes Warning: This paper contains content that may be potentially offensive or upsetting.",
+      "status": "ok"
+    },
+    {
+      "file": "Garg和Caragea - 2024 - Stanceformer Target-Aware Transformer for Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Garg和Caragea - 2024 - Stanceformer Target-Aware Transformer for Stance Detection.pdf",
+      "pages": 16,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 4969–4984",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 4969–4984 November 12-16, 2024 ©2024 Association for Computational Linguistics Stanceformer: Target-Aware Transformer for Stance Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Garibo i Orts - 2019 - Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter at SemEval-2019 Task 5.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Garibo i Orts - 2019 - Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter at SemEval-2019 Task 5.pdf",
+      "pages": 4,
+      "title": "Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter at SemEval-2019 Task 5: Frequency Analysis Interpolation for Hate in Speech Detection",
+      "sample": "Proceedings of the 13th International Workshop on Semantic Evaluation (SemEval-2019) , pages 460–463 Minneapolis, Minnesota, USA, June 6–7, 2019. ©2019 Association for Computational Linguistics OscarGaribo at SemEval-2019 Task 5: Frequency Analysis Interpolation",
+      "status": "ok"
+    },
+    {
+      "file": "Ghorbanpour 等 - 2025 - Data-Efficient Hate Speech Detection via Cross-Lingual Nearest Neighbor Retrieval with Limited Label.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ghorbanpour 等 - 2025 - Data-Efficient Hate Speech Detection via Cross-Lingual Nearest Neighbor Retrieval with Limited Label.pdf",
+      "pages": 19,
+      "title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 29663–29681",
+      "sample": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 29663–29681 November 4-9, 2025 ©2025 Association for Computational Linguistics Data-Efficient Hate Speech Detection via Cross-Lingual Nearest Neighbor",
+      "status": "ok"
+    },
+    {
+      "file": "Goyal和Iii - Causal Differentiating Concepts Interpreting LM Behavior via Causal Representation Learning.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Goyal和Iii - Causal Differentiating Concepts Interpreting LM Behavior via Causal Representation Learning.pdf",
+      "pages": 29,
+      "title": "Causal Differentiating Concepts: Interpreting LM",
+      "sample": "Causal Differentiating Concepts: Interpreting LM Behavior via Causal Representation Learning Navita Goyal",
+      "status": "ok"
+    },
+    {
+      "file": "Grover 等 - 2022 - Public Wisdom Matters! Discourse-Aware Hyperbolic Fourier Co-Attention for Social-Text Classificatio.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Grover 等 - 2022 - Public Wisdom Matters! Discourse-Aware Hyperbolic Fourier Co-Attention for Social-Text Classificatio.pdf",
+      "pages": 19,
+      "title": "arXiv:2209.13017v2 [cs.CL] 11 Oct 2022",
+      "sample": "arXiv:2209.13017v2 [cs.CL] 11 Oct 2022 Public Wisdom Matters! Discourse-Aware Hyperbolic Fourier Co-Attention for Social-Text Classiﬁcation",
+      "status": "ok"
+    },
+    {
+      "file": "Guo 等 - 2025 - Multi-View Incongruity Learning for Multimodal Sarcasm Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Guo 等 - 2025 - Multi-View Incongruity Learning for Multimodal Sarcasm Detection.pdf",
+      "pages": 13,
+      "title": "Multi-View Incongruity Learning for Multimodal Sarcasm Detection",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 1754–1766 January 19–24, 2025. ©2025 Association for Computational Linguistics Multi-View Incongruity Learning for Multimodal Sarcasm Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Han 等 - 2025 - Reasoning with Graphs Structuring Implicit Knowledge to Enhance LLMs Reasoning.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Han 等 - 2025 - Reasoning with Graphs Structuring Implicit Knowledge to Enhance LLMs Reasoning.pdf",
+      "pages": 16,
+      "title": "Reasoning with Graphs: Structuring Implicit Knowledge to Enhance",
+      "sample": "Reasoning with Graphs: Structuring Implicit Knowledge to Enhance LLMs Reasoning Haoyu Han1, Yaochen Xie2, Hui Liu2,1, Xianfeng Tang2, Sreyashi Nag2,",
+      "status": "ok"
+    },
+    {
+      "file": "HARE_ Explainable Hate Speech Detection with Step-by-Step Reasoning.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/HARE_ Explainable Hate Speech Detection with Step-by-Step Reasoning.pdf",
+      "pages": 16,
+      "title": "HARE: Explainable Hate Speech Detection with Step-by-Step Reasoning",
+      "sample": "HARE: Explainable Hate Speech Detection with Step-by-Step Reasoning Warning: This paper contains examples of content that is offensive and may be upsetting. Yongjin Yang∗ Joonkee Kim∗ Yujin Kim∗ Namgyu Ho",
+      "status": "ok"
+    },
+    {
+      "file": "Hartvigsen 等 - 2022 - ToxiGen A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Hartvigsen 等 - 2022 - ToxiGen A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection.pdf",
+      "pages": 18,
+      "title": "TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial",
+      "sample": "TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection Warning: this paper discusses and contains content that can be offensive or upsetting.",
+      "status": "ok"
+    },
+    {
+      "file": "He 等 - 2025 - Chumor 2.0 Towards Better Benchmarking Chinese Humor Understanding from (Ruo Zhi Ba).pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/He 等 - 2025 - Chumor 2.0 Towards Better Benchmarking Chinese Humor Understanding from (Ruo Zhi Ba).pdf",
+      "pages": 20,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 21799–21818",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 21799–21818 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics Chumor 2.0: Towards Better Benchmarking Chinese Humor",
+      "status": "ok"
+    },
+    {
+      "file": "He 等 - Crab A Novel Configurable Role-Playing LLM with Assessing Benchmark.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/He 等 - Crab A Novel Configurable Role-Playing LLM with Assessing Benchmark.pdf",
+      "pages": 23,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 15030–15052",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 15030–15052 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics Crab: A Novel Configurable Role-Playing LLM",
+      "status": "ok"
+    },
+    {
+      "file": "Hee 等 - 2024 - Bridging Modalities Enhancing Cross-Modality Hate Speech Detection with Few-Shot In-Context Learnin.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Hee 等 - 2024 - Bridging Modalities Enhancing Cross-Modality Hate Speech Detection with Few-Shot In-Context Learnin.pdf",
+      "pages": 15,
+      "title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 7785–7799",
+      "sample": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 7785–7799 November 12-16, 2024 ©2024 Association for Computational Linguistics Bridging Modalities: Enhancing Cross-Modality Hate Speech Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Hee 等 - 2024 - Recent Advances in Online Hate Speech Moderation Multimodality and the Role of Large Models.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Hee 等 - 2024 - Recent Advances in Online Hate Speech Moderation Multimodality and the Role of Large Models.pdf",
+      "pages": 13,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 4407–4419",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 4407–4419 November 12-16, 2024 ©2024 Association for Computational Linguistics Recent Advances in Online Hate Speech Moderation:",
+      "status": "ok"
+    },
+    {
+      "file": "Hong 等 - 2025 - Rhetorical Device-Aware Sarcasm Detection with Counterfactual Data Augmentation.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Hong 等 - 2025 - Rhetorical Device-Aware Sarcasm Detection with Counterfactual Data Augmentation.pdf",
+      "pages": 14,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 11672–11685",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 11672–11685 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics Rhetorical Device-Aware Sarcasm Detection with Counterfactual",
+      "status": "ok"
+    },
+    {
+      "file": "Hosseini-Asl 等 - A Simple Language Model for Task-Oriented Dialogue.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Hosseini-Asl 等 - A Simple Language Model for Task-Oriented Dialogue.pdf",
+      "pages": 13,
+      "title": "A Simple Language Model for",
+      "sample": "A Simple Language Model for Task-Oriented Dialogue Ehsan Hosseini-Asl",
+      "status": "ok"
+    },
+    {
+      "file": "Huang 等 - 2024 - Logits Reranking via Semantic Labels for Hard Samples in Text Classification.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Huang 等 - 2024 - Logits Reranking via Semantic Labels for Hard Samples in Text Classification.pdf",
+      "pages": 13,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 11250–11262",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 11250–11262 November 12-16, 2024 ©2024 Association for Computational Linguistics Logits Reranking via Semantic Labels for Hard Samples in Text",
+      "status": "ok"
+    },
+    {
+      "file": "Huang 等 - 2025 - Evolver Chain-of-Evolution Prompting to Boost Large Multimodal Models for Hateful Meme Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Huang 等 - 2025 - Evolver Chain-of-Evolution Prompting to Boost Large Multimodal Models for Hateful Meme Detection.pdf",
+      "pages": 10,
+      "title": "Evolver: Chain-of-Evolution Prompting to Boost Large Multimodal Models for Hateful Meme Detection",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 7321–7330 January 19–24, 2025. ©2025 Association for Computational Linguistics Evolver: Chain-of-Evolution Prompting to Boost Large Multimodal Models",
+      "status": "ok"
+    },
+    {
+      "file": "Hwang 等 - 2025 - BottleHumor Self-Informed Humor Explanation using the Information Bottleneck Principle.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Hwang 等 - 2025 - BottleHumor Self-Informed Humor Explanation using the Information Bottleneck Principle.pdf",
+      "pages": 22,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 22611–22632",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 22611–22632 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics BOTTLE HUMOR : Self-Informed Humor Explanation using the Information",
+      "status": "ok"
+    },
+    {
+      "file": "Jana 等 - 2024 - Continuous Attentive Multimodal Prompt Tuning for Few-Shot Multimodal Sarcasm Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Jana 等 - 2024 - Continuous Attentive Multimodal Prompt Tuning for Few-Shot Multimodal Sarcasm Detection.pdf",
+      "pages": 13,
+      "title": "Proceedings of the 28th Conference on Computational Natural Language Learning , pages 314–326",
+      "sample": "Proceedings of the 28th Conference on Computational Natural Language Learning , pages 314–326 November 15-16, 2024 ©2024 Association for Computational Linguistics Continuous Attentive Multimodal Prompt Tuning for Few-Shot Multimodal",
+      "status": "ok"
+    },
+    {
+      "file": "Jang 等 - 2025 - Expanding Computation Spaces of LLMs at Inference Time.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Jang 等 - 2025 - Expanding Computation Spaces of LLMs at Inference Time.pdf",
+      "pages": 17,
+      "title": "Expanding Computation Spaces of LLMs at Inference Time",
+      "sample": "Preprint EXPANDINGCOMPUTATIONSPACES OFLLMS ATINFERENCETIME",
+      "status": "ok"
+    },
+    {
+      "file": "Ji 等 - 2025 - LLM-Driven Implicit Target Augmentation and Fine-Grained Contextual Modeling for Zero-Shot and Few-S.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ji 等 - 2025 - LLM-Driven Implicit Target Augmentation and Fine-Grained Contextual Modeling for Zero-Shot and Few-S.pdf",
+      "pages": 13,
+      "title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 5884–5896",
+      "sample": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 5884–5896 November 4-9, 2025 ©2025 Association for Computational Linguistics LLM-Driven Implicit Target Augmentation and Fine-Grained Contextual",
+      "status": "ok"
+    },
+    {
+      "file": "Jiang - 2025 - Learn from Failure Causality-guided Contrastive Learning for Generalizable Implicit Hate Speech Det.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Jiang - 2025 - Learn from Failure Causality-guided Contrastive Learning for Generalizable Implicit Hate Speech Det.pdf",
+      "pages": 10,
+      "title": "Learn from Failure: Causality-guided Contrastive Learning for Generalizable Implicit Hate Speech Detection",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 8858–8867 January 19–24, 2025. ©2025 Association for Computational Linguistics Learn from Failure: Causality-guided Contrastive Learning for",
+      "status": "ok"
+    },
+    {
+      "file": "Jiang 等 - 2025 - Know Me, Respond to Me Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at S.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Jiang 等 - 2025 - Know Me, Respond to Me Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at S.pdf",
+      "pages": 22,
+      "title": "Preprint",
+      "sample": "Preprint Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale",
+      "status": "ok"
+    },
+    {
+      "file": "Kim 等 - 2022 - Generalizable Implicit Hate Speech Detection Using Contrastive Learning.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Kim 等 - 2022 - Generalizable Implicit Hate Speech Detection Using Contrastive Learning.pdf",
+      "pages": 13,
+      "title": "Generalizable Implicit Hate Speech Detection Using Contrastive Learning",
+      "sample": "Proceedings of the 29th International Conference on Computational Linguistics , pages 6667–6679 October 12–17, 2022. Generalizable Implicit Hate Speech Detection using Contrastive Learning",
+      "status": "ok"
+    },
+    {
+      "file": "Kim 等 - 2023 - ConPrompt Pre-training a Language Model with Machine-Generated Data for Implicit Hate Speech Detect.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Kim 等 - 2023 - ConPrompt Pre-training a Language Model with Machine-Generated Data for Implicit Hate Speech Detect.pdf",
+      "pages": 17,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2023 , pages 10964–10980",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2023 , pages 10964–10980 December 6-10, 2023 ©2023 Association for Computational Linguistics CONPROMPT : Pre-training a Language Model with Machine-Generated",
+      "status": "ok"
+    },
+    {
+      "file": "Kim 等 - 2024 - Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate S.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Kim 等 - 2024 - Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate S.pdf",
+      "pages": 12,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 16177–16188",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 16177–16188 August 11-16, 2024 ©2024 Association for Computational Linguistics Label-aware Hard Negative Sampling Strategies with Momentum",
+      "status": "ok"
+    },
+    {
+      "file": "Lan 等 - 2024 - LLM-Based Agent Society Investigation Collaboration and Confrontation in Avalon Gameplay.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Lan 等 - 2024 - LLM-Based Agent Society Investigation Collaboration and Confrontation in Avalon Gameplay.pdf",
+      "pages": 18,
+      "title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 128–145",
+      "sample": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 128–145 November 12-16, 2024 ©2024 Association for Computational Linguistics LLM-Based Agent Society Investigation: Collaboration and Confrontation",
+      "status": "ok"
+    },
+    {
+      "file": "Lee 等 - 2025 - AmpleHate Amplifying the Attention for Versatile Implicit Hate Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Lee 等 - 2025 - AmpleHate Amplifying the Attention for Versatile Implicit Hate Detection.pdf",
+      "pages": 13,
+      "title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 28851–28863",
+      "sample": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 28851–28863 November 4-9, 2025 ©2025 Association for Computational Linguistics AmpleHate: Amplifying the Attention for Versatile Implicit Hate Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Li 等 - 2023 - MS-TCN++ Multi-Stage Temporal Convolutional Network for Action Segmentation.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Li 等 - 2023 - MS-TCN++ Multi-Stage Temporal Convolutional Network for Action Segmentation.pdf",
+      "pages": 12,
+      "title": "MS-TCN++: Multi-Stage Temporal Convolutional Network for Action Segmentation",
+      "sample": "MS-TCN++: Multi-Stage T emporal Convolutional Network for Action Segmentation Shijie Li , Y azan Abu Farha , Y un Liu , Ming-Ming Cheng , and Juergen Gall , Member, IEEE",
+      "status": "ok"
+    },
+    {
+      "file": "Li 等 - 2024 - Multimodal Emotion-Cause Pair Extraction with Holistic Interaction and Label Constraint.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Li 等 - 2024 - Multimodal Emotion-Cause Pair Extraction with Holistic Interaction and Label Constraint.pdf",
+      "pages": 20,
+      "title": "Multimodal Emotion-Cause Pair Extraction with Holistic Interaction and Label Constraint",
+      "sample": "Multimodal Emotion-Cause Pair Extraction with Holistic Interaction and Label Constraint BOBO LI, Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education,",
+      "status": "ok"
+    },
+    {
+      "file": "Li 等 - 2025 - Ambiguity-aware Multi-level Incongruity Fusion Network for Multi-Modal Sarcasm Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Li 等 - 2025 - Ambiguity-aware Multi-level Incongruity Fusion Network for Multi-Modal Sarcasm Detection.pdf",
+      "pages": 12,
+      "title": "Ambiguity-aware Multi-level Incongruity Fusion Network for Multi-Modal Sarcasm Detection",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 380–391 January 19–24, 2025. ©2025 Association for Computational Linguistics Ambiguity-aware Multi-level Incongruity Fusion Network for",
+      "status": "ok"
+    },
+    {
+      "file": "Li 等 - 2025 - How Far are LLMs from Being Our Digital Twins A Benchmark for Persona-Based Behavior Chain Simulati.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Li 等 - 2025 - How Far are LLMs from Being Our Digital Twins A Benchmark for Persona-Based Behavior Chain Simulati.pdf",
+      "pages": 28,
+      "title": "How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation",
+      "sample": "How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation Rui Li1, Heming Xia2, Xinfeng Yuan3, Qingxiu Dong1, Lei Sha4, Wenjie Li2, Zhifang Sui1*",
+      "status": "ok"
+    },
+    {
+      "file": "Liang 等 - 2024 - Multi-modal Stance Detection New Datasets and Model.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Liang 等 - 2024 - Multi-modal Stance Detection New Datasets and Model.pdf",
+      "pages": 15,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 12373–12387",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 12373–12387 August 11-16, 2024 ©2024 Association for Computational Linguistics Multi-modal Stance Detection: New Datasets and Model",
+      "status": "ok"
+    },
+    {
+      "file": "Lin 等 - 2019 - Deep Mask Memory Network with Semantic Dependency and Context Moment for Aspect Level Sentiment Clas.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Lin 等 - 2019 - Deep Mask Memory Network with Semantic Dependency and Context Moment for Aspect Level Sentiment Clas.pdf",
+      "pages": 7,
+      "title": "Deep Mask Memory Network with Semantic Dependency and Context Moment for Aspect Level Sentiment Classification",
+      "sample": "Deep Mask Memory Network with Semantic Dependency and Context Moment for Aspect Level Sentiment Classiﬁcation Peiqin Lin1 , Meng Yang1;2 and Jianhuang Lai1",
+      "status": "ok"
+    },
+    {
+      "file": "Lin 等 - 2021 - Deep Selective Memory Network With Selective Attention and Inter-Aspect Modeling for Aspect Level Se.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Lin 等 - 2021 - Deep Selective Memory Network With Selective Attention and Inter-Aspect Modeling for Aspect Level Se.pdf",
+      "pages": 14,
+      "title": "Deep Selective Memory Network With Selective Attention and Inter-Aspect Modeling for Aspect Level Sentiment Classification",
+      "sample": "IEEE/ACM TRANSACTIONS ON AUDIO, SPEECH, AND LANGUAGE PROCESSING, VOL. 29, 2021 1093 Deep Selective Memory Network With Selective Attention and Inter-Aspect Modeling for Aspect",
+      "status": "ok"
+    },
+    {
+      "file": "Lin 等 - 2024 - Generate then Refine Data Augmentation for Zero-shot Intent Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Lin 等 - 2024 - Generate then Refine Data Augmentation for Zero-shot Intent Detection.pdf",
+      "pages": 9,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 13138–13146",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 13138–13146 November 12-16, 2024 ©2024 Association for Computational Linguistics Generate then Refine: Data Augmentation for Zero-shot Intent Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Lin 等 - 2024 - KPatch Knowledge Patch to Pre-trained Language Model for Zero-Shot Stance Detection on Social Media.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Lin 等 - 2024 - KPatch Knowledge Patch to Pre-trained Language Model for Zero-Shot Stance Detection on Social Media.pdf",
+      "pages": 13,
+      "title": "KPatch: Knowledge Patch to Pre-trained Language Model for Zero-Shot Stance Detection on Social Media",
+      "sample": "LREC-COLING 2024, pages 9961–9973 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 KPatch: Knowledge Patch to Pre-trained Language Model for",
+      "status": "ok"
+    },
+    {
+      "file": "Liu 等 - 2022 - Cross-Domain Slot Filling as Machine Reading Comprehension A New Perspective.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Liu 等 - 2022 - Cross-Domain Slot Filling as Machine Reading Comprehension A New Perspective.pdf",
+      "pages": 13,
+      "title": "Cross-Domain Slot Filling as Machine Reading Comprehension: A New Perspective",
+      "sample": "IEEE/ACM TRANSACTIONS ON AUDIO, SPEECH, AND LANGUAGE PROCESSING, VOL. 30, 2022 673 Cross-Domain Slot Filling as Machine Reading Comprehension: A New Perspective",
+      "status": "ok"
+    },
+    {
+      "file": "Liu 等 - 2024 - Best Practices and Lessons Learned on Synthetic Data.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Liu 等 - 2024 - Best Practices and Lessons Learned on Synthetic Data.pdf",
+      "pages": 25,
+      "title": "arXiv:2404.07503v2 [cs.CL] 10 Aug 2024",
+      "sample": "arXiv:2404.07503v2 [cs.CL] 10 Aug 2024 Published as a conference paper at COLM 2024 Best Practices and Lessons Learned on Synthetic Data",
+      "status": "ok"
+    },
+    {
+      "file": "Li和Scarton - 2024 - Can We Identify Stance without Target Arguments A Study for Rumour Stance Classification.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Li和Scarton - 2024 - Can We Identify Stance without Target Arguments A Study for Rumour Stance Classification.pdf",
+      "pages": 8,
+      "title": "Can We Identify Stance without Target Arguments? A Study for Rumour Stance Classification",
+      "sample": "LREC-COLING 2024, pages 2844–2851 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 Can We Identify Stance Without Target Arguments? A Study for",
+      "status": "ok"
+    },
+    {
+      "file": "Li和Zhang - 2024 - Pro-Woman, Anti-Man Identifying Gender Bias in Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Li和Zhang - 2024 - Pro-Woman, Anti-Man Identifying Gender Bias in Stance Detection.pdf",
+      "pages": 8,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 3229–3236",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 3229–3236 August 11-16, 2024 ©2024 Association for Computational Linguistics Pro-Woman, Anti-Man? Identifying Gender Bias in Stance Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Long 等 - 2024 - On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation A Survey.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Long 等 - 2024 - On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation A Survey.pdf",
+      "pages": 18,
+      "title": "On LLMs-Driven Synthetic Data Generation, Curation,",
+      "sample": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey Lin Long1, Rui Wang1, Ruixuan Xiao1",
+      "status": "ok"
+    },
+    {
+      "file": "Ma 等 - 2025 - Estimating LLM Uncertainty with Evidence.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ma 等 - 2025 - Estimating LLM Uncertainty with Evidence.pdf",
+      "pages": 14,
+      "title": "ESTIMATING LLM UNCERTAINTY WITH LOGITS 1",
+      "sample": "ESTIMATING LLM UNCERTAINTY WITH LOGITS 1 Estimating LLM Uncertainty with Evidence Huan Ma1, Jingdong Chen1, Joey Tianyi Zhou3, Guangyu Wang2, Changqing Zhang1",
+      "status": "ok"
+    },
+    {
+      "file": "Marzea 等 - 2025 - Social Hatred Efficient Multimodal Detection of Hatemongers.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Marzea 等 - 2025 - Social Hatred Efficient Multimodal Detection of Hatemongers.pdf",
+      "pages": 15,
+      "title": "Social Hatred: Efficient Multimodal Detection of Hatemongers",
+      "sample": "arXiv:2506.19603v1 [cs.CL] 24 Jun 2025 Social Hatred: Efficient Multimodal Detection of Hatemongers Tom Marzea",
+      "status": "ok"
+    },
+    {
+      "file": "Mazumder 等 - 2025 - Revealing the impact of synthetic native samples and multi-tasking strategies in Hindi-English code-.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Mazumder 等 - 2025 - Revealing the impact of synthetic native samples and multi-tasking strategies in Hindi-English code-.pdf",
+      "pages": 31,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2025, pages 24077–24107",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2025, pages 24077–24107 November 4-9, 2025 ©2025 Association for Computational Linguistics Revealing the impact of synthetic native samples and multi-tasking",
+      "status": "ok"
+    },
+    {
+      "file": "Mei 等 - 2024 - Improving Hateful Meme Detection through Retrieval-Guided Contrastive Learning.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Mei 等 - 2024 - Improving Hateful Meme Detection through Retrieval-Guided Contrastive Learning.pdf",
+      "pages": 15,
+      "title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 5333–5347",
+      "sample": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 5333–5347 August 11-16, 2024 ©2024 Association for Computational Linguistics Improving Hateful Meme Detection through Retrieval-Guided Contrastive",
+      "status": "ok"
+    },
+    {
+      "file": "Mei 等 - 2025 - Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Mei 等 - 2025 - Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection.pdf",
+      "pages": 23,
+      "title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 23818–23840",
+      "sample": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 23818–23840 November 4-9, 2025 ©2025 Association for Computational Linguistics Robust Adaptation of Large Multimodal Models for Retrieval Augmented",
+      "status": "ok"
+    },
+    {
+      "file": "Mollas 等 - 2022 - ETHOS a multi-label hate speech detection dataset.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Mollas 等 - 2022 - ETHOS a multi-label hate speech detection dataset.pdf",
+      "pages": 16,
+      "title": "ETHOS: a multi-label hate speech detection dataset",
+      "sample": "Complex & Intelligent Systems (2022) 8:4663–4678 https://doi.org/10.1007/s40747-021-00608-2 ORIGINAL ARTICLE",
+      "status": "ok"
+    },
+    {
+      "file": "Ng 等 - 2024 - How Well Can LLMs Echo Us Evaluating AI Chatbots' Role-Play Ability with ECHO.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ng 等 - 2024 - How Well Can LLMs Echo Us Evaluating AI Chatbots' Role-Play Ability with ECHO.pdf",
+      "pages": 19,
+      "title": "Preprint",
+      "sample": "Preprint How Well Can LLMs Echo Us? Evaluating AI Chatbots’ Role-Play Ability with ECHO",
+      "status": "ok"
+    },
+    {
+      "file": "Niederreiter和Gromann - 2025 - Word-Level Detection of Code-Mixed Hate Speech with Multilingual Domain Transfer.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Niederreiter和Gromann - 2025 - Word-Level Detection of Code-Mixed Hate Speech with Multilingual Domain Transfer.pdf",
+      "pages": 12,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 21093–21104",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 21093–21104 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics Word-Level Detection of Code-Mixed Hate Speech",
+      "status": "ok"
+    },
+    {
+      "file": "Niu 等 - 2024 - A Challenge Dataset and Effective Models for Conversational Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Niu 等 - 2024 - A Challenge Dataset and Effective Models for Conversational Stance Detection.pdf",
+      "pages": 11,
+      "title": "A Challenge Dataset and Effective Models for Conversational Stance Detection",
+      "sample": "LREC-COLING 2024, pages 122–132 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 A Challenge Dataset and Eﬀective Models for Conversational",
+      "status": "ok"
+    },
+    {
+      "file": "Park 等 - 2024 - PREDICT Multi-Agent-based Debate Simulation for Generalized Hate Speech Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Park 等 - 2024 - PREDICT Multi-Agent-based Debate Simulation for Generalized Hate Speech Detection.pdf",
+      "pages": 25,
+      "title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 20963–20987",
+      "sample": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 20963–20987 November 12-16, 2024 ©2024 Association for Computational Linguistics PREDICT: Multi-Agent-based Debate Simulation for Generalized Hate",
+      "status": "ok"
+    },
+    {
+      "file": "Qin 等 - 2023 - End-to-end Task-oriented Dialogue A Survey of Tasks, Methods, and Future Directions.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Qin 等 - 2023 - End-to-end Task-oriented Dialogue A Survey of Tasks, Methods, and Future Directions.pdf",
+      "pages": 17,
+      "title": "End-to-end Task-oriented Dialogue:",
+      "sample": "End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods, and Future Directions Libo Qin1, Wenbo Pan2, Qiguang Chen 3, Lizi Liao 4, Zhou Yu5,Yue Zhang6",
+      "status": "ok"
+    },
+    {
+      "file": "Qiu 等 - 2025 - Detecting Emotional Incongruity of Sarcasm by Commonsense Reasoning.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Qiu 等 - 2025 - Detecting Emotional Incongruity of Sarcasm by Commonsense Reasoning.pdf",
+      "pages": 12,
+      "title": "Detecting Emotional Incongruity of Sarcasm by Commonsense Reasoning",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 9062–9073 January 19–24, 2025. ©2025 Association for Computational Linguistics Detecting Emotional Incongruity of Sarcasm by Commonsense Reasoning",
+      "status": "ok"
+    },
+    {
+      "file": "Ravi 等 - 2024 - Small But Funny A Feedback-Driven Approach to Humor Distillation.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Ravi 等 - 2024 - Small But Funny A Feedback-Driven Approach to Humor Distillation.pdf",
+      "pages": 13,
+      "title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 13078–13090",
+      "sample": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 13078–13090 August 11-16, 2024 ©2024 Association for Computational Linguistics Small But Funny: A Feedback-Driven Approach to Humor Distillation",
+      "status": "ok"
+    },
+    {
+      "file": "Sadeq 等 - 2024 - Mitigating Hallucination in Fictional Character Role-Play.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Sadeq 等 - 2024 - Mitigating Hallucination in Fictional Character Role-Play.pdf",
+      "pages": 13,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 14467–14479",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 14467–14479 November 12-16, 2024 ©2024 Association for Computational Linguistics Mitigating Hallucination in Fictional Character Role-Play",
+      "status": "ok"
+    },
+    {
+      "file": "Sap 等 - 2020 - Social Bias Frames Reasoning about Social and Power Implications of Language.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Sap 等 - 2020 - Social Bias Frames Reasoning about Social and Power Implications of Language.pdf",
+      "pages": 14,
+      "title": "SOCIAL BIAS FRAMES :",
+      "sample": "SOCIAL BIAS FRAMES : Reasoning about Social and Power Implications of Language Maarten Sap† Saadia Gabriel†‡ Lianhui Qin†‡",
+      "status": "ok"
+    },
+    {
+      "file": "Sariyanto 等 - 2025 - Towards Explainable Hate Speech Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Sariyanto 等 - 2025 - Towards Explainable Hate Speech Detection.pdf",
+      "pages": 11,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 12883–12893",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 12883–12893 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics Towards Explainable Hate Speech Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Sengupta 等 - TOP-Training Target-Oriented Pretraining for Medical Extractive Question Answering.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Sengupta 等 - TOP-Training Target-Oriented Pretraining for Medical Extractive Question Answering.pdf",
+      "pages": 20,
+      "title": "TOP-Training: Target-Oriented Pretraining for Medical Extractive Question Answering",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 7035–7054 January 19–24, 2025. ©2025 Association for Computational Linguistics TOP-Training: Target-Oriented Pretraining for Medical Extractive",
+      "status": "ok"
+    },
+    {
+      "file": "Shen 等 - 2025 - CoE A Clue of Emotion Framework for Emotion Recognition in Conversations.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Shen 等 - 2025 - CoE A Clue of Emotion Framework for Emotion Recognition in Conversations.pdf",
+      "pages": 16,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 23548–23563",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 23548–23563 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics CoE: A Clue of Emotion Framework for Emotion Recognition in",
+      "status": "ok"
+    },
+    {
+      "file": "Sheth 等 - 2024 - Causality Guided Disentanglement for Cross-Platform Hate Speech Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Sheth 等 - 2024 - Causality Guided Disentanglement for Cross-Platform Hate Speech Detection.pdf",
+      "pages": 11,
+      "title": "Latest updates: hps://dl.acm.org/doi/10.1145/3616855.3635771",
+      "sample": "Latest updates: hps://dl.acm.org/doi/10.1145/3616855.3635771 RESEARCH-ARTICLE Causality Guided Disentanglement for Cross-Platform Hate Speech",
+      "status": "ok"
+    },
+    {
+      "file": "Srirag 等 - 2025 - BESSTIE A Benchmark for Sentiment and Sarcasm Classification for Varieties of English.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Srirag 等 - 2025 - BESSTIE A Benchmark for Sentiment and Sarcasm Classification for Varieties of English.pdf",
+      "pages": 17,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 8413–8429",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2025 , pages 8413–8429 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics BESSTIE: A Benchmark for Sentiment and Sarcasm Classification for",
+      "status": "ok"
+    },
+    {
+      "file": "Su 等 - 2022 - Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Su 等 - 2022 - Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System.pdf",
+      "pages": 16,
+      "title": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics",
+      "sample": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics V olume 1: Long Papers, pages 4661 - 4676 May 22-27, 2022 c⃝2022 Association for Computational Linguistics",
+      "status": "ok"
+    },
+    {
+      "file": "Sucu 等 - 2025 - Exploiting contextual information to improve stance detection in informal political discourse with L.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Sucu 等 - 2025 - Exploiting contextual information to improve stance detection in informal political discourse with L.pdf",
+      "pages": 14,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 4: Student Research Workshop), pages 1097–1110 July 28-29, 2025 ©2025 Association for Computational Linguistics",
+      "status": "ok"
+    },
+    {
+      "file": "Tan 等 - 2024 - Large Language Models for Data Annotation and Synthesis A Survey.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Tan 等 - 2024 - Large Language Models for Data Annotation and Synthesis A Survey.pdf",
+      "pages": 29,
+      "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+      "sample": "Large Language Models for Data Annotation and Synthesis: A Survey Zhen Tan♠∗, Dawei Li♠∗, Song Wang♣∗, Alimohammad Beigi♠ , Bohan Jiang♠ , Amrita Bhattacharjee♠, Mansooreh Karami♠, Jundong Li♣, Lu Cheng♥, Huan Liu♠",
+      "status": "ok"
+    },
+    {
+      "file": "Taranukhin 等 - 2024 - Stance Reasoner Zero-Shot Stance Detection on Social Media with Explicit Reasoning.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Taranukhin 等 - 2024 - Stance Reasoner Zero-Shot Stance Detection on Social Media with Explicit Reasoning.pdf",
+      "pages": 16,
+      "title": "Stance Reasoner: Zero-Shot Stance Detection on Social Media with Explicit Reasoning",
+      "sample": "LREC-COLING 2024, pages 15257–15272 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 15257",
+      "status": "ok"
+    },
+    {
+      "file": "Tomar 等 - 2024 - Action and Reaction Go Hand in Hand! a Multi-modal Dialogue Act Aided Sarcasm Identification.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Tomar 等 - 2024 - Action and Reaction Go Hand in Hand! a Multi-modal Dialogue Act Aided Sarcasm Identification.pdf",
+      "pages": 12,
+      "title": "Action and Reaction Go Hand in Hand! a Multi-modal Dialogue Act Aided Sarcasm Identification",
+      "sample": "LREC-COLING 2024, pages 298–309 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 Action and Reaction go hand in hand! A Multi-modal Dialogue Act",
+      "status": "ok"
+    },
+    {
+      "file": "Van Supranes 等 - 2025 - Enhancing Hate Speech Classifiers through a Gradient-assisted Counterfactual Text Generation Strateg.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Van Supranes 等 - 2025 - Enhancing Hate Speech Classifiers through a Gradient-assisted Counterfactual Text Generation Strateg.pdf",
+      "pages": 16,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2025, pages 3529–3544",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2025, pages 3529–3544 November 4-9, 2025 ©2025 Association for Computational Linguistics Enhancing Hate Speech Classifiers through a Gradient-assisted",
+      "status": "ok"
+    },
+    {
+      "file": "Vidgen 等 - 2021 - Learning from the Worst Dynamically Generated Datasets to Improve Online Hate Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Vidgen 等 - 2021 - Learning from the Worst Dynamically Generated Datasets to Improve Online Hate Detection.pdf",
+      "pages": 16,
+      "title": "Learning from the Worst: Dynamically Generated Datasets",
+      "sample": "Learning from the Worst: Dynamically Generated Datasets to Improve Online Hate Detection Bertie Vidgen†, Tristan Thrush‡, Zeerak Waseem⋆, Douwe Kiela ‡",
+      "status": "ok"
+    },
+    {
+      "file": "Wang 等 - 2017 - Neural Machine Translation Advised by Statistical Machine Translation.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wang 等 - 2017 - Neural Machine Translation Advised by Statistical Machine Translation.pdf",
+      "pages": 7,
+      "title": "Neural Machine Translation Advised by Statistical Machine Translation",
+      "sample": "Neural Machine Translation Advised by Statistical Machine Translation Xing Wang,†Zhengdong Lu,‡Zhaopeng Tu,‡Hang Li,‡Deyi Xiong,†∗Min Zhang†",
+      "status": "ok"
+    },
+    {
+      "file": "Wang 等 - 2018 - Incorporating Statistical Machine Translation Word Knowledge Into Neural Machine Translation.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wang 等 - 2018 - Incorporating Statistical Machine Translation Word Knowledge Into Neural Machine Translation.pdf",
+      "pages": 12,
+      "title": "Incorporating Statistical Machine Translation Word Knowledge Into Neural Machine Translation",
+      "sample": "IEEE/ACM TRANSACTIONS ON AUDIO, SPEECH, AND LANGUAGE PROCESSING, VOL. 26, NO. 12, DECEMBER 2018 2255 Incorporating Statistical Machine Translation Word Knowledge Into Neural Machine Translation",
+      "status": "ok"
+    },
+    {
+      "file": "Wang 等 - 2024 - DEEM Dynamic Experienced Expert Modeling for Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wang 等 - 2024 - DEEM Dynamic Experienced Expert Modeling for Stance Detection.pdf",
+      "pages": 12,
+      "title": "DEEM: Dynamic Experienced Expert Modeling for Stance Detection",
+      "sample": "DEEM: Dynamic Experienced Expert Modeling for Stance Detection Xiaolong Wang*,1,4, Yile Wang*,2, Sijie Cheng1,2, Peng LiB,2,3, Yang LiuB,1,2,3 1Department of Computer Science and Technology, Tsinghua University, Beijing, China",
+      "status": "ok"
+    },
+    {
+      "file": "Wang 等 - 2025 - OpenCharacter Training Customizable Role-Playing LLMs with Large-Scale Synthetic Personas.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wang 等 - 2025 - OpenCharacter Training Customizable Role-Playing LLMs with Large-Scale Synthetic Personas.pdf",
+      "pages": 14,
+      "title": "OpenCharacter: Training Customizable Role-Playing",
+      "sample": "OpenCharacter: Training Customizable Role-Playing LLMs with Large-Scale Synthetic Personas Xiaoyang Wang, Hongming Zhang, Tao Ge, Wenhao Yu, Dian Yu, Dong Yu",
+      "status": "ok"
+    },
+    {
+      "file": "Wang 等 - 2025 - Socratic-Zero  Bootstrapping Reasoning via Data-Free Agent Co-evolution.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wang 等 - 2025 - Socratic-Zero  Bootstrapping Reasoning via Data-Free Agent Co-evolution.pdf",
+      "pages": 23,
+      "title": "Socratic-Zero : Bootstrapping Reasoning via Data-Free Agent Co-evolution",
+      "sample": "Preprint. Under Review. SOCRATIC-ZERO: BOOTSTRAPPINGREASONING VIA DATA-FREEAGENTCO-EVOLUTION",
+      "status": "ok"
+    },
+    {
+      "file": "Wang 等 - 2025 - Speculative RAG Enhancing Retrieval Augmented Generation through Drafting.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wang 等 - 2025 - Speculative RAG Enhancing Retrieval Augmented Generation through Drafting.pdf",
+      "pages": 23,
+      "title": "Published as a conference paper at ICLR 2025",
+      "sample": "Published as a conference paper at ICLR 2025 SPECULATIVE RAG: E NHANCING RETRIEVAL AUG- MENTED GENERATION THROUGH DRAFTING",
+      "status": "ok"
+    },
+    {
+      "file": "Wang和Pan - 2024 - Target-Adaptive Consistency Enhanced Prompt-Tuning for Multi-Domain Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wang和Pan - 2024 - Target-Adaptive Consistency Enhanced Prompt-Tuning for Multi-Domain Stance Detection.pdf",
+      "pages": 10,
+      "title": "Target-Adaptive Consistency Enhanced Prompt-Tuning for Multi-Domain Stance Detection",
+      "sample": "LREC-COLING 2024, pages 15585–15594 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 15585",
+      "status": "ok"
+    },
+    {
+      "file": "Weinzierl和Harabagiu - 2024 - Tree-of-Counterfactual Prompting for Zero-Shot Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Weinzierl和Harabagiu - 2024 - Tree-of-Counterfactual Prompting for Zero-Shot Stance Detection.pdf",
+      "pages": 20,
+      "title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 861–880",
+      "sample": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 861–880 August 11-16, 2024 ©2024 Association for Computational Linguistics Tree-of-Counterfactual Prompting for Zero-Shot Stance Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Wen 等 - 2024 - Transitive Consistency Constrained Learning for Entity-to-Entity Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wen 等 - 2024 - Transitive Consistency Constrained Learning for Entity-to-Entity Stance Detection.pdf",
+      "pages": 14,
+      "title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 1467–1480",
+      "sample": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 1467–1480 August 11-16, 2024 ©2024 Association for Computational Linguistics Transitive Consistency Constrained Learning for",
+      "status": "ok"
+    },
+    {
+      "file": "Wu 等 - Incorporating Instructional Prompts into a Unified Generative Framework for Joint Multiple Intent De.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Wu 等 - Incorporating Instructional Prompts into a Unified Generative Framework for Joint Multiple Intent De.pdf",
+      "pages": 6,
+      "title": "Incorporating Instructional Prompts into a Unified Generative Framework for Joint Multiple Intent Detection and Slot Filling",
+      "sample": "Proceedings of the 29th International Conference on Computational Linguistics , pages 7203–7208 October 12–17, 2022. Incorporating Instructional Prompts into A Unified Generative Framework",
+      "status": "ok"
+    },
+    {
+      "file": "Xing 等 - 2024 - DC-Instruct An Effective Framework for Generative Multi-intent Spoken Language Understanding.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Xing 等 - 2024 - DC-Instruct An Effective Framework for Generative Multi-intent Spoken Language Understanding.pdf",
+      "pages": 15,
+      "title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 14520–14534",
+      "sample": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 14520–14534 November 12-16, 2024 ©2024 Association for Computational Linguistics DC-Instruct: An Effective Framework for Generative Multi-intent Spoken",
+      "status": "ok"
+    },
+    {
+      "file": "Xing和Tsang - 2022 - Co-guiding Net Achieving Mutual Guidances between Multiple Intent Detection and Slot Filling via He.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Xing和Tsang - 2022 - Co-guiding Net Achieving Mutual Guidances between Multiple Intent Detection and Slot Filling via He.pdf",
+      "pages": 11,
+      "title": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing , pages 159–169",
+      "sample": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing , pages 159–169 December 7-11, 2022 ©2022 Association for Computational Linguistics Co-guiding Net: Achieving Mutual Guidances between Multiple Intent",
+      "status": "ok"
+    },
+    {
+      "file": "Xing和Tsang - 2024 - Co-Guiding for Multi-Intent Spoken Language Understanding.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Xing和Tsang - 2024 - Co-Guiding for Multi-Intent Spoken Language Understanding.pdf",
+      "pages": 16,
+      "title": "Co-Guiding for Multi-Intent Spoken Language Understanding",
+      "sample": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 46, NO. 5, MA Y 2024 2965 Co-Guiding for Multi-Intent Spoken Language Understanding",
+      "status": "ok"
+    },
+    {
+      "file": "Xu 等 - 2025 - Guess What I am Thinking A Benchmark for Inner Thought Reasoning of Role-Playing Language Agents.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Xu 等 - 2025 - Guess What I am Thinking A Benchmark for Inner Thought Reasoning of Role-Playing Language Agents.pdf",
+      "pages": 19,
+      "title": "Guess What I am Thinking: A Benchmark for Inner Thought Reasoning of",
+      "sample": "Guess What I am Thinking: A Benchmark for Inner Thought Reasoning of Role-Playing Language Agents Rui Xu♡♠*, MingYu Wang♡, XinTao Wang♡",
+      "status": "ok"
+    },
+    {
+      "file": "Xu 等 - 2025 - HyperHatePrompt A Hypergraph-based Prompting Fusion Model for Multimodal Hate Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Xu 等 - 2025 - HyperHatePrompt A Hypergraph-based Prompting Fusion Model for Multimodal Hate Detection.pdf",
+      "pages": 11,
+      "title": "HyperHatePrompt: A Hypergraph-based Prompting Fusion Model for Multimodal Hate Detection",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 3825–3835 January 19–24, 2025. ©2025 Association for Computational Linguistics HyperHatePrompt: A Hypergraph-based Prompting Fusion Model for",
+      "status": "ok"
+    },
+    {
+      "file": "Xue 等 - 2024 - Breakthrough from Nuance and Inconsistency Enhancing Multimodal Sarcasm Detection with Context-Awar.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Xue 等 - 2024 - Breakthrough from Nuance and Inconsistency Enhancing Multimodal Sarcasm Detection with Context-Awar.pdf",
+      "pages": 11,
+      "title": "Breakthrough from Nuance and Inconsistency: Enhancing Multimodal Sarcasm Detection with Context-Aware Self-Attention Fusion and Word Weight Calculation.",
+      "sample": "LREC-COLING 2024, pages 2493–2503 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 Breakthrough from Nuance and Inconsistency: Enhancing",
+      "status": "ok"
+    },
+    {
+      "file": "Yang 等 - 2024 - Reinforcement Tuning for Detecting Stances and Debunking Rumors Jointly with Large Language Models.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yang 等 - 2024 - Reinforcement Tuning for Detecting Stances and Debunking Rumors Jointly with Large Language Models.pdf",
+      "pages": 17,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 13423–13439",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 13423–13439 August 11-16, 2024 ©2024 Association for Computational Linguistics Reinforcement Tuning for Detecting Stances and Debunking Rumors",
+      "status": "ok"
+    },
+    {
+      "file": "Yang 等 - 2024 - Uncertainty-Aware Cross-Modal Alignment for Hate Speech Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yang 等 - 2024 - Uncertainty-Aware Cross-Modal Alignment for Hate Speech Detection.pdf",
+      "pages": 11,
+      "title": "Uncertainty-Aware Cross-Modal Alignment for Hate Speech Detection",
+      "sample": "LREC-COLING 2024, pages 16973–16983 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 16973",
+      "status": "ok"
+    },
+    {
+      "file": "Yang 等 - 2024 - Uncertainty-Guided Modal Rebalance for Hateful Memes Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yang 等 - 2024 - Uncertainty-Guided Modal Rebalance for Hateful Memes Detection.pdf",
+      "pages": 11,
+      "title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 4361–4371",
+      "sample": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 4361–4371 August 11-16, 2024 ©2024 Association for Computational Linguistics Uncertainty-Guided Modal Rebalance for Hateful Memes Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Yang 等 - 2025 - Sarcasm-R1 Enhancing Sarcasm Detection through Focused Reasoning.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yang 等 - 2025 - Sarcasm-R1 Enhancing Sarcasm Detection through Focused Reasoning.pdf",
+      "pages": 13,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2025, pages 10773–10785",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2025, pages 10773–10785 November 4-9, 2025 ©2025 Association for Computational Linguistics Sarcasm-R1: Enhancing Sarcasm Detection through Focused Reasoning",
+      "status": "ok"
+    },
+    {
+      "file": "Yi 等 - 2025 - A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yi 等 - 2025 - A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems.pdf",
+      "pages": 35,
+      "title": "A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems",
+      "sample": "A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems ZIHAO YI, Sun Yat-Sen University, China JIARUI OUYANG∗, Sun Yat-Sen University, China",
+      "status": "ok"
+    },
+    {
+      "file": "Yin 等 - 2024 - Uni-MIS United Multiple Intent Spoken Language Understanding via Multi-View Intent-Slot Interaction.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yin 等 - 2024 - Uni-MIS United Multiple Intent Spoken Language Understanding via Multi-View Intent-Slot Interaction.pdf",
+      "pages": 9,
+      "title": "Uni-MIS: United Multiple Intent Spoken Language Understanding via Multi-View Intent-Slot Interaction",
+      "sample": "Uni-MIS: United Multiple Intent Spoken Language Understanding via Multi-View Intent-Slot Interaction Shangjian Yin, Peijie Huang*, Yuhong Xu",
+      "status": "ok"
+    },
+    {
+      "file": "Yin 等 - 2025 - ECLM Entity Level Language Model for Spoken Language Understanding with Chain of Intent.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yin 等 - 2025 - ECLM Entity Level Language Model for Spoken Language Understanding with Chain of Intent.pdf",
+      "pages": 12,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 21851–21862",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 21851–21862 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics ECLM: Entity Level Language Model for Spoken Language",
+      "status": "ok"
+    },
+    {
+      "file": "Yin 等 - MIDLM Multi-Intent Detection with Bidirectional Large Language Models.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yin 等 - MIDLM Multi-Intent Detection with Bidirectional Large Language Models.pdf",
+      "pages": 10,
+      "title": "MIDLM: Multi-Intent Detection with Bidirectional Large Language Models",
+      "sample": "Proceedings of the 31st International Conference on Computational Linguistics , pages 2616–2625 January 19–24, 2025. ©2025 Association for Computational Linguistics MIDLM: Multi-Intent Detection with Bidirectional Large",
+      "status": "ok"
+    },
+    {
+      "file": "Yoon 等 - BlendX Complex Multi-Intent Detection with Blended Patterns.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yoon 等 - BlendX Complex Multi-Intent Detection with Blended Patterns.pdf",
+      "pages": 12,
+      "title": "BlendX: Complex Multi-Intent Detection with Blended Patterns",
+      "sample": "LREC-COLING 2024, pages 2428–2439 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 BlendX: Complex Multi-Intent Detection with Blended Patterns",
+      "status": "ok"
+    },
+    {
+      "file": "Yu 等 - 2021 - Cross-Domain Slot Filling as Machine Reading Comprehension.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yu 等 - 2021 - Cross-Domain Slot Filling as Machine Reading Comprehension.pdf",
+      "pages": 7,
+      "title": "Cross-Domain Slot Filling as Machine Reading Comprehension",
+      "sample": "Cross-Domain Slot Filling as Machine Reading Comprehension Mengshi Yu\u0003 , Jian Liu\u0003 , Yufeng Chen, Jinan Xuy and Yujie Zhang Beijing Jiaotong University, Beijing, China",
+      "status": "ok"
+    },
+    {
+      "file": "Yu 等 - 2025 - Beyond Dialogue A Profile-Dialogue Alignment Framework Towards General Role-Playing Language Model.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yu 等 - 2025 - Beyond Dialogue A Profile-Dialogue Alignment Framework Towards General Role-Playing Language Model.pdf",
+      "pages": 31,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 11992–12022",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 11992–12022 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics BEYOND DIALOGUE : A Profile-Dialogue Alignment Framework Towards",
+      "status": "ok"
+    },
+    {
+      "file": "Yu 等 - 2025 - INJONGO A Multicultural Intent Detection and Slot-filling Dataset for 16 African Languages.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yu 等 - 2025 - INJONGO A Multicultural Intent Detection and Slot-filling Dataset for 16 African Languages.pdf",
+      "pages": 24,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 9429–9452",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 9429–9452 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics INJONGO : A Multicultural Intent Detection and Slot-filling Dataset for 16",
+      "status": "ok"
+    },
+    {
+      "file": "Yu 等 - 2025 - RPGBENCH Evaluating Large Language Models as Role-Playing Game Engines.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yu 等 - 2025 - RPGBENCH Evaluating Large Language Models as Role-Playing Game Engines.pdf",
+      "pages": 24,
+      "title": "RPGBench: Evaluating Large Language Models as Role-Playing Game Engines",
+      "sample": "RPGB ENCH : Evaluating Large Language Models as Role-Playing Game Engines Pengfei Yu1 Dongming Shen 1 Silin Meng 1 Jaewon Lee 1 Weisu Yin1 Andrea Yaoyun Cui2 Zhenlin Xu 1",
+      "status": "ok"
+    },
+    {
+      "file": "Yu 等 - 2026 - The Latent Space Foundation, Evolution, Mechanism, Ability, and Outlook.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yu 等 - 2026 - The Latent Space Foundation, Evolution, Mechanism, Ability, and Outlook.pdf",
+      "pages": 68,
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "sample": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook Xinlei Yu∗,⋆,Zhangquan Chen ∗,Yongbo He ∗,Tianyu Fu ∗,Cheng Yang ∗,Chengming Xu ∗,Yue Ma ∗,",
+      "status": "ok"
+    },
+    {
+      "file": "Yuan 等 - 2025 - ReflectDiffu Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generatio.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yuan 等 - 2025 - ReflectDiffu Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generatio.pdf",
+      "pages": 15,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 25435–25449",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 25435–25449 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics ReflectDiffu: Reflect between Emotion-intent Contagion and Mimicry for",
+      "status": "ok"
+    },
+    {
+      "file": "Yue 等 - 2025 - Multimodal Hate Detection Using Dual-Stream Graph Neural Networks.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Yue 等 - 2025 - Multimodal Hate Detection Using Dual-Stream Graph Neural Networks.pdf",
+      "pages": 12,
+      "title": "Multimodal Hate Detection Using Dual-Stream Graph Neural Networks",
+      "sample": "arXiv:2509.13515v1 [cs.CV] 16 Sep 2025 JIANGBEI YUE ET AL.: MULTIHA TEGNN FOR HA TEFUL VIDEO CLASSIFICA TION1 Multimodal Hate Detection Using",
+      "status": "ok"
+    },
+    {
+      "file": "Zhang 等 - 2023 - TOT Topology-Aware Optimal Transport For Multimodal Hate Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhang 等 - 2023 - TOT Topology-Aware Optimal Transport For Multimodal Hate Detection.pdf",
+      "pages": 9,
+      "title": "TOT: Topology-Aware Optimal Transport for Multimodal Hate Detection",
+      "sample": "TOT: Topology-Aware Optimal Transport for Multimodal Hate Detection Linhao Zhang1,2,3, Li Jin 1,2*, Xian Sun 1,2, Guangluan Xu 1,2, Zequn Zhang 1,2, Xiaoyu Li1,2, Nayu Liu 1,2,3, Qing Liu 1,2, Shiyao Yan1,2,3",
+      "status": "ok"
+    },
+    {
+      "file": "Zhang 等 - 2024 - An LLM-Enabled Knowledge Elicitation and Retrieval Framework for Zero-Shot Cross-Lingual Stance Iden.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhang 等 - 2024 - An LLM-Enabled Knowledge Elicitation and Retrieval Framework for Zero-Shot Cross-Lingual Stance Iden.pdf",
+      "pages": 14,
+      "title": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 12253–12266",
+      "sample": "Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 12253–12266 November 12-16, 2024 ©2024 Association for Computational Linguistics An LLM-Enabled Knowledge Elicitation and Retrieval Framework for",
+      "status": "ok"
+    },
+    {
+      "file": "Zhang 等 - 2025 - Bidirectional LMs are Better Knowledge Memorizers A Benchmark for Real-world Knowledge Injection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhang 等 - 2025 - Bidirectional LMs are Better Knowledge Memorizers A Benchmark for Real-world Knowledge Injection.pdf",
+      "pages": 18,
+      "title": "Bidirectional LMs are Better Knowledge Memorizers?",
+      "sample": "Bidirectional LMs are Better Knowledge Memorizers? A Benchmark for Real-world Knowledge Injection Yuwei Zhang1 Wenhao Yu2 Shangbin Feng3 Yifan Zhu1 Letian Peng1",
+      "status": "ok"
+    },
+    {
+      "file": "Zhang 等 - 2025 - Incongruity-aware Tension Field Network for Multi-modal Sarcasm Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhang 等 - 2025 - Incongruity-aware Tension Field Network for Multi-modal Sarcasm Detection.pdf",
+      "pages": 10,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 14499–14508",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 14499–14508 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics Incongruity-aware Tension Field Network for",
+      "status": "ok"
+    },
+    {
+      "file": "Zhang 等 - 2025 - MPRF Interpretable Stance Detection through Multi-Path Reasoning Framework.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhang 等 - 2025 - MPRF Interpretable Stance Detection through Multi-Path Reasoning Framework.pdf",
+      "pages": 17,
+      "title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 455–471",
+      "sample": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 455–471 November 4-9, 2025 ©2025 Association for Computational Linguistics MPRF: Interpretable Stance Detection through Multi-Path Reasoning",
+      "status": "ok"
+    },
+    {
+      "file": "Zhang 等 - 2025 - MPVStance Mitigating Hallucinations in Stance Detection with Multi-Perspective Verification.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhang 等 - 2025 - MPVStance Mitigating Hallucinations in Stance Detection with Multi-Perspective Verification.pdf",
+      "pages": 15,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 1053–1067",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 1053–1067 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics MPVStance: Mitigating Hallucinations in Stance Detection with",
+      "status": "ok"
+    },
+    {
+      "file": "Zhang 等 - 2025 - T-MAD Target-driven Multimodal Alignment for Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhang 等 - 2025 - T-MAD Target-driven Multimodal Alignment for Stance Detection.pdf",
+      "pages": 16,
+      "title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 581–596",
+      "sample": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 581–596 November 4-9, 2025 ©2025 Association for Computational Linguistics T-MAD: Target-driven Multimodal Alignment for Stance Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Zhao 等 - 2024 - ZeroStance Leveraging ChatGPT for Open-Domain Stance Detection via Dataset Generation.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhao 等 - 2024 - ZeroStance Leveraging ChatGPT for Open-Domain Stance Detection via Dataset Generation.pdf",
+      "pages": 16,
+      "title": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 13390–13405",
+      "sample": "Findings of the Association for Computational Linguistics: ACL 2024 , pages 13390–13405 August 11-16, 2024 ©2024 Association for Computational Linguistics ZeroStance: Leveraging ChatGPT for Open-Domain Stance Detection via",
+      "status": "ok"
+    },
+    {
+      "file": "Zhao和Caragea - 2024 - EZ-STANCE A Large Dataset for English Zero-Shot Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhao和Caragea - 2024 - EZ-STANCE A Large Dataset for English Zero-Shot Stance Detection.pdf",
+      "pages": 18,
+      "title": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 15697–15714",
+      "sample": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 15697–15714 August 11-16, 2024 ©2024 Association for Computational Linguistics EZ-STANCE: A Large Dataset for English Zero-Shot Stance Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Zhao和Caragea - 2025 - Bilingual Zero-Shot Stance Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhao和Caragea - 2025 - Bilingual Zero-Shot Stance Detection.pdf",
+      "pages": 20,
+      "title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 29900–29919",
+      "sample": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (V olume 1: Long Papers) , pages 29900–29919 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics Bilingual Zero-Shot Stance Detection",
+      "status": "ok"
+    },
+    {
+      "file": "Zhou 等 - 2024 - A Usage-centric Take on Intent Understanding in E-Commerce.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhou 等 - 2024 - A Usage-centric Take on Intent Understanding in E-Commerce.pdf",
+      "pages": 9,
+      "title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 228–236",
+      "sample": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 228–236 November 12-16, 2024 ©2024 Association for Computational Linguistics A Usage-centric Take on Intent Understanding in E-Commerce",
+      "status": "ok"
+    },
+    {
+      "file": "Zhu 等 - 2024 - DGLF A Dual Graph-based Learning Framework for Multi-modal Sarcasm Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhu 等 - 2024 - DGLF A Dual Graph-based Learning Framework for Multi-modal Sarcasm Detection.pdf",
+      "pages": 13,
+      "title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 2900–2912",
+      "sample": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 2900–2912 November 12-16, 2024 ©2024 Association for Computational Linguistics DGLF: A Dual Graph-based Learning Framework for Multi-modal",
+      "status": "ok"
+    },
+    {
+      "file": "Zhu 等 - 2024 - Towards Multi-modal Sarcasm Detection via Disentangled Multi-grained Multi-modal Distilling.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhu 等 - 2024 - Towards Multi-modal Sarcasm Detection via Disentangled Multi-grained Multi-modal Distilling.pdf",
+      "pages": 11,
+      "title": "Towards Multi-modal Sarcasm Detection via Disentangled Multi-grained Multi-modal Distilling",
+      "sample": "LREC-COLING 2024, pages 16581–16591 20-25 May, 2024. © 2024 ELRA Language Resource Association: CC BY -NC 4.0 16581",
+      "status": "ok"
+    },
+    {
+      "file": "Zhu 等 - Learning Causally Disentangled Representations for Fair Personality Detection.pdf",
+      "path": "/Users/chen/Documents/Obsidian Vault/raw/sources/Zhu 等 - Learning Causally Disentangled Representations for Fair Personality Detection.pdf",
+      "pages": 9,
+      "title": "Learning Causally Disentangled Representations for Fair Personality Detection",
+      "sample": "Learning Causally Disentangled Representations for Fair Personality Detection Yangfu Zhu1 , Meiling Li2 , Yuting Wei2 , Di Liu2 , Yuqing Li2 , Bin Wu2\u0003 1 College of Information Engineering, Capital Normal University, Beijing, China",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "815aa2b7dd50dd31",
+    "type": "split",
+    "children": [
+      {
+        "id": "efe49e24e17fdce3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04d84fb12e902726",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "tmp/pdfs/stance-ezstance-page-03.png"
+              },
+              "icon": "lucide-image",
+              "title": "stance-ezstance-page-03"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b9d2221468ea1c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "5284ad7162ada552",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84358facf68a029c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7f9dda13b8fc97b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file:ampleha",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "e0b6b3c4145ad971",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "64b274169369a95d",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb737d13146cd4b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3725ade30ccd03f3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "欢迎.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "欢迎 的反向链接列表"
+            }
+          },
+          {
+            "id": "1afcfb1bdda3f9f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "17fd28d9af0fb8dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "eb4d472f784bb224",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "6b9cde23ee0b7a15",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "欢迎 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "04d84fb12e902726",
+  "lastOpenFiles": [
+    "tmp/pdfs/stance-ezstance-page-05.png",
+    "tmp/pdfs/stance-ezstance-page-04.png",
+    "tmp/pdfs/stance-edda-page-07.png",
+    "tmp/pdfs/jiang-2025-ccl-page-06.png",
+    "tmp/pdfs/stance-toc-page-08.png",
+    "tmp/pdfs/stance-toc-page-07.png",
+    "tmp/pdfs/stance-toc-page-06.png",
+    "tmp/pdfs/stance-ezstance-page-08.png",
+    "tmp/pdfs/stance-ezstance-page-07.png",
+    "tmp/pdfs/stance-ezstance-page-06.png",
+    "tmp/pdfs/stance-mpvstance-page-08.png",
+    "wiki/concepts/llm-reasoning-metrics-matrix.md",
+    "AGENTS.md",
+    "wiki/index.md",
+    "tmp/pdfs",
+    "tmp",
+    "wiki/concepts/pdf-table-verification-index-2026-05-06.md",
+    "scripts/locate_pdf_tables.py",
+    "wiki/templates/query-answer-template.md",
+    "wiki/entities/hate-speech-dataset-alias-map.md",
+    "wiki/concepts/chain-of-thought-prompting.md",
+    "wiki/concepts/llm-reasoning.md",
+    "wiki/sources/062-lee-2025-amplehate-amplifying-the-attention-for-versatile-implicit-hate-detection.md",
+    "wiki/concepts/hate-speech-research-map.md",
+    "wiki/concepts/implicit-hate-speech-detection.md",
+    "wiki/entities/dataset-latent-hatred.md",
+    "wiki/concepts/hate-speech-direction-status.md",
+    "wiki/concepts/synthetic-data-generation.md",
+    "wiki/concepts/multi-agent-systems.md",
+    "wiki/concepts/persona-modeling.md",
+    "wiki/concepts/sentiment-analysis.md",
+    "wiki/concepts/latent-space.md",
+    "wiki/concepts/retrieval-augmented-generation.md",
+    "wiki/concepts/llm-evaluation.md",
+    "wiki/concepts/zero-shot-learning.md",
+    "wiki/concepts/hate-speech-datasets-and-benchmarks.md",
+    "wiki/concepts/explicit-hate-speech-detection.md",
+    "wiki/concepts/emotion-recognition.md",
+    "wiki/concepts/hate-speech-sota-landscape.md"
+  ]
+}
