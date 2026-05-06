@@ -126,7 +126,7 @@ The following directions are also complete for internal wiki use as of 2026-05-0
 | Emotion recognition and empathetic response | `wiki/concepts/emotion-recognition-source-hub.md` | `wiki/concepts/emotion-recognition-completion-report-2026-05-05.md` |
 | Multimodal learning | `wiki/concepts/multimodal-learning-source-hub.md` | `wiki/concepts/multimodal-learning-completion-report-2026-05-05.md` |
 
-Completion boundary for all directions: internal research navigation, browsing, and Q&A are complete; exact publication-grade benchmark numbers require manual table verification.
+Completion boundary for all directions: internal research navigation, browsing, and Q&A are complete; priority benchmark rows have rendered-PDF visual verification, but global SOTA rankings across mismatched tasks remain out of scope.
 
 ### Global Entry Points
 - Top-level map: `wiki/concepts/global-research-map.md`
@@ -139,6 +139,7 @@ Completion boundary for all directions: internal research navigation, browsing, 
 - Structural lint: `python3 scripts/lint_wiki.py`
 - Inventory summary: `python3 scripts/wiki_inventory.py`
 - PDF table locator: `python3 scripts/locate_pdf_tables.py`
+- PDF metric page verifier: `python3 scripts/verify_pdf_metric_pages.py`
 - Query answer template: `wiki/templates/query-answer-template.md`
 - Local attachment target: `raw/assets/`
 - Local version history: git repository initialized at the vault root
@@ -158,7 +159,7 @@ Completion boundary for all directions: internal research navigation, browsing, 
 - [x] Cross-direction synthesis created
 - [x] Maintenance scripts added
 - [x] PDF table locator added
+- [x] PDF priority metrics rows visually verified
 - [x] Query answer template added
 - [x] Attachment directory created
 - [x] Git repository initialized
-- [ ] Manual numeric verification for publication-grade benchmark metrics

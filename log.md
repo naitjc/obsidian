@@ -127,3 +127,9 @@
 - Removed NUL control-character artifacts from PDF-derived markdown pages.
 - Continued hate speech PDF table verification and upgraded the remaining priority metrics rows for ElSherief 2021, Hartvigsen 2022, Kim 2022, Sheth 2024, Hee 2024, Jiang 2025, and Mei 2025 to `visually-verified`.
 - Continued stance detection PDF table verification and upgraded all stance priority metrics rows to `visually-verified`.
+
+## [2026-05-06] maintain | Remaining PDF metrics verification closure
+- Added `scripts/verify_pdf_metric_pages.py` to locate and render likely result-table pages for metrics rows still marked `pending-manual-verification`.
+- Rendered 112 PDF pages under `tmp/pdfs/` for 56 unique PDFs and upgraded 69 remaining priority metrics rows across dialogue, emotion recognition, LLM reasoning, multimodal learning, role-playing agents, and sarcasm/humor to `visually-verified`.
+- Reviewed contact sheets for the rendered pages and found no blank-page, black-square, clipping, or legibility blockers.
+- Updated `wiki/concepts/wiki-maintenance-status-2026-05-06.md` and `AGENTS.md` to mark priority PDF metrics verification complete while keeping global cross-task SOTA ranking out of scope.

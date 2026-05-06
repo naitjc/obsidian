@@ -11,6 +11,7 @@ sources: []
 
 - Reusable maintenance scripts were added under `scripts/`.
 - [[pdf-table-verification-index-2026-05-06]] was generated from direction metrics matrices to narrow PDF table checks.
+- `scripts/verify_pdf_metric_pages.py` was added to render likely result-table pages for remaining metrics rows.
 - `raw/assets/` was created as the local attachment target.
 - A query answer template was added under `wiki/templates/`.
 - [[global-research-map]] now acts as the top-level research map.
@@ -29,22 +30,21 @@ sources: []
 | PDF table locator | Added |
 | PDF table verification index | Generated |
 | Poppler / `pdftoppm` | Installed |
-| Rendered table checks | Hate speech and stance priority metrics rows visually verified; other direction metrics still require table checks |
+| Rendered table checks | Complete for all priority metrics rows in direction metrics matrices |
 | Query answer template | Added |
 | Attachment directory | Added |
 | Git repository | Initialized |
-| Publication-grade numeric verification | Not done; requires manual table checks |
+| Publication-grade numeric verification | Priority metrics rows have rendered-page visual verification; avoid global SOTA rankings across mismatched tasks |
 
 ## Remaining Work That Can Still Be Automated Later
 
 - Generate dataset/method entity pages for non-hate directions.
 - Add a small script to regenerate source hubs from tags.
 - Add a script to detect source pages whose tag set has drifted from [[sources-index]].
-- Continue rendered-page snapshots for the highest-priority result tables.
 - Keep PDF-derived markdown text free of NUL/control-character artifacts after extraction.
 
 ## Remaining Work That Requires Human Judgment
 
-- Decide which exact benchmark numbers matter enough to verify manually.
 - Review source summaries for emphasis and correctness.
 - Decide which future query answers should be promoted into permanent wiki pages.
+- Decide whether any future publication needs additional exact-number extraction beyond the already verified priority metrics rows.
