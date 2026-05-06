@@ -1,7 +1,7 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
-tags: [paper, deep-ingest-v2, hate-speech, multimodal, benchmark]
+updated: 2026-05-06
+tags: [paper, deep-ingest-v2, hate-speech, benchmark]
 sources: [raw/sources/Mollas 等 - 2022 - ETHOS a multi-label hate speech detection dataset.pdf]
 ---
 

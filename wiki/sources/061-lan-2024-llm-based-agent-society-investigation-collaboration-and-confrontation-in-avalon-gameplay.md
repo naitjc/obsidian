@@ -14,52 +14,35 @@ sources: [raw/sources/Lan 等 - 2024 - LLM-Based Agent Society Investigation Col
 - Ingest level: deep-ingest-v2 (multi-direction extraction)
 
 ## Problem Framing
-- agents in gameplay. While previous studies flicts, leading to efforts to address these problems
-- tion. We evaluate its performance based on their conduct. To achieve this, we employ Avalon
-- search and applications. Our code is pub- LLM agents face a challenging task in winning
-- Park et al., 2023) exhibit human-like behaviors, ural language understanding, incomplete informa-
+- Multi-agent games require LLM agents to reason under hidden roles, incomplete information, collaboration, deception, and adversarial incentives.
+- Avalon is used as a testbed for studying collaboration and confrontation in LLM-based agent societies.
+- The key question is whether structured analysis, planning, action, and experience modules improve gameplay behavior.
 
 ## Method
-- LLM-Based Agent Society Investigation: Collaboration and Confrontation
-- LLM-based agents. Using Avalon as a testbed, Previous research on human society has high-
-- we employ system prompts to guide LLM lighted issues like misinformation and online con-
-- agents in gameplay. While previous studies flicts, leading to efforts to address these problems
-- have touched on gameplay with LLM agents, (Song and Jiang, 2022; Levy et al., 2022; Chen
+- Builds Avalon agents with modules for analysis, planning, action, and improvement from experience.
+- Uses prompts and game-state tracking to guide role-specific strategy.
+- Runs module ablations to measure the importance of learning from experience, analysis, planning, and action.
 
 ## Data and Evaluation Setup
-- providing comprehensive experiment discus- games like Minecraft and multiplayer strategy
-- end and the baseline’s. In all experiments, we set
-- the comprehensive analysis, the strategic plan, and 5.2 Evaluation Metrics
-- From this perspective, we use metrics associated
-- of our Avalon AI agents to the baselines. As de-
+- Evaluates gameplay outcomes with winning rate (WR), quest engagement rate (QER), failure voting rate (FVR), and valid response rate (VRR).
+- Includes experience-learning and no-experience-learning ablation settings.
+- Publication-checked values are tracked in [[llm-reasoning-metrics-matrix]].
 
 ## Results and Claims
-- tion. We evaluate its performance based on their conduct. To achieve this, we employ Avalon
-- gameplay. We reveal the various aspects of resulted in significant advancements in problem-
-- tion. have improved the effectiveness and robustness of
-- Avalon, which presents superior performance Tsai et al., 2023; Zhou et al., 2023; Park et al.,
-- ing techniques. Furthermore, Wiseman and Lewis els (LLMs) on society has spurred significant re-
+- The full framework reports stronger gameplay outcomes than several ablated variants.
+- Publication-checked values include WR 80 for the full experience-learning framework, WR 90 for all modules without experience learning, WR 60 when planning is removed, and VRR averages 59.9 for LLaMA2 versus 85.0 for GPT-3.5.
+- Use this as evidence about agentic social reasoning in a game environment, not as a general LLM benchmark.
 
 ## Limitations and Follow-ups
-- (2018) addresses decision-making challenges in the
-- ment (Yang and Menczer, 2023), posing challenges arise during the game. Players must tackle these
-- standards, mitigate biases and errors, and ensure these clues promotes collaboration and builds trust
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- Avalon gameplay is a narrow simulated environment; real-world social reasoning has different incentives and safety constraints.
+- Prompted modules may depend strongly on base model instruction following and valid response behavior.
+- Exact priority values are publication-checked in [[llm-reasoning-metrics-matrix]].
 
 ## Structured Signals
 - Detected method keywords: few-shot, prompting, retrieval, llm-reasoning, dialogue, role-playing, emotion-recognition, benchmark, graph
 - Mentioned datasets: TOP, Avalon
 - Mentioned metrics: none detected
 
-## Benchmark Evidence Lines
-- Table 1: Comparison between our work and related works in both agent framework and social behaviour analysis.
-- mura et al. (2016) proposes a psychological model thorough behavior analysis. Table 1 illustrates the
-- Resistance”, instead of Werewolf as our environ- prompts used are shown in Appendix Table 4. To
-- the comprehensive analysis, the strategic plan, and 5.2 Evaluation Metrics
-- for the above steps are shown in Appendix Table 5. culated by dividing total approval votes by total
-- picted in Table 2, our method demonstrated a 90%
-- Table 2: Results of the gameplay between ours and
-- Figure 3 displays the evaluation outcomes assess-
 
 ## Related Concepts
 - [[dialogue-systems]]

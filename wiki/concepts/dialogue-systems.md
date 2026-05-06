@@ -15,7 +15,7 @@ Task-oriented dialogue, dialogue state tracking, intent detection, slot filling,
 - Research map: [[dialogue-systems-research-map]]
 - Final synthesis: [[dialogue-systems-final-synthesis]]
 - Completion report: [[dialogue-systems-completion-report-2026-05-05]]
-- Scope: 23 source pages, all upgraded to `deep-ingest-v2` on 2026-05-05.
+- Scope: 24 source pages, all upgraded to `deep-ingest-v2` on 2026-05-05.
 
 ## Key Themes
 - task-oriented dialogue and dialogue state tracking

@@ -3,6 +3,7 @@ created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: [query-answer]
 sources: []
+promotion_reason:
 ---
 
 # Query Answer: Title
@@ -10,6 +11,10 @@ sources: []
 ## Question
 
 Record the user question or research prompt.
+
+## Promotion Rationale
+
+Explain briefly why this answer has durable wiki value.
 
 ## Short Answer
 

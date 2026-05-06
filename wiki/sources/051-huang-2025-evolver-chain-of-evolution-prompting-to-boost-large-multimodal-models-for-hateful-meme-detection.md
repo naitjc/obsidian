@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-06
 tags: [paper, deep-ingest-v2, hate-speech, multimodal, benchmark, contrastive-learning, retrieval, prompting, explainability]
 sources: [raw/sources/Huang 等 - 2025 - Evolver Chain-of-Evolution Prompting to Boost Large Multimodal Models for Hateful Meme Detection.pdf]
 ---
@@ -14,39 +14,37 @@ sources: [raw/sources/Huang 等 - 2025 - Evolver Chain-of-Evolution Prompting to
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- The memeofTrumpisinfluencedbythememeofasadfrog 1 Introduction inanimageandtextsymbol,whichcreatesanewhateful meme.
-- Incontrast,our thefieldofmultimodalresearch,aimingtoidentify Evolver capturestheevolutionandcontextofmemes, contentthatcombinestextandimagestopropagate utilizingthemaspromptsforlargemultimodalmodels hate speech or offensive messages.
-- widespread cultural phenomenon, proliferate on theInternet,blendingimagesandtextstoconvey 2021) for hateful meme detection have demon- sophisticatedmeanings.
+- Addresses hateful memes as evolving cultural artifacts, where new memes blend older visual and textual ideas.
+- Argues that static training-heavy methods struggle with rapidly changing meme contexts.
+- Frames interpretability and evolutionary context as important for hateful meme detection.
 
 ## Method
-- In thiswork,weproposeEvolver,whichincorpo- (b) Conventional Two- Interpretability: Evolutionary: rates Large Multimodal Models (LMMs) via Steam Methods Chain-of-Evolution(CoE)Prompting,byinte- grating the evolution attribute and in-context Text Encoder information of memes.
-- OCR Text ExtensiveexperimentsonpublicFHM,MAMI, ❄ Chain-of-Evolution Large Multimodal Prediction andHarMdatasetsshowthatCoEprompting Prompt Model canbeincorporatedintoexistingLMMstoim- Explanation provetheirperformance.
-- Incontrast,our thefieldofmultimodalresearch,aimingtoidentify Evolver capturestheevolutionandcontextofmemes, contentthatcombinestextandimagestopropagate utilizingthemaspromptsforlargemultimodalmodels hate speech or offensive messages.
-- Theseshortcom- ingshindertheunderstandingofmemes’evolving 2.2 LargeMultimodalModels natureandtheircontextualnuances,leadingtoover- Vision Encoder serves as a translator to help fittingontrainingsetsanddiminishedeffectiveness language models understand visual content.
+- Proposes Evolver, a Chain-of-Evolution prompting approach for large multimodal models.
+- Uses an evolutionary pair mining module to retrieve or construct related meme evolution context.
+- Prompts LMMs to reason step by step over meme evolution and expression.
 
 ## Data and Evaluation Setup
-- OCR Text ExtensiveexperimentsonpublicFHM,MAMI, ❄ Chain-of-Evolution Large Multimodal Prediction andHarMdatasetsshowthatCoEprompting Prompt Model canbeincorporatedintoexistingLMMstoim- Explanation provetheirperformance.
-- Bydevelopingabenchmarkspecificallytai- where h v is the language embedding tokens.
-- Exten- t t n siveexperimentshaveshowntheeffectivenessof (cid:89) p(w) = p(w |w ,h ,h ) (4) ourmethodacrossthreewidelyrecognizedhateful i <i t v i=1 memedetectiondatasets,demonstratingasuperior abilitytoidentifyandinterprethatefulmemes.
-- curatedmemepoolsratherthananyotherdataset, Input:[image0:<image0>,caption0:texts[0],image1:<im- wherethememesfollowthesamedefinitionofhate- age1>,caption1:texts[1],image2:<image2>,caption2:texts[2], fulness/harm/misogyny.
+- Builds or uses a hateful meme detection benchmark tailored to LMM evaluation.
+- Compares Evolver with conventional two-stream and LMM-based baselines.
+- Assesses both detection performance and interpretability of evolutionary reasoning.
 
 ## Results and Claims
-- ItexpandsLMMswithan 2.3 Evolver: Chain-of-EvolutionPrompting evolutionreasoningabilitywhileofferinggood To improve LMMs’ understanding of the online interpretability.
-- The common in these memes is that makes fun of or discriminates against individuals with disabilities or genetic conditions.
-- Notably, both MMICL and LLaVA-1.5 and open-source LMMs (e.g., LLaVA) can be with CoE Prompting outperform their zero-shot foundinAppendixA.
+- Claims Evolver improves hateful meme detection by modeling meme evolution and context.
+- Positions Chain-of-Evolution prompting as more adaptable to emerging meme variants than static training-only methods.
+- Exact benchmark scores and ablations require original-table verification before citation.
 
 ## Limitations and Follow-ups
-- Thecombination Figure1(a),theextensiveevolutionofmemesfus- oftextandimagespresentssignificantchallenges ing together complicates the detection of hateful inhatefulmemedetection,especiallyfordetecting memes as they continuously evolve, bring new andmoderatinghatefulcontent(Levine,2013).
-- Tra- Withtheadvancesinimage-textpre-training,ef- ditional methods for hateful meme detection, as fortstoleverageandfine-tuneCLIP(Radfordetal., illustratedinFigure1(b),sufferfromlimitationsin *Equalcontribution.
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- Evolutionary context mining may fail for novel or poorly represented meme families.
+- Prompt-based reasoning depends on the selected LMM and retrieved examples.
+- Verify exact metrics, benchmark construction, and ablation settings before citing quantitative claims.
 
 ## Structured Signals
-- Detected method keywords: contrastive-learning, retrieval, prompting, multimodal, explainability
-- Mentioned datasets: hateful memes, gab
-- Mentioned metrics: accuracy, auc
+- Detected method keywords: hateful memes, large multimodal models, chain-of-evolution prompting, interpretability
+- Mentioned datasets: hateful meme benchmarks
+- Mentioned metrics: accuracy, F1, AUC, benchmark performance
 
 ## Abstract (Extracted)
-> Abstract (a) The Evolutionof “Sad Frog” Memes Hateful memes continuously evolve as new onesemergebyblendingprogressivecultural ideas,renderingexistingmethodsthatrelyon extensive training obsolete or ineffective. In thiswork,weproposeEvolver,whichincorpo- (b) Conventional Two- Interpretability: Evolutionary: rates Large Multimodal Models (LMMs) via Steam Methods Chain-of-Evolution(CoE)Prompting,byinte- grating the evolution attribute and in-context Text Encoder information of memes. Specifically, Evolver Visual Language Prediction Model simulatestheevolvingandexpressingprocess Image Encoder ofmemesandreasonsthroughLMMsinastep- by-stepmannerusinganevolutionarypairmin- (c) Evolver (Ours) Interpretability: Evolutionary: ing module, an evolutionary information ex- Instruction + tractor, and a contextual relevance amplifier. OCR Text ExtensiveexperimentsonpublicFHM,MAMI, ❄ Chain-of-Evolution Large Multimodal Prediction andHarMdatasetsshowthatCoEprompting Prompt Model canbeincorporatedintoexistingLMMstoim- Explanation provetheirperformance. Moreencouragingly, ❄Image Encoder itcanserveasanin
+> Evolver uses Chain-of-Evolution prompting to help large multimodal models detect hateful memes. It models how memes evolve and express hate, using evolutionary context to improve detection and interpretability.
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

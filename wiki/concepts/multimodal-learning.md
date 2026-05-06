@@ -15,7 +15,7 @@ Learning across text, image, speech, structure, and other modalities, including 
 - Research map: [[multimodal-learning-research-map]]
 - Final synthesis: [[multimodal-learning-final-synthesis]]
 - Completion report: [[multimodal-learning-completion-report-2026-05-05]]
-- Scope: 37 source pages, all upgraded to `deep-ingest-v2` on 2026-05-05.
+- Scope: 34 source pages, all upgraded to `deep-ingest-v2` on 2026-05-05.
 
 ## Key Themes
 - cross-modal alignment and fusion

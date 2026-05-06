@@ -34,4 +34,4 @@ This page is a verification workspace, not a leaderboard. Exact scores should no
 
 ## Direction-Level Use
 
-Safe internal claim: this direction has 23 deep-ingested source pages and a complete navigation/synthesis structure. Unsafe without manual verification: exact SOTA rank or cross-paper numeric superiority.
+Safe internal claim: this direction has 24 deep-ingested source pages and a complete navigation/synthesis structure. Unsafe without manual verification: exact SOTA rank or cross-paper numeric superiority.

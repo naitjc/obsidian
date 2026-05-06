@@ -9,7 +9,7 @@ sources: []
 
 ## Scope and Confidence
 
-- Scope: 37 source pages in this wiki direction.
+- Scope: 34 source pages in this wiki direction.
 - Confidence: high for qualitative direction structure; exact quantitative claims require table-level verification.
 
 ## Direction-Level Conclusion

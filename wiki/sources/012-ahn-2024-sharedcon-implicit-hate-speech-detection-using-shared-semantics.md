@@ -1,7 +1,7 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
-tags: [paper, deep-ingest-v2, hate-speech, implicit, cross-lingual, benchmark, contrastive-learning, causal, prompting, explainability]
+updated: 2026-05-06
+tags: [paper, deep-ingest-v2, hate-speech, implicit, benchmark, contrastive-learning, causal, prompting, explainability]
 sources: [raw/sources/Ahn 等 - 2024 - SharedCon Implicit Hate Speech Detection using Shared Semantics.pdf]
 ---
 

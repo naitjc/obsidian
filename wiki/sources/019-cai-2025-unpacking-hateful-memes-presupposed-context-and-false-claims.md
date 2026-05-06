@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-06
 tags: [paper, deep-ingest-v2, hate-speech, multimodal, benchmark, contrastive-learning, retrieval, graph, prompting, explainability]
 sources: [raw/sources/Cai 等 - 2025 - Unpacking Hateful Memes Presupposed Context and False Claims.pdf]
 ---
@@ -14,38 +14,37 @@ sources: [raw/sources/Cai 等 - 2025 - Unpacking Hateful Memes Presupposed Conte
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- France online hate speech law to force social media sites to act quickly.
-- Study finds persistent spike in hate speech on [16] RuiCao,RoyKa-WeiLee,Wen-HawChong,andJingJiang.2023.Promptingfor X.
+- Investigates what makes hateful memes hateful rather than only improving black-box classification.
+- Argues that hateful memes often combine presupposed evaluative context with false or misleading claims.
+- Frames hateful meme detection as requiring multimodal context, cultural knowledge, and reference understanding.
 
 ## Method
-- detectionframeworkdesignedtocapturethefundamentalnature of hate.
-- degreeandrhetoricalform,alltypesofhateshareacommonkey PriorworkhasshownthatPLMsimplicitlyencodesyntacticstruc- feature:thepresenceofapresupposedevaluativecontext.InSHIELD, tures[22],whichcancapturethepresupposedcontextincertain thisismodeledviaPCMinSection4.1.
-- bonemodelforaddressingthehatefulmemeclassificationtask.In contrast,PromptHateandExplainHMunderperformmainlydue 5.1.2 Baselines.
-- ForQ2,wedesigntheFine-tunedMLPapproach,wherethelast 5.2 RQ1:HatefulMemeClassification hiddenstateofLLMisfedintoanMLPforbinaryclassification.
+- Develops PCM to model presupposed context across image and text.
+- Introduces FACT to detect false claims using external knowledge and cross-modal reference graphs.
+- Combines PCM and FACT into SHIELD, a hateful meme detection framework informed by philosophical and psychological accounts of hate.
 
 ## Data and Evaluation Setup
-- Extensive experiments show that SHIELD outperforms state-of-the-artmethodsacrossdatasetsandmetrics,whiledemon- nowoftenreferstohumorousorsatiricalimage-textcombinations stratingversatilityonothertasks,suchasfakenewsdetection.
-- where𝜎representsthesigmoidfunction;𝑦˜isthepredictedlabel, RQ3: HowwelldoesSHIELDcapturetheessentialcharacteristics withavalueof1indicatingahatefulmemeand0otherwise.
-- tectionperformance,itseffectivenessmaybelimitedincertain cases.Inthefalseclaimdetectionscenario,thelabelofagraphmay Table1:Summaryofhatefulmemedatasets.
-- bonemodelforaddressingthehatefulmemeclassificationtask.In contrast,PromptHateandExplainHMunderperformmainlydue 5.1.2 Baselines.
+- Evaluates SHIELD on hateful meme detection datasets and reports additional transfer to related tasks such as fake news detection.
+- Uses image-text examples to distinguish presupposed context alone, false claims alone, and their combination.
+- Compares against state-of-the-art hateful meme detection methods across datasets and metrics.
 
 ## Results and Claims
-- Extensive experiments show that SHIELD outperforms state-of-the-artmethodsacrossdatasetsandmetrics,whiledemon- nowoftenreferstohumorousorsatiricalimage-textcombinations stratingversatilityonothertasks,suchasfakenewsdetection.
-- 4.4 AnalysisoftheReferenceGraph RQ4: HowdoesSHIELDperformonothermultimodalsocialmedia Whileconstructinganexplicitreferencegraphcanimprovede- taskssuchasfakenewsdetection?
-- (3) SHIELD:Usingallmodulesbyfeedingthecompleterepre- (2)Despitetexttruncation,SHIELDoutperformsbaselinesonmost sentationℎintotheclassifier.
+- Claims SHIELD outperforms existing methods across evaluated hateful meme datasets and metrics.
+- Shows that presupposed context and false claims are complementary rather than individually sufficient signals.
+- Reports broader versatility beyond hateful memes, including fake news detection, in the extracted claims.
 
 ## Limitations and Follow-ups
-- However,insomecases,therapidspreadofmemeshasbeen Disclaimer:Thispapercontainsdiscriminatorycontentthatmaybe exploitedtodisseminatehate,reinforcingsocietalbiasesandthreat- disturbingtosomereaders.
-- poor,likelyduetoLLM’sinherentbiasinconceptualizinghatefulor thehallucinationsleadingtomisinterpretationsofmemes[25,32].
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- The framework depends on external knowledge and reference-graph quality.
+- Cultural and historical knowledge requirements may limit robustness across communities or rapidly evolving memes.
+- Verify exact dataset scores and ablation results before citing quantitative conclusions.
 
 ## Structured Signals
-- Detected method keywords: contrastive-learning, retrieval, graph, prompting, multimodal, explainability
-- Mentioned datasets: ethos, hateful memes, gab, twitter, reddit
-- Mentioned metrics: f1, macro-f1, accuracy, precision, recall, auc
+- Detected method keywords: multimodal hate detection, external knowledge, graph, explainability
+- Mentioned datasets: hateful meme datasets, fake news task
+- Mentioned metrics: accuracy, F1, benchmark metrics
 
 ## Abstract (Extracted)
-> Abstract Whilememesareoftenhumorous,theyarefrequentlyusedtodis- seminate hate, causing serious harm to individuals and society. Currentapproachestohatefulmemedetectionmainlyrelyonpre- trainedlanguagemodels.However,lessfocushasbeendedicatedto whatmakeamemehateful.Drawingoninsightsfromphilosophy andpsychology,wearguethathatefulmemesarecharacterizedby twoessentialfeatures:apresupposedcontextandtheexpression offalseclaims.Tocapturepresupposedcontext,wedevelopPCM formodelingcontextualinformationacrossmodalities.Todetect falseclaims,weintroducetheFACTmodule,whichintegratesex- ternalknowledgeandharnessescross-modalreferencegraphs.By combiningPCMandFACT,weintroduceSHIELD,ahatefulmeme Figure1:Anexampleofahatefulmeme.Memetext:goodguypolice officer,capturingthemyoung. detectionframeworkdesignedtocapturethefundamentalnature of hate. Extensive experiments show that SHIELD outperforms state-of-the-artmethodsacrossdatasetsandmetrics,whiledemon- nowoftenreferstohumorousorsatiricalimage-textcombinations stratingversatilityonothertasks,suchasfakenewsdetection. thatconveyindividualideologiesandrapidlye
+> The paper argues that hateful memes are characterized by presupposed context and false claims. It proposes SHIELD, combining a presupposed-context module with a false-claim module using external knowledge and cross-modal reference graphs.
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

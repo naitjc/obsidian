@@ -14,55 +14,35 @@ sources: [raw/sources/Cocchieri 等 - 2025 - “What do you call a dog that is i
 - Ingest level: deep-ingest-v2 (multi-direction extraction)
 
 ## Problem Framing
-- strong reasoning on various benchmarks, it re-
-- tasks like humans (i.e., generalize) or merely
-- puns. Our dataset is manually curated to en- hind our PHUNNY dataset. We assess linguistic gener-
-- comprehension, resolution, and generation re- we laugh, we implicitly rely on our capacity to
+- The paper tests whether LLMs genuinely generalize linguistic reasoning or mainly exploit familiar benchmark patterns.
+- It uses humor and puns because they require flexible wordplay, ambiguity handling, and out-of-distribution reasoning.
+- The central benchmark is PHUNNY, a manually curated humor-based QA dataset.
 
 ## Method
-- strong reasoning on various benchmarks, it re-
-- sess LLMs’ reasoning through carefully crafted Figure 1: The pun-based reasoning framework be-
-- sophisticated forms of linguistic reasoning (Brock,
-- ducing patterns from their training data? To inves-
-- on data outside their training distribution, we de-
+- Designs pun comprehension, pun resolution, and pun generation tasks.
+- Evaluates both coherent puns and misleading/non-pun cases to test whether models distinguish real wordplay from surface associations.
+- Compares closed models, open models, reasoning models, and human baselines.
 
 ## Data and Evaluation Setup
-- strong reasoning on various benchmarks, it re-
-- puns. Our dataset is manually curated to en- hind our PHUNNY dataset. We assess linguistic gener-
-- puns (see Figure 1). Unlike existing benchmarks
-- duce PHUNNY,2 a curated benchmark of 350 novel heterographic types, which are among the most
-- Extensive experiments across three macro-tasks–
+- PHUNNY includes 350 manually curated novel heterographic pun types.
+- The evaluation covers comprehension, resolution, constrained generation, and free generation.
+- Publication-checked values are tracked in [[llm-reasoning-metrics-matrix]].
 
 ## Results and Claims
-- insights to guide future research.1 Can AI achieve the same? Large language mod-
-- els (LLMs) have shown strong performance in NLP
-- tigate whether LLMs exhibit robust performance
-- achieve robust performance in out-of-distribution
-- lenging tasks to assess performance on unseen
+- Humans strongly outperform models on misleading-pun recognition, while o3-mini is strongest on several structured resolution/generation tasks.
+- Publication-checked values include human CPA/MPA 87.9/90.9, o3-mini CPA 78.3, o3-mini resolution ACC 93.9, and human resolution ACC 85.7.
+- The paper is best used as evidence that LLM reasoning strength can be brittle under creative linguistic generalization.
 
 ## Limitations and Follow-ups
-- puns. Our dataset is manually curated to en- hind our PHUNNY dataset. We assess linguistic gener-
-- our detailed error analysis provides valuable
-- 2017). It challenges us to infer meanings, navigate
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- PHUNNY is focused on English wordplay, so conclusions should not be generalized to all humor or all languages.
+- Free-generation accuracy and creativity need to be interpreted together; high accuracy can coexist with low diversity.
+- Exact priority values are publication-checked in [[llm-reasoning-metrics-matrix]].
 
 ## Structured Signals
 - Detected method keywords: zero-shot, few-shot, prompting, retrieval, llm-reasoning, multimodal, dialogue, sarcasm, role-playing, emotion-recognition, benchmark, graph
 - Mentioned datasets: SemEval, ATIS, TOP
 - Mentioned metrics: accuracy, acc
 
-## Abstract (Extracted)
-> Humor, requiring creativity and contextual un- derstanding, is a hallmark of human intel- ligence, showcasing adaptability across lin- guistic scenarios. While recent advances in large language models (LLMs) demonstrate strong reasoning on various benchmarks, it re- mains unclear
-
-## Benchmark Evidence Lines
-- strong reasoning on various benchmarks, it re-
-- question-answering benchmark designed to as-
-- puns. Our dataset is manually curated to en- hind our PHUNNY dataset. We assess linguistic gener-
-- providing a robust evaluation of LLMs’ lin-
-- puns (see Figure 1). Unlike existing benchmarks
-- duce PHUNNY,2 a curated benchmark of 350 novel heterographic types, which are among the most
-- settings. Benchmarks like GLUE (Wang et al.,
-- ❶ PHUNNY: A humor-based QA dataset of un- sion (Shutova and Sun, 2013), storytelling (Clark
 
 ## Related Concepts
 - [[dialogue-systems]]

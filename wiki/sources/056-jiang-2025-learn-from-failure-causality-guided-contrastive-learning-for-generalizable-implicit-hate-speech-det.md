@@ -1,7 +1,7 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
-tags: [paper, deep-ingest-v2, hate-speech, implicit, multimodal, benchmark, contrastive-learning, causal, prompting, explainability]
+updated: 2026-05-06
+tags: [paper, deep-ingest-v2, hate-speech, implicit, benchmark, contrastive-learning, causal, prompting, explainability]
 sources: [raw/sources/Jiang - 2025 - Learn from Failure Causality-guided Contrastive Learning for Generalizable Implicit Hate Speech Det.pdf]
 ---
 
@@ -14,49 +14,41 @@ sources: [raw/sources/Jiang - 2025 - Learn from Failure Causality-guided Contras
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- In this paper, we propose a novel approach using causality-guided contrastive learning (CCL) to enhance the generalizabil- ity of implicit hate speech detection.
-- Hate speech target- aware hard negative sampling was introduced to ingindividualsbasedonreligion,gender,orother optimize the learning of hard negatives by fully characteristics not only causes mental distress to utilizinglabelinformation(Kimetal.,2024).
-- Inthecontextofimplicithatespeech Recently, contrastive learning has emerged as detection,thesubtlenatureofimplicitlanguageex- an effective approach for detecting implicit hate acerbatesthesespuriouscorrelations.
+- Addresses poor generalization in implicit hate speech detection caused by spurious correlations learned by ERM models.
+- Focuses on subtle and ambiguous hate speech where surface cues are unreliable.
+- Frames model failures as useful evidence for identifying hard positive examples.
 
 ## Method
-- In this paper, we propose a novel approach using causality-guided contrastive learning (CCL) to enhance the generalizabil- ity of implicit hate speech detection.
-- This method reduces the model’s re- falsepositives.
-- Ourextensiveexperi- implicationsofanchorsentencesaspositivesam- mentsonmultipleimplicithatespeechdatasets ples,applyingcontrastivelosstoimprovedetection.
-- show that our approach outperforms current Similarly,ConPrompt(Kimetal.,2023)leveraged state-of-the-artmethodsincross-domaingener- machine-generated statements to enhance perfor- alization.
+- Proposes causality-guided contrastive learning (CCL) for implicit hate speech detection.
+- Uses ERM inference failures to identify samples with the same class but opposite spurious attributes.
+- Aligns hard positives in representation space to reduce reliance on spurious correlations.
 
 ## Data and Evaluation Setup
-- Ourextensiveexperi- implicationsofanchorsentencesaspositivesam- mentsonmultipleimplicithatespeechdatasets ples,applyingcontrastivelosstoimprovedetection.
-- Figure2: Illustrationofthepositivessamplingstrategy • We demonstrate the effectiveness of CCL withinthreecontrastivelearningmethodsinasituation through cross-dataset evaluation, achieving wheretheclassoftheanchorishatespeechwhilepre- state-of-the-artperformanceonthreewidely- dicted correctly.
-- (a) Supervised contrastive learning (SCL)selectsallthesamegroundtruthlabelswiththe used benchmark datasets for implicit hate anchoraspositivesamples.
-- is the lack of high-quality datasets.
+- Evaluates CCL in cross-dataset implicit hate speech settings.
+- Tests CCL within multiple contrastive-learning methods and compares against existing baselines.
+- Uses benchmark implicit hate datasets for generalization evaluation.
 
 ## Results and Claims
-- Ourextensiveexperi- implicationsofanchorsentencesaspositivesam- mentsonmultipleimplicithatespeechdatasets ples,applyingcontrastivelosstoimprovedetection.
-- show that our approach outperforms current Similarly,ConPrompt(Kimetal.,2023)leveraged state-of-the-artmethodsincross-domaingener- machine-generated statements to enhance perfor- alization.
-- Figure2: Illustrationofthepositivessamplingstrategy • We demonstrate the effectiveness of CCL withinthreecontrastivelearningmethodsinasituation through cross-dataset evaluation, achieving wheretheclassoftheanchorishatespeechwhilepre- state-of-the-artperformanceonthreewidely- dicted correctly.
+- Claims state-of-the-art performance on three implicit hate speech benchmark datasets.
+- Reports that using ERM failures as hard positives improves cross-dataset robustness.
+- Treat exact gains as table-level evidence requiring PDF verification before external citation.
 
 ## Limitations and Follow-ups
-- subtlety can result in false negatives, while case (4)showshowtermbiascanleadtofalsepositives.
-- Asignif- Contrastive Learning (CCL) for implicit hate icant challenge in implicit hate speech detection speech detection, grounded in causal reasoning.
+- The method depends on ERM failure patterns being good proxies for spurious attributes.
+- Cross-dataset success may vary when label definitions or target groups shift substantially.
 - Verify exact metrics and dataset splits before citing quantitative conclusions.
 
 ## Structured Signals
-- Detected method keywords: contrastive-learning, causal, prompting, multimodal, explainability
-- Mentioned datasets: toxigen, gab, twitter
-- Mentioned metrics: f1, accuracy
+- Detected method keywords: implicit hate, contrastive learning, causality, generalization
+- Mentioned datasets: implicit hate speech benchmarks
+- Mentioned metrics: macro-F1, cross-dataset performance
 
 ## Abstract (Extracted)
-> Abstract Implicithatespeechpresentsasignificantchal- lenge for automatic detection systems due to its subtlety and ambiguity. Traditional mod- elstrainedusingempiricalriskminimization (a)Falsenegativeashardpositive. (ERM)oftenrelyoncorrelationsbetweenclass labelsandspuriousattributes, whichleadsto poor performance on data lacking these cor- relations. In this paper, we propose a novel approach using causality-guided contrastive learning (CCL) to enhance the generalizabil- ity of implicit hate speech detection. Since ERMtendstoidentifyspuriousattributes,CCL (b)Falsepositiveashardpositive. worksbyaligningtherepresentationsofsam- Figure1:Ourresearchmotivations. Hardpositiveshave pleswiththesameclassbutoppositespurious same ground truth label but opposite predicted label attributes,identifiedthroughERM’sinference with the anchor, including (a) false negatives and (b) failure. This method reduces the model’s re- falsepositives. lianceonspuriouscorrelations,allowingitto learnmorerobustfeaturesandhandlediverse, nuancedcontextsbetter. Ourextensiveexperi- implicationsofanchorsentencesaspositi
+> The paper proposes CCL, a causality-guided contrastive learning method for implicit hate speech detection. It uses ERM model failures to identify hard positives and reduce reliance on spurious correlations, improving cross-dataset generalization.
 
-## Benchmark Evidence Lines
-- show that our approach outperforms current Similarly,ConPrompt(Kimetal.,2023)leveraged
-- state-of-the-artmethodsincross-domaingener-
-- state-of-the-artperformanceonthreewidely-
-- ble 1. We use the macro F1-score measure for
-- themacroF1-scoreonthetestset. and synonym substitution (Kim et al., 2022), as
-- outperformsincross-datasetevaluations. Simply betweenthevariousmethodsareminimal,consis-
-- whiledemonstratingsomeoverlap,isoutperformed
-- consistently outperform SCL methods. A possi- Similarly,increasingthenumberofpositivesam-
+## Evidence Handling
+- Removed noisy auto-extracted benchmark snippets from the page body.
+- Treat cross-dataset macro-F1 gains as metrics-matrix evidence requiring table-level verification before external citation.
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

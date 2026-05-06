@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-06
 tags: [paper, deep-ingest-v2, hate-speech, implicit, cross-lingual, benchmark, causal, retrieval, prompting]
 sources: [raw/sources/Ghorbanpour 等 - 2025 - Data-Efficient Hate Speech Detection via Cross-Lingual Nearest Neighbor Retrieval with Limited Label.pdf]
 ---
@@ -14,39 +14,37 @@ sources: [raw/sources/Ghorbanpour 等 - 2025 - Data-Efficient Hate Speech Detect
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- gate redundancy and filter out highly similar Training on all available hate speech datasets retrievedinstances,resultinginimprovements mayseembeneficial,butitisofteninefficient,com- insomelanguages.1 putationallycostly,anddoesnotguaranteebetter Contentwarning:Thispapercontainsexamplesof performance(Casellietal.,2020).
-- Moreover, Hate speech, abusive language targeting specific thisapproachlacksscalability,requiringfrequent groups (Ro¨ttger et al., 2021), is a global issue.
-- priateintermediateEnglishtaskischallengingand When detecting hate speech in a low-resource language-dependent.
+- Targets hate-speech detection when labeled data is limited, especially for low-resource or under-annotated languages.
+- Notes that collecting hate-speech labels is expensive, slow, and culturally sensitive.
+- Frames cross-lingual retrieval as a scalable alternative to manually selecting source languages or tasks.
 
 ## Method
-- ingapproach,weleveragenearest-neighborre- AsRo¨ttgeretal.(2022)state,havingsomelabeled trievaltoaugmentminimallabeleddatainthe datainthetargetlanguageiscrucialformodelef- target language, thereby enhancing detection performance.
-- evaluateourapproachoneightlanguagesand Transferlearning,especiallyfromhigh-resource demonstrate that it consistently outperforms languageslikeEnglish,helpsmitigatedatascarcity models trained solely on the target language data.
-- However, the ourapproachishighlydata-efficient,retrieving choiceofsourcetasksandlanguagesremainscru- as few as 200 instances in some cases while cial.
-- Moreover, languagesduetoculturalsimilarities(Zhouetal., itisscalable,astheretrievalpoolcanbeeas- 2023),andcertainsourcetasksmaybemoreuse- ily expanded, and the method can be readily fulforparticulartargettasks(Ro¨ttgeretal.,2022; adaptedtonewlanguagesandtasks.
+- Embeds multilingual hate-speech instances and retrieves nearest neighbors for a small target-language training set.
+- Combines retrieved cross-lingual samples with limited target-language data to fine-tune a multilingual model.
+- Uses maximum marginal relevance to reduce redundant retrieved examples.
 
 ## Data and Evaluation Setup
-- evaluateourapproachoneightlanguagesand Transferlearning,especiallyfromhigh-resource demonstrate that it consistently outperforms languageslikeEnglish,helpsmitigatedatascarcity models trained solely on the target language data.
-- gate redundancy and filter out highly similar Training on all available hate speech datasets retrievedinstances,resultinginimprovements mayseembeneficial,butitisofteninefficient,com- insomelanguages.1 putationallycostly,anddoesnotguaranteebetter Contentwarning:Thispapercontainsexamplesof performance(Casellietal.,2020).
-- redundancy,dataset-specificbiases,andannotation inconsistencies, leading to overfitting (Wiegand 1 Introduction etal.,2019;FortunaandNunes,2018).
-- retrainingfornewdatasets(Vidgenetal.,2021a).
+- Evaluates on eight languages with limited labeled target-language data.
+- Retrieves from a multilingual pool built from fourteen hate-speech detection tasks.
+- Compares against training only on the target-language examples and other transfer settings.
 
 ## Results and Claims
-- evaluateourapproachoneightlanguagesand Transferlearning,especiallyfromhigh-resource demonstrate that it consistently outperforms languageslikeEnglish,helpsmitigatedatascarcity models trained solely on the target language data.
-- Furthermore,inmostcases,ourmethod and improve detection performance (Bigoulaeva surpassesthecurrentstate-of-the-art.
-- gate redundancy and filter out highly similar Training on all available hate speech datasets retrievedinstances,resultinginimprovements mayseembeneficial,butitisofteninefficient,com- insomelanguages.1 putationallycostly,anddoesnotguaranteebetter Contentwarning:Thispapercontainsexamplesof performance(Casellietal.,2020).
+- Reports consistent improvements over target-only training in the limited-label setting.
+- Finds that redundancy filtering with MMR improves performance in some languages.
+- Exact language-level scores should be checked in the original tables before citation.
 
 ## Limitations and Follow-ups
-- redundancy,dataset-specificbiases,andannotation inconsistencies, leading to overfitting (Wiegand 1 Introduction etal.,2019;FortunaandNunes,2018).
-- Thissolutionaddressesseveralchallenges.
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- Retrieval effectiveness depends on embedding quality and multilingual pool coverage.
+- Cross-lingual transfer can miss language-specific hate expressions and cultural context.
+- Verify exact metrics, language splits, and retrieval-pool composition before citing quantitative claims.
 
 ## Structured Signals
-- Detected method keywords: causal, retrieval, prompting, multimodal, cross-lingual
-- Mentioned datasets: gab, founta, twitter
-- Mentioned metrics: f1
+- Detected method keywords: cross-lingual retrieval, limited labels, multilingual transfer, hate-speech detection
+- Mentioned datasets: multilingual hate-speech datasets across eight languages
+- Mentioned metrics: F1, macro-F1, language-level performance
 
 ## Abstract (Extracted)
-> Abstract (Poletto et al., 2021; Yin and Zubiaga, 2021). In contrast,languageslikeSpanish,French,andItal- Consideringtheimportanceofdetectinghate- ian,thoughnotlow-resourceforothertasks,lack fulcontent,labeledhatespeechdataisexpen- annotatedhatespeechdatasets(Polettoetal.,2021), siveandtime-consumingtocollectandanno- limiting model effectiveness in detecting and ad- tate, particularly for low-resource languages. dressinghatespeech. Priorworkhasdemonstratedtheeffectiveness ofcross-lingualtransferlearninganddataaug- Collectingandannotatingdataforlow-resource mentationinimprovingperformanceontasks languages is an effective solution, especially for withlimitedlabeleddata. Todevelopaneffi- capturing linguistic and cultural nuances in hate cientandscalablecross-lingualtransferlearn- speech (Pelicon et al., 2021; Aluru et al., 2020a). ingapproach,weleveragenearest-neighborre- AsRo¨ttgeretal.(2022)state,havingsomelabeled trievaltoaugmentminimallabeleddatainthe datainthetargetlanguageiscrucialformodelef- target language, thereby enhancing detection performance. Specifically,weassumeaccess fect
+> The paper proposes a data-efficient cross-lingual retrieval method for hate-speech detection with limited labeled data. It retrieves related multilingual examples, combines them with target-language data, and fine-tunes a multilingual model.
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

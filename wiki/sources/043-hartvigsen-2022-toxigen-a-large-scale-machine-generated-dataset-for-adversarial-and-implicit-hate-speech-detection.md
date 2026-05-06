@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-06
 tags: [paper, deep-ingest-v2, hate-speech, implicit, benchmark, prompting, explainability]
 sources: [raw/sources/Hartvigsen 等 - 2022 - ToxiGen A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection.pdf]
 ---
@@ -14,48 +14,41 @@ sources: [raw/sources/Hartvigsen 等 - 2022 - ToxiGen A Large-Scale Machine-Gene
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection Warning:thispaperdiscussesandcontainscontentthatcanbeoffensiveorupsetting.
-- Impor- struggle with detecting implicitly toxic lan- tantly,suchbiasesintoxicitydetectionriskfurther guage.
-- While such human-like bias and toxicity ing subset of TOXIGEN and find that annota- posesrealthreats,weusethisundesirablebehavior torsstruggletodistinguishmachine-generated inmodelslikeGPT-3toimproveexistingtoxiclan- text from human-written language.
+- Targets failures of toxicity detectors that over-rely on minority-group mentions.
+- Highlights two linked problems: benign minority mentions can be falsely flagged, while implicit toxic statements can be missed.
+- Frames adversarial and implicit toxicity as a dataset and evaluation challenge.
 
 ## Method
-- We de- velopademonstration-basedpromptingframe- Weintroduce TOXIGEN,alarge-scalemachine- work and an adversarial classifier-in-the-loop generateddatasetof274,186toxicandbenignstate- decodingmethodtogeneratesubtlytoxicand ments.
-- To create this dataset, we leverage the benigntextwithamassivepretrainedlanguage massivepretrainedlanguagemodelGPT-3(Brown model (Brown et al., 2020).
-- While such human-like bias and toxicity ing subset of TOXIGEN and find that annota- posesrealthreats,weusethisundesirablebehavior torsstruggletodistinguishmachine-generated inmodelslikeGPT-3toimproveexistingtoxiclan- text from human-written language.
-- Using basedpromptingandpretrainedtoxicityclassifiers, threepublicly-availabledatasets,weshowthat finetuning a toxicity classifier on our data im- TOXIGENcoversover135ktoxicand135kbenign provesitsperformanceonhuman-writtendata statementsabout13minorityidentitygroups(e.g., substantially.
+- Creates TOXIGEN, a large machine-generated dataset of toxic and benign statements about minority groups.
+- Uses demonstration-based prompting and adversarial classifier-in-the-loop decoding to generate challenging examples.
+- Includes human annotation and analysis to separate benign identity mentions from toxic content.
 
 ## Data and Evaluation Setup
-- TOXIGEN: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection Warning:thispaperdiscussesandcontainscontentthatcanbeoffensiveorupsetting.
-- To help mitigate these issues, we cre- marginalizingorcensoringminoritygroups(Yasin, ateTOXIGEN,anewlarge-scaleandmachine- 2018;Sapetal.,2019;DiasOlivaetal.,2020;Are, generated dataset of 274k toxic and benign 2020;DíazandHecht-Felella,2021).
-- We de- velopademonstration-basedpromptingframe- Weintroduce TOXIGEN,alarge-scalemachine- work and an adversarial classifier-in-the-loop generateddatasetof274,186toxicandbenignstate- decodingmethodtogeneratesubtlytoxicand ments.
-- To create this dataset, we leverage the benigntextwithamassivepretrainedlanguage massivepretrainedlanguagemodelGPT-3(Brown model (Brown et al., 2020).
+- The dataset contains 274,186 generated statements about 13 minority groups.
+- Evaluates multiple toxicity / hate classifiers on subtle toxic and benign identity-related statements.
+- Compares TOXIGEN with existing implicit hate and toxicity resources.
 
 ## Results and Claims
-- While such human-like bias and toxicity ing subset of TOXIGEN and find that annota- posesrealthreats,weusethisundesirablebehavior torsstruggletodistinguishmachine-generated inmodelslikeGPT-3toimproveexistingtoxiclan- text from human-written language.
-- GEN can be used to fight machine-generated Usingthismachinegeneratedapproachhastwo toxicity as finetuning improves the classifier advantages over scraping posts from the web as significantly on our evaluation subset.
-- fine-tuning existing classifiers on TOXIGEN con- Togenerateachallengingsubsetof TOXIGEN, sistentlyimprovesperformance(+7–19%)on3ex- weintroduce ALICE,2 anadversarialclassifier-in- isting human-written implicit toxic datasets: Im- the-loop decoding algorithm.
+- Shows that widely used toxicity systems can both over-flag benign minority mentions and under-detect implicit toxicity.
+- Presents TOXIGEN as an adversarial benchmark for more robust toxicity and hate-speech detection.
+- Records dataset-level statistics in the metrics matrix for internal use.
 
 ## Limitations and Follow-ups
-- Impor- struggle with detecting implicitly toxic lan- tantly,suchbiasesintoxicitydetectionriskfurther guage.
-- While such human-like bias and toxicity ing subset of TOXIGEN and find that annota- posesrealthreats,weusethisundesirablebehavior torsstruggletodistinguishmachine-generated inmodelslikeGPT-3toimproveexistingtoxiclan- text from human-written language.
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- Machine-generated data can reflect prompting choices and model biases.
+- Human validation is essential before treating generated examples as ground truth.
+- Verify exact dataset statistics and classifier results before citing quantitative conclusions.
 
 ## Structured Signals
-- Detected method keywords: prompting, explainability
-- Mentioned datasets: toxigen, gab, stormfront, founta, twitter, reddit
-- Mentioned metrics: f1, auc
+- Detected method keywords: implicit hate, adversarial data generation, benchmark, prompting
+- Mentioned datasets: ToxiGen, ImplicitHateCorpus
+- Mentioned metrics: dataset size, toxicity score, hate score
 
 ## Abstract (Extracted)
-> Abstract Röttgeretal.,2021). Thiscanleadtosevereunder- detectionofsubtlehate(e.g.,“Theyhavebeenbred Toxiclanguagedetectionsystemsoftenfalsely to be good at sports and entertainment, but not flag text that contains minority group men- muchelse”;Figure1)andover-detectionofbenign tions as toxic, as those groups are often the targets of online hate. Such over-reliance on statements (e.g., “child abuse is wrong, racism spurious correlations also causes systems to is wrong, sexism is wrong”; Figure 1). Impor- struggle with detecting implicitly toxic lan- tantly,suchbiasesintoxicitydetectionriskfurther guage. To help mitigate these issues, we cre- marginalizingorcensoringminoritygroups(Yasin, ateTOXIGEN,anewlarge-scaleandmachine- 2018;Sapetal.,2019;DiasOlivaetal.,2020;Are, generated dataset of 274k toxic and benign 2020;DíazandHecht-Felella,2021). statements about 13 minority groups. We de- velopademonstration-basedpromptingframe- Weintroduce TOXIGEN,alarge-scalemachine- work and an adversarial classifier-in-the-loop generateddatasetof274,186toxicandbenignstate- decodingmethodtogeneratesubt
+> TOXIGEN is a large machine-generated dataset designed to expose toxicity detectors that rely on spurious identity correlations. It contains toxic and benign statements about minority groups and supports adversarial evaluation of implicit toxicity detection.
 
-## Benchmark Evidence Lines
-- the only thing that can be done to improve the situation is to put them all in 2% hate
-- Togenerateachallengingsubsetof TOXIGEN, sistentlyimprovesperformance(+7–19%)on3ex-
-- ityclassifieragainstatextgeneratorduringbeam et al., 2021). This indicates that the dataset gen-
-- 2 ImplicitHateAgainstMinorityGroups
-- Table 4: AUC for HateBert and RoBERTa both zero-
-- Susan Benesch. 2020. Proposals for improved regula-
-- ingtoxicspeechdetectorsagainstveiledtoxicity. In 2021. Agreeing to disagree: Annotating offensive
+## Evidence Handling
+- Removed noisy auto-extracted benchmark snippets from the page body.
+- Treat dataset statistics and classifier results as metrics-matrix evidence requiring table-level verification before external citation.
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

@@ -34,6 +34,6 @@ This page is the top-level research map for the current wiki. Direction pages re
 
 ## Maintenance
 
-- Latest global integrity report: [[wiki-integrity-report-2026-05-05]]
+- Latest global integrity report: [[wiki-integrity-report-2026-05-06]]
 - Maintenance playbook: [[wiki-maintenance-playbook]]
 - Current maintenance status: [[wiki-maintenance-status-2026-05-06]]

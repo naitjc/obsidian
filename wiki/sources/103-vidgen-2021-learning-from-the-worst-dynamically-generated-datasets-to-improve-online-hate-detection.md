@@ -1,7 +1,7 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
-tags: [paper, deep-ingest-v2, hate-speech, cross-lingual, benchmark, retrieval, counterfactual, explainability]
+updated: 2026-05-06
+tags: [paper, deep-ingest-v2, hate-speech, benchmark, retrieval, counterfactual, explainability]
 sources: [raw/sources/Vidgen 等 - 2021 - Learning from the Worst Dynamically Generated Datasets to Improve Online Hate Detection.pdf]
 ---
 

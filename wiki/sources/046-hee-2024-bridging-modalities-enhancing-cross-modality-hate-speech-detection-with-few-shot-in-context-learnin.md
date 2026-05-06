@@ -1,7 +1,7 @@
 ---
 created: 2026-04-23
 updated: 2026-04-23
-tags: [paper, deep-ingest-v2, hate-speech, multimodal, cross-lingual, benchmark, retrieval, prompting, explainability]
+tags: [paper, deep-ingest-v2, hate-speech, multimodal, benchmark, retrieval, prompting, explainability]
 sources: [raw/sources/Hee 等 - 2024 - Bridging Modalities Enhancing Cross-Modality Hate Speech Detection with Few-Shot In-Context Learnin.pdf]
 ---
 
@@ -14,47 +14,34 @@ sources: [raw/sources/Hee 等 - 2024 - Bridging Modalities Enhancing Cross-Modal
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- By to explore the transferability of hate speech leveragingtherichnessoftext-baseddata,weaim detection between modalities.
-- Recent hate speech strationsinfew-shotlearningcontextsoutperform studies have developed models targeting specific vision-languagedemonstrations,highlightingthe modalities (Cao et al., 2023; Awal et al., 2021).
-- First,thereisascarcity As all forms of hate speech share one definition, ofdatasets,asthisareahasonlyrecentlygainedlots thisstudyinvestigatestheusefulnessofusinghate ofattention.
+- Vision-language hate datasets are scarcer than text hate datasets, which makes multimodal hate detection harder to adapt and evaluate.
+- The paper asks whether text-based hate speech examples can transfer useful knowledge to vision-language hate detection.
+- The key framing is cross-modality transfer, not cross-lingual transfer.
 
 ## Method
-- Incontrast,theabundanceanddiversityof centresearchhasdevelopeddetectionmodels text-based data offer a potential source for cross- tailoredtospecificmodalities;however,there modalityknowledgetransfer(Heeetal.,2024).
-- This paper investigates conductsextensiveexperimentsusingfew-shot whethertext-basedhatespeechdetectioncapabili- in-contextlearningwithlargelanguagemodels tiescanbetransferredtomultimodalformats.
-- matsusingfew-shotin-contextlearningwithlarge language models.
-- Recent hate speech strationsinfew-shotlearningcontextsoutperform studies have developed models targeting specific vision-languagedemonstrations,highlightingthe modalities (Cao et al., 2023; Awal et al., 2021).
+- Uses few-shot in-context learning with large language models to test whether text hate demonstrations improve multimodal hate classification.
+- Compares text-only demonstrations, vision-language demonstrations, and zero-shot settings.
+- Treats shared hate-speech semantics as a bridge between textual and multimodal formats.
 
 ## Data and Evaluation Setup
-- This paper investigates conductsextensiveexperimentsusingfew-shot whethertext-basedhatespeechdetectioncapabili- in-contextlearningwithlargelanguagemodels tiescanbetransferredtomultimodalformats.
-- Our findings to enhance the detection of vision-language hate demonstratethattext-basedhatespeechexam- speech,addressingcurrentresearchlimitationsand ples can significantly enhance the classifica- tionaccuracyofvision-languagehatespeech.
-- Hatespeechintheonlinespaceap- theclassificationaccuracyofvision-languagehate pearsinvariousforms,includingtext-basedtweets speech.
-- First,thereisascarcity As all forms of hate speech share one definition, ofdatasets,asthisareahasonlyrecentlygainedlots thisstudyinvestigatestheusefulnessofusinghate ofattention.
+- Evaluates cross-modality transfer using text hate support examples and vision-language hate test sets.
+- The checked metrics focus on FHM and MAMI results under Latent Hatred and FHM support examples.
+- Publication-checked values are tracked in [[hate-speech-metrics-matrix]].
 
 ## Results and Claims
-- (ii) We demonstrate that text- 1 Introduction basedhatespeechexamplessignificantlyimprove Motivation.
-- Recent hate speech strationsinfew-shotlearningcontextsoutperform studies have developed models targeting specific vision-languagedemonstrations,highlightingthe modalities (Cao et al., 2023; Awal et al., 2021).
-- First,thereisascarcity As all forms of hate speech share one definition, ofdatasets,asthisareahasonlyrecentlygainedlots thisstudyinvestigatestheusefulnessofusinghate ofattention.
+- Text-based hate examples can improve few-shot multimodal hate detection, sometimes outperforming vision-language demonstrations.
+- Publication-checked values include Mistral-7B and Qwen2-7B bests on FHM and MAMI under Latent Hatred and FHM support settings.
+- The paper is evidence for cross-modality prompting and transfer, not for a general multimodal hate SOTA ranking.
 
 ## Limitations and Follow-ups
-- Conse- Thewidespreadpresenceofhatespeechonthe quently,thelimitedavailabilityofvision-language internet,includingformatssuchastext-based data hampers performance in out-of-distribution tweetsandvision-languagememes,posesasig- nificantchallengetodigitalplatformsafety.Re- cases.
-- Our findings to enhance the detection of vision-language hate demonstratethattext-basedhatespeechexam- speech,addressingcurrentresearchlimitationsand ples can significantly enhance the classifica- tionaccuracyofvision-languagehatespeech.
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- The main limitation is whether text-based support examples cover the visual and cultural cues needed for unseen memes.
+- Results should be interpreted by support set, model, and target dataset rather than collapsed into a single ranking.
+- Exact priority values are publication-checked in [[hate-speech-metrics-matrix]].
 
 ## Structured Signals
-- Detected method keywords: retrieval, prompting, multimodal, explainability, cross-lingual
+- Detected method keywords: retrieval, prompting, multimodal, explainability
 - Mentioned datasets: latent hatred, hateful memes, twitter
 - Mentioned metrics: f1, accuracy
-
-## Abstract (Extracted)
-> Abstract iscomplicatedbycopyrightissuesandincreasingly stringent regulations on social platforms. Conse- Thewidespreadpresenceofhatespeechonthe quently,thelimitedavailabilityofvision-language internet,includingformatssuchastext-based data hampers performance in out-of-distribution tweetsandvision-languagememes,posesasig- nificantchallengetodigitalplatformsafety.Re- cases. Incontrast,theabundanceanddiversityof centresearchhasdevelopeddetectionmodels text-based data offer a potential source for cross- tailoredtospecificmodalities;however,there modalityknowledgetransfer(Heeetal.,2024). is a notable gap in transferring detection ca- pabilitiesacrossdifferentformats. Thisstudy Research Objectives. This paper investigates conductsextensiveexperimentsusingfew-shot whethertext-basedhatespeechdetectioncapabili- in-contextlearningwithlargelanguagemodels tiescanbetransferredtomultimodalformats. By to explore the transferability of hate speech leveragingtherichnessoftext-baseddata,weaim detection between modalities. Our findings to enhance the detection of vision-language hate demonstratethattex
-
-## Benchmark Evidence Lines
-- and vision-language memes. Recent hate speech strationsinfew-shotlearningcontextsoutperform
-- two datasets in terms of F1 score. Secondly, the achievesanF1scoreimprovementof0.64and1.23
-- strategiesconsistentlyoutperformedzero-shotin-
-- learningoutperformsusingvision-languagedemon-
-- tionmodelsagainstcovid-19-relatedhatefulmemes.
-- We use the Mistral-7B model, a state-of-the-art "Insummary, thispost/memeis{label}". During
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

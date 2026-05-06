@@ -1,7 +1,7 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
-tags: [paper, deep-ingest-v2, hate-speech, cross-lingual, benchmark]
+updated: 2026-05-06
+tags: [paper, deep-ingest-v2, hate-speech, benchmark]
 sources: [raw/sources/de Gibert 等 - 2018 - Hate Speech Dataset from a White Supremacy Forum.pdf]
 ---
 

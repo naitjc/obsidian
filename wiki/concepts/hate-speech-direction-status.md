@@ -9,7 +9,7 @@ sources: []
 
 ## Done
 - Direction map and subarea pages are established (`[[hate-speech-research-map]]`).
-- Source hub exists with 36 hate-speech papers (`[[hate-speech-source-hub]]`).
+- Source hub exists with 37 hate-speech papers (`[[hate-speech-source-hub]]`).
 - Priority queue is defined (`[[hate-speech-priority-papers]]`).
 - SOTA synthesis and contradiction tracker are in place (`[[hate-speech-sota-landscape]]`).
 - Lint is clean in-scope: no broken links, no orphans (`[[hate-speech-lint-report-2026-04-23]]`).

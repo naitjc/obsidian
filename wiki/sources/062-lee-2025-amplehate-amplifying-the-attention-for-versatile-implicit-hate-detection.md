@@ -1,20 +1,8 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
-tags:
-  - paper
-  - hate-speech
-  - deep-ingest-v2
-  - implicit
-  - cross-lingual
-  - benchmark
-  - contrastive-learning
-  - retrieval
-  - prompting
-  - multimodal
-  - explainability
-sources:
-  - raw/sources/Lee 等 - 2025 - AmpleHate Amplifying the Attention for Versatile Implicit Hate Detection.pdf
+updated: 2026-05-06
+tags: [paper, hate-speech, deep-ingest-v2, implicit, cross-lingual, benchmark, contrastive-learning, retrieval, prompting, explainability]
+sources: [raw/sources/Lee 等 - 2025 - AmpleHate Amplifying the Attention for Versatile Implicit Hate Detection.pdf]
 ---
 
 # Lee 等 - 2025 - AmpleHate Amplifying the Attention for Versatile Implicit Hate Detection

@@ -15,7 +15,7 @@ This pass completes the hate speech detection direction for internal wiki use. O
 
 | Asset | Status |
 |---|---|
-| Canonical source hub | [[hate-speech-source-hub]] now links 36 hate speech papers in primary groups |
+| Canonical source hub | [[hate-speech-source-hub]] now links 37 hate speech papers |
 | Direction map | [[hate-speech-research-map]] links source, synthesis, lint, metrics, and completion pages |
 | SOTA synthesis | [[hate-speech-sota-landscape]] updated to 36-paper scope |
 | Final synthesis | [[hate-speech-final-synthesis]] updated to v2 with clearer scenario conclusions |

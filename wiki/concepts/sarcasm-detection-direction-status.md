@@ -9,7 +9,7 @@ sources: []
 
 ## Done
 
-- 16 source pages upgraded to `deep-ingest-v2`.
+- 17 source pages upgraded to `deep-ingest-v2`.
 - Source hub exists: [[sarcasm-detection-source-hub]].
 - Research map, SOTA synthesis, metrics workspace, lint report, final synthesis, and completion report exist.
 

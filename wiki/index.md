@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-05
+updated: 2026-05-06
 tags: [index]
 sources: []
 ---
@@ -12,11 +12,13 @@ sources: []
 | Area | Current state |
 |---|---|
 | Raw PDFs | 150 files in `raw/sources/` |
-| Wiki pages | 266 pages under `wiki/` |
+| Wiki pages | 274 pages under `wiki/` |
 | Source pages | 158 pages, including catalog and alias stubs |
-| Concept pages | 95 pages |
-| Entity pages | 11 pages |
-| Integrity status | 0 broken wiki links found on 2026-05-05 |
+| Concept pages | 96 pages |
+| Entity pages | 18 pages |
+| Deep-ingested source pages | 150 PDF source pages tagged `deep-ingest-v2` |
+| Auto-ingest PDF source pages | 0 remaining among the 150 numbered PDF source pages |
+| Integrity status | 0 broken wiki links found on 2026-05-06 |
 
 ## Entities
 
@@ -87,7 +89,7 @@ sources: []
 | Emotion completion report | [[emotion-recognition-completion-report-2026-05-05]] |
 | Multimodal source hub | [[multimodal-learning-source-hub]] |
 | Multimodal completion report | [[multimodal-learning-completion-report-2026-05-05]] |
-| Latest integrity report | [[wiki-integrity-report-2026-05-05]] |
+| Latest integrity report | [[wiki-integrity-report-2026-05-06]] |
 | Global research map | [[global-research-map]] |
 | Cross-direction synthesis | [[cross-direction-synthesis-2026-05-06]] |
 | PDF table verification index | [[pdf-table-verification-index-2026-05-06]] |
@@ -111,7 +113,7 @@ sources: []
 | [[cross-direction-synthesis-2026-05-06]] | Cross-direction synthesis across all completed directions |
 | [[pdf-table-verification-index-2026-05-06]] | Likely PDF result-table pages for priority metrics verification |
 | [[hate-speech-lint-report-2026-04-23]] | Earlier hate speech direction lint pass |
-| [[wiki-integrity-report-2026-05-05]] | Current global navigation and integrity check |
+| [[wiki-integrity-report-2026-05-06]] | Current global navigation and integrity check |
 
 ---
-_Last updated: 2026-05-05_
+_Last updated: 2026-05-06_

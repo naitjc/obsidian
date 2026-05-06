@@ -1008,7 +1008,7 @@ This page was generated from source links in direction metrics matrices. It narr
     - Table 4: AvgScore and CumScore at different stages of
     - Table 5, by comparing the model’s AvgScore and
 
-## [[001-2024-nlp4pi-1-23|2024.nlp4pi-1.23]]
+## [[001-2024-nlp4pi-1-23|Explainable Identification of Hate Speech towards Islam using Graph Neural Networks]]
 
 - Source PDF: `raw/sources/2024.nlp4pi-1.23.pdf`
 - Likely table/result pages:
@@ -1030,7 +1030,7 @@ This page was generated from source links in direction metrics matrices. It narr
   - Page 7:
     - Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, ers: State-of-the-art natural language processing. In
 
-## [[003-2025-acl-long-115|2025.acl-long.115]]
+## [[003-2025-acl-long-115|HATEDAY: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter]]
 
 - Source PDF: `raw/sources/2025.acl-long.115.pdf`
 - Likely table/result pages:

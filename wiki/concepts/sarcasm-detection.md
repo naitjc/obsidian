@@ -15,7 +15,7 @@ Sarcasm, humor, incongruity, rhetorical devices, multimodal sarcasm, and explana
 - Research map: [[sarcasm-detection-research-map]]
 - Final synthesis: [[sarcasm-detection-final-synthesis]]
 - Completion report: [[sarcasm-detection-completion-report-2026-05-05]]
-- Scope: 16 source pages, all upgraded to `deep-ingest-v2` on 2026-05-05.
+- Scope: 17 source pages, all upgraded to `deep-ingest-v2` on 2026-05-05.
 
 ## Key Themes
 - multimodal incongruity detection

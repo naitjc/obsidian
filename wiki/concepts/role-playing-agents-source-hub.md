@@ -1,6 +1,6 @@
 ---
-created: 2026-05-05
-updated: 2026-05-05
+created: 2026-05-06
+updated: 2026-05-06
 tags: [index, role-playing, sources]
 sources: []
 ---
@@ -9,7 +9,7 @@ sources: []
 
 Total linked papers: **13**
 
-Use this page as the canonical entry point for the role-playing agents and persona modeling direction.
+Use this page as the canonical entry point generated from source page frontmatter tags.
 
 ## Sources
 - [[013-ahn-2024-timechara-evaluating-point-in-time-character-hallucination-of-role-playing-large-language-models|Ahn 等 - 2024 - TimeChara Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models]]
@@ -29,6 +29,5 @@ Use this page as the canonical entry point for the role-playing agents and perso
 ## Cross-Cutting Concept Links
 - [[role-playing-agents]]
 - [[llm-reasoning]]
-- [[multimodal-learning]]
-- [[synthetic-data-generation]]
 - [[llm-evaluation]]
+- [[synthetic-data-generation]]

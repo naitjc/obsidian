@@ -9,7 +9,7 @@ sources: []
 
 ## Done
 
-- 37 source pages upgraded to `deep-ingest-v2`.
+- 34 source pages upgraded to `deep-ingest-v2`.
 - Source hub exists: [[multimodal-learning-source-hub]].
 - Research map, SOTA synthesis, metrics workspace, lint report, final synthesis, and completion report exist.
 

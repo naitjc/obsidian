@@ -1,7 +1,7 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
-tags: [paper, deep-ingest-v2, hate-speech, implicit, multimodal, cross-lingual, benchmark, contrastive-learning, graph, prompting, explainability]
+updated: 2026-05-06
+tags: [paper, deep-ingest-v2, hate-speech, implicit, multimodal, benchmark, contrastive-learning, graph, prompting, explainability]
 sources: [raw/sources/Xu 等 - 2025 - HyperHatePrompt A Hypergraph-based Prompting Fusion Model for Multimodal Hate Detection.pdf]
 ---
 
@@ -14,39 +14,37 @@ sources: [raw/sources/Xu 等 - 2025 - HyperHatePrompt A Hypergraph-based Prompti
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- De- spite promising progress, three critical chal- lenges, the absence of implicit hateful cues, the cross-modal-induced hate, and the diver- CAN NIGGER BE A GOOD LEADER?
-- Detect- *CorrespondingAuthor ing these implicit hateful cues is essential for ac- curately identifying hate speech across multiple ability,hypergraphsofferamoresophisticatedand modalities.
-- Whileconcatenating etal.(2021)appliedmultiplemodelstodetectBen- cross-modal features, as in previous works (Hee gali hate speech.
+- Targets multimodal hate detection where hate may depend on implicit cues, cross-modal interactions, and diverse target groups.
+- Highlights cross-modal-induced hate, where neither text nor image alone is hateful but their combination is.
+- Argues that prompt-based inference and hypergraph fusion can better capture complex multimodal hate cues.
 
 ## Method
-- Toaddressthese challenges, wepro- pose a hypergraph-based prompting fusion model.
-- Ourmodelfirstusestailoredprompts multiplemodalities(SchmidtandWiegand,2017), toinferimplicithatefulcues.
-- Finally,hypergraphconvo- ingcomprehensiveandaccuratecuesofhate,thus lution fuses diverse hateful cues, enhancing multimodalapproachisessentialforamoreprecise theexplorationofcross-modalhateandtarget- andin-depthunderstandinganddetectionofhate ing specific groups.
-- Therefore, recent research has increas- twobenchmarkdatasetsshowthatourmodel achievesstate-of-the-artperformanceinmulti- inglyfocusedonthedetectionofmultimodalhate modalhatedetection.
+- Proposes HyperHatePrompt, a hypergraph-based prompting fusion model.
+- Uses tailored prompts to infer implicit hateful cues.
+- Builds hyperedges to model cross-modal-induced hate and diverse target-group relations before hypergraph convolution.
 
 ## Data and Evaluation Setup
-- Experimental results on content.
-- Therefore, recent research has increas- twobenchmarkdatasetsshowthatourmodel achievesstate-of-the-artperformanceinmulti- inglyfocusedonthedetectionofmultimodalhate modalhatedetection.
-- Addressingthisdiversityisessential forimprovingtheperformanceandfairnessofmul- • We evaluate our model on two benchmark timodalhatedetection.
-- datasets,anddemonstrateitssuperiorityover To address these challenges, we propose a state-of-the-artbaselinesinmultimodalhate hypergraph-basedpromptingfusionmodel,Hyper- detectionthroughextensiveexperiments.
+- Evaluates on multimodal hate detection datasets involving image-text content.
+- Compares hypergraph prompting fusion against multimodal baselines.
+- Includes analysis of implicit cues, cross-modal hate, and target-group diversity.
 
 ## Results and Claims
-- Therefore, recent research has increas- twobenchmarkdatasetsshowthatourmodel achievesstate-of-the-artperformanceinmulti- inglyfocusedonthedetectionofmultimodalhate modalhatedetection.
-- datasets,anddemonstrateitssuperiorityover To address these challenges, we propose a state-of-the-artbaselinesinmultimodalhate hypergraph-basedpromptingfusionmodel,Hyper- detectionthroughextensiveexperiments.
-- The learning i goalistoidentifywhetheradatasampleishateor 2.2 MultimodalHateDetection notbycollectivelyconsideringthesemanticcues presentedinboththetextandimagemodalities,pre- Multimodal hate detection has gained significant dictingthecorrespondinghatelabely.
+- Claims improved multimodal hate detection by modeling implicit cues and cross-modal interactions.
+- Positions hypergraph fusion as useful for representing relations among modalities and hate cues.
+- Exact dataset scores and ablations require original-table verification before citation.
 
 ## Limitations and Follow-ups
-- Toaddressthese challenges, wepro- pose a hypergraph-based prompting fusion model.
-- Hate con- challenges in multimodal hate detection remain tent,whichincludesaggressive,discriminatoryand largelyoverlooked: theabsenceofimplicithateful derogatorytextandvisualsaimedatspecificgroups cues,cross-modal-inducedhate,andthediversity based on race, gender, and religion, is a harm- ofhatetargetgroups.
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- Prompt quality and hypergraph construction choices can affect robustness.
+- The method may depend on dataset coverage of target groups and cross-modal hate patterns.
+- Verify exact metrics, dataset settings, and ablation results before citing quantitative conclusions.
 
 ## Structured Signals
-- Detected method keywords: contrastive-learning, graph, prompting, multimodal, explainability, cross-lingual
-- Mentioned datasets: hateful memes, gab, twitter, reddit
-- Mentioned metrics: f1, macro-f1, accuracy, auc
+- Detected method keywords: multimodal hate detection, hypergraph, prompting, implicit hateful cues
+- Mentioned datasets: multimodal hate datasets
+- Mentioned metrics: accuracy, F1, benchmark performance
 
 ## Abstract (Extracted)
-> Abstract Multimodalhatedetectionaimstoidentifyhate contentacrossmultiplemodalitiesforpromot- ing a harmonious online environment. De- spite promising progress, three critical chal- lenges, the absence of implicit hateful cues, the cross-modal-induced hate, and the diver- CAN NIGGER BE A GOOD LEADER? The oratory ignites a wave of snoring… Cali…in full RETARD mode sityofhatetargetgroups,inherentinthemul- （a） (b) timodal hate detection task, have been over- Figure1: Twoexamplesofmultimodalhatedetection. looked. Toaddressthese challenges, wepro- pose a hypergraph-based prompting fusion model. Ourmodelfirstusestailoredprompts multiplemodalities(SchmidtandWiegand,2017), toinferimplicithatefulcues. Itthenintroduces hyperedges to capture cross-modal-induced isofgreatersignificanceasitcanintegratediverse hate and applies a diversity-oriented hyper- informationfromtext,imageandothermodalities, edgeexpansionstrategytoaccountfordifferent whilesingle-modaldetectionislimitedincaptur- hatetargetgroups. Finally,hypergraphconvo- ingcomprehensiveandaccuratecuesofhate,thus lution fuses diverse hateful 
+> HyperHatePrompt is a hypergraph-based prompting fusion model for multimodal hate detection. It infers implicit hateful cues and models cross-modal-induced hate and diverse target groups through hypergraph fusion.
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

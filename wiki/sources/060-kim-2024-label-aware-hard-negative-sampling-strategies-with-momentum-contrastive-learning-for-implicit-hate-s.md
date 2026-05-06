@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-06
 tags: [paper, deep-ingest-v2, hate-speech, implicit, benchmark, contrastive-learning, causal, retrieval, prompting, explainability]
 sources: [raw/sources/Kim 等 - 2024 - Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate S.pdf]
 ---
@@ -14,39 +14,37 @@ sources: [raw/sources/Kim 等 - 2024 - Label-aware Hard Negative Sampling Strate
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection Warning:Thispapercontainsexamplesthatcanbeoffensiveorupsetting.
-- Detecting implicit hate speech that is not di- Easy negative (label: non-hate) 0.45 rectlyhatefulremainsachallenge.
-- search has attempted to detect implicit hate speechbyapplyingcontrastivelearningtopre- Hard negative (label: non-hate) trained language models such as BERT and Black people contributed a lot to the elimination of racism.
+- Targets implicit hate speech, where semantically similar non-hate examples can be hard negatives.
+- Observes that earlier contrastive learning methods do not consistently outperform cross-entropy training.
+- Motivates label-aware negative sampling to learn sharper class boundaries.
 
 ## Method
-- Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection Warning:Thispapercontainsexamplesthatcanbeoffensiveorupsetting.
-- search has attempted to detect implicit hate speechbyapplyingcontrastivelearningtopre- Hard negative (label: non-hate) trained language models such as BERT and Black people contributed a lot to the elimination of racism.
-- RoBERTa,buttheproposedmodelsstilldonot haveasignificantadvantageovercross-entropy Figure1: Ourresearchmotivation.
-- Wefoundthatcontrastive alowsemanticsimilaritytoanchors,andhardnegatives learningbasedonrandomlysampledbatchdata haveahighsemanticsimilaritytoanchors.
+- Proposes LAHN, label-aware hard negative sampling with momentum contrastive learning.
+- Selects negative samples from the opposite class rather than random negatives.
+- Uses semantic similarity to emphasize hard negatives that are close to hate anchors.
 
 ## Data and Evaluation Setup
-- detailedfeaturesfromhardnegativesamples, Researchhasbuiltimplicithatespeechdatasetsof instead of naive negative samples in random implicit hate speech (ElSherief et al., 2021; Sap batch,usingmomentum-integratedcontrastive etal.,2020;Hartvigsenetal.,2022;Vidgenetal., learning.
-- LAHNoutperformstheexistingmod- 2021)andproposeddetectionmodels(Kimetal., elsforimplicithatespeechdetectionbothin- and cross-datasets.
-- TherecentlyproposedConPrompt(Kim and cross-dataset evaluation with a simple etal.,2023)utilizedmachine-generatedstatements dropoutnoiseaugmentationwithoutexternal to improve implicit hate speech performance by knowledgeandadditionalcost.
-- However, thesepreviousmethodsstillhave mance in both in- and cross-dataset evalua- limitationsduetorelianceonpre-definedexternal tiononfourrepresentativepublicbenchmark knowledgeortextgenerationcosts.
+- Evaluates on implicit hate-speech datasets against cross-entropy and contrastive-learning baselines.
+- Compares random negative selection with label-aware hard negative strategies.
+- Studies representation quality and classification performance.
 
 ## Results and Claims
-- LAHNoutperformstheexistingmod- 2021)andproposeddetectionmodels(Kimetal., elsforimplicithatespeechdetectionbothin- and cross-datasets.
-- socialproblemsasitleadstodiscriminationagainst Figure1showsaneasynegative(middle)anda certaingroupsandsocialconflict(Howard,2019; hardnegative(bottom)forananchorsentencetar- Matamoros-Fernández and Farkas, 2021).
-- implicationofanchorsentences)aspositivesam- • Contrarytopreviousstudies,weobservethat plesusingcontrastivelossforimplicithatespeech LAHN can improve performance in both in- detection.
+- Claims label-aware hard negatives improve implicit hate-speech detection over prior contrastive setups.
+- Shows that carefully selected negatives can better separate hate and non-hate representations.
+- Exact improvements should be checked in the original result tables before citation.
 
 ## Limitations and Follow-ups
-- Detecting implicit hate speech that is not di- Easy negative (label: non-hate) 0.45 rectlyhatefulremainsachallenge.
-- However, thesepreviousmethodsstillhave mance in both in- and cross-dataset evalua- limitationsduetorelianceonpre-definedexternal tiononfourrepresentativepublicbenchmark knowledgeortextgenerationcosts.
+- Hard-negative mining depends on label quality and representation similarity.
+- Implicit hate boundaries can remain ambiguous when non-hate examples discuss identity groups.
 - Verify exact metrics and dataset splits before citing quantitative conclusions.
 
 ## Structured Signals
-- Detected method keywords: contrastive-learning, causal, retrieval, prompting, multimodal, explainability
-- Mentioned datasets: toxigen, gab, twitter
-- Mentioned metrics: f1
+- Detected method keywords: implicit hate, contrastive learning, hard negative sampling, momentum contrast
+- Mentioned datasets: implicit hate speech datasets
+- Mentioned metrics: accuracy, F1, representation quality
 
 ## Abstract (Extracted)
-> Abstract Blacks have contributed nothing to humanity. Detecting implicit hate speech that is not di- Easy negative (label: non-hate) 0.45 rectlyhatefulremainsachallenge. Recentre- Jews recognize that they can sometimes be 0.85 victims of racism themselves. search has attempted to detect implicit hate speechbyapplyingcontrastivelearningtopre- Hard negative (label: non-hate) trained language models such as BERT and Black people contributed a lot to the elimination of racism. RoBERTa,buttheproposedmodelsstilldonot haveasignificantadvantageovercross-entropy Figure1: Ourresearchmotivation. Easynegativeshave loss-basedlearning. Wefoundthatcontrastive alowsemanticsimilaritytoanchors,andhardnegatives learningbasedonrandomlysampledbatchdata haveahighsemanticsimilaritytoanchors. does not encourage the model to learn hard negative samples. In this work, we propose Label-aware Hard Negative sampling strate- models to learn subtle differences between simi- gies(LAHN)thatencouragethemodeltolearn lar sentences that might otherwise confuse them. detailedfeaturesfromhardnegativesamples, Researchhasbu
+> The paper proposes LAHN, a label-aware hard negative sampling strategy for momentum contrastive learning in implicit hate-speech detection. It selects semantically close opposite-class negatives to improve representation separation.
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

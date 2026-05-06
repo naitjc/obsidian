@@ -14,52 +14,35 @@ sources: [raw/sources/Fu 等 - 2025 - LaERC-S Improving LLM-based Emotion Recogn
 - Ingest level: deep-ingest-v2 (multi-direction extraction)
 
 ## Problem Framing
-- ios. Extensive experiments on three benchmark However, unlike sentence-level emotion recogni-
-- datasets demonstrate the superiority of LaERC- tion (Deng et al., 2023; Zhang et al., 2024), conver-
-- Faced with such a challenge, initial attempts to
-- damental task in the community of natural language verstaional context modelling (Sun et al., 2021;
+- Emotion recognition in conversation needs speaker-aware context, not just sentence-level emotion classification.
+- Existing ERC methods can underuse speaker identity and speaker characteristics that shape emotional interpretation.
+- The paper studies whether LLM-derived speaker characteristics improve ERC.
 
 ## Method
-- Figure 1: Comparison between existing ERC models
-- ods exploit static clues, such as speaker biography and
-- ios. Extensive experiments on three benchmark However, unlike sentence-level emotion recogni-
-- damental task in the community of natural language verstaional context modelling (Sun et al., 2021;
-- holds promising potential for a series of real-world the models overfit to specific data distributions,
+- Proposes LaERC-S, a speaker-characteristic enhanced ERC approach.
+- Uses an initial stage to identify/inject speaker characteristics before final emotion analysis.
+- Tests different speaker-characteristic elements and selects `oReact` as the final key element.
 
 ## Data and Evaluation Setup
-- ios. Extensive experiments on three benchmark However, unlike sentence-level emotion recogni-
-- datasets demonstrate the superiority of LaERC- tion (Deng et al., 2023; Zhang et al., 2024), conver-
-- datasets. A pioneering work by InstructERC (Lei promote LLMs to generate speaker charac-
-- quently, BiosERC (Xue et al., 2024) integrates the • Experiments are conducted on three public
-- biographical information of speakers to intensify datasets, including IEMOCAP, MELD, and
+- Evaluates on IEMOCAP, MELD, and EmoryNLP.
+- Reports dataset-level scores and an average score across the three benchmarks.
+- Publication-checked values are tracked in [[llm-reasoning-metrics-matrix]].
 
 ## Results and Claims
-- nered significant attention in human-computer
-- ods have achieved encouraging results, the ex-
-- icant performance compared to conventional pre- emotional states in conversations.
-- ration of speaker characteristics can bring superior LaERC-S over the state-of-the-art methods.
-- achieve speaker characteristics from relationships
+- LaERC-S improves performance by incorporating speaker characteristics in a two-stage setup.
+- Publication-checked final `wS` / `oReact` values are IEMOCAP 72.40, MELD 69.27, EmoryNLP 42.08, and Avg 61.25.
+- The page should be read as ERC evidence inside the broader LLM reasoning/evaluation cluster, not as a general reasoning benchmark.
 
 ## Limitations and Follow-ups
-- Faced with such a challenge, initial attempts to
-- to generate biased responses for all the utterances hend emotion states of interlocutors within conver-
-- acteristics. Besides, we manually verified speaker
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- Speaker-characteristic generation can introduce bias or noisy inferred attributes.
+- Follow-up checks should separate gains from better context modeling versus gains from dataset-specific speaker cues.
+- Exact priority values are publication-checked in [[llm-reasoning-metrics-matrix]].
 
 ## Structured Signals
 - Detected method keywords: zero-shot, prompting, retrieval, llm-reasoning, multimodal, dialogue, sarcasm, role-playing, emotion-recognition, benchmark, graph, causal
 - Mentioned datasets: MELD, IEMOCAP, TOP, Facebook, Persona
 - Mentioned metrics: accuracy, f1
 
-## Benchmark Evidence Lines
-- ios. Extensive experiments on three benchmark However, unlike sentence-level emotion recogni-
-- datasets demonstrate the superiority of LaERC- tion (Deng et al., 2023; Zhang et al., 2024), conver-
-- datasets. A pioneering work by InstructERC (Lei promote LLMs to generate speaker charac-
-- biographical information of speakers to intensify datasets, including IEMOCAP, MELD, and
-- ration of speaker characteristics can bring superior LaERC-S over the state-of-the-art methods.
-- S surpasses all ERC methods on three benchmark a retrieved-based Seq2Seq form for LLMs adapta-
-- datasets, including IEMOCAP (Busso et al., 2008), tion. BiosERC (Xue et al., 2024) leverages speak-
-- monly used conversation datasets, compared base-
 
 ## Related Concepts
 - [[dialogue-systems]]

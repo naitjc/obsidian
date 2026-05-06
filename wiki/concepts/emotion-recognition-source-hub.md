@@ -1,6 +1,6 @@
 ---
-created: 2026-05-05
-updated: 2026-05-05
+created: 2026-05-06
+updated: 2026-05-06
 tags: [index, emotion-recognition, sources]
 sources: []
 ---
@@ -9,7 +9,7 @@ sources: []
 
 Total linked papers: **9**
 
-Use this page as the canonical entry point for the emotion recognition and empathetic response direction.
+Use this page as the canonical entry point generated from source page frontmatter tags.
 
 ## Sources
 - [[002-2025-acl-long-102|2025.acl-long.102]]
@@ -24,7 +24,6 @@ Use this page as the canonical entry point for the emotion recognition and empat
 
 ## Cross-Cutting Concept Links
 - [[emotion-recognition]]
-- [[llm-reasoning]]
+- [[dialogue-systems]]
 - [[multimodal-learning]]
-- [[synthetic-data-generation]]
-- [[llm-evaluation]]
+- [[llm-reasoning]]

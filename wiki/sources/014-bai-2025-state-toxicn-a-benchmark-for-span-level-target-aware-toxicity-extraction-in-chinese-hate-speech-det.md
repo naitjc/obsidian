@@ -1,7 +1,7 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
-tags: [paper, deep-ingest-v2, hate-speech, implicit, multimodal, cross-lingual, benchmark, prompting, explainability]
+updated: 2026-05-06
+tags: [paper, deep-ingest-v2, hate-speech, implicit, cross-lingual, benchmark, prompting, explainability]
 sources: [raw/sources/Bai 等 - 2025 - STATE ToxiCN A Benchmark for Span-level Target-Aware Toxicity Extraction in Chinese Hate Speech Det.pdf]
 ---
 

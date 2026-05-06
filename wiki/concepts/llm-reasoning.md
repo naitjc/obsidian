@@ -15,7 +15,7 @@ Inference-time reasoning, LLM evaluation, RAG, uncertainty, latent representatio
 - Research map: [[llm-reasoning-research-map]]
 - Final synthesis: [[llm-reasoning-final-synthesis]]
 - Completion report: [[llm-reasoning-completion-report-2026-05-05]]
-- Scope: 26 source pages, all upgraded to `deep-ingest-v2` on 2026-05-05.
+- Scope: 34 source pages, all upgraded to `deep-ingest-v2` on 2026-05-05.
 
 ## Key Themes
 - inference-time computation and reasoning expansion

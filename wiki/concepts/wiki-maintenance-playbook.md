@@ -13,8 +13,20 @@ sources: []
 2. Read the source hub for the direction.
 3. Read the final synthesis and metrics workspace.
 4. Answer with source-page links and explicit confidence boundaries.
-5. If the answer adds reusable synthesis, create a new page using [[query-answer-template]].
-6. Update [[index]] and append to [[log]].
+5. If the answer adds reusable synthesis, automatically create a new page using [[query-answer-template]].
+6. Do not create a page for one-off operational answers, simple status answers, or local maintenance confirmations.
+7. Update [[index]] and append to [[log]] whenever a query answer page is created.
+
+## Query Answer Promotion Rule
+
+Default rule selected by the user: the LLM should decide whether a query answer has long-term wiki value and automatically promote it when it does. Promotion is appropriate when the answer:
+
+- synthesizes multiple sources or directions;
+- creates a reusable comparison, taxonomy, timeline, decision record, or research hypothesis;
+- resolves a tension between pages or records a caveat that should not be rediscovered later;
+- identifies follow-up sources, gaps, or maintenance tasks that matter beyond the current chat.
+
+Promotion is not appropriate for transient command output, local status updates, git/worktree housekeeping, simple yes/no answers, or answers that merely repeat an existing page without adding synthesis.
 
 ## Routine Lint Workflow
 
@@ -31,7 +43,7 @@ python3 scripts/check_pdf_text_artifacts.py
 Expected structural state:
 - 0 broken wiki links
 - 0 wiki pages missing required frontmatter
-- 0 auto-ingest pages in completed directions
+- 0 auto-ingest pages among numbered PDF source pages
 - 100% source hub coverage for completed directions
 - 0 source direction-tag mismatches against [[sources-index]]
 - 0 control-character artifacts in source markdown pages

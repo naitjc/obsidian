@@ -24,7 +24,7 @@ sources: []
 
 ## Representative Sources
 
-[[001-2024-nlp4pi-1-23|2024.nlp4pi-1.23]], [[002-2025-acl-long-102|2025.acl-long.102]], [[003-2025-acl-long-115|2025.acl-long.115]], [[004-2025-coling-main-170|2025.coling-main.170]]
+[[001-2024-nlp4pi-1-23|Explainable Identification of Hate Speech towards Islam using Graph Neural Networks]], [[002-2025-acl-long-102|2025.acl-long.102]], [[003-2025-acl-long-115|HATEDAY: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter]], [[004-2025-coling-main-170|2025.coling-main.170]]
 
 ## Resolved Tensions
 

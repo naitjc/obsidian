@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-06
 tags: [paper, deep-ingest-v2, hate-speech, implicit, cross-lingual, benchmark, causal, explainability]
 sources: [raw/sources/ElSherief 等 - 2021 - Latent Hatred A Benchmark for Understanding Implicit Hate Speech.pdf]
 ---
@@ -14,49 +14,41 @@ sources: [raw/sources/ElSherief 等 - 2021 - Latent Hatred A Benchmark for Under
 - Ingest level: deep-ingest-v2 (multi-section extraction)
 
 ## Problem Framing
-- Despite much at- tention being paid to characterize and detect discriminatoryspeech,mostworkhasfocused on explicit or overt hate speech, failing to ad- dress a more pervasive form based on coded or indirect language.
-- We present system- atic analyses of our dataset using contempo- rary baselines to detect and explain implicit Figure 1: Sample posts from our dataset outlining the hate speech, and we discuss key features that differences between explicit and implicit hate speech.
-- Because this community has developed increasingly competi- speechlacksclearlexicalsignals,hategroupscan tive hate speech detection systems (Fortuna and evadekeyword-baseddetectionsystems(Waseem Nunes,2018;Badjatiyaetal.,2017).
+- Addresses implicit hate speech, which is coded, indirect, and less keyword-driven than explicit hate.
+- Argues that prior hate-speech work focused too heavily on overt discriminatory language.
+- Motivates a theoretically grounded taxonomy and benchmark for fine-grained implicit hate analysis.
 
 ## Method
-- We present system- atic analyses of our dataset using contempo- rary baselines to detect and explain implicit Figure 1: Sample posts from our dataset outlining the hate speech, and we discuss key features that differences between explicit and implicit hate speech.
-- immigrants; Basile et al.), which may grounded framework and a large-scale dataset to introducetopicbias andartificially inflatemodel helpinformamoreempiricalunderstandingofim- performanceonimplicitexamples(Wiegandetal., plicithateinallofitsdiversemanifestations.
-- While state-of-the-art neural models are andextendittoimplicithatespeechmorebroadly.
-- Finally, we supplemented the previous maybeinherentlyeasier,while(2)OODsamples methods with knowledge-based features to learn containartifactsthatallowmodelstobenefitfrom implicit associations between entities.
+- Introduces a taxonomy of implicit hate speech grounded in social-science literature.
+- Builds a Twitter benchmark corpus with fine-grained labels for each message and its implied meaning.
+- Uses baseline models to study both detection and explanation of implicit hate speech.
 
 ## Data and Evaluation Setup
-- To fill this gap, this workintroducesatheoretically-justifiedtaxon- omyofimplicithatespeechandabenchmark corpus with fine-grained labels for each mes- sage and its implication.
-- We present system- atic analyses of our dataset using contempo- rary baselines to detect and explain implicit Figure 1: Sample posts from our dataset outlining the hate speech, and we discuss key features that differences between explicit and implicit hate speech.
-- This dataset will Explicithateisdirectandleveragesspecifickeywords continuetoserveasausefulbenchmarkforun- whileimplicithateismoreabstract.
-- Furthermore,thesedatasetstendtofocus to threats, intimidation, and incitement to vio- moreoncontroversialevents(e.g.
+- Annotates implicit hate messages across prevalent hate-target groups in the United States.
+- Provides natural-language implication annotations in addition to category labels.
+- Evaluates contemporary classifiers and generation-style explanations on the benchmark.
 
 ## Results and Claims
-- While state-of-the-art neural models are andextendittoimplicithatespeechmorebroadly.
-- Ironyisnotexemptfromourhatespeech like‘whitebrotherhood operateintheformerman- typology,sinceitiscommonlyusedbymodernon- ner, while statements like Hitler was Germany – linehategroupstomasktheirhatredandextremism Germansshallriseagain!
-- Our dimensionalConceptNet)embeddings,andfedthis fine-tunedbaselinessignificantlyoutperformboth representationintoanMLPwithtwohiddenlayers zero-shotbaselines,whichweretrainedonexplicit of dimension 100 and ReLU activation between hate.
+- Shows that implicit hate remains challenging even when high-level hate classification appears effective.
+- Identifies features that make implicit hate difficult for existing models, including coded language and pragmatic implication.
+- Records table-verified benchmark values separately in the metrics matrix.
 
 ## Limitations and Follow-ups
-- diverse range of implicitly hateful messages that The primary challenge for statistical and neu- havepreviouslygoneunnoticedbymoderatorsand ral classifiers is the linguistic nuance and diver- researchers alike (Jurgens et al., 2019; Waseem sityoftheimplicithateclass,whichincludesindi- etal.,2017;Qianetal.,2019).
-- immigrants; Basile et al.), which may grounded framework and a large-scale dataset to introducetopicbias andartificially inflatemodel helpinformamoreempiricalunderstandingofim- performanceonimplicitexamples(Wiegandetal., plicithateinallofitsdiversemanifestations.
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- The dataset focuses on U.S.-oriented social-media hate targets and may not transfer directly across cultural settings.
+- Implicit hate labels and implications involve pragmatic judgment, so annotation framing matters.
+- Verify exact metric values and label distributions before external citation.
 
 ## Structured Signals
-- Detected method keywords: causal, multimodal, explainability, cross-lingual
-- Mentioned datasets: latent hatred, gab, stormfront, founta, twitter
-- Mentioned metrics: precision, auc
+- Detected method keywords: implicit hate, taxonomy, benchmark, explanation
+- Mentioned datasets: Latent Hatred / implicit hate corpus, Twitter
+- Mentioned metrics: precision, recall, F1, accuracy
 
 ## Abstract (Extracted)
-> Abstract Hatespeechhasgrownsignificantlyonsocial media, causing serious consequences for vic- tims of all demographics. Despite much at- tention being paid to characterize and detect discriminatoryspeech,mostworkhasfocused on explicit or overt hate speech, failing to ad- dress a more pervasive form based on coded or indirect language. To fill this gap, this workintroducesatheoretically-justifiedtaxon- omyofimplicithatespeechandabenchmark corpus with fine-grained labels for each mes- sage and its implication. We present system- atic analyses of our dataset using contempo- rary baselines to detect and explain implicit Figure 1: Sample posts from our dataset outlining the hate speech, and we discuss key features that differences between explicit and implicit hate speech. challenge existing models. This dataset will Explicithateisdirectandleveragesspecifickeywords continuetoserveasausefulbenchmarkforun- whileimplicithateismoreabstract. Explicittexthas derstanding this multifaceted issue. To down- beenmodifiedtoincludeastar(*). loadthedata,seehttps://github.com/ GT-SALT/implicit-hate gend
+> Latent Hatred introduces a theoretically grounded taxonomy and benchmark corpus for implicit hate speech. It provides fine-grained labels and implication annotations, then evaluates baseline systems for detecting and explaining implicit hate.
 
-## Benchmark Evidence Lines
-- ments. While state-of-the-art neural models are andextendittoimplicithatespeechmorebroadly.
-- Germansshallriseagain! operateinthelatter,ele- (Dreisbach,2021).
-- dimensionalConceptNet)embeddings,andfedthis fine-tunedbaselinessignificantlyoutperformboth
-- while the fine-tuned neural models gain up to 6 classesitstruggleswith.6
-- base models again outperform the linear models. intheheadlinethreeMuslimsconvicted. Evenposi-
-- lengecurrentstate-of-the-artbaselines,whichcan [Gi] [Si]
-- In Table 4 we find that, GPT-2 outperforms GPT
-- provideseveralstate-of-the-artbaselinesfordetect-
+## Evidence Handling
+- Removed noisy auto-extracted benchmark snippets from the page body.
+- Treat quantitative benchmark values as metrics-matrix evidence requiring table-level verification before external citation.
 
 ## Related Concepts
 - [[implicit-hate-speech-detection]]

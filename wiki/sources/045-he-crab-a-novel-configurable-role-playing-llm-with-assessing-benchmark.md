@@ -14,52 +14,35 @@ sources: [raw/sources/He 等 - Crab A Novel Configurable Role-Playing LLM with A
 - Ingest level: deep-ingest-v2 (multi-direction extraction)
 
 ## Problem Framing
-- propose RoleRM in our benchmarks to address the chal-
-- focus from traditional tasks like translation and
-- question-answering to more intricate domains such In addressing this challenge, Role-Playing (RP)
-- For example, HPD (Chen et al., 2023) fine-tunes edge, our curated dataset represents the largest RP
+- Role-playing LLMs need to maintain character traits, language style, knowledge, emotion, and interaction quality across dialogue.
+- Existing role-playing evaluation is limited by prompt-only setups and coarse open-domain evaluators.
+- The paper introduces a configurable RP training/evaluation setting and a role-specific reward/evaluation model.
 
 ## Method
-- propose RoleRM in our benchmarks to address the chal-
-- as calculating, reasoning, and planning (Guo et al., LLMs have been introduced to accurately replicate
-- 2023a) aim to train agents that embody a charac- nificantly surpassing other studies (Zheng et al.,
-- beyond the constrained, prompt-based approaches et al., 2023a; Yang et al., 2024). To prevent the
-- advancements, existing models lack the flexibil- number of training instances per role.
+- Builds Crab around role-centric dataset curation, persona embodiment, and role-playing evaluation.
+- Uses RoleRM to evaluate fine-grained role-playing dimensions rather than relying only on generic ChatGPT evaluation.
+- Compares Crab-tuned Llama models against base Llama models and other role-playing baselines.
 
 ## Data and Evaluation Setup
-- propose RoleRM in our benchmarks to address the chal-
-- Sufficient experiments reveal that RoleRM fundamental human needs such as love, acceptance,
-- evaluation methods in conducting fine-grained
-- For example, HPD (Chen et al., 2023) fine-tunes edge, our curated dataset represents the largest RP
-- LLMs to emulate Harry Potter, incorporating more dataset in terms of character variety. It contains
+- Evaluates role-playing outputs on overall score and six fine-grained dimensions: language fluency, language relevance, role language, role knowledge, emotional expression, and interactive engagement.
+- Uses RoleRM scores on a curated benchmark/test set.
+- Publication-checked values are tracked in [[llm-reasoning-metrics-matrix]].
 
 ## Results and Claims
-- evaluation items (Tu et al., 2024). Secondly, ex- Experiments show that RoleRM significantly
-- isting evaluations predominantly rely on general outperforms ChatGPT and other open-domain di-
-- et al., 2023b). Our experiments indicate that widely strate improved adaptability and vividness in multi-
-- also includes scenario details, emotional nuances, RoleRM significantly outperforms ChatGPT
-- This principle considers Name, Gender, Age, Per- capability. In order to enhance the performance of
+- Crab-tuned Llama models score higher than their corresponding base models on role-playing dimensions.
+- Publication-checked values: Llama-3.1-8B-Crab reports Overall 2.23, Language Fluency 2.87, Language Relevance 2.56, Role Language 2.17, Role Knowledge 1.95, Emotional Expression 1.76, Interactive Engagement 2.09.
+- The result is relevant for role-playing evaluation and agent persona modeling, not for general LLM reasoning ranking.
 
 ## Limitations and Follow-ups
-- question-answering to more intricate domains such In addressing this challenge, Role-Playing (RP)
-- studies have attempted to address these limitations. tion of roles. Moreover, to the best of our knowl-
-- rent evaluations lacking proper standards and the limitations of existing standards (Shao et al.,
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- RoleRM is itself a learned evaluator, so its alignment with human judgments is a key validation boundary.
+- The benchmark emphasizes role fidelity; broader safety, factuality, and long-horizon memory need separate evaluation.
+- Exact priority values are publication-checked in [[llm-reasoning-metrics-matrix]].
 
 ## Structured Signals
 - Detected method keywords: zero-shot, few-shot, prompting, synthetic-data, retrieval, llm-reasoning, multimodal, dialogue, role-playing, emotion-recognition, benchmark, causal
 - Mentioned datasets: ATIS, TOP, Persona
 - Mentioned metrics: accuracy, f1, mae, rouge
 
-## Benchmark Evidence Lines
-- Assessing Benchmark, which consists of Role-
-- Centric Dataset Curation, Persona-Embodying
-- the largest RP training dataset. The dataset
-- propose RoleRM in our benchmarks to address the chal-
-- standard, a test dataset with manual annota-
-- significantly outperforms ChatGPT and other
-- evaluation methods in conducting fine-grained
-- evaluations of RP. Also, RP-LLMs powered by
 
 ## Related Concepts
 - [[dialogue-systems]]

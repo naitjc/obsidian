@@ -9,7 +9,7 @@ sources: []
 
 ## Done
 
-- 23 source pages upgraded to `deep-ingest-v2`.
+- 24 source pages upgraded to `deep-ingest-v2`.
 - Source hub exists: [[dialogue-systems-source-hub]].
 - Research map, SOTA synthesis, metrics workspace, lint report, final synthesis, and completion report exist.
 

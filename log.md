@@ -139,3 +139,42 @@
 - Added `scripts/regenerate_source_hubs.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py`.
 - Removed remaining control-character artifacts from `wiki/sources/008-2510-07707v2.md`.
 - Verified source direction tags against `wiki/sources/sources-index.md` with 0 mismatches and verified source markdown pages with 0 control-character offenders.
+
+## [2026-05-06] maintain | Automated backlog closure
+- Refreshed [[index]] with current inventory counts and explicit deep-ingest/peripheral-source boundaries.
+- Marked 21 source pages outside completed directions as `auto-ingest` / `peripheral-source` navigation nodes rather than implied deep-ingest evidence pages.
+- Refreshed [[sources-index]] tag entries for peripheral sources and corrected the remaining blank catalog tag rows.
+- Updated [[wiki-maintenance-status-2026-05-06]] and `AGENTS.md` to record the current automated maintenance boundary and retained PDF verification cache.
+
+## [2026-05-06] maintain | Peripheral source deep-ingest alignment
+- Upgraded the remaining 21 numbered PDF source pages from navigation nodes to `deep-ingest-v2` pages with the standard source-page sections.
+- Normalized source frontmatter and rebuilt [[sources-index]] from the source pages.
+- Regenerated all direction source hubs from source page frontmatter tags.
+- Updated [[index]] and [[wiki-maintenance-status-2026-05-06]] to record 0 remaining auto-ingest numbered PDF source pages.
+
+## [2026-05-06] lint | Post-alignment integrity report
+- Added [[wiki-integrity-report-2026-05-06]] with current inventory, direction hub coverage, source tag drift, PDF text artifact, and pending metrics verification status.
+- Updated [[global-research-map]], [[index]], and [[wiki-maintenance-playbook]] to point to the current integrity state.
+
+## [2026-05-06] maintain | Hate speech source quality pass
+- Replaced file-ID display titles with real paper titles for five hate-speech source pages and synchronized aliases in source indexes and hubs.
+- Removed low-confidence `multimodal` and `cross-lingual` tags from clearly text-only or non-cross-lingual hate-speech source pages.
+- Cleaned noisy PDF-extraction bullets in eight high-impact hate-speech source pages while preserving source files and stable slugs.
+- Cleaned residual `Benchmark Evidence Lines` noise from five already reviewed hate-speech source pages (`031`, `043`, `056`, `081`, and `095`) and replaced it with concise evidence-handling notes.
+
+## [2026-05-06] maintain | Selected publication-grade metrics check
+- User selected hate speech and LLM reasoning for publication-grade priority metrics checking.
+- Upgraded [[hate-speech-metrics-matrix]] priority rows to `publication-checked` where the listed exact values had already been visually checked against rendered PDF tables.
+- Added table-checked values and source-statement ranges to all [[llm-reasoning-metrics-matrix]] priority rows, marking exact table rows and approximate author-reported ranges explicitly.
+- Updated [[wiki-maintenance-status-2026-05-06]], [[wiki-integrity-report-2026-05-06]], and `AGENTS.md` to record the selected publication-grade boundary.
+
+## [2026-05-06] maintain | High-impact source-summary cleanup
+- User selected high-impact source-summary review for hate speech and LLM reasoning rather than all directions.
+- Cleaned PDF-extraction fragments and removed stale `Benchmark Evidence Lines` sections from selected priority source pages: Mei 2024 RGCL, Hee 2024 cross-modality ICL, Kim 2022 ImpCon, Yang 2024 UCA, Zhang 2023 TOT, Cocchieri 2025 PHUNNY, Fu 2025 LaERC-S, Han 2025 RWG, He Crab, Ji 2025 DyMCA/HCTA, Lan 2024 Avalon agents, and Li 2025 BEHAVIORCHAIN.
+- Removed misleading `cross-lingual` tags from the Hee 2024 cross-modality page and Kim 2022 cross-dataset page, and synchronized [[sources-index]].
+- Re-ran structural lint, inventory, source tag drift, and PDF artifact checks successfully.
+
+## [2026-05-06] maintain | Query answer promotion rule
+- User selected automatic promotion for query answers with durable wiki value.
+- Updated `AGENTS.md`, [[wiki-maintenance-playbook]], [[query-answer-template]], [[wiki-maintenance-status-2026-05-06]], and [[wiki-integrity-report-2026-05-06]].
+- Future durable synthesis answers should be filed as wiki pages and logged; transient operational answers should not be promoted.

@@ -31,7 +31,7 @@ This is a personal research wiki maintained by LLM. The wiki is a persistent, co
 
 ### Source Page Format
 - Required sections: `Metadata`, `Problem Framing`, `Method`, `Data and Evaluation Setup`, `Results and Claims`, `Limitations and Follow-ups`, `Structured Signals`, `Related Concepts`.
-- If a page is only metadata/first-page extraction, tag it `auto-ingest` and treat it as a navigation node, not as a reliable synthesis source.
+- If a page is only metadata/first-page extraction, tag it `auto-ingest`; if it is outside a completed direction, also tag it `peripheral-source` and treat it as a navigation node, not as a reliable synthesis source.
 - If a page has multi-section extraction and direction-level links, tag it `deep-ingest-v2`.
 
 ### Concept and Synthesis Pages
@@ -49,7 +49,7 @@ This is a personal research wiki maintained by LLM. The wiki is a persistent, co
 1. Check `index.md` for relevant pages
 2. Read relevant pages
 3. Synthesize answer with citations
-4. If valuable, file answer as new wiki page using `wiki/templates/query-answer-template.md`
+4. If the answer has durable research value, automatically file it as a new wiki page using `wiki/templates/query-answer-template.md`; do not file one-off operational answers, simple status answers, or purely local maintenance confirmations.
 5. Update `index.md` and append to `log.md`
 
 ### Lint Checklist
@@ -126,7 +126,7 @@ The following directions are also complete for internal wiki use as of 2026-05-0
 | Emotion recognition and empathetic response | `wiki/concepts/emotion-recognition-source-hub.md` | `wiki/concepts/emotion-recognition-completion-report-2026-05-05.md` |
 | Multimodal learning | `wiki/concepts/multimodal-learning-source-hub.md` | `wiki/concepts/multimodal-learning-completion-report-2026-05-05.md` |
 
-Completion boundary for all directions: internal research navigation, browsing, and Q&A are complete; priority benchmark rows have rendered-PDF visual verification, but global SOTA rankings across mismatched tasks remain out of scope.
+Completion boundary for all directions: internal research navigation, browsing, and Q&A are complete; hate speech and LLM reasoning priority benchmark rows have publication-checked values in their metrics matrices; other priority benchmark rows have rendered-PDF visual verification unless separately upgraded. Global SOTA rankings across mismatched tasks remain out of scope.
 
 ### Global Entry Points
 - Top-level map: `wiki/concepts/global-research-map.md`
@@ -145,6 +145,7 @@ Completion boundary for all directions: internal research navigation, browsing, 
 - PDF text artifact check: `python3 scripts/check_pdf_text_artifacts.py`
 - Query answer template: `wiki/templates/query-answer-template.md`
 - Local attachment target: `raw/assets/`
+- Rendered PDF verification cache: `tmp/pdfs/` (retained as evidence for metrics-table visual checks)
 - Local version history: git repository initialized at the vault root
 
 ## Status

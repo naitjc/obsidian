@@ -1,15 +1,15 @@
 ---
-created: 2026-05-05
-updated: 2026-05-05
+created: 2026-05-06
+updated: 2026-05-06
 tags: [index, sarcasm, sources]
 sources: []
 ---
 
 # Sarcasm and Humor Detection Source Hub
 
-Total linked papers: **16**
+Total linked papers: **17**
 
-Use this page as the canonical entry point for the sarcasm and humor detection direction.
+Use this page as the canonical entry point generated from source page frontmatter tags.
 
 ## Sources
 - [[021-chen-2024-cofipara-a-coarse-to-fine-paradigm-for-multimodal-sarcasm-target-identification-with-large-multimod|Chen 等 - 2024 - CofiPara A Coarse-to-fine Paradigm for Multimodal Sarcasm Target Identification with Large Multimod]]
@@ -19,6 +19,7 @@ Use this page as the canonical entry point for the sarcasm and humor detection d
 - [[052-hwang-2025-bottlehumor-self-informed-humor-explanation-using-the-information-bottleneck-principle|Hwang 等 - 2025 - BottleHumor Self-Informed Humor Explanation using the Information Bottleneck Principle]]
 - [[053-jana-2024-continuous-attentive-multimodal-prompt-tuning-for-few-shot-multimodal-sarcasm-detection|Jana 等 - 2024 - Continuous Attentive Multimodal Prompt Tuning for Few-Shot Multimodal Sarcasm Detection]]
 - [[065-li-2025-ambiguity-aware-multi-level-incongruity-fusion-network-for-multi-modal-sarcasm-detection|Li 等 - 2025 - Ambiguity-aware Multi-level Incongruity Fusion Network for Multi-Modal Sarcasm Detection]]
+- [[079-mazumder-2025-revealing-the-impact-of-synthetic-native-samples-and-multi-tasking-strategies-in-hindi-english-code|Mazumder 等 - 2025 - Revealing the impact of synthetic native samples and multi-tasking strategies in Hindi-English code-]]
 - [[088-qiu-2025-detecting-emotional-incongruity-of-sarcasm-by-commonsense-reasoning|Qiu 等 - 2025 - Detecting Emotional Incongruity of Sarcasm by Commonsense Reasoning]]
 - [[089-ravi-2024-small-but-funny-a-feedback-driven-approach-to-humor-distillation|Ravi 等 - 2024 - Small But Funny A Feedback-Driven Approach to Humor Distillation]]
 - [[096-srirag-2025-besstie-a-benchmark-for-sentiment-and-sarcasm-classification-for-varieties-of-english|Srirag 等 - 2025 - BESSTIE A Benchmark for Sentiment and Sarcasm Classification for Varieties of English]]
@@ -31,7 +32,6 @@ Use this page as the canonical entry point for the sarcasm and humor detection d
 
 ## Cross-Cutting Concept Links
 - [[sarcasm-detection]]
-- [[llm-reasoning]]
 - [[multimodal-learning]]
-- [[synthetic-data-generation]]
-- [[llm-evaluation]]
+- [[llm-reasoning]]
+- [[emotion-recognition]]

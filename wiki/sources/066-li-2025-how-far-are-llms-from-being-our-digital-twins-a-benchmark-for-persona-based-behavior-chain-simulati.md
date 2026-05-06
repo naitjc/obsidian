@@ -14,52 +14,35 @@ sources: [raw/sources/Li 等 - 2025 - How Far are LLMs from Being Our Digital Tw
 - Ingest level: deep-ingest-v2 (multi-direction extraction)
 
 ## Problem Framing
-- A Benchmark for Persona-Based Behavior Chain Simulation
-- form tasks such as decision-making and reasoning
-- ionship (Tu et al., 2023), and most notably, execute challenge, with even advanced models like GPT-
-- prehension ability (Yuan et al., 2024). Critically, benchmark designed to evaluate LLMs’ abil-
+- Digital-twin style agents require models to simulate persona-consistent behavior chains, not just answer isolated profile questions.
+- Current LLMs may perform plausible single-step behavior while failing to maintain consistency over a sequence.
+- The paper introduces BEHAVIORCHAIN to evaluate persona-based behavior chain simulation.
 
 ## Method
-- A Benchmark for Persona-Based Behavior Chain Simulation
-- Figure 1: A foundational framework (center) leverages
-- state-of-the-art models struggle with accurately
-- The rapid advancement of large language models
-- form tasks such as decision-making and reasoning
+- Defines AvgScore for node-wise behavior correctness and CumScore for consecutive correct behavior-chain consistency.
+- Evaluates both multiple-choice and generation settings for fictional and nonfictional personas.
+- Compares closed-source and open-source models against random and half-selection baselines.
 
 ## Data and Evaluation Setup
-- A Benchmark for Persona-Based Behavior Chain Simulation
-- their behalf. However, current evaluations of
-- sive evaluation results demonstrated that even
-- playing capabilities (Chen et al., 2024) presents a We conducted comprehensive evaluations of ten
-- authorized proxy behaviors on behalf of human 4 achieving sub-60% accuracy. 2) LLMs are less
+- Uses BEHAVIORCHAIN with fictional and nonfictional persona behavior chains.
+- Reports AvgScore and CumScore across multiple-choice, generation, and overall settings.
+- Publication-checked values are tracked in [[llm-reasoning-metrics-matrix]].
 
 ## Results and Claims
-- state-of-the-art models struggle with accurately
-- paradigm shift: these models can synthesize per- state-of-the-art LLMs and performed detailed anal-
-- digital twin teacher), provide emotional compan- rately simulating such behavior poses a significant
-- authorized proxy behaviors on behalf of human 4 achieving sub-60% accuracy. 2) LLMs are less
-- limitation creates a significant gap between the
+- Models perform better on multiple-choice than generation and struggle with continuous behavior-chain consistency.
+- Publication-checked leaders include Llama-3.1-70B overall multiple-choice AvgScore/CumScore 0.574/0.172 and GPT-4o 0.559/0.158; generation scores include GPT-4o 0.471/0.189.
+- The benchmark is useful for evaluating long-horizon persona simulation rather than broad role-playing fluency alone.
 
 ## Limitations and Follow-ups
-- ionship (Tu et al., 2023), and most notably, execute challenge, with even advanced models like GPT-
-- limitation creates a significant gap between the
-- presents two challenges: the non-uniqueness and optimal option crafted to mislead the target model.
-- Verify exact metrics and dataset splits before citing quantitative conclusions.
+- Behavior simulation has non-unique plausible outputs, especially in generation settings.
+- CumScore is stringent and should be interpreted as chain consistency rather than ordinary accuracy.
+- Exact priority values are publication-checked in [[llm-reasoning-metrics-matrix]].
 
 ## Structured Signals
 - Detected method keywords: zero-shot, few-shot, prompting, retrieval, llm-reasoning, multimodal, dialogue, role-playing, emotion-recognition, benchmark, graph, causal
 - Mentioned datasets: ATIS, MASSIVE, TOP, Persona, MAMI
 - Mentioned metrics: accuracy, precision, recall
 
-## Benchmark Evidence Lines
-- A Benchmark for Persona-Based Behavior Chain Simulation
-- their behalf. However, current evaluations of
-- CHAIN, the first benchmark for evaluating
-- and profile metadata. For evaluation, we in-
-- sive evaluation results demonstrated that even
-- state-of-the-art models struggle with accurately
-- playing capabilities (Chen et al., 2024) presents a We conducted comprehensive evaluations of ten
-- paradigm shift: these models can synthesize per- state-of-the-art LLMs and performed detailed anal-
 
 ## Related Concepts
 - [[dialogue-systems]]
