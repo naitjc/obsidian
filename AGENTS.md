@@ -140,6 +140,9 @@ Completion boundary for all directions: internal research navigation, browsing, 
 - Inventory summary: `python3 scripts/wiki_inventory.py`
 - PDF table locator: `python3 scripts/locate_pdf_tables.py`
 - PDF metric page verifier: `python3 scripts/verify_pdf_metric_pages.py`
+- Source hub preview/regeneration: `python3 scripts/regenerate_source_hubs.py`
+- Source tag drift check: `python3 scripts/check_source_tag_drift.py`
+- PDF text artifact check: `python3 scripts/check_pdf_text_artifacts.py`
 - Query answer template: `wiki/templates/query-answer-template.md`
 - Local attachment target: `raw/assets/`
 - Local version history: git repository initialized at the vault root
@@ -160,6 +163,9 @@ Completion boundary for all directions: internal research navigation, browsing, 
 - [x] Maintenance scripts added
 - [x] PDF table locator added
 - [x] PDF priority metrics rows visually verified
+- [x] Non-hate benchmark and dataset entity maps added
+- [x] Source hub/tag drift maintenance scripts added
+- [x] PDF text artifact checker added
 - [x] Query answer template added
 - [x] Attachment directory created
 - [x] Git repository initialized

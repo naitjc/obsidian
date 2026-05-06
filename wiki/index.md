@@ -23,6 +23,13 @@ sources: []
 | Entity Area | Entry Points |
 |---|---|
 | Hate speech datasets | [[hate-speech-dataset-alias-map]], [[dataset-ethos]], [[dataset-founta]], [[dataset-gab]], [[dataset-hateful-memes]], [[dataset-latent-hatred]], [[dataset-reddit]], [[dataset-stormfront]], [[dataset-toxicn]], [[dataset-toxigen]], [[dataset-twitter]] |
+| Stance detection benchmarks | [[stance-detection-benchmark-map]] |
+| Dialogue benchmarks | [[dialogue-benchmark-map]] |
+| LLM reasoning benchmarks | [[llm-reasoning-benchmark-map]] |
+| Sarcasm and humor benchmarks | [[sarcasm-humor-benchmark-map]] |
+| Role-playing agent benchmarks | [[role-playing-agent-benchmark-map]] |
+| Emotion recognition datasets | [[emotion-recognition-dataset-map]] |
+| Multimodal learning benchmarks | [[multimodal-learning-benchmark-map]] |
 
 ## Concepts
 

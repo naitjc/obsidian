@@ -12,6 +12,8 @@ sources: []
 - Reusable maintenance scripts were added under `scripts/`.
 - [[pdf-table-verification-index-2026-05-06]] was generated from direction metrics matrices to narrow PDF table checks.
 - `scripts/verify_pdf_metric_pages.py` was added to render likely result-table pages for remaining metrics rows.
+- Non-hate dataset and benchmark entity map pages were added under `wiki/entities/`.
+- Source hub regeneration, source tag drift, and PDF text artifact check scripts were added under `scripts/`.
 - `raw/assets/` was created as the local attachment target.
 - A query answer template was added under `wiki/templates/`.
 - [[global-research-map]] now acts as the top-level research map.
@@ -29,8 +31,12 @@ sources: []
 | Inventory script | Added |
 | PDF table locator | Added |
 | PDF table verification index | Generated |
+| Source hub regeneration script | Added |
+| Source tag drift checker | Added; current result has 0 mismatches |
+| PDF text artifact checker | Added; current result has 0 offenders |
 | Poppler / `pdftoppm` | Installed |
 | Rendered table checks | Complete for all priority metrics rows in direction metrics matrices |
+| Non-hate entity maps | Added |
 | Query answer template | Added |
 | Attachment directory | Added |
 | Git repository | Initialized |
@@ -38,10 +44,8 @@ sources: []
 
 ## Remaining Work That Can Still Be Automated Later
 
-- Generate dataset/method entity pages for non-hate directions.
-- Add a small script to regenerate source hubs from tags.
-- Add a script to detect source pages whose tag set has drifted from [[sources-index]].
-- Keep PDF-derived markdown text free of NUL/control-character artifacts after extraction.
+- Add more fine-grained dataset or method entity pages if future queries need them.
+- Keep PDF-derived markdown text free of NUL/control-character artifacts after extraction by running `scripts/check_pdf_text_artifacts.py`.
 
 ## Remaining Work That Requires Human Judgment
 

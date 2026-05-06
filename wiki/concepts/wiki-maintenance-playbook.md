@@ -24,6 +24,8 @@ Run:
 python3 scripts/lint_wiki.py
 python3 scripts/wiki_inventory.py
 python3 scripts/locate_pdf_tables.py
+python3 scripts/check_source_tag_drift.py
+python3 scripts/check_pdf_text_artifacts.py
 ```
 
 Expected structural state:
@@ -31,8 +33,12 @@ Expected structural state:
 - 0 wiki pages missing required frontmatter
 - 0 auto-ingest pages in completed directions
 - 100% source hub coverage for completed directions
+- 0 source direction-tag mismatches against [[sources-index]]
+- 0 control-character artifacts in source markdown pages
 
 `scripts/locate_pdf_tables.py` regenerates [[pdf-table-verification-index-2026-05-06]] from source links in direction metrics matrices.
+
+Use `python3 scripts/regenerate_source_hubs.py` to preview flat source-hub output from source page tags. Add `--write` only when intentionally replacing curated hub grouping with generated flat hub pages.
 
 ## Ingest Workflow for New Sources
 

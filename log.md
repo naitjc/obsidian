@@ -133,3 +133,9 @@
 - Rendered 112 PDF pages under `tmp/pdfs/` for 56 unique PDFs and upgraded 69 remaining priority metrics rows across dialogue, emotion recognition, LLM reasoning, multimodal learning, role-playing agents, and sarcasm/humor to `visually-verified`.
 - Reviewed contact sheets for the rendered pages and found no blank-page, black-square, clipping, or legibility blockers.
 - Updated `wiki/concepts/wiki-maintenance-status-2026-05-06.md` and `AGENTS.md` to mark priority PDF metrics verification complete while keeping global cross-task SOTA ranking out of scope.
+
+## [2026-05-06] maintain | Final automated maintenance closure
+- Added non-hate benchmark and dataset entity map pages for stance, dialogue, LLM reasoning, sarcasm/humor, role-playing agents, emotion recognition, and multimodal learning.
+- Added `scripts/regenerate_source_hubs.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py`.
+- Removed remaining control-character artifacts from `wiki/sources/008-2510-07707v2.md`.
+- Verified source direction tags against `wiki/sources/sources-index.md` with 0 mismatches and verified source markdown pages with 0 control-character offenders.
