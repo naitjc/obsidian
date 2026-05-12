@@ -105,6 +105,11 @@
 - Refreshed `wiki/index.md` with stance direction entry points and current page counts
 - Added `wiki/concepts/wiki-integrity-report-2026-05-05.md` after global link and frontmatter checks
 
+## [2026-05-08] query-answer | Using not_toxic targets for hate speech detection
+- Added [[using-not-toxic-targets-for-hate-speech-detection]] to preserve a method-design answer on using LLM-extracted `not_toxic` targets as target-aware hard negatives.
+- Connected the proposal to existing hate-speech wiki evidence on ToxiGen identity-term bias, STATE ToxiCN target-aware toxicity, implicit hate, contrastive learning, failure-guided robustness, and counterfactual hard-case generation.
+- Updated [[index]] with the promoted query answer.
+
 ## [2026-05-05] maintain | Remaining major directions completion
 - Upgraded remaining auto-ingest pages for dialogue, LLM reasoning, sarcasm, role-playing, emotion recognition, and multimodal learning
 - Corrected over-broad automatic direction tags by restoring primary direction tags from `wiki/sources/sources-index.md`

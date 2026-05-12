@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "efe49e24e17fdce3",
+        "id": "ef3edddc9a310aa9",
         "type": "tabs",
         "children": [
           {
-            "id": "04d84fb12e902726",
+            "id": "b0292b329d1d0c47",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "tmp/pdfs/stance-ezstance-page-03.png"
-              },
-              "icon": "lucide-image",
-              "title": "stance-ezstance-page-03"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -181,19 +179,38 @@
       "bases:新建数据库": false
     }
   },
-  "active": "04d84fb12e902726",
+  "active": "84358facf68a029c",
   "lastOpenFiles": [
-    "tmp/pdfs/stance-ezstance-page-05.png",
-    "tmp/pdfs/stance-ezstance-page-04.png",
-    "tmp/pdfs/stance-edda-page-07.png",
-    "tmp/pdfs/jiang-2025-ccl-page-06.png",
-    "tmp/pdfs/stance-toc-page-08.png",
-    "tmp/pdfs/stance-toc-page-07.png",
-    "tmp/pdfs/stance-toc-page-06.png",
-    "tmp/pdfs/stance-ezstance-page-08.png",
-    "tmp/pdfs/stance-ezstance-page-07.png",
-    "tmp/pdfs/stance-ezstance-page-06.png",
-    "tmp/pdfs/stance-mpvstance-page-08.png",
+    "tmp/pdfs/metric-096-srirag-2025-besstie-a-benchmark-for-sentiment-and-sarcasm-classification-for-varieties-of-english-page-04-04.png",
+    "tmp/pdfs/metric-107-wang-2025-opencharacter-training-customizable-role-playing-llms-with-large-scale-synthetic-personas-page-11-11.png",
+    "tmp/pdfs/hee-2024-crossmod-page-04.png",
+    "tmp/pdfs/hee-2024-crossmod-page-03.png",
+    "tmp/pdfs/hartvigsen-2022-page-03.png",
+    "tmp/pdfs/contact-sheets/metric-contact-01.png",
+    "tmp/pdfs/contact-sheets/metric-contact-04.png",
+    "wiki/concepts/hate-speech-generalization-and-transfer.md",
+    "wiki/concepts/implicit-hate-speech-detection.md",
+    "wiki/concepts/hate-speech-research-map.md",
+    "wiki/concepts/wiki-integrity-report-2026-05-06.md",
+    "wiki/concepts/emotion-recognition.md",
+    "wiki/concepts/sarcasm-detection-lint-report-2026-05-05.md",
+    "wiki/templates/query-answer-template.md",
+    "wiki/entities/multimodal-learning-benchmark-map.md",
+    "wiki/entities/emotion-recognition-dataset-map.md",
+    "wiki/entities/role-playing-agent-benchmark-map.md",
+    "wiki/entities/sarcasm-humor-benchmark-map.md",
+    "wiki/entities/llm-reasoning-benchmark-map.md",
+    "wiki/entities/dialogue-benchmark-map.md",
+    "wiki/entities/stance-detection-benchmark-map.md",
+    "scripts/regenerate_source_hubs.py",
+    "scripts/check_pdf_text_artifacts.py",
+    "scripts/check_source_tag_drift.py",
+    "tmp/pdfs/metric-034-garg-2026-just-kiddin-knowledge-infusion-and-distillation-for-detection-of-indecent-memes-page-07-07.png",
+    "tmp/pdfs/metric-034-garg-2026-just-kiddin-knowledge-infusion-and-distillation-for-detection-of-indecent-memes-page-13-13.png",
+    "tmp/pdfs/stance-ezstance-page-03.png",
+    "tmp/pdfs/contact-sheets/metric-contact-07.png",
+    "tmp/pdfs/contact-sheets",
+    "scripts/verify_pdf_metric_pages.py",
     "wiki/concepts/llm-reasoning-metrics-matrix.md",
     "AGENTS.md",
     "wiki/index.md",
@@ -201,26 +218,12 @@
     "tmp",
     "wiki/concepts/pdf-table-verification-index-2026-05-06.md",
     "scripts/locate_pdf_tables.py",
-    "wiki/templates/query-answer-template.md",
     "wiki/entities/hate-speech-dataset-alias-map.md",
     "wiki/concepts/chain-of-thought-prompting.md",
     "wiki/concepts/llm-reasoning.md",
     "wiki/sources/062-lee-2025-amplehate-amplifying-the-attention-for-versatile-implicit-hate-detection.md",
-    "wiki/concepts/hate-speech-research-map.md",
-    "wiki/concepts/implicit-hate-speech-detection.md",
     "wiki/entities/dataset-latent-hatred.md",
     "wiki/concepts/hate-speech-direction-status.md",
-    "wiki/concepts/synthetic-data-generation.md",
-    "wiki/concepts/multi-agent-systems.md",
-    "wiki/concepts/persona-modeling.md",
-    "wiki/concepts/sentiment-analysis.md",
-    "wiki/concepts/latent-space.md",
-    "wiki/concepts/retrieval-augmented-generation.md",
-    "wiki/concepts/llm-evaluation.md",
-    "wiki/concepts/zero-shot-learning.md",
-    "wiki/concepts/hate-speech-datasets-and-benchmarks.md",
-    "wiki/concepts/explicit-hate-speech-detection.md",
-    "wiki/concepts/emotion-recognition.md",
-    "wiki/concepts/hate-speech-sota-landscape.md"
+    "wiki/concepts/synthetic-data-generation.md"
   ]
 }

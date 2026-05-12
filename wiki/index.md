@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-06
+updated: 2026-05-08
 tags: [index]
 sources: []
 ---
@@ -114,6 +114,7 @@ sources: []
 | [[pdf-table-verification-index-2026-05-06]] | Likely PDF result-table pages for priority metrics verification |
 | [[hate-speech-lint-report-2026-04-23]] | Earlier hate speech direction lint pass |
 | [[wiki-integrity-report-2026-05-06]] | Current global navigation and integrity check |
+| [[using-not-toxic-targets-for-hate-speech-detection]] | Query answer on using LLM-extracted not_toxic targets as target-aware hard negatives |
 
 ---
-_Last updated: 2026-05-06_
+_Last updated: 2026-05-08_
