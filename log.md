@@ -157,6 +157,18 @@
 - Regenerated all direction source hubs from source page frontmatter tags.
 - Updated [[index]] and [[wiki-maintenance-status-2026-05-06]] to record 0 remaining auto-ingest numbered PDF source pages.
 
+## [2026-05-12] query-answer | CADET and HARE target/category usage
+- Added [[cadet-hare-target-category-usage]] explaining how CADET uses target/category labels as causal latent-factor supervision while HARE uses target/implied-statement annotations mainly for rationale prompting.
+- Expanded the answer with how non-native fields are obtained: CADET uses native annotations where available, DynaHate heuristics, and GPT-4 style transformations with manual inspection; HARE uses GPT-3.5-generated rationales and falls back to Fr-HARE prompts when annotations are absent.
+- Corrected the page after the user clarified that `category` means hate-speech type rather than explicit/implicit style.
+- Clarified that CADET's optional target means target supervision is available-if-present, while HARE uses dataset free-text target group and implied-statement annotations rather than a new fixed target ontology.
+- Updated [[index]] to include the new query answer.
+
+## [2026-05-12] ingest | Recent pure-text hate speech papers
+- Added 7 deep-ingested source pages for recent pure-text hate speech detection papers: [[151-salles-2025-hatebrxplain-a-benchmark-dataset-with-human-annotated-rationales-for-explainable-hate-speech-detection-in-brazilian-portuguese]], [[152-calabrese-2025-compositional-generalisation-for-explainable-hate-speech-detection]], [[153-mnassri-2025-rag-and-recall-multilingual-hate-speech-detection-with-semantic-memory]], [[154-boudraa-2025-implicit-hate-target-span-identification-in-zero-and-few-shot-settings-with-selective-sub-billion-parameter-models]], [[155-carvallo-2025-hate-explained-evaluating-ner-enriched-text-in-human-and-machine-moderation-of-hate-speech]], [[156-melis-2025-a-modular-taxonomy-for-hate-speech-definitions-and-its-impact-on-zero-shot-llm-classification-performance]], and [[157-ghorbanpour-2025-can-prompting-llms-unlock-hate-speech-detection-across-languages]].
+- Regenerated [[hate-speech-source-hub]] and updated [[sources-index]], [[implicit-hate-speech-detection]], [[explainable-hate-speech-detection]], [[hate-speech-generalization-and-transfer]], [[hate-speech-datasets-and-benchmarks]], and [[index]].
+- Marked these papers as pure-text additions covering rationales, compositional generalization, target span identification, NER intent/group enrichment, definition-sensitive prompting, multilingual prompting, and RAG/semantic memory.
+
 ## [2026-05-06] lint | Post-alignment integrity report
 - Added [[wiki-integrity-report-2026-05-06]] with current inventory, direction hub coverage, source tag drift, PDF text artifact, and pending metrics verification status.
 - Updated [[global-research-map]], [[index]], and [[wiki-maintenance-playbook]] to point to the current integrity state.

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-12
 tags: [concept, hate-speech, nlp]
 sources:
   - raw/sources/ElSherief 等 - 2021 - Latent Hatred A Benchmark for Understanding Implicit Hate Speech.pdf
@@ -9,6 +9,9 @@ sources:
   - raw/sources/Ahn 等 - 2024 - SharedCon Implicit Hate Speech Detection using Shared Semantics.pdf
   - raw/sources/Jiang - 2025 - Learn from Failure Causality-guided Contrastive Learning for Generalizable Implicit Hate Speech Det.pdf
   - raw/sources/Garg 等 - 2026 - Just KIDDIN Knowledge Infusion and Distillation for Detection of INdecent Memes.pdf
+  - raw/sources/2025.emnlp-main.703.pdf
+  - raw/sources/2025.woah-1.21.pdf
+  - raw/sources/2025.woah-1.42.pdf
 ---
 
 # Implicit Hate Speech Detection
@@ -32,6 +35,12 @@ SharedCon (Ahn et al. 2024) leverages shared semantics between explicit and impl
 
 ### Causality-guided Learning
 Jiang 2025 uses causality to identify failure cases and guide contrastive learning.
+
+### Span and Structure-Aware Detection
+Recent pure-text work shifts from sentence labels toward internal structure. [[154-boudraa-2025-implicit-hate-target-span-identification-in-zero-and-few-shot-settings-with-selective-sub-billion-parameter-models]] treats implicit target span identification as a BIO tagging problem, while [[152-calabrese-2025-compositional-generalisation-for-explainable-hate-speech-detection]] tests whether models can generalize target-expression and slot combinations beyond training correlations.
+
+### Intent and Target Enrichment
+[[155-carvallo-2025-hate-explained-evaluating-ner-enriched-text-in-human-and-machine-moderation-of-hate-speech]] shows that intent tags are stronger than group tags alone for both classifier generalization and human moderation support. This supports treating target labels as relational evidence rather than as simple identity priors.
 
 ### Knowledge Infusion
 KIDDIN (Garg et al. 2026) infuses knowledge into LLM for indecent meme detection.

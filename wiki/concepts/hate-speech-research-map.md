@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-29
+updated: 2026-05-12
 tags: [concept, hate-speech, research-direction]
 sources: []
 ---
@@ -24,6 +24,7 @@ This direction covers explicit/implicit hate speech, multilingual and cross-plat
 ## Synthesis Notes
 - A large portion of recent work shifts from pure classification toward generalization, retrieval, causal signals, and explanation.
 - Multimodal hate detection increasingly focuses on memes with weak text-only cues and high context dependence.
+- The latest pure-text additions emphasize target spans, intent tags, rationale spans, compositional slot generalization, construct definitions, multilingual prompting, and retrieval memory.
 
 
 ## Navigation

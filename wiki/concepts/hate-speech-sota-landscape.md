@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-04-29
+updated: 2026-05-12
 tags: [synthesis, hate-speech, sota]
 sources: []
 ---
@@ -8,7 +8,7 @@ sources: []
 # Hate Speech Direction - SOTA Landscape v1
 
 ## Coverage
-- Reviewed hate-speech source pages: **36**
+- Reviewed hate-speech source pages: **44**
 - Parsing mode: automatic multi-section extraction (`pdfplumber`, up to 14 pages per paper)
 - Confidence note: qualitative signals are strong; numeric SOTA margins should be cited only when table-located or manually verified in [[hate-speech-metrics-matrix]].
 
@@ -44,6 +44,7 @@ sources: []
 - Multimodal hate (memes/image-text) is a major subtrack with alignment and retrieval-heavy methods.
 - Explainability and reasoning-based moderation signals appear increasingly often.
 - Causal and counterfactual ideas are used to improve robustness and transferability.
+- In pure-text hate detection, recent work emphasizes span/rationale/definition structure: rationales for low-resource Portuguese, compositional slot tests, implicit target spans, intent/group enrichment, modular hate definitions, multilingual prompting, and RAG with semantic memory.
 
 ## Closed Direction-Level Gaps
 - Dataset aliases are centralized in [[hate-speech-dataset-alias-map]].
@@ -58,6 +59,8 @@ sources: []
 - **In-context prompting vs fine-tuning for multimodal hate**: evidence mixed across dataset sizes; resolve via standardized split comparison.
 - **Cross-platform gains from causal/disentangled learning**: improvements reported, but transfer settings are not uniform.
 - **Synthetic data augmentation**: quality and label noise tradeoff appears paper-dependent.
+- **Definition prompting**: [[156-melis-2025-a-modular-taxonomy-for-hate-speech-definitions-and-its-impact-on-zero-shot-llm-classification-performance]] shows that richer definitions shift false-positive/false-negative behavior differently by model and dataset, so definition changes should be treated as experimental conditions.
+- **Text-only prompting vs encoders**: [[157-ghorbanpour-2025-can-prompting-llms-unlock-hate-speech-detection-across-languages]] suggests prompted LLMs are stronger on functional tests than real-world sets, while fine-tuned encoders remain more reliable when labels are available.
 
 ## Remaining Publication-Grade Work
 - Table-check every numeric value before citing exact scores externally.

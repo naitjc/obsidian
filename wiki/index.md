@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-08
+updated: 2026-05-12
 tags: [index]
 sources: []
 ---
@@ -11,13 +11,13 @@ sources: []
 
 | Area | Current state |
 |---|---|
-| Raw PDFs | 150 files in `raw/sources/` |
-| Wiki pages | 274 pages under `wiki/` |
-| Source pages | 158 pages, including catalog and alias stubs |
-| Concept pages | 96 pages |
+| Raw PDFs | 157 files in `raw/sources/` |
+| Wiki pages | 283 pages under `wiki/` |
+| Source pages | 165 pages, including catalog and alias stubs |
+| Concept pages | 98 pages |
 | Entity pages | 18 pages |
-| Deep-ingested source pages | 150 PDF source pages tagged `deep-ingest-v2` |
-| Auto-ingest PDF source pages | 0 remaining among the 150 numbered PDF source pages |
+| Deep-ingested source pages | 157 PDF source pages tagged `deep-ingest-v2` |
+| Auto-ingest PDF source pages | 0 remaining among the 157 numbered PDF source pages |
 | Integrity status | 0 broken wiki links found on 2026-05-06 |
 
 ## Entities
@@ -115,6 +115,7 @@ sources: []
 | [[hate-speech-lint-report-2026-04-23]] | Earlier hate speech direction lint pass |
 | [[wiki-integrity-report-2026-05-06]] | Current global navigation and integrity check |
 | [[using-not-toxic-targets-for-hate-speech-detection]] | Query answer on using LLM-extracted not_toxic targets as target-aware hard negatives |
+| [[cadet-hare-target-category-usage]] | Query answer comparing how CADET and HARE use target and category annotations |
 
 ---
-_Last updated: 2026-05-08_
+_Last updated: 2026-05-12_

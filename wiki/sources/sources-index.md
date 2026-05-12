@@ -7,7 +7,7 @@ sources: []
 
 # Sources Index
 
-Total source PDFs ingested: **150**
+Total source PDFs ingested: **157**
 
 | Paper | Year | Tags |
 |---|---|---|
@@ -148,6 +148,13 @@ Total source PDFs ingested: **150**
 | [[141-zhang-2025-mpvstance-mitigating-hallucinations-in-stance-detection-with-multi-perspective-verification|Zhang 等 - 2025 - MPVStance Mitigating Hallucinations in Stance Detection with Multi-Perspective Verification]] | 2025 | stance-detection, zero-shot, few-shot, prompting, synthetic-data, retrieval, target-adaptive, bias, verification |
 | [[142-zhang-2025-t-mad-target-driven-multimodal-alignment-for-stance-detection|Zhang 等 - 2025 - T-MAD Target-driven Multimodal Alignment for Stance Detection]] | 2025 | multimodal, stance-detection, zero-shot, few-shot, prompting, retrieval, cross-lingual, conversational, target-adaptive, bias |
 | [[145-zhao-caragea-2025-bilingual-zero-shot-stance-detection|Zhao和Caragea - 2025 - Bilingual Zero-Shot Stance Detection]] | 2025 | stance-detection, zero-shot, few-shot, prompting, synthetic-data, retrieval, cross-lingual, conversational, bias, verification |
+| [[151-salles-2025-hatebrxplain-a-benchmark-dataset-with-human-annotated-rationales-for-explainable-hate-speech-detection-in-brazilian-portuguese|Salles 等 - 2025 - HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese]] | 2025 | hate-speech, cross-lingual, benchmark, explainability |
+| [[152-calabrese-2025-compositional-generalisation-for-explainable-hate-speech-detection|Calabrese 等 - 2025 - Compositional Generalisation for Explainable Hate Speech Detection]] | 2025 | hate-speech, implicit, benchmark, synthetic-data, explainability |
+| [[153-mnassri-2025-rag-and-recall-multilingual-hate-speech-detection-with-semantic-memory|Mnassri 等 - 2025 - RAG and Recall Multilingual Hate Speech Detection with Semantic Memory]] | 2025 | hate-speech, cross-lingual, retrieval, prompting, benchmark |
+| [[154-boudraa-2025-implicit-hate-target-span-identification-in-zero-and-few-shot-settings-with-selective-sub-billion-parameter-models|Boudraa 等 - 2025 - Implicit Hate Target Span Identification in Zero- and Few-Shot Settings with Selective Sub-Billion Parameter Models]] | 2025 | hate-speech, implicit, benchmark, zero-shot, few-shot, prompting, explainability |
+| [[155-carvallo-2025-hate-explained-evaluating-ner-enriched-text-in-human-and-machine-moderation-of-hate-speech|Carvallo 等 - 2025 - Hate Explained Evaluating NER-Enriched Text in Human and Machine Moderation of Hate Speech]] | 2025 | hate-speech, implicit, benchmark, explainability, prompting |
+| [[156-melis-2025-a-modular-taxonomy-for-hate-speech-definitions-and-its-impact-on-zero-shot-llm-classification-performance|Melis 等 - 2025 - A Modular Taxonomy for Hate Speech Definitions and Its Impact on Zero-Shot LLM Classification Performance]] | 2025 | hate-speech, benchmark, zero-shot, prompting, explainability |
+| [[157-ghorbanpour-2025-can-prompting-llms-unlock-hate-speech-detection-across-languages|Ghorbanpour 等 - 2025 - Can Prompting LLMs Unlock Hate Speech Detection across Languages]] | 2025 | hate-speech, cross-lingual, zero-shot, few-shot, prompting, benchmark |
 | [[008-2510-07707v2|Causality Guided Representation Learning for Cross-Style Hate Speech Detection]] | 2026 | hate-speech, implicit, cross-lingual, benchmark, contrastive-learning, causal, retrieval, prompting, counterfactual, explainability |
 | [[034-garg-2026-just-kiddin-knowledge-infusion-and-distillation-for-detection-of-indecent-memes|Garg 等 - 2026 - Just KIDDIN Knowledge Infusion and Distillation for Detection of INdecent Memes]] | 2026 | multimodal, zero-shot, few-shot, prompting, synthetic-data, retrieval, benchmark, graph |
 | [[133-yu-2026-the-latent-space-foundation-evolution-mechanism-ability-and-outlook|Yu 等 - 2026 - The Latent Space Foundation, Evolution, Mechanism, Ability, and Outlook]] | 2026 | llm-reasoning, representation-learning |

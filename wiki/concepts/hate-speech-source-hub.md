@@ -1,13 +1,13 @@
 ---
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-12
 tags: [index, hate-speech, sources]
 sources: []
 ---
 
 # Hate Speech Source Hub
 
-Total linked papers: **37**
+Total linked papers: **44**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -49,6 +49,13 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[135-yue-2025-multimodal-hate-detection-using-dual-stream-graph-neural-networks|Yue 等 - 2025 - Multimodal Hate Detection Using Dual-Stream Graph Neural Networks]]
 - [[136-zhang-2023-tot-topology-aware-optimal-transport-for-multimodal-hate-detection|Zhang 等 - 2023 - TOT Topology-Aware Optimal Transport For Multimodal Hate Detection]]
 - [[150-2604-18519v1|LLM Safety From Within: Detecting Harmful Content with Internal Representations]]
+- [[151-salles-2025-hatebrxplain-a-benchmark-dataset-with-human-annotated-rationales-for-explainable-hate-speech-detection-in-brazilian-portuguese|Salles 等 - 2025 - HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese]]
+- [[152-calabrese-2025-compositional-generalisation-for-explainable-hate-speech-detection|Calabrese 等 - 2025 - Compositional Generalisation for Explainable Hate Speech Detection]]
+- [[153-mnassri-2025-rag-and-recall-multilingual-hate-speech-detection-with-semantic-memory|Mnassri 等 - 2025 - RAG and Recall Multilingual Hate Speech Detection with Semantic Memory]]
+- [[154-boudraa-2025-implicit-hate-target-span-identification-in-zero-and-few-shot-settings-with-selective-sub-billion-parameter-models|Boudraa 等 - 2025 - Implicit Hate Target Span Identification in Zero- and Few-Shot Settings with Selective Sub-Billion Parameter Models]]
+- [[155-carvallo-2025-hate-explained-evaluating-ner-enriched-text-in-human-and-machine-moderation-of-hate-speech|Carvallo 等 - 2025 - Hate Explained Evaluating NER-Enriched Text in Human and Machine Moderation of Hate Speech]]
+- [[156-melis-2025-a-modular-taxonomy-for-hate-speech-definitions-and-its-impact-on-zero-shot-llm-classification-performance|Melis 等 - 2025 - A Modular Taxonomy for Hate Speech Definitions and Its Impact on Zero-Shot LLM Classification Performance]]
+- [[157-ghorbanpour-2025-can-prompting-llms-unlock-hate-speech-detection-across-languages|Ghorbanpour 等 - 2025 - Can Prompting LLMs Unlock Hate Speech Detection across Languages]]
 
 ## Cross-Cutting Concept Links
 - [[hate-speech-research-map]]
