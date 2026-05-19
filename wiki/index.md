@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-12
+updated: 2026-05-19
 tags: [index]
 sources: []
 ---
@@ -11,14 +11,15 @@ sources: []
 
 | Area | Current state |
 |---|---|
-| Raw PDFs | 157 files in `raw/sources/` |
-| Wiki pages | 283 pages under `wiki/` |
-| Source pages | 165 pages, including catalog and alias stubs |
-| Concept pages | 98 pages |
+| Raw PDFs | 163 files in `raw/sources/` |
+| Wiki pages | 307 pages under `wiki/` |
+| Source pages | 171 pages, including catalog and alias stubs |
+| Concept pages | 95 pages |
 | Entity pages | 18 pages |
-| Deep-ingested source pages | 157 PDF source pages tagged `deep-ingest-v2` |
-| Auto-ingest PDF source pages | 0 remaining among the 157 numbered PDF source pages |
-| Integrity status | 0 broken wiki links found on 2026-05-06 |
+| Maintenance pages | 21 pages |
+| Deep-ingested source pages | 163 PDF source pages tagged `deep-ingest-v2` |
+| Auto-ingest PDF source pages | 0 remaining among the 163 numbered PDF source pages |
+| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, and 0 misplaced maintenance pages found on 2026-05-19 |
 
 ## Entities
 
@@ -96,6 +97,19 @@ sources: []
 | Maintenance playbook | [[wiki-maintenance-playbook]] |
 | Maintenance status | [[wiki-maintenance-status-2026-05-06]] |
 
+## Maintenance
+
+| Maintenance Area | Entry Point |
+|---|---|
+| Maintenance router | [wiki/maintenance/index.md](maintenance/index.md) |
+| Wiki schema | [[wiki-schema]] |
+| Frontmatter conventions | [[frontmatter-conventions]] |
+| Task routing and promotion | [[task-routing-and-promotion]] |
+| Maintenance checklist | [[wiki-maintenance-checklist]] |
+| Research direction registry | [[research-direction-registry]] |
+| Navigation audit | [[navigation-audit-2026-05-19]] |
+| Experiment workflow | `EXPERIMENTS.md` |
+
 ## Output
 
 | Output | Notes |
@@ -116,6 +130,17 @@ sources: []
 | [[wiki-integrity-report-2026-05-06]] | Current global navigation and integrity check |
 | [[using-not-toxic-targets-for-hate-speech-detection]] | Query answer on using LLM-extracted not_toxic targets as target-aware hard negatives |
 | [[cadet-hare-target-category-usage]] | Query answer comparing how CADET and HARE use target and category annotations |
+| [[intent-slot-style-hate-speech-modeling]] | Query answer on reframing target-aware hate detection as intent-slot and NER-style structured modeling |
+| [[hate-speech-intent-slot-refactor-plan]] | Query answer on a concrete refactor plan for structured intent-slot hate speech detection |
+| [[plead-u-plead-target-follow-up-trace]] | Query answer tracing direct follow-up use of PLEAD, U-PLEAD, and TARGET |
+| [[ihc-sbic-target-completion-layer]] | Query answer detailing target completion for IHC/SBIC intent-slot modeling |
+| [[llm-augmentation-fields-in-related-papers]] | Query answer comparing LLM-added fields in related target-aware hate/stance papers |
+| [[hate-speech-innovation-ideas-ihc-sbic-2026-05-18]] | Query answer proposing early innovation ideas from wiki gaps plus IHC/SBIC fine-tuning and bad-case evidence |
+| [[leakage-resistant-target-relation-modeling]] | Query answer refining target leakage observations into a focused relation-aware hate detection paper thesis |
+| [[target-relation-modeling-reject-review]] | Query answer preserving a strict rejection-oriented review of the target-relation modeling paper idea |
+| [[cross-direction-innovation-ideas-2026-05-18]] | Query answer proposing preliminary innovation ideas from the wiki's cross-direction common problems |
+| [[hate-speech-grounding-directions-review-2026-05-18]] | Query answer assessing novelty and feasibility of three hate-speech grounding directions from a reviewer perspective |
+| [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] | Query answer giving an experiment plan for definition-controllable candidate-target relation grounding |
 
 ---
-_Last updated: 2026-05-12_
+_Last updated: 2026-05-19_

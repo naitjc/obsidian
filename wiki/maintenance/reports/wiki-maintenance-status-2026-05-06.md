@@ -1,6 +1,6 @@
 ---
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-19
 tags: [maintenance, status]
 sources: []
 ---
@@ -26,6 +26,8 @@ sources: []
 - User selected [[hate-speech-metrics-matrix]] and [[llm-reasoning-metrics-matrix]] for publication-grade priority metrics checking. Their priority rows are now marked `publication-checked` where exact table values or source-statement ranges were checked against rendered/layout-preserved PDF evidence.
 - User selected high-impact source-summary review for hate speech and LLM reasoning. The highest-noise priority source pages were rewritten from PDF-extraction fragments into clean evidence-oriented summaries, and two misleading `cross-lingual` tags were removed from cross-modality/cross-dataset hate pages.
 - User selected automatic query-answer promotion: durable query answers should be filed as wiki pages by default and recorded in [[log]], while transient operational answers should not be promoted.
+- On 2026-05-17, 6 newly added PDFs were deep-ingested and linked into the relevant source hubs; structural lint, source tag drift, and PDF text artifact checks passed after the update.
+- On 2026-05-19, root `AGENTS.md` was narrowed to global routing rules, root `EXPERIMENTS.md` was added for experiment workflow, and detailed schema/direction/maintenance rules were moved into `wiki/maintenance/`.
 
 ## Current Structural Status
 
@@ -42,7 +44,7 @@ sources: []
 | PDF text artifact checker | Added; current result has 0 offenders |
 | Poppler / `pdftoppm` | Installed |
 | Rendered table checks | Complete for all priority metrics rows in direction metrics matrices |
-| Auto-ingest PDF source pages | 0 remaining among the 150 numbered PDF source pages |
+| Auto-ingest PDF source pages | 0 remaining among the 163 numbered PDF source pages |
 | Non-hate entity maps | Added |
 | Query answer template | Added |
 | Attachment directory | Added |

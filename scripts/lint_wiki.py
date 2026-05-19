@@ -5,12 +5,14 @@ from __future__ import annotations
 
 import json
 import re
+from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 SOURCES = WIKI / "sources"
 CONCEPTS = WIKI / "concepts"
+ALLOWED_DUPLICATE_SLUGS = {"index"}
 REQUIRED_FRONTMATTER = ("created", "updated", "tags", "sources")
 DIRECTIONS = {
     "hate-speech": "hate-speech",
@@ -51,18 +53,41 @@ def main() -> int:
     all_md = markdown_files(ROOT)
     wiki_md = markdown_files(WIKI)
     slug_to_file = {path.stem: path for path in all_md}
+    wiki_slug_paths = defaultdict(list)
+    for path in wiki_md:
+        wiki_slug_paths[path.stem].append(path)
+    duplicate_slugs = {
+        slug: [str(path.relative_to(ROOT)) for path in paths]
+        for slug, paths in sorted(wiki_slug_paths.items())
+        if len(paths) > 1 and slug not in ALLOWED_DUPLICATE_SLUGS
+    }
 
     missing_frontmatter = []
     broken_links = []
+    misplaced_maintenance_pages = []
+    inbound_links = {path.stem: set() for path in wiki_md}
     for path in wiki_md:
         text = path.read_text(encoding="utf-8")
         fm = frontmatter(text)
         missing = [key for key in REQUIRED_FRONTMATTER if not re.search(rf"^{key}:", fm, re.M)]
         if missing:
             missing_frontmatter.append({"file": str(path.relative_to(ROOT)), "missing": missing})
+        page_tags = tags(text)
+        if path.parent == CONCEPTS and (
+            "lint" in page_tags or ("maintenance" in page_tags and "completion" not in page_tags)
+        ):
+            misplaced_maintenance_pages.append(str(path.relative_to(ROOT)))
         for target in wiki_links(text):
             if target not in slug_to_file:
                 broken_links.append({"from": str(path.relative_to(ROOT)), "target": target})
+            elif target != path.stem and target in inbound_links:
+                inbound_links[target].add(path.stem)
+
+    orphan_pages = [
+        str(path.relative_to(ROOT))
+        for path in wiki_md
+        if path.stem != "index" and not inbound_links.get(path.stem)
+    ]
 
     direction_status = {}
     for prefix, tag in DIRECTIONS.items():
@@ -104,6 +129,9 @@ def main() -> int:
         "entity_pages": len(list((WIKI / "entities").glob("*.md"))),
         "broken_links": broken_links,
         "missing_frontmatter": missing_frontmatter,
+        "orphan_pages": orphan_pages,
+        "duplicate_slugs": duplicate_slugs,
+        "misplaced_maintenance_pages": misplaced_maintenance_pages,
         "directions": direction_status,
     }
     print(json.dumps(result, indent=2, ensure_ascii=False))
@@ -115,7 +143,14 @@ def main() -> int:
         or status["source_pages"] != status["deep_ingested"]
         for status in direction_status.values()
     )
-    return 1 if broken_links or missing_frontmatter or has_direction_gap else 0
+    return 1 if (
+        broken_links
+        or missing_frontmatter
+        or orphan_pages
+        or duplicate_slugs
+        or misplaced_maintenance_pages
+        or has_direction_gap
+    ) else 0
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-19
 tags: [concept, llm-reasoning]
 sources: []
 ---
@@ -19,11 +19,13 @@ Inference-time reasoning, LLM evaluation, RAG, uncertainty, latent representatio
 
 ## Key Themes
 - inference-time computation and reasoning expansion
+- chain-of-thought and structured prompting as reusable reasoning scaffolds
 - retrieval and evidence-conditioned generation
 - LLM evaluation, uncertainty, and hallucination control
 - latent representations and text encoders
 
 ## Related Concepts
+- [[chain-of-thought-prompting]]
 - [[multimodal-learning]]
 - [[synthetic-data-generation]]
 - [[zero-shot-learning]]

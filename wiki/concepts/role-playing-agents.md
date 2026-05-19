@@ -1,6 +1,6 @@
 ---
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-19
 tags: [concept, role-playing]
 sources: []
 ---
@@ -20,10 +20,12 @@ Role-playing LLMs, persona simulation, character consistency, social agents, RPG
 ## Key Themes
 - role-play and character benchmarks
 - persona and profile alignment
+- persona modeling as the reusable representation layer behind character behavior
 - social interaction and multi-agent gameplay
 - hallucination and temporal consistency in characters
 
 ## Related Concepts
+- [[persona-modeling]]
 - [[llm-reasoning]]
 - [[multimodal-learning]]
 - [[synthetic-data-generation]]

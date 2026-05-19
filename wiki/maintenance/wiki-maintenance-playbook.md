@@ -1,11 +1,15 @@
 ---
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-19
 tags: [maintenance, workflow]
 sources: []
 ---
 
 # Wiki Maintenance Playbook
+
+## Current Maintenance Router
+
+Use [wiki/maintenance/index.md](index.md) for current schema, routing, direction-registry, and lint entry points. This page remains the legacy operational playbook for repeatable maintenance workflows.
 
 ## Routine Query Workflow
 

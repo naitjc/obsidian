@@ -29,6 +29,7 @@ def main() -> None:
         "source_pages": len(source_pages),
         "concept_pages": len(list((WIKI / "concepts").glob("*.md"))),
         "entity_pages": len(list((WIKI / "entities").glob("*.md"))),
+        "maintenance_pages": len(list((WIKI / "maintenance").rglob("*.md"))),
         "source_tag_counts": dict(tag_counts.most_common()),
     }
     print(json.dumps(result, indent=2, ensure_ascii=False))

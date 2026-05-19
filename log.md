@@ -169,6 +169,61 @@
 - Regenerated [[hate-speech-source-hub]] and updated [[sources-index]], [[implicit-hate-speech-detection]], [[explainable-hate-speech-detection]], [[hate-speech-generalization-and-transfer]], [[hate-speech-datasets-and-benchmarks]], and [[index]].
 - Marked these papers as pure-text additions covering rationales, compositional generalization, target span identification, NER intent/group enrichment, definition-sensitive prompting, multilingual prompting, and RAG/semantic memory.
 
+## [2026-05-12] query-answer | Intent-slot style hate speech modeling
+- Added [[intent-slot-style-hate-speech-modeling]] to preserve a method-design answer connecting local target leakage with intent-slot, NER enrichment, target-span tagging, and compositional generalization papers.
+- Recommended reframing `target` from a sample-level feature into a structured relation among entity/group mentions, harmful intent, target link, and evidence spans.
+- Updated [[index]] with the new query answer.
+
+## [2026-05-17] ingest | New intent-slot and explainability papers
+- Added 6 deep-ingest source pages: AGIF, DGM, HateXplain, MUDES, PLEAD, and OneIE.
+- Regenerated [[hate-speech-source-hub]] and [[dialogue-systems-source-hub]], then updated [[sources-index]], [[nlp-research-collection]], [[explainable-hate-speech-detection]], [[hate-speech-datasets-and-benchmarks]], [[dialogue-systems]], [[intent-slot-style-hate-speech-modeling]], and [[index]].
+- Treated OneIE as a peripheral structured extraction/global-constraint method node rather than a completed-direction source.
+
+## [2026-05-17] query-answer | Hate speech intent-slot refactor plan
+- Added [[hate-speech-intent-slot-refactor-plan]] to turn the prior intent-slot discussion into a concrete structured task schema and minimal experiment plan.
+- Recommended deriving the final moderation verdict from mentions, intent labels, target links, and evidence spans rather than feeding target as a row-level shortcut.
+- Updated [[index]] with the new query answer.
+
+## [2026-05-18] query-answer | PLEAD follow-up trace
+- Added [[plead-u-plead-target-follow-up-trace]] to record how PLEAD was extended through structured moderator explanations and U-PLEAD/TARGET compositional generalization.
+- Noted that U-PLEAD/TARGET is too recent to support a broad downstream-use claim; the stronger use for IHC/SBIC is as a design template for target-expression balancing and structured evaluation.
+- Updated [[index]] with the new query answer.
+
+## [2026-05-18] query-answer | IHC/SBIC target completion layer
+- Added [[ihc-sbic-target-completion-layer]] to specify the data-layer target completion step for intent-slot hate speech parsing on IHC and SBIC.
+- Distinguished attacked targets, neutral mentioned targets, no relevant target, and uncertain target states to avoid target-presence leakage.
+- Updated [[index]] with the new query answer.
+
+## [2026-05-18] query-answer | LLM augmentation fields in related papers
+- Added [[llm-augmentation-fields-in-related-papers]] to compare what related papers supplement with LLMs or span-level annotation.
+- Recorded that related work typically adds task-aligned intermediate fields such as intent/group tags, target BIO spans, implicit targets, synthetic slot-balanced posts, or target-argument-hateful-group quadruples rather than fully relabeling natural datasets.
+- Updated [[index]] with the new query answer.
+
+## [2026-05-18] query-answer | IHC/SBIC hate speech innovation ideas
+- Added [[hate-speech-innovation-ideas-ihc-sbic-2026-05-18]] to preserve initial innovation ideas grounded in the hate-speech wiki, related target-aware papers, and current IHC/SBIC fine-tuning outputs on `xu-l20`.
+- Recorded that the strongest local signal is class-target coupling: false positives tend to generate targets for target-empty non-toxic rows, while false negatives tend to drop gold targets for toxic rows.
+- Recommended leakage-resistant target-relation completion, target-conditioned evaluation, bad-case curricula, compositional target-expression splits, and a small intent layer as first research directions.
+- Updated the page with the user's filled-not-toxic target-input experiments from `FineTune_filled_not_toxic`: normal target-input evaluation gives near-perfect macro-F1, while target shuffling or replacing targets with `other` collapses performance, confirming row-level target-input leakage.
+- Added [[leakage-resistant-target-relation-modeling]] to refine the user's proposal into a focused paper thesis: replace row-level target-aware classification with candidate-target relation classification.
+- Noted the supporting structure: target-shortcut evaluation, same-target contrastive pairs, hard-negative mining, lightweight intent labels, and target ontology normalization should serve the relation-aware main claim rather than appear as separate innovations.
+- Added [[target-relation-modeling-reject-review]] to preserve the strict rejection case against the target-relation thesis, including risks around self-inflicted leakage, artificial shortcut tests, relation-label validity, candidate generation, novelty, and overclaiming understanding.
+- Updated [[target-relation-modeling-reject-review]] and [[leakage-resistant-target-relation-modeling]] with a stricter defensible revision: same candidate-generation pipeline for toxic and not-toxic rows, external transfer tests, manually audited relation labels, cleaner relation/uncertainty schema, and conservative claims about shortcut reduction rather than understanding.
+- Added a concrete revised plan to [[leakage-resistant-target-relation-modeling]]: uniform candidate generation, clean relation labels, manual audit, relation-model baselines, cross-dataset evaluation, diagnostic shortcut tests, and explicit stop/reframe criteria.
+- Clarified that LLM-filled `not_toxic` targets are a local diagnostic and should not be framed as the paper's core field-level problem; the broader problem is target annotation asymmetry and target shortcuts under leakage-controlled candidate generation.
+- Reframed [[leakage-resistant-target-relation-modeling]] to start from existing-paper gaps: target/span/intent/rationale methods add structure but do not jointly control candidate construction, relation supervision, target-present non-hateful examples, and cross-dataset shortcut evaluation.
+- Broadened [[leakage-resistant-target-relation-modeling]] beyond a few target-aware papers to 2024+ hate speech detection trends: definition shift, implicit pragmatics, target framing, transfer, explanation reliability, LLM inconsistency, weak/synthetic label risk, and multimodal/multicultural grounding.
+- Added a scope-expansion note to [[leakage-resistant-target-relation-modeling]]: the direct target-aware papers are evidence anchors, while the actual literature motivation should cover the shared 2024+ problem of unstable semantic grounding under definition, context, target, language, platform, and modality shifts.
+- Added [[cross-direction-innovation-ideas-2026-05-18]] to preserve preliminary innovation ideas derived from the wiki's cross-direction common problems.
+- Proposed five candidate lines: definition/target-controlled semantic grounding, curation-first synthetic hard cases, verifiable reasoning schemas, evidence-role multimodal alignment, and benchmark sensitivity cards.
+- Marked the ideas as proposal-level syntheses pending direction-specific literature and experiment verification.
+- Recorded the user's prioritization that the near-term work should focus on the first three lines: controlled semantic grounding, curation-first synthetic hard cases, and verifiable reasoning.
+- Added [[hate-speech-grounding-directions-review-2026-05-18]] to assess the novelty and feasibility of the first three hate-speech directions from a critical reviewer perspective.
+- Recommended using definition-controllable candidate-target relation grounding as the main contribution, with governed synthetic hard cases as the data/evaluation engine and verifiable structured reasoning as the reliability layer.
+- Added [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] to turn the converged paper framing into an experimental sequence.
+- Proposed phases for shortcut diagnostics, uniform candidate generation, relation/evidence labeling, model baselines, curated hard-case generation, robustness evaluation, faithfulness tests, and accept/reject criteria.
+- Clarified the core method as a definition-conditioned candidate-target relation grounding model: `f(content, candidate_target, definition_frame) -> relation_state, evidence, uncertainty`, with the row-level verdict derived from attacked candidate relations.
+- Added worked examples to [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] covering explicit attack, target-present benign mention, counterspeech, definition-sensitive labeling, and evidence deletion.
+
 ## [2026-05-06] lint | Post-alignment integrity report
 - Added [[wiki-integrity-report-2026-05-06]] with current inventory, direction hub coverage, source tag drift, PDF text artifact, and pending metrics verification status.
 - Updated [[global-research-map]], [[index]], and [[wiki-maintenance-playbook]] to point to the current integrity state.
@@ -195,3 +250,27 @@
 - User selected automatic promotion for query answers with durable wiki value.
 - Updated `AGENTS.md`, [[wiki-maintenance-playbook]], [[query-answer-template]], [[wiki-maintenance-status-2026-05-06]], and [[wiki-integrity-report-2026-05-06]].
 - Future durable synthesis answers should be filed as wiki pages and logged; transient operational answers should not be promoted.
+
+## [2026-05-19] maintain | Rule and experiment workflow migration
+- Replaced root `AGENTS.md` with a concise global routing rule set adapted from the provided newer structure while keeping this vault's original research directions.
+- Added root `EXPERIMENTS.md` for experiment artifact, run tracking, scoring, and promotion rules.
+- Added `wiki/maintenance/` pages for schema, frontmatter conventions, task routing, maintenance checks, and the completed research direction registry.
+- Updated [[index]] with the maintenance entry points and current wiki page count.
+
+## [2026-05-19] experiment | xu-l20 hate experiment evidence snapshot
+- Archived selected evidence from `xu-l20:/data/chenjt/hate` into `experiments/hate/xu-l20-snapshot-2026-05-19/`.
+- Preserved IHC/SBIC fine-tuning metrics, predictions, false positives/false negatives, error summaries, configs, scripts, processed data, filled-not-toxic target diagnostics, and old Hidden CoT trial evidence.
+- Deliberately did not copy large checkpoint artifacts such as adapter weights, tokenizer JSON files, training args binaries, Python bytecode, or large original HARE dumps.
+
+## [2026-05-19] maintain | Navigation audit and orphan-page cleanup
+- Added [[navigation-audit-2026-05-19]] to record the structural check, backlink audit, retained alias-stub boundary, and current automated check results.
+- Reconnected [[chain-of-thought-prompting]], [[incongruity-theory]], and [[persona-modeling]] from their corresponding direction entry pages.
+- Routed older integrity reports and legacy source alias stubs through the navigation audit instead of deleting them.
+- Updated [[index]], [[wiki-maintenance-checklist]], and `wiki/maintenance/index.md` routing for the new audit.
+
+## [2026-05-19] maintain | Maintenance namespace cleanup
+- Moved [[wiki-maintenance-playbook]] into `wiki/maintenance/` and moved dated lint, integrity, verification, and status reports into `wiki/maintenance/reports/`.
+- Kept direction completion reports and research status pages under `wiki/concepts/` because they remain direction-level research outputs.
+- Extended `scripts/lint_wiki.py` to flag duplicate wiki slugs and maintenance/lint pages misplaced under `wiki/concepts/`.
+- Extended `scripts/wiki_inventory.py` to report maintenance page counts and refreshed [[index]] with the updated concept/maintenance split.
+- Removed non-source `.DS_Store` files outside `raw/`, `.git/`, and `tmp/`.

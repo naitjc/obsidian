@@ -1,6 +1,6 @@
 ---
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-19
 tags: [concept, sarcasm]
 sources: []
 ---
@@ -19,11 +19,13 @@ Sarcasm, humor, incongruity, rhetorical devices, multimodal sarcasm, and explana
 
 ## Key Themes
 - multimodal incongruity detection
+- incongruity theory as the conceptual basis for expectation/observation conflict
 - commonsense and focused reasoning
 - counterfactual/rhetorical augmentation
 - humor explanation and benchmark construction
 
 ## Related Concepts
+- [[incongruity-theory]]
 - [[llm-reasoning]]
 - [[multimodal-learning]]
 - [[synthetic-data-generation]]
