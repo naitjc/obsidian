@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-05-27
 tags: [maintenance, status]
 sources: []
 ---
@@ -53,6 +53,8 @@ Completion rule: complete for internal wiki use when all stance-tagged source pa
 | Multimodal learning | [[multimodal-learning-source-hub]] | [[multimodal-learning-completion-report-2026-05-05]] |
 
 Completion boundary for all directions: internal research navigation, browsing, and Q&A are complete. Hate speech and LLM reasoning priority benchmark rows have publication-checked values where exact table values or source-statement ranges were checked. Other directions remain internal-navigation grade unless separately selected. Global SOTA rankings across mismatched tasks remain out of scope.
+
+The 2026-05-27 ingest adds agenda-level and transfer-method sources to dialogue, LLM evaluation, and hate-speech support pages. Their integration extends navigation and evaluation boundaries; it does not retroactively convert unverified numeric claims into publication-checked results.
 
 ## Global Entry Points
 

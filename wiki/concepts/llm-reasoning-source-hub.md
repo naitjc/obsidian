@@ -1,13 +1,13 @@
 ---
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-27
 tags: [index, llm-reasoning, sources]
 sources: []
 ---
 
 # LLM Reasoning and Evaluation Source Hub
 
-Total linked papers: **34**
+Total linked papers: **37**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -46,6 +46,9 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[138-zhang-2025-bidirectional-lms-are-better-knowledge-memorizers-a-benchmark-for-real-world-knowledge-injection|Zhang 等 - 2025 - Bidirectional LMs are Better Knowledge Memorizers A Benchmark for Real-world Knowledge Injection]]
 - [[140-zhang-2025-mprf-interpretable-stance-detection-through-multi-path-reasoning-framework|Zhang 等 - 2025 - MPRF Interpretable Stance Detection through Multi-Path Reasoning Framework]]
 - [[150-2604-18519v1|LLM Safety From Within: Detecting Harmful Content with Internal Representations]]
+- [[175-zhang-2024-graph-induced-syntactic-semantic-spaces-in-transformer-based-variational-autoencoders|Zhang 等 - 2024 - Graph-Induced Syntactic-Semantic Spaces in Transformer-Based Variational AutoEncoders]]
+- [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content|Puppi Vecchi 等 - 2026 - HARM Learning Hate-Aware Reward Model for Evaluating Natural Language Explanations of Offensive Content]]
+- [[177-natural-language-understanding-topic-reflections|关于自然语言理解课题的思考]]
 
 ## Cross-Cutting Concept Links
 - [[llm-reasoning]]

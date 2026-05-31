@@ -1,13 +1,13 @@
 ---
 created: 2026-04-23
-updated: 2026-04-27
+updated: 2026-05-27
 tags: [research, nlp, ai]
 sources: []
 ---
 
 # NLP/AI Research Papers
 
-Personal research collection focused on NLP and AI. Current corpus contains **150** PDF papers under `raw/sources/`.
+Personal research collection focused on NLP and AI. Current corpus contains **177** PDF documents under `raw/sources/`.
 
 ## Core Research Themes
 
@@ -27,11 +27,13 @@ Personal research collection focused on NLP and AI. Current corpus contains **15
 
 ## Current Coverage Snapshot
 
-- Hate-speech related: 37
+- Hate-speech related: 55
 - Stance-detection related: 24
-- Sarcasm/humor related: 16
+- Sarcasm/humor related: 17
 - Role-playing related: 13
-- Multimodal related: 29
-- LLM-reasoning related: 26
+- Multimodal related: 34
+- LLM-reasoning related: 37
 - Emotion-related: 9
-- Dialogue/intent related: 23
+- Dialogue/intent related: 28
+
+The corpus now also includes four transfer-method papers on incomplete span or relation supervision and one agenda note; these support current reasoning but should not be counted as direct empirical evidence for the target tasks unless routed through their concept pages.

@@ -1,13 +1,13 @@
 ---
 created: 2026-05-06
-updated: 2026-05-12
+updated: 2026-05-27
 tags: [index, hate-speech, sources]
 sources: []
 ---
 
 # Hate Speech Source Hub
 
-Total linked papers: **44**
+Total linked papers: **55**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -56,6 +56,17 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[155-carvallo-2025-hate-explained-evaluating-ner-enriched-text-in-human-and-machine-moderation-of-hate-speech|Carvallo 等 - 2025 - Hate Explained Evaluating NER-Enriched Text in Human and Machine Moderation of Hate Speech]]
 - [[156-melis-2025-a-modular-taxonomy-for-hate-speech-definitions-and-its-impact-on-zero-shot-llm-classification-performance|Melis 等 - 2025 - A Modular Taxonomy for Hate Speech Definitions and Its Impact on Zero-Shot LLM Classification Performance]]
 - [[157-ghorbanpour-2025-can-prompting-llms-unlock-hate-speech-detection-across-languages|Ghorbanpour 等 - 2025 - Can Prompting LLMs Unlock Hate Speech Detection across Languages]]
+- [[159-mathew-2021-hatexplain-a-benchmark-dataset-for-explainable-hate-speech-detection|Mathew 等 - 2021 - HateXplain A Benchmark Dataset for Explainable Hate Speech Detection]]
+- [[162-ranasinghe-2021-mudes-multilingual-detection-of-offensive-spans|Ranasinghe和Zampieri - 2021 - MUDES Multilingual Detection of Offensive Spans]]
+- [[163-calabrese-ross-lapata-2022-explainable-abuse-detection-as-intent-classification-and-slot-filling|Calabrese、Ross和Lapata - 2022 - Explainable Abuse Detection as Intent Classification and Slot Filling]]
+- [[164-elsherief-2018-hate-lingo-a-target-based-linguistic-analysis-of-hate-speech-in-social-media|ElSherief 等 - 2018 - Hate Lingo A Target-based Linguistic Analysis of Hate Speech in Social Media]]
+- [[165-zampieri-2019-predicting-the-type-and-target-of-offensive-posts-in-social-media|Zampieri 等 - 2019 - Predicting the Type and Target of Offensive Posts in Social Media]]
+- [[166-davidson-2019-racial-bias-in-hate-speech-and-abusive-language-detection-datasets|Davidson 等 - 2019 - Racial Bias in Hate Speech and Abusive Language Detection Datasets]]
+- [[167-chandra-2020-abuseanalyzer-abuse-detection-severity-and-target-prediction-for-gab-posts|Chandra 等 - 2020 - AbuseAnalyzer Abuse Detection Severity and Target Prediction for Gab Posts]]
+- [[168-yu-2022-hate-speech-and-counter-speech-detection-conversational-context-does-matter|Yu 等 - 2022 - Hate Speech and Counter Speech Detection Conversational Context Does Matter]]
+- [[169-zampieri-2023-target-based-offensive-language-identification|Zampieri 等 - 2023 - Target-Based Offensive Language Identification]]
+- [[174-casula-tonelli-2023-generation-based-data-augmentation-for-offensive-language-detection-is-it-worth-it|Casula 和 Tonelli - 2023 - Generation-Based Data Augmentation for Offensive Language Detection Is It Worth It]]
+- [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content|Puppi Vecchi 等 - 2026 - HARM Learning Hate-Aware Reward Model for Evaluating Natural Language Explanations of Offensive Content]]
 
 ## Cross-Cutting Concept Links
 - [[hate-speech-research-map]]

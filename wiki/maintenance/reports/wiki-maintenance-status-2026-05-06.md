@@ -1,6 +1,6 @@
 ---
 created: 2026-05-06
-updated: 2026-05-19
+updated: 2026-05-21
 tags: [maintenance, status]
 sources: []
 ---
@@ -28,6 +28,7 @@ sources: []
 - User selected automatic query-answer promotion: durable query answers should be filed as wiki pages by default and recorded in [[log]], while transient operational answers should not be promoted.
 - On 2026-05-17, 6 newly added PDFs were deep-ingested and linked into the relevant source hubs; structural lint, source tag drift, and PDF text artifact checks passed after the update.
 - On 2026-05-19, root `AGENTS.md` was narrowed to global routing rules, root `EXPERIMENTS.md` was added for experiment workflow, and detailed schema/direction/maintenance rules were moved into `wiki/maintenance/`.
+- On 2026-05-21, 6 target-relation-relevant hate/offensive-language PDFs were deep-ingested, [[target-relation-grounding-literature-map]] was added, hate source coverage increased to 53 papers, and structural lint/source checks passed.
 
 ## Current Structural Status
 
@@ -44,7 +45,7 @@ sources: []
 | PDF text artifact checker | Added; current result has 0 offenders |
 | Poppler / `pdftoppm` | Installed |
 | Rendered table checks | Complete for all priority metrics rows in direction metrics matrices |
-| Auto-ingest PDF source pages | 0 remaining among the 163 numbered PDF source pages |
+| Auto-ingest PDF source pages | 0 remaining among the 169 numbered PDF source pages |
 | Non-hate entity maps | Added |
 | Query answer template | Added |
 | Attachment directory | Added |

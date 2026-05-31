@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-19
+updated: 2026-05-31
 tags: [index]
 sources: []
 ---
@@ -11,15 +11,15 @@ sources: []
 
 | Area | Current state |
 |---|---|
-| Raw PDFs | 163 files in `raw/sources/` |
-| Wiki pages | 307 pages under `wiki/` |
-| Source pages | 171 pages, including catalog and alias stubs |
-| Concept pages | 95 pages |
+| Raw PDFs | 177 files in `raw/sources/` |
+| Wiki pages | 325 pages under `wiki/` |
+| Source pages | 185 pages, including catalog and alias stubs |
+| Concept pages | 97 pages |
 | Entity pages | 18 pages |
-| Maintenance pages | 21 pages |
-| Deep-ingested source pages | 163 PDF source pages tagged `deep-ingest-v2` |
-| Auto-ingest PDF source pages | 0 remaining among the 163 numbered PDF source pages |
-| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, and 0 misplaced maintenance pages found on 2026-05-19 |
+| Maintenance pages | 23 pages |
+| Deep-ingested source pages | 177 PDF source pages tagged `deep-ingest-v2` |
+| Auto-ingest PDF source pages | 0 remaining among the 177 numbered PDF source pages |
+| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-05-31 |
 
 ## Entities
 
@@ -44,6 +44,7 @@ sources: []
 | [[hate-speech-datasets-and-benchmarks]] | Dataset and benchmark tracking for hate speech work |
 | [[hate-speech-generalization-and-transfer]] | Cross-domain, cross-platform, and cross-lingual transfer |
 | [[explainable-hate-speech-detection]] | Interpretable hate speech detection and rationale-based methods |
+| [[target-relation-grounding-literature-map]] | Literature map for target-conditioned harmful relation grounding |
 | [[stance-detection]] | Identifying author stance toward targets |
 | [[sarcasm-detection]] | Detecting sarcasm and incongruity |
 | [[sentiment-analysis]] | Sentiment classification and affective language analysis |
@@ -90,7 +91,7 @@ sources: []
 | Emotion completion report | [[emotion-recognition-completion-report-2026-05-05]] |
 | Multimodal source hub | [[multimodal-learning-source-hub]] |
 | Multimodal completion report | [[multimodal-learning-completion-report-2026-05-05]] |
-| Latest integrity report | [[wiki-integrity-report-2026-05-06]] |
+| Latest integrity report | [[wiki-integrity-report-2026-05-31]] |
 | Global research map | [[global-research-map]] |
 | Cross-direction synthesis | [[cross-direction-synthesis-2026-05-06]] |
 | PDF table verification index | [[pdf-table-verification-index-2026-05-06]] |
@@ -127,7 +128,7 @@ sources: []
 | [[cross-direction-synthesis-2026-05-06]] | Cross-direction synthesis across all completed directions |
 | [[pdf-table-verification-index-2026-05-06]] | Likely PDF result-table pages for priority metrics verification |
 | [[hate-speech-lint-report-2026-04-23]] | Earlier hate speech direction lint pass |
-| [[wiki-integrity-report-2026-05-06]] | Current global navigation and integrity check |
+| [[wiki-integrity-report-2026-05-31]] | Current global navigation and integrity check |
 | [[using-not-toxic-targets-for-hate-speech-detection]] | Query answer on using LLM-extracted not_toxic targets as target-aware hard negatives |
 | [[cadet-hare-target-category-usage]] | Query answer comparing how CADET and HARE use target and category annotations |
 | [[intent-slot-style-hate-speech-modeling]] | Query answer on reframing target-aware hate detection as intent-slot and NER-style structured modeling |
@@ -141,6 +142,8 @@ sources: []
 | [[cross-direction-innovation-ideas-2026-05-18]] | Query answer proposing preliminary innovation ideas from the wiki's cross-direction common problems |
 | [[hate-speech-grounding-directions-review-2026-05-18]] | Query answer assessing novelty and feasibility of three hate-speech grounding directions from a reviewer perspective |
 | [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] | Query answer giving an experiment plan for definition-controllable candidate-target relation grounding |
+| [[target-relation-grounding-literature-map]] | Literature map connecting target categories, target-expression spans, context, and bias audits for relation-grounded hate detection |
+| [[missing-annotation-completion-and-utility-literature-map]] | Deduplicated new-to-vault literature map for missing annotation completion and downstream utility validation |
 
 ---
-_Last updated: 2026-05-19_
+_Last updated: 2026-05-31_

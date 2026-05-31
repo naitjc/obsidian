@@ -1,8 +1,9 @@
 ---
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-27
 tags: [concept, dialogue, research-direction]
-sources: []
+sources:
+  - raw/sources/关于自然语言理解课题的思考.pdf
 ---
 
 # Dialogue, Intent, and Slot Filling Research Map
@@ -16,6 +17,7 @@ Task-oriented dialogue, dialogue state tracking, intent detection, slot filling,
 - intent detection and slot filling
 - multi-intent and multi-domain spoken language understanding
 - LLM-based multi-turn dialogue and response generation
+- proposed agent-oriented customer-service evaluation, currently agenda-level rather than benchmark evidence: [[177-natural-language-understanding-topic-reflections]]
 
 ## Key Source Index
 - Use [[dialogue-systems-source-hub]] as the canonical direction-level source index.

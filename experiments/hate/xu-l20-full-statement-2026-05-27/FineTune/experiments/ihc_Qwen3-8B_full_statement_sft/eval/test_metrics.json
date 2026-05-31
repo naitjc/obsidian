@@ -1,0 +1,40 @@
+{
+  "overall": {
+    "accuracy": 0.8496522204387373,
+    "precision": 0.75,
+    "recall": 0.7294332723948812,
+    "f1": 0.7395736793327155,
+    "macro_f1": 0.816947426353082
+  },
+  "target_jaccard_toxic_only": 0.337720901889092,
+  "statement_jaccard_toxic_only": 0.0449725776965265,
+  "confusion_matrix_label_order": [
+    "non_toxic",
+    "toxic"
+  ],
+  "confusion_matrix": [
+    [
+      1189,
+      133
+    ],
+    [
+      148,
+      399
+    ]
+  ],
+  "by_source": {
+    "IHC": {
+      "accuracy": 0.8496522204387373,
+      "precision": 0.75,
+      "recall": 0.7294332723948812,
+      "f1": 0.7395736793327155,
+      "macro_f1": 0.816947426353082
+    }
+  },
+  "target_jaccard_toxic_only_by_source": {
+    "IHC": 0.337720901889092
+  },
+  "statement_jaccard_toxic_only_by_source": {
+    "IHC": 0.0449725776965265
+  }
+}

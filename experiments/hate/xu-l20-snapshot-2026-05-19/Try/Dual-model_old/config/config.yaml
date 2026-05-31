@@ -1,0 +1,63 @@
+backbone:
+  model_name: Qwen3-4B
+  model_path: /data/public_model/Qwen3-4B
+
+data:
+  ihc:
+    train: DATA/IHC/processed/train.json
+    valid: DATA/IHC/processed/valid.json
+    test: DATA/IHC/processed/test.json
+  sbic:
+    train: DATA/SBIC/processed/train.json
+    valid: DATA/SBIC/processed/valid.json
+    test: DATA/SBIC/processed/test.json
+
+categories:
+  IHC:
+    - vanilla
+    - incitement
+    - inferiority
+    - irony
+    - other
+    - stereotypical
+    - threatening
+    - white_grievance
+  SBIC:
+    - vanilla
+    - body
+    - culture
+    - disabled
+    - gender
+    - race
+    - social
+    - victim
+
+model1:
+  type: category_target_predictor
+  description: "输入post，输出category和target"
+  output_type: multi_label  # category + target 都是分类任务
+
+model2:
+  type: label_predictor
+  description: "输入post、category、target，输出toxic或not_toxic"
+  output_type: binary_classification
+
+training:
+  mode: separate  # separate | joint
+  backbone_mode: independent  # shared | independent
+  batch_size: 8
+  learning_rate: 1e-5
+  epochs: 3
+  warmup_steps: 100
+
+model1_training:
+  loss_type: ce  # 交叉熵
+  category_loss_weight: 0.5
+  target_loss_weight: 0.5
+
+model2_training:
+  loss_type: ce
+
+inference:
+  batch_size: 16
+  max_new_tokens: 128

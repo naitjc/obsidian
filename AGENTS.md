@@ -1,172 +1,97 @@
-# Wiki Schema
+# Research Wiki Map
 
-## Overview
-This is a personal research wiki maintained by LLM. The wiki is a persistent, compounding artifact that grows with each source added and question asked.
+This vault is a persistent LLM-maintained research wiki. It stores immutable source material, compiled research knowledge, local experiment records, and reusable maintenance rules.
 
-## Directory Structure
+## Mission
 
-```
-./
-├── raw/                    # Immutable source documents
-│   └── sources/           # Articles, papers, PDFs, etc.
-├── wiki/                  # LLM-generated content
-│   ├── entities/         # People, places, things
-│   ├── concepts/         # Topics, ideas, theories
-│   ├── sources/          # Source summaries and notes
-│   └── index.md          # Master catalog
-├── log.md                # Chronological activity log
-└── AGENTS.md            # This schema file
-```
+- Treat `raw/` as source-of-truth inputs.
+- Treat `wiki/` as the compiled long-term knowledge layer.
+- Treat `experiments/` as local experiment process, artifacts, and results.
+- Treat `baselines/` as external paper code, upstream checkouts, and baseline-specific reproduction work.
+- Prefer updating existing wiki pages over creating duplicate pages.
+- Preserve links, backlinks, and concise synthesis across pages.
+- Do not rely on chat history when the rule, result, or decision should live in the vault.
 
-## Conventions
+## Read First
 
-### Page Format
-- Markdown with YAML frontmatter
-- Frontmatter fields: `created`, `updated`, `tags`, `sources`
-- Cross-links using ``page-name`` syntax
-- Citations: `[source](source-url)`
-- Wiki page names use lowercase slug targets.
-- Raw source files are immutable; do not edit files under `raw/`.
-- Source pages should separate extracted evidence from synthesis. Do not convert automatically extracted numeric candidates into final claims unless the original table has been checked.
+Start from the file that routes the task:
 
-### Source Page Format
-- Required sections: `Metadata`, `Problem Framing`, `Method`, `Data and Evaluation Setup`, `Results and Claims`, `Limitations and Follow-ups`, `Structured Signals`, `Related Concepts`.
-- If a page is only metadata/first-page extraction, tag it `auto-ingest`; if it is outside a completed direction, also tag it `peripheral-source` and treat it as a navigation node, not as a reliable synthesis source.
-- If a page has multi-section extraction and direction-level links, tag it `deep-ingest-v2`.
+- research question or source interpretation -> `wiki/index.md`
+- active experiment work -> `EXPERIMENTS.md`
+- wiki health, schema, or lint work -> `wiki/maintenance/index.md`
+- manuscript work -> `papers/{paper-slug}/README.md` when it exists
 
-### Concept and Synthesis Pages
-- Concept pages summarize stable knowledge across sources and link to evidence-bearing source pages.
-- Synthesis pages may resolve tensions between papers, but must mark unverifiable quantitative claims as assumptions or pending verification.
-- Direction status pages track completion criteria, remaining gaps, and whether the direction is complete for internal wiki use or publication-grade external citation.
+## Namespace Map
 
-### Ingest Workflow
-1. LLM reads the new source
-2. Creates/updates relevant entity and concept pages
-3. Updates `index.md`
-4. Appends entry to `log.md`
+- `raw/` -> immutable source documents, datasets, and captured assets
+- `wiki/` -> durable research knowledge
+- `experiments/` -> prompts, configs, runs, metrics, notes, and cross-run results
+- `baselines/` -> external paper code, upstream repositories, and baseline-specific runs
+- `papers/` -> manuscript-specific argument work
+- `scripts/` and `src/` -> reusable local tooling and code
 
-### Query Workflow
-1. Check `index.md` for relevant pages
-2. Read relevant pages
-3. Synthesize answer with citations
-4. If the answer has durable research value, automatically file it as a new wiki page using `wiki/templates/query-answer-template.md`; do not file one-off operational answers, simple status answers, or purely local maintenance confirmations.
-5. Update `index.md` and append to `log.md`
+Within `wiki/`:
 
-### Lint Checklist
-- Contradictions between pages
-- Stale claims superseded by newer sources
-- Orphan pages (no inbound links)
-- Missing cross-references
-- Data gaps
-- Numeric claims without table-level evidence
+- `index.md` -> master router
+- `sources/` -> source-grounded notes
+- `concepts/` -> topic, method, synthesis, direction, and status pages
+- `entities/` -> datasets, benchmarks, people, organizations, and reusable named entities
+- `templates/` -> reusable page templates
+- `maintenance/` -> schema, routing, lint, direction registry, and maintenance decisions
 
-### Log Format
-```
-## [YYYY-MM-DD] type | Title
-```
+Optional future namespaces under `wiki/` may include `domains/`, `topics/`, `methods/`, `datasets/`, `comparisons/`, `claims/`, or `questions/` when a task needs a cleaner split than the current `concepts/` and `entities/` layout.
 
-## Completed Directions
+## Current Research Directions
 
-The following directions are complete for internal wiki use. Other directions are intentionally left as-is unless the user asks for them.
+Use the vault's existing direction registry, not directions from imported example rule files. Current canonical directions are:
 
-### Hate Speech Detection
+- hate speech detection
+- stance detection
+- dialogue, intent, and slot filling
+- LLM reasoning and evaluation
+- sarcasm and humor detection
+- role-playing agents and persona modeling
+- emotion recognition and empathetic response
+- multimodal learning
 
-#### Scope
-- Explicit and implicit hate speech detection
-- Multimodal hate detection and hateful memes
-- Cross-platform, cross-domain, and cross-lingual transfer
-- Hate speech datasets and benchmark normalization
-- Explainability, reasoning, retrieval, causal, and contrastive methods when used for hate detection
+The direction registry and canonical entry points live in `wiki/maintenance/research-direction-registry.md`. The top-level map is `wiki/concepts/global-research-map.md`.
 
-#### Canonical Entry Points
-- Direction map: `wiki/concepts/hate-speech-research-map.md`
-- Source hub: `wiki/concepts/hate-speech-source-hub.md`
-- SOTA synthesis: `wiki/concepts/hate-speech-sota-landscape.md`
-- Final synthesis: `wiki/concepts/hate-speech-final-synthesis.md`
-- Metrics workspace: `wiki/concepts/hate-speech-metrics-matrix.md`
-- Status: `wiki/concepts/hate-speech-direction-status.md`
-- Latest completion report: `wiki/concepts/hate-speech-completion-report-2026-04-29.md`
+## Task Map
 
-#### Completion Rule
-- The direction is complete for internal wiki use when all hate-tagged source pages are deep-ingested, linked from the source hub, represented in concept/synthesis pages, and included in lint/status reporting.
-- Publication-grade quantitative claims require manual table verification in the original PDFs. If that has not been done, keep numeric rows marked as table-located, partial, or pending-manual-verification.
+- new raw source -> create or update `wiki/sources/`, integrate it into affected synthesis pages, update `wiki/index.md`, append `log.md`
+- research question -> read routed wiki pages first, then write reusable answers into an appropriate durable wiki page when the answer has long-term value
+- experiment result -> keep raw outputs in `experiments/`, promote only durable conclusions into `wiki/`
+- external baseline code -> keep it under `baselines/`, promote only durable findings into `wiki/`
+- wiki maintenance -> use `wiki/maintenance/` for reusable maintenance guidance and `log.md` for major schema changes
+- manuscript work -> keep draft-specific work in `papers/`, push reusable knowledge back into `wiki/`
 
-### Stance Detection
+## Required Updates
 
-#### Scope
-- Stance classification toward targets, topics, claims, and entities
-- Zero-shot and open-domain stance detection
-- Conversational, multimodal, cross-lingual, and target-adaptive stance settings
-- LLM prompting, reasoning, synthetic data, retrieval/knowledge, and verification when used for stance detection
-- Bias, stereotypes, target absence, and target formulation effects
+When a task changes durable knowledge, update the routing layer as needed:
 
-#### Canonical Entry Points
-- Direction map: `wiki/concepts/stance-detection-research-map.md`
-- Source hub: `wiki/concepts/stance-detection-source-hub.md`
-- SOTA synthesis: `wiki/concepts/stance-detection-sota-landscape.md`
-- Final synthesis: `wiki/concepts/stance-detection-final-synthesis.md`
-- Metrics workspace: `wiki/concepts/stance-detection-metrics-matrix.md`
-- Status: `wiki/concepts/stance-detection-direction-status.md`
-- Latest completion report: `wiki/concepts/stance-detection-completion-report-2026-05-05.md`
+- new or renamed durable page -> update `wiki/index.md`
+- new ingest or meaningful maintenance change -> append `log.md`
+- reusable benchmark fact -> update the relevant benchmark or dataset page
+- reused conclusion across sources -> create or update the relevant synthesis, claim, or comparison page
+- repeated cross-paper distinction -> create or update a durable comparison or topic page
+- schema, taxonomy, or lint convention change -> record it under `wiki/maintenance/`
+- experiment workflow or result convention change -> update `EXPERIMENTS.md` or the relevant `experiments/{dataset}/notes/` file
 
-#### Completion Rule
-- The direction is complete for internal wiki use when all stance-tagged source pages are deep-ingested, linked from the source hub, represented in concept/synthesis pages, and included in lint/status reporting.
-- Publication-grade quantitative claims require manual table verification in the original PDFs. Avoid global SOTA rankings across mismatched stance settings.
+## Hard Constraints
 
-### Other Completed Directions
+- Do not edit files under `raw/`.
+- Do not write converted datasets, model outputs, or temporary files under `raw/`.
+- Do not leave a new durable wiki page unlinked from `wiki/index.md` or a relevant hub page.
+- Do not mix third-party paper repositories into active `experiments/` folders when `baselines/` is the cleaner fit.
+- Do not present working interpretation as if it were a direct source claim.
+- Do not convert automatically extracted numeric candidates into final claims unless the original table has been checked.
+- Do not introduce unrelated fallback branches, business goals, or alternative task paths when the user asked for a narrower change.
 
-The following directions are also complete for internal wiki use as of 2026-05-05:
+## Pointers
 
-| Direction | Source Hub | Completion Report |
-|---|---|---|
-| Dialogue, intent, and slot filling | `wiki/concepts/dialogue-systems-source-hub.md` | `wiki/concepts/dialogue-systems-completion-report-2026-05-05.md` |
-| LLM reasoning and evaluation | `wiki/concepts/llm-reasoning-source-hub.md` | `wiki/concepts/llm-reasoning-completion-report-2026-05-05.md` |
-| Sarcasm and humor detection | `wiki/concepts/sarcasm-detection-source-hub.md` | `wiki/concepts/sarcasm-detection-completion-report-2026-05-05.md` |
-| Role-playing agents and persona modeling | `wiki/concepts/role-playing-agents-source-hub.md` | `wiki/concepts/role-playing-agents-completion-report-2026-05-05.md` |
-| Emotion recognition and empathetic response | `wiki/concepts/emotion-recognition-source-hub.md` | `wiki/concepts/emotion-recognition-completion-report-2026-05-05.md` |
-| Multimodal learning | `wiki/concepts/multimodal-learning-source-hub.md` | `wiki/concepts/multimodal-learning-completion-report-2026-05-05.md` |
-
-Completion boundary for all directions: internal research navigation, browsing, and Q&A are complete; hate speech and LLM reasoning priority benchmark rows have publication-checked values in their metrics matrices; other priority benchmark rows have rendered-PDF visual verification unless separately upgraded. Global SOTA rankings across mismatched tasks remain out of scope.
-
-### Global Entry Points
-- Top-level map: `wiki/concepts/global-research-map.md`
-- Cross-direction synthesis: `wiki/concepts/cross-direction-synthesis-2026-05-06.md`
-- PDF table verification index: `wiki/concepts/pdf-table-verification-index-2026-05-06.md`
-- Maintenance playbook: `wiki/concepts/wiki-maintenance-playbook.md`
-- Current maintenance status: `wiki/concepts/wiki-maintenance-status-2026-05-06.md`
-
-### Local Maintenance Tools
-- Structural lint: `python3 scripts/lint_wiki.py`
-- Inventory summary: `python3 scripts/wiki_inventory.py`
-- PDF table locator: `python3 scripts/locate_pdf_tables.py`
-- PDF metric page verifier: `python3 scripts/verify_pdf_metric_pages.py`
-- Source hub preview/regeneration: `python3 scripts/regenerate_source_hubs.py`
-- Source tag drift check: `python3 scripts/check_source_tag_drift.py`
-- PDF text artifact check: `python3 scripts/check_pdf_text_artifacts.py`
-- Query answer template: `wiki/templates/query-answer-template.md`
-- Local attachment target: `raw/assets/`
-- Rendered PDF verification cache: `tmp/pdfs/` (retained as evidence for metrics-table visual checks)
-- Local version history: git repository initialized at the vault root
-
-## Status
-- [x] First source ingested
-- [x] Core concepts mapped
-- [x] Initial entity pages created
-- [x] Hate speech detection direction completed for internal wiki use
-- [x] Stance detection direction completed for internal wiki use
-- [x] Dialogue / intent / slot filling direction completed for internal wiki use
-- [x] LLM reasoning / evaluation direction completed for internal wiki use
-- [x] Sarcasm / humor direction completed for internal wiki use
-- [x] Role-playing agents / persona modeling direction completed for internal wiki use
-- [x] Emotion recognition direction completed for internal wiki use
-- [x] Multimodal learning direction completed for internal wiki use
-- [x] Cross-direction synthesis created
-- [x] Maintenance scripts added
-- [x] PDF table locator added
-- [x] PDF priority metrics rows visually verified
-- [x] Non-hate benchmark and dataset entity maps added
-- [x] Source hub/tag drift maintenance scripts added
-- [x] PDF text artifact checker added
-- [x] Query answer template added
-- [x] Attachment directory created
-- [x] Git repository initialized
+- schema and namespace detail -> `wiki/maintenance/wiki-schema.md`
+- frontmatter and status vocabulary -> `wiki/maintenance/frontmatter-conventions.md`
+- task routing and promotion detail -> `wiki/maintenance/task-routing-and-promotion.md`
+- maintenance checks -> `wiki/maintenance/wiki-maintenance-checklist.md`
+- completed direction registry -> `wiki/maintenance/research-direction-registry.md`
+- active experiment workflow -> `EXPERIMENTS.md`

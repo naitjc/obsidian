@@ -1,13 +1,13 @@
 ---
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-27
 tags: [index, dialogue, sources]
 sources: []
 ---
 
 # Dialogue, Intent, and Slot Filling Source Hub
 
-Total linked papers: **24**
+Total linked papers: **28**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -36,6 +36,10 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[131-yu-2025-injongo-a-multicultural-intent-detection-and-slot-filling-dataset-for-16-african-languages|Yu 等 - 2025 - INJONGO A Multicultural Intent Detection and Slot-filling Dataset for 16 African Languages]]
 - [[134-yuan-2025-reflectdiffu-reflect-between-emotion-intent-contagion-and-mimicry-for-empathetic-response-generatio|Yuan 等 - 2025 - ReflectDiffu Reflect between Emotion-intent Contagion and Mimicry for Empathetic Response Generatio]]
 - [[146-zhou-2024-a-usage-centric-take-on-intent-understanding-in-e-commerce|Zhou 等 - 2024 - A Usage-centric Take on Intent Understanding in E-Commerce]]
+- [[158-ding-2021-focus-on-interaction-a-novel-dynamic-graph-model-for-joint-multiple-intent-detection-and-slot-filling|Ding 等 - 2021 - Focus on Interaction A Novel Dynamic Graph Model for Joint Multiple Intent Detection and Slot Filling]]
+- [[161-qin-2020-agif-an-adaptive-graph-interactive-framework-for-joint-multiple-intent-detection-and-slot-filling|Qin 等 - 2020 - AGIF An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling]]
+- [[163-calabrese-ross-lapata-2022-explainable-abuse-detection-as-intent-classification-and-slot-filling|Calabrese、Ross和Lapata - 2022 - Explainable Abuse Detection as Intent Classification and Slot Filling]]
+- [[177-natural-language-understanding-topic-reflections|关于自然语言理解课题的思考]]
 
 ## Cross-Cutting Concept Links
 - [[dialogue-systems]]

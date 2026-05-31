@@ -1,3 +1,12 @@
 .DS_Store
 Thumbs.db
 tmp/
+__pycache__/
+*.py[cod]
+*.pid
+
+# Keep sample-level experiment evidence local when publishing this public wiki.
+experiments/**/*.jsonl
+experiments/**/*.log
+experiments/**/data/processed/
+experiments/**/DATA/**/processed/

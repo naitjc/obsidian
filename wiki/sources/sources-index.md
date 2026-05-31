@@ -1,28 +1,41 @@
 ---
 created: 2026-04-23
-updated: 2026-05-06
+updated: 2026-05-27
 tags: [index, sources]
 sources: []
 ---
 
 # Sources Index
 
-Total source PDFs ingested: **157**
+Total source PDFs ingested: **177**
 
 | Paper | Year | Tags |
 |---|---|---|
 | [[104-wang-2017-neural-machine-translation-advised-by-statistical-machine-translation|Wang 等 - 2017 - Neural Machine Translation Advised by Statistical Machine Translation]] | 2017 | cross-lingual |
 | [[025-de-gibert-2018-hate-speech-dataset-from-a-white-supremacy-forum|de Gibert 等 - 2018 - Hate Speech Dataset from a White Supremacy Forum]] | 2018 | hate-speech, benchmark |
+| [[164-elsherief-2018-hate-lingo-a-target-based-linguistic-analysis-of-hate-speech-in-social-media|ElSherief 等 - 2018 - Hate Lingo A Target-based Linguistic Analysis of Hate Speech in Social Media]] | 2018 | hate-speech, benchmark, bias, explainability |
+| [[170-ning-2018-exploiting-partially-annotated-data-for-temporal-relation-extraction|Ning 等 - 2018 - Exploiting Partially Annotated Data for Temporal Relation Extraction]] | 2018 | information-extraction, weak-supervision, graph |
 | [[105-wang-2018-incorporating-statistical-machine-translation-word-knowledge-into-neural-machine-translation|Wang 等 - 2018 - Incorporating Statistical Machine Translation Word Knowledge Into Neural Machine Translation]] | 2018 | cross-lingual |
 | [[032-farha-gall-2019-ms-tcn-multi-stage-temporal-convolutional-network-for-action-segmentation|Farha和Gall - 2019 - MS-TCN Multi-Stage Temporal Convolutional Network for Action Segmentation]] | 2019 | multimodal, benchmark |
 | [[036-garibo-i-orts-2019-multilingual-detection-of-hate-speech-against-immigrants-and-women-in-twitter-at-semeval-2019-task-5|Garibo i Orts - 2019 - Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter at SemEval-2019 Task 5]] | 2019 | hate-speech, cross-lingual, benchmark |
+| [[165-zampieri-2019-predicting-the-type-and-target-of-offensive-posts-in-social-media|Zampieri 等 - 2019 - Predicting the Type and Target of Offensive Posts in Social Media]] | 2019 | hate-speech, benchmark, explainability |
+| [[166-davidson-2019-racial-bias-in-hate-speech-and-abusive-language-detection-datasets|Davidson 等 - 2019 - Racial Bias in Hate Speech and Abusive Language Detection Datasets]] | 2019 | hate-speech, bias, benchmark |
+| [[171-jie-2019-better-modeling-of-incomplete-annotations-for-named-entity-recognition|Jie 等 - 2019 - Better Modeling of Incomplete Annotations for Named Entity Recognition]] | 2019 | information-extraction, weak-supervision, benchmark |
+| [[172-mayhew-2019-named-entity-recognition-with-partially-annotated-training-data|Mayhew 等 - 2019 - Named Entity Recognition with Partially Annotated Training Data]] | 2019 | information-extraction, weak-supervision, cross-lingual, benchmark |
 | [[042-hare-explainable-hate-speech-detection-with-step-by-step-reasoning|HARE Explainable Hate Speech Detection with Step-by-Step Reasoning]] | 2019 | hate-speech, implicit, benchmark, prompting, explainability |
 | [[068-lin-2019-deep-mask-memory-network-with-semantic-dependency-and-context-moment-for-aspect-level-sentiment-clas|Lin 等 - 2019 - Deep Mask Memory Network with Semantic Dependency and Context Moment for Aspect Level Sentiment Clas]] | 2019 | sentiment-analysis, benchmark |
 | [[091-sap-2020-social-bias-frames-reasoning-about-social-and-power-implications-of-language|Sap 等 - 2020 - Social Bias Frames Reasoning about Social and Power Implications of Language]] | 2020 | llm-reasoning, few-shot, prompting, retrieval, benchmark, graph |
+| [[167-chandra-2020-abuseanalyzer-abuse-detection-severity-and-target-prediction-for-gab-posts|Chandra 等 - 2020 - AbuseAnalyzer Abuse Detection Severity and Target Prediction for Gab Posts]] | 2020 | hate-speech, benchmark, explainability |
+| [[160-lin-2020-a-joint-neural-model-for-information-extraction-with-global-features|Lin 等 - 2020 - A Joint Neural Model for Information Extraction with Global Features]] | 2020 | information-extraction, graph, benchmark, cross-lingual |
+| [[161-qin-2020-agif-an-adaptive-graph-interactive-framework-for-joint-multiple-intent-detection-and-slot-filling|Qin 等 - 2020 - AGIF An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling]] | 2020 | dialogue, benchmark, graph |
 | [[015-balaraman-2021-recent-neural-methods-on-dialogue-state-tracking-for-task-oriented-dialogue-systems-a-survey|Balaraman 等 - 2021 - Recent Neural Methods on Dialogue State Tracking for Task-Oriented Dialogue Systems A Survey]] | 2021 | dialogue, zero-shot, few-shot, synthetic-data, retrieval, benchmark, graph, causal |
 | [[020-chen-2021-image-manipulation-detection-by-multi-view-multi-scale-supervision|Chen 等 - 2021 - Image Manipulation Detection by Multi-View Multi-Scale Supervision]] | 2021 | multimodal, few-shot, synthetic-data, retrieval, benchmark, graph |
 | [[031-elsherief-2021-latent-hatred-a-benchmark-for-understanding-implicit-hate-speech|ElSherief 等 - 2021 - Latent Hatred A Benchmark for Understanding Implicit Hate Speech]] | 2021 | hate-speech, implicit, cross-lingual, benchmark, causal, explainability |
+| [[158-ding-2021-focus-on-interaction-a-novel-dynamic-graph-model-for-joint-multiple-intent-detection-and-slot-filling|Ding 等 - 2021 - Focus on Interaction A Novel Dynamic Graph Model for Joint Multiple Intent Detection and Slot Filling]] | 2021 | dialogue, benchmark, graph |
 | [[069-lin-2021-deep-selective-memory-network-with-selective-attention-and-inter-aspect-modeling-for-aspect-level-se|Lin 等 - 2021 - Deep Selective Memory Network With Selective Attention and Inter-Aspect Modeling for Aspect Level Se]] | 2021 | sentiment-analysis, benchmark |
+| [[159-mathew-2021-hatexplain-a-benchmark-dataset-for-explainable-hate-speech-detection|Mathew 等 - 2021 - HateXplain A Benchmark Dataset for Explainable Hate Speech Detection]] | 2021 | hate-speech, benchmark, explainability, bias |
+| [[162-ranasinghe-2021-mudes-multilingual-detection-of-offensive-spans|Ranasinghe和Zampieri - 2021 - MUDES Multilingual Detection of Offensive Spans]] | 2021 | hate-speech, cross-lingual, benchmark, explainability |
+| [[173-xie-2021-revisiting-the-negative-data-of-distantly-supervised-relation-extraction|Xie 等 - 2021 - Revisiting the Negative Data of Distantly Supervised Relation Extraction]] | 2021 | information-extraction, weak-supervision, benchmark |
 | [[103-vidgen-2021-learning-from-the-worst-dynamically-generated-datasets-to-improve-online-hate-detection|Vidgen 等 - 2021 - Learning from the Worst Dynamically Generated Datasets to Improve Online Hate Detection]] | 2021 | hate-speech, benchmark, retrieval, counterfactual, explainability |
 | [[129-yu-2021-cross-domain-slot-filling-as-machine-reading-comprehension|Yu 等 - 2021 - Cross-Domain Slot Filling as Machine Reading Comprehension]] | 2021 | dialogue, zero-shot, few-shot, retrieval, benchmark, graph |
 | [[039-grover-2022-public-wisdom-matters-discourse-aware-hyperbolic-fourier-co-attention-for-social-text-classificatio|Grover 等 - 2022 - Public Wisdom Matters! Discourse-Aware Hyperbolic Fourier Co-Attention for Social-Text Classificatio]] | 2022 | graph, sentiment-analysis, benchmark |
@@ -32,10 +45,14 @@ Total source PDFs ingested: **157**
 | [[082-mollas-2022-ethos-a-multi-label-hate-speech-detection-dataset|Mollas 等 - 2022 - ETHOS a multi-label hate speech detection dataset]] | 2022 | hate-speech, benchmark |
 | [[097-su-2022-multi-task-pre-training-for-plug-and-play-task-oriented-dialogue-system|Su 等 - 2022 - Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System]] | 2022 | dialogue, zero-shot, few-shot, prompting, retrieval, benchmark, graph |
 | [[115-xing-tsang-2022-co-guiding-net-achieving-mutual-guidances-between-multiple-intent-detection-and-slot-filling-via-he|Xing和Tsang - 2022 - Co-guiding Net Achieving Mutual Guidances between Multiple Intent Detection and Slot Filling via He]] | 2022 | dialogue, prompting, retrieval, benchmark, graph |
+| [[163-calabrese-ross-lapata-2022-explainable-abuse-detection-as-intent-classification-and-slot-filling|Calabrese、Ross和Lapata - 2022 - Explainable Abuse Detection as Intent Classification and Slot Filling]] | 2022 | hate-speech, implicit, benchmark, explainability, dialogue |
+| [[168-yu-2022-hate-speech-and-counter-speech-detection-conversational-context-does-matter|Yu 等 - 2022 - Hate Speech and Counter Speech Detection Conversational Context Does Matter]] | 2022 | hate-speech, conversational, benchmark, explainability |
 | [[011-agarwal-2023-gascom-graph-based-attentive-semantic-context-modeling-for-online-conversation-understanding|Agarwal 等 - 2023 - GASCOM Graph-based Attentive Semantic Context Modeling for Online Conversation Understanding]] | 2023 | graph, benchmark |
 | [[018-butler-2023-convolutional-learning-on-multigraphs|Butler 等 - 2023 - Convolutional Learning on Multigraphs]] | 2023 | graph |
 | [[028-dong-2023-mvss-net-multi-view-multi-scale-supervised-networks-for-image-manipulation-detection|Dong 等 - 2023 - MVSS-Net Multi-View Multi-Scale Supervised Networks for Image Manipulation Detection]] | 2023 | multimodal, few-shot, synthetic-data, retrieval, benchmark, graph |
 | [[059-kim-2023-conprompt-pre-training-a-language-model-with-machine-generated-data-for-implicit-hate-speech-detect|Kim 等 - 2023 - ConPrompt Pre-training a Language Model with Machine-Generated Data for Implicit Hate Speech Detect]] | 2023 | hate-speech, implicit, benchmark, contrastive-learning, retrieval, prompting, counterfactual, explainability |
+| [[169-zampieri-2023-target-based-offensive-language-identification|Zampieri 等 - 2023 - Target-Based Offensive Language Identification]] | 2023 | hate-speech, benchmark, explainability |
+| [[174-casula-tonelli-2023-generation-based-data-augmentation-for-offensive-language-detection-is-it-worth-it|Casula 和 Tonelli - 2023 - Generation-Based Data Augmentation for Offensive Language Detection Is It Worth It]] | 2023 | hate-speech, synthetic-data, benchmark, bias |
 | [[063-li-2023-ms-tcn-multi-stage-temporal-convolutional-network-for-action-segmentation|Li 等 - 2023 - MS-TCN++ Multi-Stage Temporal Convolutional Network for Action Segmentation]] | 2023 | multimodal, benchmark |
 | [[150-2604-18519v1|LLM Safety From Within: Detecting Harmful Content with Internal Representations]] | 2023 | hate-speech, representation-learning, llm-reasoning, benchmark, generalization |
 | [[087-qin-2023-end-to-end-task-oriented-dialogue-a-survey-of-tasks-methods-and-future-directions|Qin 等 - 2023 - End-to-end Task-oriented Dialogue A Survey of Tasks, Methods, and Future Directions]] | 2023 | dialogue, zero-shot, few-shot, prompting, synthetic-data, retrieval, benchmark, graph |
@@ -91,6 +108,7 @@ Total source PDFs ingested: **157**
 | [[146-zhou-2024-a-usage-centric-take-on-intent-understanding-in-e-commerce|Zhou 等 - 2024 - A Usage-centric Take on Intent Understanding in E-Commerce]] | 2024 | dialogue, zero-shot, few-shot, prompting, retrieval, benchmark, graph |
 | [[147-zhu-2024-dglf-a-dual-graph-based-learning-framework-for-multi-modal-sarcasm-detection|Zhu 等 - 2024 - DGLF A Dual Graph-based Learning Framework for Multi-modal Sarcasm Detection]] | 2024 | multimodal, sarcasm, zero-shot, prompting, retrieval, benchmark, graph, causal |
 | [[148-zhu-2024-towards-multi-modal-sarcasm-detection-via-disentangled-multi-grained-multi-modal-distilling|Zhu 等 - 2024 - Towards Multi-modal Sarcasm Detection via Disentangled Multi-grained Multi-modal Distilling]] | 2024 | multimodal, sarcasm, prompting, retrieval, benchmark, graph, causal |
+| [[175-zhang-2024-graph-induced-syntactic-semantic-spaces-in-transformer-based-variational-autoencoders|Zhang 等 - 2024 - Graph-Induced Syntactic-Semantic Spaces in Transformer-Based Variational AutoEncoders]] | 2024 | llm-reasoning, representation-learning, graph, synthetic-data |
 | [[002-2025-acl-long-102|2025.acl-long.102]] | 2025 | multimodal, emotion-recognition, few-shot, prompting, retrieval, benchmark, graph, causal |
 | [[004-2025-coling-main-170|2025.coling-main.170]] | 2025 | multimodal, emotion-recognition, dialogue, zero-shot, few-shot, prompting, retrieval, benchmark, graph |
 | [[005-2025-coling-main-18|2025.coling-main.18]] | 2025 | multimodal, emotion-recognition, zero-shot, few-shot, retrieval, benchmark, graph |
@@ -158,6 +176,7 @@ Total source PDFs ingested: **157**
 | [[008-2510-07707v2|Causality Guided Representation Learning for Cross-Style Hate Speech Detection]] | 2026 | hate-speech, implicit, cross-lingual, benchmark, contrastive-learning, causal, retrieval, prompting, counterfactual, explainability |
 | [[034-garg-2026-just-kiddin-knowledge-infusion-and-distillation-for-detection-of-indecent-memes|Garg 等 - 2026 - Just KIDDIN Knowledge Infusion and Distillation for Detection of INdecent Memes]] | 2026 | multimodal, zero-shot, few-shot, prompting, synthetic-data, retrieval, benchmark, graph |
 | [[133-yu-2026-the-latent-space-foundation-evolution-mechanism-ability-and-outlook|Yu 等 - 2026 - The Latent Space Foundation, Evolution, Mechanism, Ability, and Outlook]] | 2026 | llm-reasoning, representation-learning |
+| [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content|Puppi Vecchi 等 - 2026 - HARM Learning Hate-Aware Reward Model for Evaluating Natural Language Explanations of Offensive Content]] | 2026 | hate-speech, explainability, llm-reasoning, benchmark, synthetic-data |
 | [[007-2507-09076v2|2507.09076v2]] | unknown | llm-reasoning, emotion-recognition, prompting, retrieval, benchmark, graph |
 | [[009-2654-rebuttal-2|2654-rebuttal-2]] | unknown | dialogue, prompting, retrieval, benchmark, graph |
 | [[038-goyal-iii-causal-differentiating-concepts-interpreting-lm-behavior-via-causal-representation-learning|Goyal和Iii - Causal Differentiating Concepts Interpreting LM Behavior via Causal Representation Learning]] | unknown | causal, representation-learning, llm-reasoning, explainability |
@@ -168,3 +187,4 @@ Total source PDFs ingested: **157**
 | [[127-yin-midlm-multi-intent-detection-with-bidirectional-large-language-models|Yin 等 - MIDLM Multi-Intent Detection with Bidirectional Large Language Models]] | unknown | dialogue, few-shot, prompting, retrieval, benchmark, graph, causal |
 | [[128-yoon-blendx-complex-multi-intent-detection-with-blended-patterns|Yoon 等 - BlendX Complex Multi-Intent Detection with Blended Patterns]] | unknown | dialogue, few-shot, prompting, synthetic-data, retrieval, benchmark, graph |
 | [[149-zhu-learning-causally-disentangled-representations-for-fair-personality-detection|Zhu 等 - Learning Causally Disentangled Representations for Fair Personality Detection]] | unknown | role-playing, prompting, synthetic-data, retrieval, benchmark, graph, causal |
+| [[177-natural-language-understanding-topic-reflections|关于自然语言理解课题的思考]] | unknown | dialogue, llm-reasoning, benchmark, research-agenda |

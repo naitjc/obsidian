@@ -1,6 +1,6 @@
 ---
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-27
 tags: [index, synthesis, research-map]
 sources: []
 ---
@@ -31,6 +31,7 @@ This page is the top-level research map for the current wiki. Direction pages re
 - [[llm-reasoning]]
 - [[multimodal-learning]]
 - [[llm-evaluation]]
+- [[missing-annotation-completion-and-utility-literature-map]]
 
 ## Maintenance
 

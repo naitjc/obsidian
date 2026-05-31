@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-05-31
 tags: [maintenance, index]
 sources: []
 ---
@@ -18,6 +18,7 @@ This page routes wiki schema, lint, direction registry, and maintenance workflow
 | Task routing and promotion rules | [[task-routing-and-promotion]] |
 | Maintenance checks and scripts | [[wiki-maintenance-checklist]] |
 | Completed direction registry | [[research-direction-registry]] |
+| Integrity report 2026-05-31 | [[wiki-integrity-report-2026-05-31]] |
 | Navigation audit 2026-05-19 | [[navigation-audit-2026-05-19]] |
 | Archived maintenance reports | `wiki/maintenance/reports/` |
 | Legacy maintenance playbook | [[wiki-maintenance-playbook]] |

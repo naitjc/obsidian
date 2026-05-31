@@ -218,6 +218,12 @@
 - Marked the ideas as proposal-level syntheses pending direction-specific literature and experiment verification.
 - Recorded the user's prioritization that the near-term work should focus on the first three lines: controlled semantic grounding, curation-first synthetic hard cases, and verifiable reasoning.
 - Added [[hate-speech-grounding-directions-review-2026-05-18]] to assess the novelty and feasibility of the first three hate-speech directions from a critical reviewer perspective.
+
+## [2026-05-21] ingest | Target-relation hate speech literature additions
+- Added 6 deep-ingested source pages for target-relation-relevant hate/offensive-language papers: [[164-elsherief-2018-hate-lingo-a-target-based-linguistic-analysis-of-hate-speech-in-social-media]], [[165-zampieri-2019-predicting-the-type-and-target-of-offensive-posts-in-social-media]], [[166-davidson-2019-racial-bias-in-hate-speech-and-abusive-language-detection-datasets]], [[167-chandra-2020-abuseanalyzer-abuse-detection-severity-and-target-prediction-for-gab-posts]], [[168-yu-2022-hate-speech-and-counter-speech-detection-conversational-context-does-matter]], and [[169-zampieri-2023-target-based-offensive-language-identification]].
+- Added [[target-relation-grounding-literature-map]] to route target category, target-expression span, context modifier, and shortcut/bias evidence for the active relation-grounded hate detection discussion.
+- Updated [[hate-speech-source-hub]], [[sources-index]], [[nlp-research-collection]], [[index]], [[hate-speech-research-map]], [[hate-speech-final-synthesis]], [[hate-speech-direction-status]], [[explainable-hate-speech-detection]], [[hate-speech-datasets-and-benchmarks]], [[intent-slot-style-hate-speech-modeling]], [[hate-speech-intent-slot-refactor-plan]], [[leakage-resistant-target-relation-modeling]], and [[candidate-target-relation-grounding-experiment-plan-2026-05-18]].
+- Recorded [[wiki-integrity-report-2026-05-21]] after `scripts/wiki_inventory.py`, `scripts/lint_wiki.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py` all passed.
 - Recommended using definition-controllable candidate-target relation grounding as the main contribution, with governed synthetic hard cases as the data/evaluation engine and verifiable structured reasoning as the reliability layer.
 - Added [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] to turn the converged paper framing into an experimental sequence.
 - Proposed phases for shortcut diagnostics, uniform candidate generation, relation/evidence labeling, model baselines, curated hard-case generation, robustness evaluation, faithfulness tests, and accept/reject criteria.
@@ -274,3 +280,56 @@
 - Extended `scripts/lint_wiki.py` to flag duplicate wiki slugs and maintenance/lint pages misplaced under `wiki/concepts/`.
 - Extended `scripts/wiki_inventory.py` to report maintenance page counts and refreshed [[index]] with the updated concept/maintenance split.
 - Removed non-source `.DS_Store` files outside `raw/`, `.git/`, and `tmp/`.
+
+## [2026-05-20] query-answer | Intent-slot not-toxic slot completion refinement
+- Updated [[hate-speech-intent-slot-refactor-plan]] to assess the proposed not-toxic slot-completion strategy: keyword matching can bootstrap candidate targets, LLMs can fill ambiguous or unmatched rows, but missing targets should remain `no_relevant_target` rather than being force-filled.
+- Updated [[ihc-sbic-target-completion-layer]] with a concrete first-pass completion rule separating candidate target generation, relation state, non-hate explanation, uncertainty, and `hate_class`/harm-subtype handling.
+- Recorded that `threat` versus `non_threat` is only a coarse harmful-intent dimension; not-toxic examples should use `neutral/no_hate_intent` plus relation states such as `mentioned_not_attacked` or `no_relevant_target`.
+
+## [2026-05-25] query-answer | IHC completion alignment with recent target-aware papers
+- Updated [[ihc-sbic-target-completion-layer]] after checking the recently added Boudraa, Carvallo, Calabrese, and HARE sources against the target-completion implementation decision.
+- Recorded that Boudraa uses an `80/10/10` stratified IHC split, Carvallo creates GPT tag supervision from training partitions, and U-PLEAD/TARGET balances synthetic combinations rather than constructing split-specific IHC target lexicons.
+- Selected one train-toxic native-target lexicon over per-split lexicons for the current IHC completion prototype; generated not-toxic statements remain weak labels requiring audit.
+- Cleaned obsolete failed-run outputs and temporary validation artifacts from the remote `llm_restructed` working directory after the revised pipeline passed structural and failure-deferral checks.
+- User selected the unpruned lexicon condition for the first target-matching run: all native train-toxic target terms are retained, with placeholder and person-name matches tracked as an audit risk rather than silently removed.
+- Recorded the first-stage IHC execution checkpoint: 8,563 lexical matches plus 4,145 completed target-LLM rows, leaving 499 deferred rows; noted 666 anomaly-term lexical matches and 32 unnamed `implicit_target` rows for audit before statement generation.
+- Updated the target-completion checkpoint after rerun: only 13 current remaining rows persist, all with `empty_llm_response`; per-split remaining files supersede the cumulative deferred-attempt log for active work.
+
+## [2026-05-27] query-answer | Missing annotation completion and utility literature map
+- Added [[missing-annotation-completion-and-utility-literature-map]] after web verification of missing-data, synthetic-data utility, and IHC/SBIC-adjacent target/explanation literature.
+- Distinguished annotation-policy and class-conditioned target absence from generic random value imputation, and recorded that a formal MAR/MNAR claim requires a stated probabilistic missingness model.
+- After the user requested deduplication, excluded papers already represented in the vault, including SBIC, IHC, PLEAD, Boudraa, Hate Explained, HateCheck, DynaHate, ToxiGen, and U-PLEAD.
+- Routed new-to-vault readings through incomplete-annotation NER, partially annotated and positive-unlabeled relation extraction, generation-bias evaluation, missing-data foundations, and the 2026 HARM explanation-evaluation paper.
+- Recorded a minimum validation protocol: preserve native labels, use training-only construction resources, audit weak completions, test target shortcuts, and evaluate on untouched and cross-dataset/functional sets.
+- Updated [[index]] with the new durable query answer.
+
+## [2026-05-27] experiment | IHC/SBIC full-statement output condition
+- Added the `full_statement` output condition on `xu-l20` for text-only IHC/SBIC fine-tuning: the model generates `class`, `hate_class`, `target`, and `statement`.
+- Archived the completed eight-run evidence set in `experiments/hate/xu-l20-full-statement-2026-05-27/`, including metrics, predictions, errors, processed data with `statement`, scripts, source code, and logs while excluding large checkpoint artifacts.
+- Recorded that `full_statement` reaches Macro F1 `0.8354` on IHC and `0.8787` on SBIC at best, without exceeding the existing `class_target` best runs; statement Jaccard remains low (`0.0438-0.0533`).
+- Recorded the comparability limitation: IHC/Mistral completed with per-device train batch size `8`, while the remaining seven `full_statement` runs used batch size `2`.
+
+## [2026-05-27] ingest | Partial annotation, explanation evaluation, and agenda sources
+- Added source pages [[170-ning-2018-exploiting-partially-annotated-data-for-temporal-relation-extraction]], [[171-jie-2019-better-modeling-of-incomplete-annotations-for-named-entity-recognition]], [[172-mayhew-2019-named-entity-recognition-with-partially-annotated-training-data]], and [[173-xie-2021-revisiting-the-negative-data-of-distantly-supervised-relation-extraction]] as method analogues for incomplete span/relation supervision.
+- Added [[174-casula-tonelli-2023-generation-based-data-augmentation-for-offensive-language-detection-is-it-worth-it]] and [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content]] for generated-data robustness and generated-explanation fidelity evaluation.
+- Added [[175-zhang-2024-graph-induced-syntactic-semantic-spaces-in-transformer-based-variational-autoencoders]] as a peripheral latent-representation source and [[177-natural-language-understanding-topic-reflections]] as a research-agenda input rather than empirical benchmark evidence.
+- Routed these additions through [[missing-annotation-completion-and-utility-literature-map]], [[target-relation-grounding-literature-map]], [[explainable-hate-speech-detection]], [[synthetic-data-generation]], [[latent-space]], [[llm-evaluation]], and the affected direction hubs.
+- Updated [[sources-index]], [[nlp-research-collection]], and [[index]] to represent 177 PDF documents and 177 deep-ingested source pages.
+- Verified the updated wiki with `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py`; all checks passed on 2026-05-27.
+
+## [2026-05-27] query-answer | Supplementary dataset decision for IHC/SBIC target relations
+- Updated [[hate-speech-datasets-and-benchmarks]] to separate primary development corpora from external structured evaluation, functional diagnostics, and deferred explanation-stage resources.
+- Selected IHC/SBIC as the core audited relation corpora, TBO as the closest structured external resource, and HateXplain plus HateCheck as rationale/bias and shortcut-diagnostic complements.
+- Recorded that PLEAD and context-aware Reddit are conditional additions for policy-slot or conversational claims, while bulk generated augmentation and SBIC-Explain/HARM should not be introduced into the first target-relation classifier stage.
+
+## [2026-05-27] query-answer | Completion scope narrowed to IHC and SBIC only
+- Clarified that the current supplementation task applies only to IHC and SBIC; no third dataset is part of the immediate data-completion pipeline.
+- Revised [[hate-speech-datasets-and-benchmarks]] so TBO, HateXplain, HateCheck, PLEAD, context-aware Reddit, and span resources remain future evaluation references rather than selected current supplements.
+- Fixed the current target schema objective as comparable `attacked_target`, `mentioned_not_attacked`, `no_relevant_target`, and `uncertain_target` states with retained provenance and audit status in both corpora.
+
+## [2026-05-31] maintenance | Full wiki publication pass
+- Ran the global structural, inventory, source-tag drift, and PDF text artifact checks after the 2026-05-27 source additions and IHC/SBIC experiment archive import.
+- Added [[wiki-integrity-report-2026-05-31]] and refreshed [[index]] plus the maintenance router to point to the current verified state: 177 raw PDFs, 325 wiki pages, 185 source pages, 23 maintenance pages, and no reported integrity failures.
+- Added experiment archive hygiene rules to `EXPERIMENTS.md`, ignored interpreter caches and PID files, and removed copied Python bytecode plus a stale PID before publication.
+- Kept derived experiment datasets, per-example JSONL outputs, and execution logs local because the GitHub repository is public; the publication scope contains README files, code, configs, aggregate metrics, and non-sample summaries.
+- Kept source PDFs immutable and excluded local Obsidian workspace UI state from the publication scope.
