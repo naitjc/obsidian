@@ -53,6 +53,7 @@ The useful gap is not simply missing target labels. The gap is that many systems
 
 ## Relation to Current Project
 
+- [[p0-target-grounding-reading-synthesis-2026-06-01]] records the P0 follow-up alignment: candidate spans, target-identity diagnostics, structured evidence evaluation, optional pragmatic traces, and modular definition frames should be connected but evaluated separately.
 - [[leakage-resistant-target-relation-modeling]] is the current thesis page: use uniform candidate construction, relation labels, and target-present non-hateful tests rather than feeding row-level targets as features.
 - [[hate-speech-intent-slot-refactor-plan]] provides the structured task framing: mentions, harmful relation or intent, target links, evidence spans, context modifiers, and derived verdict.
 - [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] moves this literature map into a concrete experiment design, but the literature-level claim should stay focused on the missing relation unit.

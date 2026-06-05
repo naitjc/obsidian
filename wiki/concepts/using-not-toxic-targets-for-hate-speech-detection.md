@@ -1,6 +1,6 @@
 ---
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 tags: [query-answer, hate-speech, target-aware, hard-negative, implicit]
 sources: []
 promotion_reason: "Durable method design question for using LLM-extracted targets from not_toxic samples in hate speech detection."
@@ -48,3 +48,7 @@ The target labels should support a minimal experiment stack: baseline text-only 
 - Are extracted targets normalized into a controlled type system such as `protected_group`, `individual`, `organization`, `place`, `ideology`, `none`, or `ambiguous`?
 - Does the toxic side also have extracted targets? If not, the immediate use should prioritize hard negatives and false-positive diagnostics before full relation-level modeling.
 - Are there confidence scores or LLM rationales for target extraction? Low-confidence target labels should be filtered or downweighted before contrastive learning.
+
+## 2026-06-01 Statement-Aware Extension
+
+[[dual-view-target-statement-relation-alignment]] specifies the next use of completed statements: preserve `(text, candidate_target)` as the inference path and use `statement` only as a training-time semantic teacher. The completed not-toxic fields should create same-target opposite-relation contrasts, statement-shuffle negatives, and provenance-weighted alignment losses rather than a larger concatenated prompt.

@@ -333,3 +333,114 @@
 - Added experiment archive hygiene rules to `EXPERIMENTS.md`, ignored interpreter caches and PID files, and removed copied Python bytecode plus a stale PID before publication.
 - Kept derived experiment datasets, per-example JSONL outputs, and execution logs local because the GitHub repository is public; the publication scope contains README files, code, configs, aggregate metrics, and non-sample summaries.
 - Kept source PDFs immutable and excluded local Obsidian workspace UI state from the publication scope.
+
+## [2026-05-31] query-answer | Privacy Filter bridge for span-grounded hate detection
+- Added [[privacy-filter-inspired-span-grounded-hate-detection]] after inspecting `xu-l20:/data/chenjt/hate/clone/privacy-filter` and the local IHC/SBIC/PLEAD data shapes.
+- Recorded the recommended use of the Privacy Filter architecture as a bidirectional BIOES span extractor for `target_mention` and `attack_evidence`, followed by candidate-target relation classification.
+- Kept the main research claim scoped to leakage-resistant target-relation grounding; direct architecture reuse, PII-first moderation, and unified PII/harm extraction remain baseline or follow-up directions.
+- Linked the new answer from [[intent-slot-style-hate-speech-modeling]] and [[index]].
+- Re-ran `scripts/lint_wiki.py` and `scripts/wiki_inventory.py`; the wiki now contains 326 pages and 98 concept pages with no reported structural failures.
+
+## [2026-05-31] query-answer | Deduplicated NLP reading route for target grounding
+- Added [[recent-nlp-reading-route-for-target-grounding-2026-05-31]] after checking `wiki/`, `experiments/`, `log.md`, and `raw/sources/` for existing coverage.
+- Kept the highest-priority readings close to the active IHC/SBIC work: implicit harmful-content target spans, LLM-generated functional tests, and target-identity moderation audits.
+- Expanded the route into adjacent reusable methods: open-label span extraction, zero-shot relation extraction, concept-level NER, guideline-conditioned information extraction, uncertainty-aware annotation, dialect audits, moderation-system inconsistency, and efficient specialist moderation models.
+- Updated [[index]] to route the new query answer.
+
+## [2026-06-01] query-answer | 2025-2026 reading route addendum
+- Extended [[recent-nlp-reading-route-for-target-grounding-2026-05-31]] with deduplicated 2025-2026 papers after re-checking local coverage and ACL Anthology publication records.
+- Prioritized 2026 explanation-evaluation work on causal span grounding, protected-group identification, argument consistency, and annotator disagreement modeling.
+- Added 2025 references for pragmatic inference in implicit toxic language, cross-domain hate-speech definition variation, and multilingual multi-hop explanation evaluation.
+- Corrected the ACL Anthology links and venue metadata for `Who Speaks Matters` and `Model-Dependent Moderation`.
+
+## [2026-06-01] query-answer | arXiv-first reading route addendum
+- Extended [[recent-nlp-reading-route-for-target-grounding-2026-05-31]] with a deduplicated arXiv-first section.
+- Added new-to-vault 2025-2026 arXiv readings for community-driven implicit-hate agents, fine-grained multimodal moderation semantics, transferable hate prototypes, cross-cultural human-LLM moderation, and faithfulness evaluation for toxicity explanations.
+- Separated new arXiv-first readings from arXiv versions of already recommended conference papers so version tracking does not create duplicate recommendations.
+
+## [2026-06-01] query-answer | Integrated paper summaries and reading priorities
+- Added an integrated priority matrix to [[recent-nlp-reading-route-for-target-grounding-2026-05-31]] covering 24 unique papers.
+- Separated immediate experiment-design readings, baseline-construction references, evaluation-section readings, and deliberate later extensions.
+- Kept five arXiv links for conference-paper version tracking outside the unique-paper count.
+
+## [2026-06-01] query-answer | P0 reading synthesis and experiment alignment
+- Added [[p0-target-grounding-reading-synthesis-2026-06-01]] after the user browsed the six P0 papers.
+- Consolidated source-grounded constraints for candidate-span extraction, identity-sensitive functional tests, NLI-filtered hard-case generation, structured explanation metrics, optional pragmatic traces, and modular definition frames.
+- Updated [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] with explicit-versus-implicit candidate recall, minimal evidence-span output, and emotional-disapproval functional slices.
+- Corrected reading-route metadata and links: Jafari et al. for target-span detection, Jin et al. at LREC-COLING 2024 for GPT-HateCheck, Jin et al. at NAACL 2025 for `What the #?*!`, and GLiNER at NAACL 2024 Long Papers.
+- Updated [[index]] to route the new synthesis page.
+
+## [2026-06-01] ingest | Five local P0 follow-up PDFs
+- Detected five user-added immutable PDFs under `raw/sources/` and added deep-ingested source pages [[178-jafari-2024-target-span-detection-for-implicit-harmful-content]], [[179-zaratiana-2024-gliner-generalist-model-for-named-entity-recognition-using-bidirectional-transformer]], [[180-chen-wang-2025-pragmatic-inference-chain-improving-llms-reasoning-of-authentic-implicit-toxic-language]], [[181-korre-2025-untangling-hate-speech-definitions-a-semantic-componential-analysis-across-cultures-and-domains]], and [[182-hu-lee-2026-hatexscore-a-metric-suite-for-evaluating-reasoning-quality-in-hate-speech-explanations]].
+- Updated [[sources-index]], [[nlp-research-collection]], [[target-relation-grounding-literature-map]], and [[index]] for 182 raw PDFs and 182 deep-ingested PDF source pages.
+- Kept GPT-HateCheck and `What the #?*!` as external links because corresponding local PDFs were not present.
+
+## [2026-06-01] lint | Post-P0-ingest integrity report
+- Added [[wiki-integrity-report-2026-06-01]] after all structural, inventory, source-tag drift, and PDF text-artifact checks passed.
+- Updated [[index]] and the maintenance router to point to the current verified state: 182 raw PDFs, 334 wiki pages, 190 source pages, 100 concept pages, 24 maintenance pages, and no reported integrity failures.
+
+## [2026-06-01] query-answer | Dual-view target-statement relation alignment
+- Added [[dual-view-target-statement-relation-alignment]] to specify how completed `not_toxic.target` and `not_toxic.statement` fields should be used downstream.
+- Used [[175-zhang-2024-graph-induced-syntactic-semantic-spaces-in-transformer-based-variational-autoencoders]] as a bounded structural analogy: separate heterogeneous views and align them, without claiming direct hate-speech evidence or requiring a VAE.
+- Recommended `(text, candidate_target) -> relation_state` as the inference path and `statement` as a training-only semantic teacher with provenance weighting, statement-type normalization, matched-view alignment, and same-target hard negatives.
+- Updated [[ihc-sbic-target-completion-layer]], [[using-not-toxic-targets-for-hate-speech-detection]], and [[index]] to route the downstream decision.
+
+## [2026-06-02] experiment | Strict target completion and statement pilot
+- Completed the four-model IHC strict target-completion ablation on `xu-l20`, comparing `class_target_toxic_only` with `class_target_all_rows`.
+- Recorded that preserving non-toxic targets improves toxic-target Jaccard for all four models, while Macro F1 improves only for Qwen3-8B (`0.8153 -> 0.8215`).
+- Completed five Qwen3-4B statement-pilot conditions using train-only generated non-toxic statements and statement-free inference evaluation.
+- Recorded `s2_text_only_1x` as the strongest classification pilot condition (`0.8287` Macro F1 versus the `0.8210` target-all reference), while target metrics do not improve consistently.
+- Updated [[dual-view-target-statement-relation-alignment]] with the pilot tables and retained the recommendation to use statements as controlled training-only semantic supervision rather than row-level inference input.
+- Reorganized `xu-l20:/data/chenjt/hate/FineTune`: documented all 45 completed adapters, archived completed logs and one-off queue scripts, removed stale PID files, and verified all adapter, metrics, prediction, and error-summary artifacts.
+
+## [2026-06-02] query-answer | Privacy Filter architecture review and direct-conversion decision
+- Re-inspected `xu-l20:/data/chenjt/hate/clone/privacy-filter` at the implementation level, covering the bidirectional local attention stack, sparse MoE routing, BIOES output head, Triton path, Viterbi decoding, checkpoint loading, training loss, and runtime output flow.
+- Updated [[privacy-filter-inspired-span-grounded-hate-detection]] to distinguish useful architectural lessons from an immediate engineering recommendation.
+- Recorded that direct OPF conversion is not the current implementation route: replacing PII labels only yields a span tagger, while a complete hate-speech detector still requires sentence-level heads, relation modeling, new losses, moderation outputs, long-text aggregation, evaluation changes, and a separately obtained checkpoint.
+- Retained `target_mention` and `attack_evidence` span extraction plus constrained decoding as bounded design references, with task-native encoder and open-label extraction baselines prioritized before any OPF efficiency baseline.
+- Updated [[intent-slot-style-hate-speech-modeling]] and [[index]] to route the narrowed decision.
+
+## [2026-06-04] ingest | Four local structured-output and safety-alignment PDFs
+- Detected four local PDFs without source notes and added deep-ingested pages [[183-li-2024-large-language-models-as-zero-shot-dialogue-state-tracker-through-function-calling]], [[184-ao-2025-safe-pruning-lora-robust-distance-guided-pruning-for-safety-alignment-in-adaptation-of-llms]], [[185-park-kim-2026-inference-time-vulnerability-beyond-shallow-safety-alignment-along-generation-trajectories]], and [[186-reddy-2026-biasgrpo-stabilizing-bias-mitigation-in-high-variance-reward-landscapes-via-group-relative-policy-optimization]].
+- Treated the five other untracked PDFs as already-ingested P0 source files because they are referenced by source pages 178-182.
+- Updated [[sources-index]], [[nlp-research-collection]], generated dialogue and LLM-reasoning source hubs, and refreshed [[index]] inventory counts for 186 raw PDFs and 186 deep-ingested PDF source pages.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py`; no structural, routing, tag-drift, or PDF text-artifact failures were reported.
+
+## [2026-06-05] query-answer | Full IHC completion method reassessment
+- Inspected `xu-l20:/data/chenjt/hate/DATA/llm_restructed` after full IHC target and statement completion: all `13,207` `not_toxic` rows now have three generated statement conditions, and `9,587` `not_toxic` rows have non-empty targets.
+- Recorded that `9,411` `not_toxic` rows are `mentioned_not_attacked`, making target-present benign rows the main resource for leakage-resistant relation modeling and same-target hard negatives.
+- Added the full-scale Qwen3-4B statement results from `FineTune/experiments/statement_full_v1`: `text_label_target_1x` gives the strongest Macro F1 (`0.8235`) and toxic-target Jaccard (`0.3746`), but all full-statement conditions reduce all-row target Jaccard.
+- Updated [[dual-view-target-statement-relation-alignment]] to recommend a constrained relation-alignment prototype: inference uses `(text, candidate_target) -> relation_state`, while generated statements are masked, provenance-aware training-only semantic views.
+
+## [2026-06-05] query-answer | Multimodal-inspired IHC relation methods
+- Added [[multimodal-inspired-ihc-relation-methods-2026-06-05]] after inspecting `xu-l20:/data/chenjt/hate/DATA/llm_restructed` and `xu-l20:/data/chenjt/hate/FineTune`.
+- Translated multimodal hate-detection ideas into the completed IHC setting: retrieval-guided hard examples, ground-statement dual-view alignment, uncertainty-gated weak supervision, cross-dataset support transfer, and optional target-alias graph features.
+- Recommended a candidate-level relation model where inference uses `(text, candidate_target) -> relation_state`; generated statements and retrieved examples are support signals rather than mandatory row-level classifier inputs.
+- Updated [[index]] to route the new method-design answer and refreshed the wiki inventory counts after `scripts/lint_wiki.py` and `scripts/wiki_inventory.py` passed.
+- Added the user constraint that the dataset should not be manually increased, reduced, rewritten, or relabeled; the method is limited to existing artifacts, candidate-level views, retrieval indexes, loss construction, sample weighting, artifact masking, and evaluation slices.
+- Added the user constraint that the core model should be a small-parameter generative LLM such as Qwen2.5 or Qwen3, implemented through constrained JSON generation and lightweight QLoRA rather than a large encoder-only or full multimodal architecture.
+
+## [2026-06-05] query-answer | Completed-IHC small-LLM innovation ideas
+- Added [[ihc-completed-small-llm-innovation-ideas-2026-06-05]] after rechecking the hate-speech wiki, target-relation synthesis pages, and `xu-l20` IHC completion and FineTune summaries.
+- Ranked the next research ideas under the updated constraints: candidate-target relation JSON SFT, retrieval-guided relation memory, statement-as-teacher alignment, definition-frame probing, evidence-cue faithfulness tests, relation-adapter reliability, and SBIC support/transfer tests.
+- Rejected data augmentation, direct row-level target/statement concatenation, large graph-first designs, and long chain-of-thought generation as first-line directions for the current project state.
+- Updated [[index]] to route the new broad method-planning answer.
+- Re-ran `scripts/lint_wiki.py` and `scripts/wiki_inventory.py`; the wiki now contains 341 pages and 103 concept pages with no reported structural failures.
+
+## [2026-06-05] query-answer | RA-HMD-inspired IHC relation adaptation
+- Added [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]] after checking the RA-HMD source page and PDF method sections.
+- Mapped RA-HMD's projection head, auxiliary classifier, two-stage training, FAISS hard-neighbor contrastive tuning, and retrieval-augmented KNN inference into the completed-IHC candidate-target relation task.
+- Specified the local version as small generative LLM JSON SFT plus a relation embedding path: stage 1 optimizes `L_json + L_rel`, stage 2 freezes the LLM and optimizes `L_rel + L_contrast`, and inference compares JSON, relation-head, and retrieval-KNN modes.
+- Updated [[multimodal-inspired-ihc-relation-methods-2026-06-05]], [[ihc-completed-small-llm-innovation-ideas-2026-06-05]], and [[index]] to route the focused RA-HMD adaptation page.
+- Re-ran `scripts/lint_wiki.py` and `scripts/wiki_inventory.py`; the wiki now contains 342 pages and 104 concept pages with no reported structural failures.
+
+## [2026-06-05] query-answer | AI-assisted research ideation workflow
+- Added [[ai-assisted-research-ideation-workflow]] to preserve a reusable planning rule: use LLMs for source-grounded conflict search, constraint hardening, metric design, and adversarial reviewer attack rather than broad context-free brainstorming.
+- Connected the workflow to existing cross-direction innovation, target-relation rejection review, grounding-direction review, P0 reading synthesis, and completed-IHC method-design pages.
+- Updated [[index]] to route the new planning page and refreshed the current inventory counts.
+
+## [2026-06-05] ingest | ExPO-HM hateful meme explain-then-detect PDF
+- Detected the remaining unindexed local PDF `raw/sources/2510.08630v3.pdf` and added deep-ingested source page [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection]].
+- Recorded ExPO-HM as an ICLR 2026 / arXiv v3 hateful meme paper on explain-then-detect policy optimization, policy-manual SFT warmup, GRPO curriculum learning, and Conditional Decision Entropy.
+- Updated [[sources-index]], [[nlp-research-collection]], generated hate-speech, LLM-reasoning, and multimodal source hubs, and refreshed [[index]] inventory counts for 187 raw PDFs and 187 deep-ingested PDF source pages.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py`; no structural, routing, tag-drift, or PDF text-artifact failures were reported.

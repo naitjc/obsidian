@@ -1,6 +1,6 @@
 ---
 created: 2026-05-12
-updated: 2026-05-21
+updated: 2026-06-02
 tags: [query-answer, hate-speech, intent-slot, target-aware, ner, hard-negative]
 sources:
   - raw/sources/2020.acl-main.713.pdf
@@ -52,6 +52,7 @@ For local experiments, the immediate replacement for direct `Text + target -> cl
   - `target`: one or more entities linked to non-neutral intent;
   - `evidence`: span(s) supporting the intent-target link.
 - Training should include same-target positive and negative pairs so targets do not encode labels by themselves.
+- [[privacy-filter-inspired-span-grounded-hate-detection]] records a bounded architecture reference: use a bidirectional BIOES span tagger for `target_mention` and `attack_evidence`, then classify target-evidence relations instead of passing row-level target labels directly into the final classifier. Direct OPF conversion is not the recommended immediate implementation route.
 
 ## Follow-up Questions
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-18
-updated: 2026-05-26
+updated: 2026-06-01
 tags: [query-answer, hate-speech, ihc, sbic, target-completion, intent-slot]
 sources:
   - raw/sources/ElSherief 等 - 2021 - Latent Hatred A Benchmark for Understanding Implicit Hate Speech.pdf
@@ -131,3 +131,15 @@ This implementation should not be used directly as the next production step with
 - Should target completion use only protected/social groups, or include broader social targets such as political groups, occupations, and nationalities?
 - Should uncertain target cases be excluded from training or retained with an `ambiguous` verdict?
 - What manual audit size is enough to validate weak target completion before full model training?
+
+## 2026-06-01 Downstream Use Decision
+
+Completed `not_toxic.target` and `not_toxic.statement` fields should not be concatenated directly into the final classifier input. Use [[dual-view-target-statement-relation-alignment]] as the downstream design:
+
+- reshape rows into `(text, candidate_target) -> relation_state` instances;
+- treat target-present not-toxic rows as hard negatives for `mentioned_not_attacked`;
+- encode statements as training-only weak semantic anchors;
+- align matched target-relation and statement representations while contrasting shuffled or opposite-relation pairs;
+- remove statements at inference time and derive the final verdict from attacked candidate relations.
+
+This keeps the completed fields useful without turning generated explanations into a new label-leakage path.

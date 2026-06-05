@@ -1,13 +1,13 @@
 ---
 created: 2026-05-06
-updated: 2026-05-27
+updated: 2026-05-06
 tags: [index, hate-speech, sources]
 sources: []
 ---
 
 # Hate Speech Source Hub
 
-Total linked papers: **55**
+Total linked papers: **60**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -67,6 +67,11 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[169-zampieri-2023-target-based-offensive-language-identification|Zampieri 等 - 2023 - Target-Based Offensive Language Identification]]
 - [[174-casula-tonelli-2023-generation-based-data-augmentation-for-offensive-language-detection-is-it-worth-it|Casula 和 Tonelli - 2023 - Generation-Based Data Augmentation for Offensive Language Detection Is It Worth It]]
 - [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content|Puppi Vecchi 等 - 2026 - HARM Learning Hate-Aware Reward Model for Evaluating Natural Language Explanations of Offensive Content]]
+- [[178-jafari-2024-target-span-detection-for-implicit-harmful-content|Jafari 等 - 2024 - Target Span Detection for Implicit Harmful Content]]
+- [[180-chen-wang-2025-pragmatic-inference-chain-improving-llms-reasoning-of-authentic-implicit-toxic-language|Chen 和 Wang - 2025 - Pragmatic Inference Chain Improving LLMs' Reasoning of Authentic Implicit Toxic Language]]
+- [[181-korre-2025-untangling-hate-speech-definitions-a-semantic-componential-analysis-across-cultures-and-domains|Korre 等 - 2025 - Untangling Hate Speech Definitions A Semantic Componential Analysis Across Cultures and Domains]]
+- [[182-hu-lee-2026-hatexscore-a-metric-suite-for-evaluating-reasoning-quality-in-hate-speech-explanations|Hu 和 Lee - 2026 - HateXScore A Metric Suite for Evaluating Reasoning Quality in Hate Speech Explanations]]
+- [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection|Mei 等 - 2026 - ExPO-HM Learning to Explain-then-Detect for Hateful Meme Detection]]
 
 ## Cross-Cutting Concept Links
 - [[hate-speech-research-map]]

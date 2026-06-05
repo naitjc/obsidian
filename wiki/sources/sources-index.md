@@ -1,13 +1,13 @@
 ---
 created: 2026-04-23
-updated: 2026-05-27
+updated: 2026-06-05
 tags: [index, sources]
 sources: []
 ---
 
 # Sources Index
 
-Total source PDFs ingested: **177**
+Total source PDFs ingested: **187**
 
 | Paper | Year | Tags |
 |---|---|---|
@@ -188,3 +188,13 @@ Total source PDFs ingested: **177**
 | [[128-yoon-blendx-complex-multi-intent-detection-with-blended-patterns|Yoon 等 - BlendX Complex Multi-Intent Detection with Blended Patterns]] | unknown | dialogue, few-shot, prompting, synthetic-data, retrieval, benchmark, graph |
 | [[149-zhu-learning-causally-disentangled-representations-for-fair-personality-detection|Zhu 等 - Learning Causally Disentangled Representations for Fair Personality Detection]] | unknown | role-playing, prompting, synthetic-data, retrieval, benchmark, graph, causal |
 | [[177-natural-language-understanding-topic-reflections|关于自然语言理解课题的思考]] | unknown | dialogue, llm-reasoning, benchmark, research-agenda |
+| [[178-jafari-2024-target-span-detection-for-implicit-harmful-content|Jafari 等 - 2024 - Target Span Detection for Implicit Harmful Content]] | 2024 | hate-speech, implicit, benchmark, explainability, information-extraction, weak-supervision |
+| [[179-zaratiana-2024-gliner-generalist-model-for-named-entity-recognition-using-bidirectional-transformer|Zaratiana 等 - 2024 - GLiNER Generalist Model for Named Entity Recognition using Bidirectional Transformer]] | 2024 | information-extraction, benchmark, zero-shot |
+| [[180-chen-wang-2025-pragmatic-inference-chain-improving-llms-reasoning-of-authentic-implicit-toxic-language|Chen 和 Wang - 2025 - Pragmatic Inference Chain Improving LLMs' Reasoning of Authentic Implicit Toxic Language]] | 2025 | hate-speech, implicit, llm-reasoning, prompting, benchmark, explainability |
+| [[181-korre-2025-untangling-hate-speech-definitions-a-semantic-componential-analysis-across-cultures-and-domains|Korre 等 - 2025 - Untangling Hate Speech Definitions A Semantic Componential Analysis Across Cultures and Domains]] | 2025 | hate-speech, benchmark, zero-shot, prompting, bias, explainability |
+| [[182-hu-lee-2026-hatexscore-a-metric-suite-for-evaluating-reasoning-quality-in-hate-speech-explanations|Hu 和 Lee - 2026 - HateXScore A Metric Suite for Evaluating Reasoning Quality in Hate Speech Explanations]] | 2026 | hate-speech, explainability, llm-reasoning, benchmark, verification |
+| [[183-li-2024-large-language-models-as-zero-shot-dialogue-state-tracker-through-function-calling|Li 等 - 2024 - Large Language Models as Zero-shot Dialogue State Tracker through Function Calling]] | 2024 | dialogue, llm-reasoning, zero-shot, prompting, benchmark |
+| [[184-ao-2025-safe-pruning-lora-robust-distance-guided-pruning-for-safety-alignment-in-adaptation-of-llms|Ao 等 - 2025 - Safe Pruning LoRA Robust Distance-Guided Pruning for Safety Alignment in Adaptation of LLMs]] | 2025 | llm-reasoning, safety-alignment, benchmark |
+| [[185-park-kim-2026-inference-time-vulnerability-beyond-shallow-safety-alignment-along-generation-trajectories|Park 和 Kim - 2026 - Inference-Time Vulnerability Beyond Shallow Safety Alignment Along Generation Trajectories]] | 2026 | llm-reasoning, safety-alignment, benchmark, representation-learning |
+| [[186-reddy-2026-biasgrpo-stabilizing-bias-mitigation-in-high-variance-reward-landscapes-via-group-relative-policy-optimization|Reddy 等 - 2026 - BiasGRPO Stabilizing Bias Mitigation in High-Variance Reward Landscapes via Group-Relative Policy Optimization]] | 2026 | llm-reasoning, bias, synthetic-data, benchmark, safety-alignment |
+| [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection|Mei 等 - 2026 - ExPO-HM Learning to Explain-then-Detect for Hateful Meme Detection]] | 2026 | hate-speech, multimodal, llm-reasoning, benchmark, prompting, explainability, safety-alignment |

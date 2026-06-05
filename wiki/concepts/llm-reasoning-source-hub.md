@@ -1,13 +1,13 @@
 ---
 created: 2026-05-06
-updated: 2026-05-27
+updated: 2026-05-06
 tags: [index, llm-reasoning, sources]
 sources: []
 ---
 
 # LLM Reasoning and Evaluation Source Hub
 
-Total linked papers: **37**
+Total linked papers: **44**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -49,6 +49,13 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[175-zhang-2024-graph-induced-syntactic-semantic-spaces-in-transformer-based-variational-autoencoders|Zhang 等 - 2024 - Graph-Induced Syntactic-Semantic Spaces in Transformer-Based Variational AutoEncoders]]
 - [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content|Puppi Vecchi 等 - 2026 - HARM Learning Hate-Aware Reward Model for Evaluating Natural Language Explanations of Offensive Content]]
 - [[177-natural-language-understanding-topic-reflections|关于自然语言理解课题的思考]]
+- [[180-chen-wang-2025-pragmatic-inference-chain-improving-llms-reasoning-of-authentic-implicit-toxic-language|Chen 和 Wang - 2025 - Pragmatic Inference Chain Improving LLMs' Reasoning of Authentic Implicit Toxic Language]]
+- [[182-hu-lee-2026-hatexscore-a-metric-suite-for-evaluating-reasoning-quality-in-hate-speech-explanations|Hu 和 Lee - 2026 - HateXScore A Metric Suite for Evaluating Reasoning Quality in Hate Speech Explanations]]
+- [[183-li-2024-large-language-models-as-zero-shot-dialogue-state-tracker-through-function-calling|Li 等 - 2024 - Large Language Models as Zero-shot Dialogue State Tracker through Function Calling]]
+- [[184-ao-2025-safe-pruning-lora-robust-distance-guided-pruning-for-safety-alignment-in-adaptation-of-llms|Ao 等 - 2025 - Safe Pruning LoRA Robust Distance-Guided Pruning for Safety Alignment in Adaptation of LLMs]]
+- [[185-park-kim-2026-inference-time-vulnerability-beyond-shallow-safety-alignment-along-generation-trajectories|Park 和 Kim - 2026 - Inference-Time Vulnerability Beyond Shallow Safety Alignment Along Generation Trajectories]]
+- [[186-reddy-2026-biasgrpo-stabilizing-bias-mitigation-in-high-variance-reward-landscapes-via-group-relative-policy-optimization|Reddy 等 - 2026 - BiasGRPO Stabilizing Bias Mitigation in High-Variance Reward Landscapes via Group-Relative Policy Optimization]]
+- [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection|Mei 等 - 2026 - ExPO-HM Learning to Explain-then-Detect for Hateful Meme Detection]]
 
 ## Cross-Cutting Concept Links
 - [[llm-reasoning]]

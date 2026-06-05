@@ -1,13 +1,13 @@
 ---
 created: 2026-05-06
-updated: 2026-05-27
+updated: 2026-05-06
 tags: [index, dialogue, sources]
 sources: []
 ---
 
 # Dialogue, Intent, and Slot Filling Source Hub
 
-Total linked papers: **28**
+Total linked papers: **29**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -40,6 +40,7 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[161-qin-2020-agif-an-adaptive-graph-interactive-framework-for-joint-multiple-intent-detection-and-slot-filling|Qin 等 - 2020 - AGIF An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling]]
 - [[163-calabrese-ross-lapata-2022-explainable-abuse-detection-as-intent-classification-and-slot-filling|Calabrese、Ross和Lapata - 2022 - Explainable Abuse Detection as Intent Classification and Slot Filling]]
 - [[177-natural-language-understanding-topic-reflections|关于自然语言理解课题的思考]]
+- [[183-li-2024-large-language-models-as-zero-shot-dialogue-state-tracker-through-function-calling|Li 等 - 2024 - Large Language Models as Zero-shot Dialogue State Tracker through Function Calling]]
 
 ## Cross-Cutting Concept Links
 - [[dialogue-systems]]

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-18
-updated: 2026-05-21
+updated: 2026-06-01
 tags: [query-answer, hate-speech, experiment-plan, semantic-grounding, target-relation, synthetic-data, explainability]
 sources:
   - raw/sources/2022.tacl-1.82.pdf
@@ -101,6 +101,7 @@ If the model keeps predicting `attacked` after the evidence is removed, it is re
 
 ## Evidence
 
+- [[p0-target-grounding-reading-synthesis-2026-06-01]] records the post-browse P0 literature alignment: candidate spans must be evaluated upstream, identity sensitivity requires controlled functional slices, explanations should be structured and grounded, pragmatic traces should remain optional, and definition frames should be modular.
 - [[leakage-resistant-target-relation-modeling]] defines the core research question and warns that candidate construction must be comparable across toxic and non-toxic rows.
 - [[target-relation-grounding-literature-map]] consolidates the external target-category, target-expression, context, and bias papers that motivate the experiment structure.
 - [[hate-speech-grounding-directions-review-2026-05-18]] recommends treating controlled grounding as the main contribution, hard cases as the data/evaluation engine, and verifiable reasoning as the reliability layer.
@@ -129,6 +130,7 @@ Goal: remove annotation-source leakage before relation modeling.
 - Do not feed original gold toxic targets to the model. Keep them only for candidate recall and audit.
 - Candidate fields: `candidate_target`, `target_type`, `explicit_or_implicit_candidate`, `candidate_source`, and `candidate_confidence`.
 - Report candidate recall against gold toxic targets and a manually audited subset.
+- Report explicit-target and implicit-target candidate recall separately.
 
 Recommended first version: use a high-recall LLM candidate generator plus deterministic normalization. Recall matters more than precision because bad candidates can be assigned `not_a_candidate_target`.
 
@@ -143,6 +145,7 @@ Goal: build the actual task.
 - Separate flags: `annotator_uncertain`, `implicit_target`, `quotation_or_counterspeech`, `irony_or_sarcasm`, `needs_context`, and `definition_sensitive`.
 - Evidence field: minimal evidence span or cue supporting the relation.
 - Definition frame: at least two compact definitions, such as strict protected-class hate and broader group-directed abuse.
+- Evidence output: prefer minimal quoted spans or cues over unconstrained free-form statements.
 
 Labeling strategy: generate weak labels with an LLM after the schema is fixed, then manually audit a stratified subset covering toxic, non-toxic target-present, implicit, quotation/counterspeech, and definition-sensitive cases.
 
@@ -177,6 +180,7 @@ Goal: make synthetic data a controlled stress test, not bulk augmentation.
   - definition frame swap;
   - evidence deletion;
   - quotation/counterspeech insertion;
+  - emotional disapproval without a target attack;
   - target replacement with same type or different type.
 - Filter with schema checks, duplicate/contamination checks, model-disagreement checks, and a small human audit.
 - Compare against bulk synthetic augmentation with similar size and class balance.
@@ -196,6 +200,7 @@ Core metrics:
 - definition-swap consistency;
 - evidence-deletion sensitivity;
 - target-replacement sensitivity.
+- explicit-target versus implicit-target candidate recall.
 
 Generalization:
 

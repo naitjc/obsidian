@@ -7,7 +7,7 @@ sources: []
 
 # Multimodal Learning Source Hub
 
-Total linked papers: **34**
+Total linked papers: **35**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -46,6 +46,7 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[142-zhang-2025-t-mad-target-driven-multimodal-alignment-for-stance-detection|Zhang 等 - 2025 - T-MAD Target-driven Multimodal Alignment for Stance Detection]]
 - [[147-zhu-2024-dglf-a-dual-graph-based-learning-framework-for-multi-modal-sarcasm-detection|Zhu 等 - 2024 - DGLF A Dual Graph-based Learning Framework for Multi-modal Sarcasm Detection]]
 - [[148-zhu-2024-towards-multi-modal-sarcasm-detection-via-disentangled-multi-grained-multi-modal-distilling|Zhu 等 - 2024 - Towards Multi-modal Sarcasm Detection via Disentangled Multi-grained Multi-modal Distilling]]
+- [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection|Mei 等 - 2026 - ExPO-HM Learning to Explain-then-Detect for Hateful Meme Detection]]
 
 ## Cross-Cutting Concept Links
 - [[multimodal-learning]]
