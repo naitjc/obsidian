@@ -7,7 +7,7 @@ sources: []
 
 # LLM Reasoning and Evaluation Source Hub
 
-Total linked papers: **44**
+Total linked papers: **48**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -56,6 +56,10 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[185-park-kim-2026-inference-time-vulnerability-beyond-shallow-safety-alignment-along-generation-trajectories|Park 和 Kim - 2026 - Inference-Time Vulnerability Beyond Shallow Safety Alignment Along Generation Trajectories]]
 - [[186-reddy-2026-biasgrpo-stabilizing-bias-mitigation-in-high-variance-reward-landscapes-via-group-relative-policy-optimization|Reddy 等 - 2026 - BiasGRPO Stabilizing Bias Mitigation in High-Variance Reward Landscapes via Group-Relative Policy Optimization]]
 - [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection|Mei 等 - 2026 - ExPO-HM Learning to Explain-then-Detect for Hateful Meme Detection]]
+- [[188-lin-2023-fine-grained-late-interaction-multi-modal-retrieval-for-retrieval-augmented-visual-question-answering|Lin 等 - 2023 - Fine-grained Late-interaction Multi-modal Retrieval for Retrieval Augmented Visual Question Answering]]
+- [[189-lin-2024-preflmr-scaling-up-fine-grained-late-interaction-multi-modal-retrievers|Lin 等 - 2024 - PreFLMR Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers]]
+- [[190-yang-2025-retrieval-augmented-defense-adaptive-and-controllable-jailbreak-prevention-for-large-language-models|Yang 等 - 2025 - Retrieval-Augmented Defense Adaptive and Controllable Jailbreak Prevention for Large Language Models]]
+- [[191-chen-2026-berag-bayesian-ensemble-retrieval-augmented-generation-for-knowledge-based-visual-question-answering|Chen 等 - 2026 - BERAG Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering]]
 
 ## Cross-Cutting Concept Links
 - [[llm-reasoning]]

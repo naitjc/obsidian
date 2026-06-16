@@ -1,13 +1,15 @@
 ---
 created: 2026-04-23
-updated: 2026-06-05
+updated: 2026-06-06
 tags: [index, sources]
 sources: []
 ---
 
 # Sources Index
 
-Total source PDFs ingested: **187**
+Total source PDFs ingested: **191**
+
+Note: `raw/sources/2024.acl-long.291.pdf` duplicates the already indexed RGCL paper [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]], so it is not assigned a new source page.
 
 | Paper | Year | Tags |
 |---|---|---|
@@ -198,3 +200,7 @@ Total source PDFs ingested: **187**
 | [[185-park-kim-2026-inference-time-vulnerability-beyond-shallow-safety-alignment-along-generation-trajectories|Park 和 Kim - 2026 - Inference-Time Vulnerability Beyond Shallow Safety Alignment Along Generation Trajectories]] | 2026 | llm-reasoning, safety-alignment, benchmark, representation-learning |
 | [[186-reddy-2026-biasgrpo-stabilizing-bias-mitigation-in-high-variance-reward-landscapes-via-group-relative-policy-optimization|Reddy 等 - 2026 - BiasGRPO Stabilizing Bias Mitigation in High-Variance Reward Landscapes via Group-Relative Policy Optimization]] | 2026 | llm-reasoning, bias, synthetic-data, benchmark, safety-alignment |
 | [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection|Mei 等 - 2026 - ExPO-HM Learning to Explain-then-Detect for Hateful Meme Detection]] | 2026 | hate-speech, multimodal, llm-reasoning, benchmark, prompting, explainability, safety-alignment |
+| [[188-lin-2023-fine-grained-late-interaction-multi-modal-retrieval-for-retrieval-augmented-visual-question-answering|Lin 等 - 2023 - Fine-grained Late-interaction Multi-modal Retrieval for Retrieval Augmented Visual Question Answering]] | 2023 | multimodal, llm-reasoning, retrieval, benchmark |
+| [[189-lin-2024-preflmr-scaling-up-fine-grained-late-interaction-multi-modal-retrievers|Lin 等 - 2024 - PreFLMR Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers]] | 2024 | multimodal, llm-reasoning, retrieval, benchmark, prompting |
+| [[190-yang-2025-retrieval-augmented-defense-adaptive-and-controllable-jailbreak-prevention-for-large-language-models|Yang 等 - 2025 - Retrieval-Augmented Defense Adaptive and Controllable Jailbreak Prevention for Large Language Models]] | 2025 | llm-reasoning, safety-alignment, retrieval, benchmark, prompting |
+| [[191-chen-2026-berag-bayesian-ensemble-retrieval-augmented-generation-for-knowledge-based-visual-question-answering|Chen 等 - 2026 - BERAG Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering]] | 2026 | multimodal, llm-reasoning, retrieval, benchmark |

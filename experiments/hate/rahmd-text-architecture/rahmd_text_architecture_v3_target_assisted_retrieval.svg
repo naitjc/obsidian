@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font: 700 34px Arial, "Microsoft YaHei", sans-serif; fill: #172033; }
+      .subtitle { font: 18px Arial, "Microsoft YaHei", sans-serif; fill: #40516b; }
+      .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2.2; rx: 8; }
+      .encoder { fill: #eaf5ff; stroke: #3d7fc2; stroke-width: 2.4; rx: 10; }
+      .rep { fill: #eaf8ef; stroke: #3e9b61; stroke-width: 2.4; rx: 10; }
+      .target { fill: #fff3df; stroke: #d48616; stroke-width: 2.4; rx: 10; }
+      .memory { fill: #f8fbff; stroke: #6f7f95; stroke-width: 2.4; rx: 10; }
+      .selector { fill: #fff8e8; stroke: #c18b2b; stroke-width: 2.4; rx: 10; }
+      .evidence { fill: #fdfdfd; stroke: #6b7280; stroke-width: 2.2; rx: 8; }
+      .comparator { fill: #eaf7f6; stroke: #2f9187; stroke-width: 2.4; rx: 10; }
+      .output { fill: #f2ecfa; stroke: #8062b5; stroke-width: 2.4; rx: 10; }
+      .guard { fill: #fffafa; stroke: #cf5656; stroke-width: 2; rx: 10; }
+      .txt { font: 21px Arial, "Microsoft YaHei", sans-serif; fill: #1f2937; }
+      .h2 { font: 700 24px Arial, "Microsoft YaHei", sans-serif; fill: #1f2937; }
+      .small { font: 16px Arial, "Microsoft YaHei", sans-serif; fill: #40516b; }
+      .tiny { font: 14px Arial, "Microsoft YaHei", sans-serif; fill: #526174; }
+      .math { font: italic 21px "Times New Roman", serif; fill: #1f2937; }
+      .arrow { stroke: #1f2937; stroke-width: 2.8; fill: none; marker-end: url(#arrowhead); }
+      .dash { stroke: #6b7280; stroke-width: 2.4; fill: none; stroke-dasharray: 8 7; marker-end: url(#arrowheadGray); }
+      .soft { stroke: #9a6a1d; stroke-width: 2.8; fill: none; marker-end: url(#arrowheadAmber); }
+    </style>
+    <marker id="arrowhead" markerWidth="13" markerHeight="11" refX="11" refY="5.5" orient="auto">
+      <path d="M0,0 L13,5.5 L0,11 z" fill="#1f2937"/>
+    </marker>
+    <marker id="arrowheadGray" markerWidth="13" markerHeight="11" refX="11" refY="5.5" orient="auto">
+      <path d="M0,0 L13,5.5 L0,11 z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrowheadAmber" markerWidth="13" markerHeight="11" refX="11" refY="5.5" orient="auto">
+      <path d="M0,0 L13,5.5 L0,11 z" fill="#9a6a1d"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1800" height="1040"/>
+  <text class="title" x="80" y="70">Two-stage Target-Assisted Evidence Selection Framework</text>
+  <text class="subtitle" x="82" y="106">Target cue changes only selected evidence; LMH and evidence outputs are reported separately.</text>
+
+  <!-- Main representation path -->
+  <rect class="box" x="95" y="395" width="210" height="96"/>
+  <text class="h2" x="145" y="435">Post Text</text>
+  <text class="small" x="128" y="464">query social post</text>
+
+  <rect class="encoder" x="395" y="380" width="240" height="126"/>
+  <text class="h2" x="432" y="424">Qwen3 Encoder</text>
+  <text class="small" x="433" y="456">fixed after Stage 1</text>
+  <text class="tiny" x="433" y="480">produces hidden state</text>
+
+  <text class="math" x="705" y="450">h</text>
+  <rect class="rep" x="755" y="380" width="230" height="126"/>
+  <text class="h2" x="790" y="424">Projection MLP</text>
+  <text class="small" x="802" y="456">retrieval representation</text>
+  <text class="tiny" x="824" y="480">h -> r_query</text>
+
+  <text class="math" x="1038" y="426">r_query</text>
+
+  <line class="arrow" x1="305" y1="443" x2="391" y2="443"/>
+  <line class="arrow" x1="635" y1="443" x2="751" y2="443"/>
+  <line class="arrow" x1="985" y1="443" x2="1145" y2="443"/>
+
+  <!-- LMH output above -->
+  <rect class="output" x="470" y="185" width="285" height="105"/>
+  <text class="h2" x="545" y="228">LMH Output</text>
+  <text class="small" x="540" y="258">p_LMH(hate / non-hate)</text>
+
+  <path class="arrow" d="M515 380 L515 294"/>
+
+  <!-- Target cue below -->
+  <rect class="target" x="420" y="650" width="315" height="118"/>
+  <text class="h2" x="488" y="694">Target Cue Generator</text>
+  <text class="small" x="486" y="725">post text -> predicted target cue</text>
+  <text class="tiny" x="488" y="748">not a classifier feature</text>
+
+  <path class="soft" d="M200 491 L200 710 L416 710"/>
+
+  <!-- Memory -->
+  <rect class="memory" x="1180" y="275" width="300" height="145"/>
+  <text class="h2" x="1228" y="320">Evidence Memory</text>
+  <text class="small" x="1220" y="352">train-set examples</text>
+  <text class="tiny" x="1220" y="379">text + label + target</text>
+  <text class="tiny" x="1220" y="401">encoded on demand or cached</text>
+
+  <path class="arrow" d="M1110 443 L1195 443 L1195 424"/>
+
+  <!-- Selector -->
+  <rect class="selector" x="1180" y="570" width="300" height="145"/>
+  <text class="h2" x="1228" y="616">Evidence Selector</text>
+  <text class="small" x="1220" y="648">semantic topN, then target rerank</text>
+  <text class="tiny" x="1220" y="674">fixed hate / non-hate quota</text>
+  <text class="tiny" x="1220" y="696">None target gives no bonus</text>
+
+  <path class="arrow" d="M1330 420 L1330 566"/>
+  <path class="soft" d="M735 710 L1176 645"/>
+  <path class="arrow" d="M1110 443 L1145 443 L1145 640 L1176 640"/>
+
+  <!-- Evidence outputs -->
+  <rect class="evidence" x="1055" y="805" width="260" height="92"/>
+  <text class="h2" x="1100" y="843">Hate Evidence</text>
+  <text class="small" x="1095" y="872">selected train examples</text>
+
+  <rect class="evidence" x="1365" y="805" width="260" height="92"/>
+  <text class="h2" x="1390" y="843">Non-hate Evidence</text>
+  <text class="small" x="1407" y="872">selected train examples</text>
+
+  <path class="arrow" d="M1268 715 L1185 801"/>
+  <path class="arrow" d="M1392 715 L1495 801"/>
+
+  <!-- Comparator and final evidence output -->
+  <rect class="comparator" x="715" y="805" width="265" height="104"/>
+  <text class="h2" x="755" y="848">Evidence Comparator</text>
+  <text class="small" x="748" y="878">query vs selected evidence</text>
+
+  <path class="dash" d="M870 506 L870 801"/>
+  <path class="arrow" d="M1055 820 L1016 820 L1016 840 L984 840"/>
+  <path class="arrow" d="M1365 880 L1016 880 L1016 874 L984 874"/>
+
+  <rect class="output" x="405" y="805" width="235" height="104"/>
+  <text class="h2" x="478" y="848">p_EVI</text>
+  <text class="small" x="445" y="878">evidence-side output</text>
+
+  <line class="arrow" x1="715" y1="857" x2="644" y2="857"/>
+
+  <!-- Guardrails -->
+  <rect class="guard" x="95" y="835" width="250" height="74"/>
+  <text class="small" x="125" y="864">No fusion</text>
+  <text class="tiny" x="125" y="889">p_LMH and p_EVI stay separate</text>
+
+  <rect class="guard" x="930" y="650" width="220" height="86"/>
+  <text class="small" x="960" y="680">No target leakage</text>
+  <text class="tiny" x="960" y="704">target cue only enters</text>
+  <text class="tiny" x="960" y="724">Evidence Selector</text>
+</svg>

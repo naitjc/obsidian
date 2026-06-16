@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-13
 tags: [query-answer, hate-speech, ihc, target-relation, retrieval, small-llm, contrastive-learning]
 sources:
   - raw/sources/Mei 等 - 2025 - Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection.pdf
@@ -192,6 +192,108 @@ This is a clean and publishable transfer of the RA-HMD insight.
 5. Evaluate `JSON`, `REL_HEAD`, and `RKC` on the normal test set and target-present diagnostic slices.
 6. Repeat the best configuration with Qwen3-8B or Qwen2.5-7B.
 7. Only after IHC works, test SBIC support or transfer.
+
+## Remote Implementation Snapshot: 2026-06-08
+
+Remote inspection of `nlp06:/data/cjt/hate/Try/RA-HMD` shows that the active implementation is a text-only IHC adaptation of RA-HMD with the original two-stage boundary preserved:
+
+```text
+/data/cjt/hate/Try/RA-HMD
+  README_IHC_TEXT.md
+  LLAMA-FACTORY/        # stage 1: Qwen3/LLaMA-Factory sft-classifier
+  Stage2/               # stage 2: RAC contrastive training over .pt features
+  RA-HMD-dataset/       # copied upstream dataset area
+  scripts/night_queue/  # composed experiment launchers
+  runs/                 # launcher logs, status.tsv files, stage2 outputs
+```
+
+The currently wired IHC text-only path uses:
+
+```text
+LLAMA-FACTORY/scripts/ihc/prepare_ihc_text_data.py
+LLAMA-FACTORY/my_configs/text/ihc/qwen3-4B_qlora_classifier.yaml
+LLAMA-FACTORY/my_scripts/text/ihc/qwen3-4b-classifier_qlora.sh
+LLAMA-FACTORY/my_scripts/text/ihc/extract_qwen3_text_features.sh
+Stage2/scripts/IHCText/qwen3-4b-contrastive.sh
+Stage2/src/run_rac_lmm.py
+```
+
+## Follow-up Experiment Lineage
+
+See [[rahmd-text-migration-lineage-2026-06-13]] for the later `nlp06:/data/cjt/hate/Try/RA-HMD_text` result trace. The short conclusion is that native Stage2 RAC was mechanically migrated and tested, but stayed below about 0.70 Macro-F1 after a paper-aligned 30-epoch supplement. The stronger line became single-stage text/predicted-target retrieval and then dual-adapter calibration, with the best text-only compliant tuned result around 0.7981 Macro-F1 and a base-only dual-adapter ablation reaching 0.7994 at threshold 0.5.
+
+Input data is read from:
+
+```text
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/{train,valid,test}.json
+```
+
+The prepared dataset registered in `LLAMA-FACTORY/data/dataset_info.json` has the following documented counts:
+
+| split | rows | toxic | not_toxic |
+|---|---:|---:|---:|
+| train | 14930 | 4365 | 10565 |
+| valid | 1865 | 545 | 1320 |
+| test | 1869 | 547 | 1322 |
+
+The active Qwen3-4B stage-1 config is `sft-classifier` with QLoRA, `loss_ratio: [1.0, 1.0]`, `classifier_lr: 1e-4`, `num_train_epochs: 3.0` in the base config, and seed-specific night-queue configs under `LLAMA-FACTORY/my_configs/text/ihc/night_queue/`. The successful one-epoch seed-42 run saved usable artifacts under:
+
+```text
+LLAMA-FACTORY/checkpoints/qwen3-4b/qlora/ihc_text_target_v1/text_only/classifier_seed42
+  adapter_config.json
+  classifier.bin
+  classifier_config.json
+  trainer_state.json
+```
+
+The run is marked `failed` in `runs/qwen3_4b_pipeline_1ep_20260608_122725/status.tsv`, but the failure happened after training and saving, during a final evaluation call:
+
+```text
+TypeError: CustomSeq2SeqRegressionTrainer.evaluate() got an unexpected keyword argument 'do_sample'
+```
+
+So this status should be interpreted as a post-save evaluation API mismatch, not as missing stage-1 artifacts. The same log reports validation metrics after one epoch:
+
+```text
+accuracy=0.8504
+auroc=0.9078
+precision=0.8050
+recall=0.6440
+f1=0.7156
+```
+
+Feature extraction from the seed-42 checkpoint completed and wrote Stage2-compatible files:
+
+```text
+Stage2/data/Embedding/qwen3-4b/IHCText_seed42/
+  train_IHCText_qwen3-4b_text_only.pt
+  val_IHCText_qwen3-4b_text_only.pt
+  test_IHCText_qwen3-4b_text_only.pt
+```
+
+Each `.pt` is expected by the extractor to contain `ids`, `feats`, and `labels`, with Qwen3-4B hidden size `2560`.
+
+The latest successful Stage2 run is:
+
+```text
+runs/qwen3_4b_pipeline_1ep_stage2_cpu_20260608_130930/status.tsv
+```
+
+It completed one epoch without `--Faiss_GPU` and wrote outputs under that run's `stage2_outputs/`. The log reports:
+
+| mode | acc | auroc | precision | recall | f1 |
+|---|---:|---:|---:|---:|---:|
+| dev classifier, epoch 0 | 0.7512 | 0.7485 | 0.5875 | 0.4991 | 0.5397 |
+| test classifier, epoch 0 | 0.7528 | 0.7524 | 0.5866 | 0.5265 | 0.5549 |
+| validation retrieval, epoch 0 | 0.7662 | 0.7472 | 0.6886 | 0.3651 | 0.4772 |
+| test retrieval, epoch 0 | 0.7528 | 0.7524 | 0.5866 | 0.5265 | 0.5549 |
+
+Project-state notes:
+
+- Earlier Stage2 retries failed mainly on permissions under `runs/` or FAISS/GPU-related paths; the latest CPU launcher added permission guards and completed.
+- `Stage2/src/run_rac_lmm.py`, `Stage2/src/model/evaluate_rac.py`, and `Stage2/src/utils/retrieval.py` have timestamped `.bak_*` files, so the current tree contains local hotfix history that should be treated as implementation state, not upstream-clean RA-HMD.
+- The current implementation is binary toxic/not_toxic text classification over completed IHC rows, not yet the candidate-level three-way relation-state design proposed above. The relation-grounding paper direction still needs a candidate-level view and row-level aggregation before its final claims match this page's method design.
+- Do not judge the current one-epoch Stage2 numbers as final method evidence; they are a smoke/continuation checkpoint proving that the two-stage path can run end-to-end.
 
 ## Chain Check
 

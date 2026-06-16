@@ -7,7 +7,7 @@ sources: []
 
 # Multimodal Learning Source Hub
 
-Total linked papers: **35**
+Total linked papers: **38**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -47,6 +47,9 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[147-zhu-2024-dglf-a-dual-graph-based-learning-framework-for-multi-modal-sarcasm-detection|Zhu 等 - 2024 - DGLF A Dual Graph-based Learning Framework for Multi-modal Sarcasm Detection]]
 - [[148-zhu-2024-towards-multi-modal-sarcasm-detection-via-disentangled-multi-grained-multi-modal-distilling|Zhu 等 - 2024 - Towards Multi-modal Sarcasm Detection via Disentangled Multi-grained Multi-modal Distilling]]
 - [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection|Mei 等 - 2026 - ExPO-HM Learning to Explain-then-Detect for Hateful Meme Detection]]
+- [[188-lin-2023-fine-grained-late-interaction-multi-modal-retrieval-for-retrieval-augmented-visual-question-answering|Lin 等 - 2023 - Fine-grained Late-interaction Multi-modal Retrieval for Retrieval Augmented Visual Question Answering]]
+- [[189-lin-2024-preflmr-scaling-up-fine-grained-late-interaction-multi-modal-retrievers|Lin 等 - 2024 - PreFLMR Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers]]
+- [[191-chen-2026-berag-bayesian-ensemble-retrieval-augmented-generation-for-knowledge-based-visual-question-answering|Chen 等 - 2026 - BERAG Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering]]
 
 ## Cross-Cutting Concept Links
 - [[multimodal-learning]]

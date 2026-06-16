@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-06-05
+updated: 2026-06-13
 tags: [index]
 sources: []
 ---
@@ -11,15 +11,15 @@ sources: []
 
 | Area | Current state |
 |---|---|
-| Raw PDFs | 187 files in `raw/sources/` |
-| Wiki pages | 344 pages under `wiki/` |
-| Source pages | 195 pages, including catalog and alias stubs |
-| Concept pages | 105 pages |
+| Raw PDFs | 192 files in `raw/sources/`; 191 unique source PDFs indexed because `2024.acl-long.291.pdf` duplicates [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]] |
+| Wiki pages | 349 pages under `wiki/` |
+| Source pages | 199 pages, including catalog and alias stubs |
+| Concept pages | 106 pages |
 | Entity pages | 18 pages |
 | Maintenance pages | 24 pages |
-| Deep-ingested source pages | 187 PDF source pages tagged `deep-ingest-v2` |
-| Auto-ingest PDF source pages | 0 remaining among the 187 numbered PDF source pages |
-| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-06-04; `scripts/lint_wiki.py` and `scripts/wiki_inventory.py` passed on 2026-06-05 |
+| Deep-ingested source pages | 191 PDF source pages tagged `deep-ingest-v2` |
+| Auto-ingest PDF source pages | 0 remaining among the 191 numbered PDF source pages |
+| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-06-06; `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py` passed on 2026-06-06 |
 
 ## Entities
 
@@ -153,6 +153,7 @@ sources: []
 | [[multimodal-inspired-ihc-relation-methods-2026-06-05]] | Query answer translating multimodal hate-detection retrieval, alignment, uncertainty, and knowledge ideas into IHC relation modeling |
 | [[ihc-completed-small-llm-innovation-ideas-2026-06-05]] | Query answer ranking innovation ideas after completed IHC target and statement fills under small generative LLM and no-augmentation constraints |
 | [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]] | Query answer mapping RA-HMD's two-stage retrieval-augmented adaptation method into completed-IHC candidate-target relation modeling |
+| [[rahmd-text-migration-lineage-2026-06-13]] | Query answer tracing the nlp06 RA-HMD_text migration from native RA-HMD RAC to text-only predicted-target retrieval and dual-adapter ablations |
 
 ---
-_Last updated: 2026-06-05_
+_Last updated: 2026-06-13_

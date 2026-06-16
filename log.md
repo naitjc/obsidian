@@ -1,5 +1,18 @@
 # Log
 
+## [2026-06-08] query-answer | Remote RA-HMD IHC implementation snapshot
+- Inspected `nlp06:/data/cjt/hate/Try/RA-HMD` and updated [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]] with the active project layout, stage-1/stage-2 scripts, dataset counts, saved Qwen3-4B seed-42 artifacts, feature paths, and latest Stage2 run status.
+- Recorded that the one-epoch Stage1 run saved usable adapter and classifier artifacts before being marked failed by a post-save `evaluate(... do_sample=...)` API mismatch.
+- Recorded that feature extraction succeeded and the latest CPU Stage2 one-epoch run completed, while earlier retries were mainly permission or FAISS/GPU related.
+- Clarified that the current remote implementation is binary text-only IHC classification, not yet the candidate-level three-way relation-state design needed for the final relation-grounding method.
+
+## [2026-06-06] ingest | Multimodal retrieval and retrieval-augmented defense PDFs
+- Detected five new PDF files under `raw/sources/`; treated `raw/sources/2024.acl-long.291.pdf` as a duplicate of existing [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]] rather than creating a duplicate source page.
+- Added four new deep-ingested source pages: [[188-lin-2023-fine-grained-late-interaction-multi-modal-retrieval-for-retrieval-augmented-visual-question-answering]], [[189-lin-2024-preflmr-scaling-up-fine-grained-late-interaction-multi-modal-retrievers]], [[190-yang-2025-retrieval-augmented-defense-adaptive-and-controllable-jailbreak-prevention-for-large-language-models]], and [[191-chen-2026-berag-bayesian-ensemble-retrieval-augmented-generation-for-knowledge-based-visual-question-answering]].
+- Updated [[sources-index]], [[nlp-research-collection]], [[retrieval-augmented-generation]], [[multimodal-learning]], [[llm-reasoning]], [[llm-evaluation]], and regenerated the multimodal and LLM-reasoning source hubs.
+- Refreshed [[index]] inventory counts for 192 raw PDF files, 191 unique indexed source PDFs, 199 source pages, 348 wiki pages, 38 multimodal source pages, and 48 LLM-reasoning source pages.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py`; no structural, routing, tag-drift, or PDF text-artifact failures were reported.
+
 ## [2026-04-23] init | Wiki initialized
 - Created AGENTS.md schema
 - Created wiki directory structure
@@ -444,3 +457,11 @@
 - Recorded ExPO-HM as an ICLR 2026 / arXiv v3 hateful meme paper on explain-then-detect policy optimization, policy-manual SFT warmup, GRPO curriculum learning, and Conditional Decision Entropy.
 - Updated [[sources-index]], [[nlp-research-collection]], generated hate-speech, LLM-reasoning, and multimodal source hubs, and refreshed [[index]] inventory counts for 187 raw PDFs and 187 deep-ingested PDF source pages.
 - Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py`; no structural, routing, tag-drift, or PDF text-artifact failures were reported.
+
+## [2026-06-13] query-answer | RA-HMD_text migration lineage
+- Added [[rahmd-text-migration-lineage-2026-06-13]] after inspecting `nlp06:/data/cjt/hate/RGCL-main/RA-HMD`, `nlp06:/data/cjt/hate/Try/RA-HMD_text`, and the supplement run directory under `/home/cjt/RA-HMD_text_supplement_text_only_ablation_20260612_231535`.
+- Recorded the migration lineage from native RA-HMD Stage2 RAC to text-only IHC Qwen feature extraction, paper-aligned RAC supplement, frozen-feature Stage2 classifier, single-stage text retrieval, predicted-target retrieval, parser/cluster/Macro-F1 threshold changes, dual-adapter runs, and uncertainty-gated ablations.
+- Preserved the key score trail: native RAC stayed below about 0.70 Macro-F1, single-stage text retrieval reached 0.7604, predicted-target retrieval reached 0.7895, target clustering reached 0.7938, uncertainty-gated dual-adapter retrieval reached 0.7981, and the dual-adapter base-only ablation reached 0.7965 tuned / 0.7994 at threshold 0.5.
+- Added a post-ablation direction audit after checking the full remote project tree: dedicated target extraction, target-then-classifier, always-on retrieval, cluster retrieval, uncertainty gating, parser cleanup, and Macro-F1 thresholding have already been tried. The revised next step is retrieval-trust calibration/error slicing rather than more target extraction or broad cluster sweeps.
+- Updated [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]] and [[index]] to route the experiment lineage.
+- Re-ran `scripts/lint_wiki.py` and `scripts/wiki_inventory.py`; the wiki now contains 349 pages and 106 concept pages with no reported structural failures.
