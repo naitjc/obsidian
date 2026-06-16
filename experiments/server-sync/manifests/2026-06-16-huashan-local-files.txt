@@ -1,0 +1,522 @@
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/configs/llama3_1_8b_qlora.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/configs/mistral_7b_qlora.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/configs/qwen2_5_7b_qlora.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/configs/qwen3_4b_qlora.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/ihc/label_map.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/ihc/stats.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/ihc/test.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/ihc/train.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/ihc/validation.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/sbic/label_map.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/sbic/stats.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/sbic/test.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/sbic/train.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/sbic/validation.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/eval_results.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/validation_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/validation_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/error_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/false_negative.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/false_positive.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/hate_class_vocab.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/requirements.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/scripts/run_eval_gen.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/scripts/run_prepare.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/scripts/run_serial_experiments.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/scripts/run_train_gen.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/scripts/start_serial_nohup.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/src/data/prepare_binary_data.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/src/eval/error_analysis.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/src/eval/evaluate_generative_binary.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/src/train/train_qlora_sft_binary.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/config/__init__.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/config/config.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/config/config.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/config/runtime/config_shared_epochs2.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/config/runtime/ihc_multitarget_gpu0_bs4_20260504_102345.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/config/runtime/sbic_multitarget_gpu1_bs2_20260504_112158.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/config/runtime/sbic_multitarget_gpu1_bs4_20260504_102115.yaml
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/data/preprocess.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/logs/ihc_multitarget_gpu0_bs4_20260504_102345.log
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/logs/sbic_multitarget_gpu1_bs2_20260504_112158.log
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/logs/separate_20260430_162638.log
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/model/__init__.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/model/dual_model.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/model/dual_model.py.bak_multitarget_20260504
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/model/trainer.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/model/trainer.py.bak_adapter_state_20260430
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/model/trainer.py.bak_multitarget_20260504
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/experiment_summary.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/best_info.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/cascade_test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/config_snapshot.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/metrics_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/history.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/model1/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/history.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/model2/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/oracle_test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/run_info.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/best_info.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/cascade_test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/config_snapshot.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/metrics_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/history.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/model1/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/history.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/model2/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/oracle_test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/run_info.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/best_info.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/cascade_test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/config_snapshot.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/metrics_summary.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/history.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/model1/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/history.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/model2/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/oracle_test_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/run_info.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/scripts/check_data.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/scripts/infer.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/scripts/preprocess.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/scripts/train.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/experiment_summary.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/metrics/train_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/metrics/training_loss_curve.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/metrics/validation_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/plots/training_loss_curve.png
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/train_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/metrics/train_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/metrics/training_loss_curve.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/metrics/validation_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/plots/training_loss_curve.png
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/train_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/metrics/train_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/metrics/training_loss_curve.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/metrics/validation_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/plots/training_loss_curve.png
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/train_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/README.md
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/adapter_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/chat_template.jinja
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/eval/test_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/eval/test_predictions.jsonl
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/metrics/train_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/metrics/training_loss_curve.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/metrics/validation_metrics.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/plots/training_loss_curve.png
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/tokenizer_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/train_config.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/trainable_params.json
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/scripts/run_grid.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/scripts/run_train.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/src/common.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/src/eval_hidden_cot.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/src/metrics.py
+experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/src/train_hidden_cot.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/base_multi_study/output/Meta-Llama-3___1-8B-Instruct/prediction_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/base_multi_study/train.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/base_multi_study/train.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/all.sh
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/chat.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_1/CoT.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_1/Few-shot.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_1/Zero-shot.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_1/result/result_CoT.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_1/result/result_Few-shot.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_1/result/result_Zero-shot.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_2/Fine-Tuning.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_2/result/result_LoRA.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_2/result/result_QLoRA.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_3/Fine_Tuning.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_3/filtered_failed.csv
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_3/filtered_passed.csv
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_3/fliter.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_3/generate.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_3/ori_generated.csv
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_3/result/gen_result_LoRA.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_3/result/ori_result_LoRA.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/flie2txt.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/main_RAG.py
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/中华人民共和国公司法2023年12月29日.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第10号——股份变动管理（2025年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第11号——信息披露工作考核.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第12号——纪律处分实施标准（2024年修订）.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第13号——保荐业务.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第15号——可转换公司债券.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第16号——创业板上市公司股东询价和配售方式转让股份.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第18号——股东及董事、监事、高级管理人员减持股份.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第2号——创业板上市公司规范运作（2025年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第3号——行业信息披露.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第4号——创业板行业信息披露（2023年修订）.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第5号——信息披露事务管理.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第6号——停复牌.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第7号——交易与关联交易.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第8号——重大资产重组.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第9号——回购股份（2025年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所公司债券存续期业务指南第 2 号——临时报告参考格式（2021.04.29）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板上市公司自律监管指南第1号——业务办理（2024年修订）.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板上市公司自律监管指南第2号——公告格式（2024年修订）.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板股票上市规则（2025年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/《关于修改部分证券期货规章的决定》.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第10号公告】《公开发行证券的公司信息披露内容与格式准则第26号――上市公司重大资产重组》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第10号公告】公开发行证券的公司信息披露内容与格式准则第26号――上市公司重大资产重组（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第14号公告】《上市公司独立董事规则》起草说明 .pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第14号公告】上市公司独立董事规则.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第15号公告】《上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第15号公告】上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第16号公告】《上市公司监管指引第4号——上市公司及其相关方承诺》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第16号公告】上市公司监管指引第4号——上市公司及其相关方承诺.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第17号公告】《上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第17号公告】上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第18号公告】《〈上市公司重大资产重组管理办法〉第三条有关标的资产存在资金占用问题的适用意见——证券期货法律适用意见第10号》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第18号公告】《上市公司重大资产重组管理办法》第三条有关标的资产存在资金占用问题的适用意见——证券期货法律适用意见第10号.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第19号公告】《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第19号公告】上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第20号公告】《〈上市公司收购管理办法〉第六十二条有关上市公司严重财务困难的适用意见——证券期货法律适用意见第7号》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第20号公告】《上市公司收购管理办法》第六十二条有关上市公司严重财务困难的适用意见——证券期货法律适用意见第7号（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第21号公告】《上市公司现场检查规则》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第21号公告】上市公司现场检查规则.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第22号公告】《上市公司监管指引第6号——上市公司董事长谈话制度实施办法》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第22号公告】上市公司监管指引第6号——上市公司董事长谈话制度实施办法 .pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第23号公告】《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第23号公告】上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第26号公告】上市公司监管指引第8号——上市公司资金往来、对外担保的监管要求.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第29号公告】附件1 上市公司投资者关系管理工作指引.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第29号公告】附件2《上市公司投资者关系管理工作指引》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第2号公告】《上市公司章程指引》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第2号公告】上市公司章程指引（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第3号公告】《上市公司监管指引第3号——上市公司现金分红》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第3号公告】上市公司监管指引第3号——上市公司现金分红（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第4号公告】《上市公司股份回购规则》起草说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第4号公告】上市公司股份回购规则.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第5号公告】《上市公司分拆规则（试行）》起草说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第5号公告】上市公司分拆规则（试行）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第6号公告】《〈上市公司重大资产重组管理办法〉第十四条、第四十四条的适用意见——证券期货法律适用意见第12号》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第6号公告】《上市公司重大资产重组管理办法》第十四条、第四十四条的适用意见——证券期货法律适用意见第12号（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第7号公告】《上市公司股票停复牌规则》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第7号公告】上市公司股票停复牌规则.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第8号公告】《公开发行证券的公司信息披露内容与格式准则第5号――公司股份变动报告的内容与格式》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第8号公告】公开发行证券的公司信息披露内容与格式准则第5号――公司股份变动报告的内容与格式（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第9号公告】《公开发行证券的公司信息披露内容与格式准则第17号――要约收购报告书》修订说明.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第9号公告】公开发行证券的公司信息披露内容与格式准则第17号――要约收购报告书（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司信息披露管理办法.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司收购管理办法（2020年修订）.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司章程指引.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司股东会规则.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司股权激励管理办法（2018年9月修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则20240524.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/公开发行证券的公司信息披露内容与格式准则第2号——年度报告的内容与格式.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/公开发行证券的公司信息披露内容与格式准则第3号——半年度报告的内容与格式.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司独立董事管理办法（2023年8月）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求（2022年修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第3号——上市公司现金分红（2023年12月修订）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第4号——上市公司及其相关方承诺.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司股份回购规则（2023年12月）.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：国有企业、上市公司选聘会计师事务所管理办法.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：首次公开发行股票注册管理办法.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/附件1-1：中国证监会决定修改的规范性文件.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/附件1-2：中国证监会决定废止的规范性文件.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/附件1：《关于修改、废止部分证券期货规范性文件的决定》.pdf
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/首发业务若干问题解答.doc
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/rag_results.json
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/中华人民共和国公司法2023年12月29日.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第10号——股份变动管理（2025年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第11号——信息披露工作考核.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第12号——纪律处分实施标准（2024年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第13号——保荐业务.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第15号——可转换公司债券.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第16号——创业板上市公司股东询价和配售方式转让股份.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第18号——股东及董事、监事、高级管理人员减持股份.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第2号——创业板上市公司规范运作（2025年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第3号——行业信息披露.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第4号——创业板行业信息披露（2023年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第5号——信息披露事务管理.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第6号——停复牌.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第7号——交易与关联交易.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第8号——重大资产重组.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第9号——回购股份（2025年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所公司债券存续期业务指南第 2 号——临时报告参考格式（2021.04.29）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板上市公司自律监管指南第1号——业务办理（2024年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板上市公司自律监管指南第2号——公告格式（2024年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板股票上市规则（2025年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/《关于修改部分证券期货规章的决定》.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第10号公告】《公开发行证券的公司信息披露内容与格式准则第26号――上市公司重大资产重组》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第10号公告】公开发行证券的公司信息披露内容与格式准则第26号――上市公司重大资产重组（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第14号公告】《上市公司独立董事规则》起草说明 .txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第14号公告】上市公司独立董事规则.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第15号公告】《上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第15号公告】上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第16号公告】《上市公司监管指引第4号——上市公司及其相关方承诺》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第16号公告】上市公司监管指引第4号——上市公司及其相关方承诺.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第17号公告】《上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第17号公告】上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第18号公告】《〈上市公司重大资产重组管理办法〉第三条有关标的资产存在资金占用问题的适用意见——证券期货法律适用意见第10号》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第18号公告】《上市公司重大资产重组管理办法》第三条有关标的资产存在资金占用问题的适用意见——证券期货法律适用意见第10号.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第19号公告】《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第19号公告】上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第20号公告】《〈上市公司收购管理办法〉第六十二条有关上市公司严重财务困难的适用意见——证券期货法律适用意见第7号》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第20号公告】《上市公司收购管理办法》第六十二条有关上市公司严重财务困难的适用意见——证券期货法律适用意见第7号（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第21号公告】《上市公司现场检查规则》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第21号公告】上市公司现场检查规则.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第22号公告】《上市公司监管指引第6号——上市公司董事长谈话制度实施办法》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第22号公告】上市公司监管指引第6号——上市公司董事长谈话制度实施办法 .txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第23号公告】《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第23号公告】上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第26号公告】上市公司监管指引第8号——上市公司资金往来、对外担保的监管要求.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第29号公告】附件1 上市公司投资者关系管理工作指引.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第29号公告】附件2《上市公司投资者关系管理工作指引》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第2号公告】《上市公司章程指引》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第2号公告】上市公司章程指引（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第3号公告】《上市公司监管指引第3号——上市公司现金分红》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第3号公告】上市公司监管指引第3号——上市公司现金分红（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第4号公告】《上市公司股份回购规则》起草说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第4号公告】上市公司股份回购规则.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第5号公告】《上市公司分拆规则（试行）》起草说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第5号公告】上市公司分拆规则（试行）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第6号公告】《〈上市公司重大资产重组管理办法〉第十四条、第四十四条的适用意见——证券期货法律适用意见第12号》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第6号公告】《上市公司重大资产重组管理办法》第十四条、第四十四条的适用意见——证券期货法律适用意见第12号（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第7号公告】《上市公司股票停复牌规则》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第7号公告】上市公司股票停复牌规则.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第8号公告】《公开发行证券的公司信息披露内容与格式准则第5号――公司股份变动报告的内容与格式》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第8号公告】公开发行证券的公司信息披露内容与格式准则第5号――公司股份变动报告的内容与格式（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第9号公告】《公开发行证券的公司信息披露内容与格式准则第17号――要约收购报告书》修订说明.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第9号公告】公开发行证券的公司信息披露内容与格式准则第17号――要约收购报告书（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司信息披露管理办法.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司收购管理办法（2020年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司章程指引.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司股东会规则.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司股权激励管理办法（2018年9月修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则20240524.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/公开发行证券的公司信息披露内容与格式准则第2号——年度报告的内容与格式.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/公开发行证券的公司信息披露内容与格式准则第3号——半年度报告的内容与格式.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：上市公司独立董事管理办法（2023年8月）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求（2022年修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：上市公司监管指引第3号——上市公司现金分红（2023年12月修订）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：上市公司监管指引第4号——上市公司及其相关方承诺.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：上市公司股份回购规则（2023年12月）.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：国有企业、上市公司选聘会计师事务所管理办法.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：首次公开发行股票注册管理办法.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/附件1-1：中国证监会决定修改的规范性文件.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/附件1-2：中国证监会决定废止的规范性文件.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/附件1：《关于修改、废止部分证券期货规范性文件的决定》.txt
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/问题-答案-1～9.docx
+experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/vllm.sh

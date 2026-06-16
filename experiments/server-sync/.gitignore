@@ -1,0 +1,10 @@
+# Local-only remote mirrors and runnable staging payloads.
+/remotes/
+/staging/*
+!/staging/.gitkeep
+/merged/*
+!/merged/README.md
+
+# Keep manifests and helper scripts trackable unless a file is explicitly temporary.
+manifests/*.tmp
+manifests/*.partial

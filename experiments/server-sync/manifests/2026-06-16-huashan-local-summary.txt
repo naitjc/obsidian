@@ -1,0 +1,128 @@
+local_base=experiments/server-sync/remotes/huashan
+generated_at=2026-06-16T14:15:43+08:00
+
+## size
+108M	experiments/server-sync/remotes/huashan
+
+## file_count
+     522
+
+## extension_counts
+180 .json
+82 .txt
+71 .pdf
+58 .jsonl
+32 .md
+26 .py
+26 .jinja
+13 .sh
+11 .docx
+9 .yaml
+4 .png
+3 .log
+3 .csv
+2 .bak_multitarget_20260504
+1 .doc
+1 .bak_adapter_state_20260430
+
+## largest_files
+16.30 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/附件1-1：中国证监会决定修改的规范性文件.pdf
+8.74 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/sbic/train.jsonl
+3.48 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/ihc/train.jsonl
+3.22 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板上市公司自律监管指南第1号——业务办理（2024年修订）.docx
+2.58 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/test_predictions.jsonl
+2.58 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/test_predictions.jsonl
+2.58 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/test_predictions.jsonl
+2.57 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/test_predictions.jsonl
+2.31 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/《关于修改部分证券期货规章的决定》.pdf
+2.31 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/test_predictions.jsonl
+2.31 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/test_predictions.jsonl
+2.31 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/test_predictions.jsonl
+2.30 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/test_predictions.jsonl
+1.83 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/cascade_test_results.json
+1.72 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/eval/test_predictions.jsonl
+1.70 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/eval/test_predictions.jsonl
+1.55 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/test_results.json
+1.38 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/oracle_test_results.json
+1.26 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度.pdf
+1.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/sbic/validation.jsonl
+1.15 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/sbic/test.jsonl
+1.14 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/附件1-1：中国证监会决定修改的规范性文件.txt
+1.00 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/test_predictions.jsonl
+1.00 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/test_predictions.jsonl
+1.00 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/test_predictions.jsonl
+1.00 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/test_predictions.jsonl
+0.99 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求（2022年修订）.pdf
+0.97 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第4号——上市公司及其相关方承诺.pdf
+0.90 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/test_predictions.jsonl
+0.90 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/test_predictions.jsonl
+0.86 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/test_predictions.jsonl
+0.85 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/test_predictions.jsonl
+0.77 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所公司债券存续期业务指南第 2 号——临时报告参考格式（2021.04.29）.pdf
+0.75 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第2号——创业板上市公司规范运作（2025年修订）.pdf
+0.72 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/cascade_test_results.json
+0.69 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第8号——重大资产重组.pdf
+0.66 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/eval/test_predictions.jsonl
+0.66 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/eval/test_predictions.jsonl
+0.64 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/cascade_test_results.json
+0.61 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/test_results.json
+0.57 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板股票上市规则（2025年修订）.pdf
+0.55 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司章程指引.pdf
+0.55 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第3号——行业信息披露.pdf
+0.55 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/证监会/《关于修改部分证券期货规章的决定》.txt
+0.53 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/oracle_test_results.json
+0.53 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/test_results.json
+0.50 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/oracle_test_results.json
+0.48 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板上市公司自律监管指南第2号——公告格式（2024年修订）.docx
+0.48 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司股份回购规则（2023年12月）.pdf
+0.46 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/公开发行证券的公司信息披露内容与格式准则第2号——年度报告的内容与格式.pdf
+0.45 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/ihc/validation.jsonl
+0.44 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/data/processed/ihc/test.jsonl
+0.43 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第13号——保荐业务.pdf
+0.40 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/公开发行证券的公司信息披露内容与格式准则第3号——半年度报告的内容与格式.pdf
+0.37 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第2号公告】上市公司章程指引（2022年修订）.pdf
+0.34 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第10号公告】公开发行证券的公司信息披露内容与格式准则第26号――上市公司重大资产重组（2022年修订）.pdf
+0.34 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板上市公司自律监管指南第1号——业务办理（2024年修订）.txt
+0.32 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第5号——信息披露事务管理.pdf
+0.32 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：国有企业、上市公司选聘会计师事务所管理办法.pdf
+0.31 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/base_multi_study/output/Meta-Llama-3___1-8B-Instruct/prediction_results.json
+0.31 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第9号公告】公开发行证券的公司信息披露内容与格式准则第17号――要约收购报告书（2022年修订）.pdf
+0.29 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第6号——停复牌.pdf
+0.29 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第2号——创业板上市公司规范运作（2025年修订）.txt
+0.29 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司信息披露管理办法.pdf
+0.28 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：首次公开发行股票注册管理办法.pdf
+0.28 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司股东会规则.pdf
+0.28 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板上市公司自律监管指南第2号——公告格式（2024年修订）.txt
+0.28 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第11号——信息披露工作考核.pdf
+0.26 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司独立董事管理办法（2023年8月）.pdf
+0.24 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则20240524.pdf
+0.23 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/首发业务若干问题解答.doc
+0.22 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第8号公告】公开发行证券的公司信息披露内容与格式准则第5号――公司股份变动报告的内容与格式（2022年修订）.pdf
+0.21 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板股票上市规则（2025年修订）.txt
+0.20 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第9号——回购股份（2025年修订）.pdf
+0.20 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/false_positive.jsonl
+0.20 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/false_positive.jsonl
+0.20 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/false_positive.jsonl
+0.20 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/false_positive.jsonl
+0.19 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第3号——上市公司现金分红（2023年12月修订）.pdf
+0.19 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/false_positive.jsonl
+0.19 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第29号公告】附件1 上市公司投资者关系管理工作指引.pdf
+0.18 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_positive.jsonl
+0.18 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/false_positive.jsonl
+0.18 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/Try/Dual-model_old/logs/sbic_multitarget_gpu1_bs2_20260504_112158.log
+0.18 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/false_positive.jsonl
+0.18 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第14号公告】上市公司独立董事规则.pdf
+0.18 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第10号——股份变动管理（2025年修订）.pdf
+0.17 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/false_negative.jsonl
+0.17 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/false_negative.jsonl
+0.17 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/false_negative.jsonl
+0.17 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第4号公告】上市公司股份回购规则.pdf
+0.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/false_negative.jsonl
+0.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/false_negative.jsonl
+0.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司股权激励管理办法（2018年9月修订）.pdf
+0.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/false_negative.jsonl
+0.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第29号公告】附件2《上市公司投资者关系管理工作指引》修订说明.pdf
+0.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第26号公告】上市公司监管指引第8号——上市公司资金往来、对外担保的监管要求.pdf
+0.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第14号公告】《上市公司独立董事规则》起草说明 .pdf
+0.16 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/false_negative.jsonl
+0.14 MiB	experiments/server-sync/remotes/huashan/data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第3号公告】上市公司监管指引第3号——上市公司现金分红（2022年修订）.pdf

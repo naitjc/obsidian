@@ -1,0 +1,143 @@
+local_base=experiments/server-sync/remotes/nlp06
+generated_at=2026-06-16T14:15:43+08:00
+
+## size
+340M	experiments/server-sync/remotes/nlp06
+
+## file_count
+     997
+
+## extension_counts
+444 .json
+117 .py
+95 .jsonl
+91 .md
+80 .log
+45 .jinja
+39 .csv
+27 .sh
+14 .yaml
+11 .txt
+4 [no_ext]
+3 .bak_20260612_dual_adapter
+3 .bak_20260530_103033
+2 .tsv
+2 .html
+2 .before
+2 .bak_20260611_target_predicted
+2 .bak_20260529_225755
+2 .bak_20260529_224418
+1 .toml
+1 .in
+1 .gz
+1 .gitignore
+1 .bak_20260613_yes_token_fallback
+1 .bak_20260613_target_dropout_prompt
+1 .bak_20260613_target_dropout
+1 .bak_20260613_disable_retrieval
+1 .bak_20260612_macro_threshold
+1 .bak_20260612_cluster_threshold
+1 .bak_20260612_112336_target_parse
+1 .bak_20260529_224244
+
+## largest_files
+10.92 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/hate_data.tar.gz
+10.58 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/train.json
+9.81 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/train.json
+9.78 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/train.json
+9.73 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/train.json
+8.93 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/train.jsonl
+7.95 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/train.jsonl
+7.92 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/train.jsonl
+7.89 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/train.jsonl
+7.86 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/statement_cache.jsonl
+7.86 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+5.96 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/train.json
+5.89 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/train.json
+5.75 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/text_label_target.json
+5.69 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/text_label.json
+5.58 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/text_only.json
+4.70 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/train.jsonl
+4.27 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_full.run.log
+4.00 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen2.5-7b_few-shot.csv
+4.00 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen2.5-7b_zero-shot.csv
+3.93 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/deferred_requests.jsonl
+3.90 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_mistral-7b_zero-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-0.6b_few-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-0.6b_zero-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_mistral-7b_few-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-4b_zero-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-4b_few-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-8b_few-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_glm4-9b_few-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_glm4-9b_zero-shot.csv
+3.88 MiB	experiments/server-sync/remotes/nlp06/data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-8b_zero-shot.csv
+3.75 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_mix/test_predictions.jsonl
+3.73 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_mix/valid_predictions.jsonl
+3.73 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_mix/test_predictions.jsonl
+3.69 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_mix/valid_predictions.jsonl
+3.58 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc/train.jsonl
+3.41 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_mix/test_predictions.jsonl
+3.39 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_mix/valid_predictions.jsonl
+3.28 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_mix/test_predictions.jsonl
+3.26 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_mix/valid_predictions.jsonl
+3.10 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_text_only/test_predictions.jsonl
+3.10 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_text_only/test_predictions.jsonl
+3.08 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_text_only/valid_predictions.jsonl
+3.08 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_text_only/valid_predictions.jsonl
+2.68 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_target_only/test_predictions.jsonl
+2.66 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_target_only/test_predictions.jsonl
+2.60 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_target_only/valid_predictions.jsonl
+2.59 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_target_only/valid_predictions.jsonl
+2.53 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514/single_stage_text_eval/test_predictions.jsonl
+2.53 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_completed_targets_3epoch_lora8_alpha16_no4bit_20260611_172452/test_predictions.jsonl
+2.51 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514/single_stage_text_eval/valid_predictions.jsonl
+2.51 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_completed_targets_3epoch_lora8_alpha16_no4bit_20260611_172452/valid_predictions.jsonl
+2.48 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/uncertainty_gated_target_cluster080_20260612_211500/test_predictions.jsonl
+2.39 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/uncertainty_gated_target_cluster080_20260612_211500/valid_predictions.jsonl
+2.28 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600/dual_adapter_cluster080_eval/test_predictions.jsonl
+2.20 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600/dual_adapter_cluster080_eval/valid_predictions.jsonl
+1.48 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/sbic/test.jsonl
+1.47 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/sbic/validation.jsonl
+1.33 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/test.json
+1.32 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/valid.json
+1.23 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/test.json
+1.23 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/test.json
+1.23 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/test.json
+1.23 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/valid.json
+1.23 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/valid.json
+1.23 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/valid.json
+1.21 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_070/test_predictions.jsonl
+1.20 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_070/test_predictions.jsonl
+1.20 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_080/test_predictions.jsonl
+1.19 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_080/test_predictions.jsonl
+1.16 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_070/valid_predictions.jsonl
+1.16 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_070/valid_predictions.jsonl
+1.15 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_080/valid_predictions.jsonl
+1.15 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_080/valid_predictions.jsonl
+1.12 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/test.jsonl
+1.12 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/valid.jsonl
+1.10 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_target_only/test_predictions.jsonl
+1.08 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_target_only/test_predictions.jsonl
+1.06 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_target_only/valid_predictions.jsonl
+1.04 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_target_only/valid_predictions.jsonl
+1.02 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/statement_cache.jsonl
+1.02 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+1.01 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/statement_cache.jsonl
+1.01 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+1.00 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/test.jsonl
+1.00 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/test.jsonl
+1.00 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/test.jsonl
+1.00 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/valid.jsonl
+1.00 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/valid.jsonl
+1.00 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/valid.jsonl
+0.75 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/test.json
+0.75 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/valid.json
+0.74 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/test.json
+0.74 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/valid.json
+0.72 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/text_label_target.json
+0.72 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_label_target.json
+0.71 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_label.json
+0.71 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_deferred_fill_deepseek.run.log
+0.71 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/text_label.json
+0.69 MiB	experiments/server-sync/remotes/nlp06/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_only.json

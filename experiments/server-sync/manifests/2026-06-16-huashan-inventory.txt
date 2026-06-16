@@ -1,0 +1,487 @@
+host=scau540-hua
+user=chenjt
+date=2026-06-16T14:06:11+08:00
+
+## PATH /data/chenjt/Hate/FineTune_only
+1.4G	/data/chenjt/Hate/FineTune_only
+
+### top-level directories
+/data/chenjt/Hate/FineTune_only/configs
+/data/chenjt/Hate/FineTune_only/data
+/data/chenjt/Hate/FineTune_only/data/processed
+/data/chenjt/Hate/FineTune_only/experiments
+/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft
+/data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft
+/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft
+/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft
+/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft
+/data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft
+/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft
+/data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft
+/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft
+/data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft
+/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft
+/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft
+/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft
+/data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft
+/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft
+/data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft
+/data/chenjt/Hate/FineTune_only/scripts
+/data/chenjt/Hate/FineTune_only/src
+/data/chenjt/Hate/FineTune_only/src/data
+/data/chenjt/Hate/FineTune_only/src/eval
+/data/chenjt/Hate/FineTune_only/src/train
+
+### extension counts
+116 .json
+54 .jsonl
+18 .md
+16 .safetensors
+16 .jinja
+16 .bin
+11 .pyc
+5 .sh
+4 .yaml
+4 .py
+1 .txt
+
+### largest files
+83.31 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/adapter_model.safetensors
+19.06 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/tokenizer.json
+19.06 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/tokenizer.json
+8.74 MiB	 /data/chenjt/Hate/FineTune_only/data/processed/sbic/train.jsonl
+3.50 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/tokenizer.json
+3.50 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/tokenizer.json
+3.50 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/tokenizer.json
+3.50 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/tokenizer.json
+3.48 MiB	 /data/chenjt/Hate/FineTune_only/data/processed/ihc/train.jsonl
+2.58 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/test_predictions.jsonl
+2.58 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/test_predictions.jsonl
+2.58 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/test_predictions.jsonl
+2.57 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/test_predictions.jsonl
+2.31 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/test_predictions.jsonl
+2.31 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/test_predictions.jsonl
+2.31 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/test_predictions.jsonl
+2.30 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/test_predictions.jsonl
+1.16 MiB	 /data/chenjt/Hate/FineTune_only/data/processed/sbic/validation.jsonl
+1.15 MiB	 /data/chenjt/Hate/FineTune_only/data/processed/sbic/test.jsonl
+1.00 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/test_predictions.jsonl
+1.00 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/test_predictions.jsonl
+1.00 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/test_predictions.jsonl
+1.00 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/test_predictions.jsonl
+0.90 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/test_predictions.jsonl
+0.90 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/test_predictions.jsonl
+0.86 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/test_predictions.jsonl
+0.85 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/test_predictions.jsonl
+0.45 MiB	 /data/chenjt/Hate/FineTune_only/data/processed/ihc/validation.jsonl
+0.44 MiB	 /data/chenjt/Hate/FineTune_only/data/processed/ihc/test.jsonl
+0.20 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/false_positive.jsonl
+0.20 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/false_positive.jsonl
+0.20 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/false_positive.jsonl
+0.20 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/false_positive.jsonl
+0.19 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/false_positive.jsonl
+0.18 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_positive.jsonl
+0.18 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/false_positive.jsonl
+0.18 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/false_positive.jsonl
+0.17 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/eval/false_negative.jsonl
+0.17 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/eval/false_negative.jsonl
+0.17 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/eval/false_negative.jsonl
+0.16 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/eval/false_negative.jsonl
+0.16 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/eval/false_negative.jsonl
+0.16 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/eval/false_negative.jsonl
+0.16 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/eval/false_negative.jsonl
+0.14 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_negative.jsonl
+0.10 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/false_negative.jsonl
+0.09 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/false_positive.jsonl
+0.09 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/eval/false_positive.jsonl
+0.09 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/false_positive.jsonl
+0.09 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/false_negative.jsonl
+0.09 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/eval/false_negative.jsonl
+0.09 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/false_negative.jsonl
+0.09 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/false_positive.jsonl
+0.08 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/eval/false_positive.jsonl
+0.08 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/eval/false_positive.jsonl
+0.08 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/eval/false_negative.jsonl
+0.08 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/false_positive.jsonl
+0.08 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/eval/false_negative.jsonl
+0.07 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/eval/false_negative.jsonl
+0.07 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_negative.jsonl
+0.07 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/eval/false_positive.jsonl
+0.02 MiB	 /data/chenjt/Hate/FineTune_only/src/eval/__pycache__/evaluate_generative_binary.cpython-313.pyc
+0.02 MiB	 /data/chenjt/Hate/FineTune_only/src/eval/__pycache__/evaluate_generative_binary.cpython-312.pyc
+0.02 MiB	 /data/chenjt/Hate/FineTune_only/src/train/__pycache__/train_qlora_sft_binary.cpython-312.pyc
+0.02 MiB	 /data/chenjt/Hate/FineTune_only/src/train/__pycache__/train_qlora_sft_binary.cpython-313.pyc
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/src/data/__pycache__/prepare_binary_data.cpython-313.pyc
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/src/eval/evaluate_generative_binary.py
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/src/data/__pycache__/prepare_binary_data.cpython-312.pyc
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/src/train/train_qlora_sft_binary.py
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/src/train/__pycache__/train_qlora_classifier.cpython-312.pyc
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/src/train/__pycache__/train_qlora_classifier.cpython-313.pyc
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/src/eval/__pycache__/evaluate_classifier.cpython-312.pyc
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/src/data/prepare_binary_data.py
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/chat_template.jinja
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/chat_template.jinja
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_full_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_qwen2.5-7b-instruct_class_only_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_full_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-8B_class_only_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_full_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Qwen3-4B_class_only_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_full_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_qwen2.5-7b-instruct_class_only_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_full_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-8B_class_only_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_full_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Qwen3-4B_class_only_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/training_args.bin
+0.00 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_full_sft/README.md
+0.00 MiB	 /data/chenjt/Hate/FineTune_only/experiments/sbic_Mistral-7B-Instruct-v0.3_class_only_sft/README.md
+0.00 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_full_sft/README.md
+0.00 MiB	 /data/chenjt/Hate/FineTune_only/experiments/ihc_Mistral-7B-Instruct-v0.3_class_only_sft/README.md
+
+## PATH /data/chenjt/Hate/Try
+661M	/data/chenjt/Hate/Try
+
+### top-level directories
+/data/chenjt/Hate/Try/Dual-model_old
+/data/chenjt/Hate/Try/Dual-model_old/config
+/data/chenjt/Hate/Try/Dual-model_old/data
+/data/chenjt/Hate/Try/Dual-model_old/logs
+/data/chenjt/Hate/Try/Dual-model_old/model
+/data/chenjt/Hate/Try/Dual-model_old/outputs
+/data/chenjt/Hate/Try/Dual-model_old/scripts
+/data/chenjt/Hate/Try/Hidden CoT_old
+/data/chenjt/Hate/Try/Hidden CoT_old/outputs
+/data/chenjt/Hate/Try/Hidden CoT_old/scripts
+/data/chenjt/Hate/Try/Hidden CoT_old/src
+
+### extension counts
+81 .json
+14 .md
+12 .pyc
+11 .py
+10 .safetensors
+10 .jinja
+5 .yaml
+5 .sh
+4 .png
+4 .jsonl
+4 .bin
+3 .log
+2 .bak_multitarget_20260504
+1 .bak_adapter_state_20260430
+
+### largest files
+63.06 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/model1/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/model1/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/model1/adapter_model.safetensors
+31.56 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/model2/adapter_model.safetensors
+31.56 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/model2/adapter_model.safetensors
+31.56 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/model2/adapter_model.safetensors
+10.89 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/tokenizer.json
+10.89 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/tokenizer.json
+1.83 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/cascade_test_results.json
+1.72 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/eval/test_predictions.jsonl
+1.70 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/eval/test_predictions.jsonl
+1.55 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/test_results.json
+1.38 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/oracle_test_results.json
+0.72 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/cascade_test_results.json
+0.66 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/eval/test_predictions.jsonl
+0.66 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/eval/test_predictions.jsonl
+0.64 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/cascade_test_results.json
+0.61 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/test_results.json
+0.53 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/oracle_test_results.json
+0.53 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/test_results.json
+0.50 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/oracle_test_results.json
+0.18 MiB	 /data/chenjt/Hate/Try/Dual-model_old/logs/sbic_multitarget_gpu1_bs2_20260504_112158.log
+0.12 MiB	 /data/chenjt/Hate/Try/Dual-model_old/logs/ihc_multitarget_gpu0_bs4_20260504_102345.log
+0.11 MiB	 /data/chenjt/Hate/Try/Dual-model_old/logs/separate_20260430_162638.log
+0.06 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/plots/training_loss_curve.png
+0.06 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/plots/training_loss_curve.png
+0.06 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/plots/training_loss_curve.png
+0.06 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/plots/training_loss_curve.png
+0.05 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/metrics/training_loss_curve.json
+0.05 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/metrics/training_loss_curve.json
+0.05 MiB	 /data/chenjt/Hate/Try/Dual-model_old/model/__pycache__/trainer.cpython-312.pyc
+0.03 MiB	 /data/chenjt/Hate/Try/Dual-model_old/model/trainer.py
+0.03 MiB	 /data/chenjt/Hate/Try/Dual-model_old/model/trainer.py.bak_multitarget_20260504
+0.03 MiB	 /data/chenjt/Hate/Try/Dual-model_old/model/trainer.py.bak_adapter_state_20260430
+0.03 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/__pycache__/train_hidden_cot.cpython-313.pyc
+0.02 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/metrics/training_loss_curve.json
+0.02 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/metrics/training_loss_curve.json
+0.02 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/train_hidden_cot.py
+0.01 MiB	 /data/chenjt/Hate/Try/Dual-model_old/model/__pycache__/dual_model.cpython-312.pyc
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/__pycache__/eval_hidden_cot.cpython-313.pyc
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/__pycache__/common.cpython-313.pyc
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/eval_hidden_cot.py
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/__pycache__/common.cpython-312.pyc
+0.01 MiB	 /data/chenjt/Hate/Try/Dual-model_old/model/dual_model.py
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/__pycache__/prepare_ihc_hidden_cot.cpython-313.pyc
+0.01 MiB	 /data/chenjt/Hate/Try/Dual-model_old/model/dual_model.py.bak_multitarget_20260504
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/__pycache__/metrics.cpython-313.pyc
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/__pycache__/metrics.cpython-312.pyc
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/common.py
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/training_args.bin
+0.01 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/training_args.bin
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model2/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/model1/chat_template.jinja
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/config/__pycache__/config.cpython-312.pyc
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/experiment_summary.md
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/src/metrics.py
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/experiment_summary.md
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/history.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model1/history.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/eval/test_metrics.json
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/eval/test_metrics.json
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/eval/test_metrics.json
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/eval/test_metrics.json
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/README.md
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/scripts/run_train.sh
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/data/preprocess.py
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/config/config.py
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/config_snapshot.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/config_snapshot.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/config_snapshot.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/scripts/infer.sh
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/scripts/train.sh
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/run_info.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/run_info.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/config/runtime/config_shared_epochs2.yaml
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/config/config.yaml
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/20260430_162638/run_info.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/config/runtime/sbic_multitarget_gpu1_bs4_20260504_102115.yaml
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/config/runtime/sbic_multitarget_gpu1_bs2_20260504_112158.yaml
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/config/runtime/ihc_multitarget_gpu0_bs4_20260504_102345.yaml
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_minimal_20260419_222239/adapter_config.json
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/sbic_hybrid_20260420_125507/adapter_config.json
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_minimal_20260419_125238/adapter_config.json
+0.00 MiB	 /data/chenjt/Hate/Try/Hidden CoT_old/outputs/ihc_hybrid_20260419_174617/adapter_config.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model2/model2/adapter_config.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/sbic_multitarget_gpu1_bs2_20260504_112158/model1/model1/adapter_config.json
+0.00 MiB	 /data/chenjt/Hate/Try/Dual-model_old/outputs/separate/ihc_multitarget_gpu0_bs4_20260504_102345/model2/model2/adapter_config.json
+
+## PATH /data/chenjt/Study/base_multi_study
+348K	/data/chenjt/Study/base_multi_study
+
+### top-level directories
+/data/chenjt/Study/base_multi_study/log
+/data/chenjt/Study/base_multi_study/output
+/data/chenjt/Study/base_multi_study/output/Meta-Llama-3___1-8B-Instruct
+
+### extension counts
+1 .sh
+1 .py
+1 .json
+
+### largest files
+0.31 MiB	 /data/chenjt/Study/base_multi_study/output/Meta-Llama-3___1-8B-Instruct/prediction_results.json
+0.01 MiB	 /data/chenjt/Study/base_multi_study/train.py
+0.00 MiB	 /data/chenjt/Study/base_multi_study/train.sh
+
+## PATH /data/chenjt/Study/practise
+46M	/data/chenjt/Study/practise
+
+### top-level directories
+/data/chenjt/Study/practise/mission_1
+/data/chenjt/Study/practise/mission_1/result
+/data/chenjt/Study/practise/mission_2
+/data/chenjt/Study/practise/mission_2/result
+/data/chenjt/Study/practise/mission_3
+/data/chenjt/Study/practise/mission_3/result
+/data/chenjt/Study/practise/mission_4
+/data/chenjt/Study/practise/mission_4/origin_corpus
+/data/chenjt/Study/practise/mission_4/txt_corpus
+
+### extension counts
+81 .txt
+71 .pdf
+11 .docx
+10 .py
+8 .json
+3 .csv
+2 .sh
+1 .doc
+1 .DS_Store
+
+### largest files
+16.30 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/附件1-1：中国证监会决定修改的规范性文件.pdf
+3.22 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板上市公司自律监管指南第1号——业务办理（2024年修订）.docx
+2.31 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/《关于修改部分证券期货规章的决定》.pdf
+1.26 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度.pdf
+1.14 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/附件1-1：中国证监会决定修改的规范性文件.txt
+0.99 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求（2022年修订）.pdf
+0.97 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第4号——上市公司及其相关方承诺.pdf
+0.77 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所公司债券存续期业务指南第 2 号——临时报告参考格式（2021.04.29）.pdf
+0.75 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第2号——创业板上市公司规范运作（2025年修订）.pdf
+0.69 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第8号——重大资产重组.pdf
+0.57 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板股票上市规则（2025年修订）.pdf
+0.55 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司章程指引.pdf
+0.55 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第3号——行业信息披露.pdf
+0.55 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/《关于修改部分证券期货规章的决定》.txt
+0.48 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所创业板上市公司自律监管指南第2号——公告格式（2024年修订）.docx
+0.48 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司股份回购规则（2023年12月）.pdf
+0.46 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/公开发行证券的公司信息披露内容与格式准则第2号——年度报告的内容与格式.pdf
+0.43 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第13号——保荐业务.pdf
+0.40 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/公开发行证券的公司信息披露内容与格式准则第3号——半年度报告的内容与格式.pdf
+0.37 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第2号公告】上市公司章程指引（2022年修订）.pdf
+0.34 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第10号公告】公开发行证券的公司信息披露内容与格式准则第26号――上市公司重大资产重组（2022年修订）.pdf
+0.34 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板上市公司自律监管指南第1号——业务办理（2024年修订）.txt
+0.32 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第5号——信息披露事务管理.pdf
+0.32 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：国有企业、上市公司选聘会计师事务所管理办法.pdf
+0.31 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第9号公告】公开发行证券的公司信息披露内容与格式准则第17号――要约收购报告书（2022年修订）.pdf
+0.29 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第6号——停复牌.pdf
+0.29 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第2号——创业板上市公司规范运作（2025年修订）.txt
+0.29 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司信息披露管理办法.pdf
+0.28 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：首次公开发行股票注册管理办法.pdf
+0.28 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司股东会规则.pdf
+0.28 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板上市公司自律监管指南第2号——公告格式（2024年修订）.txt
+0.28 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第11号——信息披露工作考核.pdf
+0.26 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司独立董事管理办法（2023年8月）.pdf
+0.24 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则20240524.pdf
+0.23 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/首发业务若干问题解答.doc
+0.22 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第8号公告】公开发行证券的公司信息披露内容与格式准则第5号――公司股份变动报告的内容与格式（2022年修订）.pdf
+0.21 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所创业板股票上市规则（2025年修订）.txt
+0.20 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第9号——回购股份（2025年修订）.pdf
+0.19 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/证监会：上市公司监管指引第3号——上市公司现金分红（2023年12月修订）.pdf
+0.19 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第29号公告】附件1 上市公司投资者关系管理工作指引.pdf
+0.18 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第14号公告】上市公司独立董事规则.pdf
+0.18 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第10号——股份变动管理（2025年修订）.pdf
+0.17 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第4号公告】上市公司股份回购规则.pdf
+0.16 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司股权激励管理办法（2018年9月修订）.pdf
+0.16 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第29号公告】附件2《上市公司投资者关系管理工作指引》修订说明.pdf
+0.16 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第26号公告】上市公司监管指引第8号——上市公司资金往来、对外担保的监管要求.pdf
+0.16 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第14号公告】《上市公司独立董事规则》起草说明 .pdf
+0.14 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第3号公告】上市公司监管指引第3号——上市公司现金分红（2022年修订）.pdf
+0.14 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第3号——行业信息披露.txt
+0.14 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第15号公告】《上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求》修订说明.pdf
+0.14 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第16号公告】上市公司监管指引第4号——上市公司及其相关方承诺.pdf
+0.14 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第15号公告】上市公司监管指引第2号——上市公司募集资金管理和使用的监管要求（2022年修订）.pdf
+0.14 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第17号公告】上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度.pdf
+0.13 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第23号公告】上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管.pdf
+0.13 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第21号公告】上市公司现场检查规则.pdf
+0.13 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第16号公告】《上市公司监管指引第4号——上市公司及其相关方承诺》修订说明.pdf
+0.13 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第5号公告】上市公司分拆规则（试行）.pdf
+0.12 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第7号公告】上市公司股票停复牌规则.pdf
+0.12 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第19号公告】上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则（2022年修订）.pdf
+0.12 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第10号公告】《公开发行证券的公司信息披露内容与格式准则第26号――上市公司重大资产重组》修订说明.pdf
+0.11 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/附件1-2：中国证监会决定废止的规范性文件.pdf
+0.11 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第4号公告】《上市公司股份回购规则》起草说明.pdf
+0.11 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第8号公告】《公开发行证券的公司信息披露内容与格式准则第5号――公司股份变动报告的内容与格式》修订说明.pdf
+0.11 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第9号公告】《公开发行证券的公司信息披露内容与格式准则第17号――要约收购报告书》修订说明.pdf
+0.11 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第2号公告】《上市公司章程指引》修订说明.pdf
+0.11 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第3号公告】《上市公司监管指引第3号——上市公司现金分红》修订说明.pdf
+0.10 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第21号公告】《上市公司现场检查规则》修订说明.pdf
+0.10 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第5号公告】《上市公司分拆规则（试行）》起草说明.pdf
+0.10 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第17号公告】《上市公司监管指引第5号——上市公司内幕信息知情人登记管理制度》修订说明.pdf
+0.10 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第18号公告】《上市公司重大资产重组管理办法》第三条有关标的资产存在资金占用问题的适用意见——证券期货法律适用意见第10号.pdf
+0.10 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第6号公告】《上市公司重大资产重组管理办法》第十四条、第四十四条的适用意见——证券期货法律适用意见第12号（2022年修订）.pdf
+0.10 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第20号公告】《上市公司收购管理办法》第六十二条有关上市公司严重财务困难的适用意见——证券期货法律适用意见第7号（2022年修订）.pdf
+0.10 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第7号公告】《上市公司股票停复牌规则》修订说明.pdf
+0.09 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司章程指引.txt
+0.09 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/中华人民共和国公司法2023年12月29日.txt
+0.09 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第18号公告】《〈上市公司重大资产重组管理办法〉第三条有关标的资产存在资金占用问题的适用意见——证券期货法律适用意见第10号》修订说明.pdf
+0.09 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第6号公告】《〈上市公司重大资产重组管理办法〉第十四条、第四十四条的适用意见——证券期货法律适用意见第12号》修订说明.pdf
+0.09 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第22号公告】上市公司监管指引第6号——上市公司董事长谈话制度实施办法 .pdf
+0.09 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所公司债券存续期业务指南第 2 号——临时报告参考格式（2021.04.29）.txt
+0.08 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第19号公告】《上市公司董事、监事和高级管理人员所持本公司股份及其变动管理规则》修订说明.pdf
+0.08 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第20号公告】《〈上市公司收购管理办法〉第六十二条有关上市公司严重财务困难的适用意见——证券期货法律适用意见第7号》修订说明.pdf
+0.08 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第2号公告】上市公司章程指引（2022年修订）.txt
+0.08 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第4号——创业板行业信息披露（2023年修订）.txt
+0.08 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/公开发行证券的公司信息披露内容与格式准则第2号——年度报告的内容与格式.txt
+0.07 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第4号——创业板行业信息披露（2023年修订）.docx
+0.07 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第23号公告】《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》修订说明.pdf
+0.07 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第10号公告】公开发行证券的公司信息披露内容与格式准则第26号――上市公司重大资产重组（2022年修订）.txt
+0.07 MiB	 /data/chenjt/Study/practise/mission_3/filtered_failed.csv
+0.07 MiB	 /data/chenjt/Study/practise/mission_3/ori_generated.csv
+0.06 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司收购管理办法（2020年修订）.txt
+0.06 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第8号——重大资产重组.txt
+0.05 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/【第22号公告】《上市公司监管指引第6号——上市公司董事长谈话制度实施办法》修订说明.pdf
+0.05 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/中华人民共和国公司法2023年12月29日.docx
+0.05 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第7号——交易与关联交易.docx
+0.04 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/公开发行证券的公司信息披露内容与格式准则第3号——半年度报告的内容与格式.txt
+0.04 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第15号——可转换公司债券.docx
+0.04 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/附件1：《关于修改、废止部分证券期货规范性文件的决定》.pdf
+0.04 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第16号——创业板上市公司股东询价和配售方式转让股份.docx
+0.04 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第7号——交易与关联交易.txt
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第13号——保荐业务.txt
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：首次公开发行股票注册管理办法.txt
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司股权激励管理办法（2018年9月修订）.txt
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第12号——纪律处分实施标准（2024年修订）.txt
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/【第9号公告】公开发行证券的公司信息披露内容与格式准则第17号――要约收购报告书（2022年修订）.txt
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司信息披露管理办法.txt
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第12号——纪律处分实施标准（2024年修订）.docx
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/深交所/深圳证券交易所上市公司自律监管指引第18号——股东及董事、监事、高级管理人员减持股份.docx
+0.03 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/证监会：上市公司独立董事管理办法（2023年8月）.txt
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第9号——回购股份（2025年修订）.txt
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第5号——信息披露事务管理.txt
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/origin_corpus/origin_corpus/法律法规/证监会/上市公司收购管理办法（2020年修订）.docx
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/rag_results.json
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/证监会/上市公司股东会规则.txt
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第11号——信息披露工作考核.txt
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第18号——股东及董事、监事、高级管理人员减持股份.txt
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第16号——创业板上市公司股东询价和配售方式转让股份.txt
+0.02 MiB	 /data/chenjt/Study/practise/mission_3/filtered_passed.csv
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/问题-答案-1～9.docx
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第15号——可转换公司债券.txt
+0.02 MiB	 /data/chenjt/Study/practise/mission_4/txt_corpus/深交所/深圳证券交易所上市公司自律监管指引第10号——股份变动管理（2025年修订）.txt

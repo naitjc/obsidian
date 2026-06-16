@@ -1,13 +1,38 @@
 .DS_Store
 Thumbs.db
+.Spotlight-V100/
+.Trashes/
+
+# Local scratch space.
 tmp/
 .codex_tmp/
+
+# Interpreter and notebook caches.
 __pycache__/
 *.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local process state and environments.
 *.pid
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
 
 # Keep sample-level experiment evidence local when publishing this public wiki.
 experiments/**/*.jsonl
 experiments/**/*.log
+!experiments/server-sync/manifests/*.log
 experiments/**/data/processed/
 experiments/**/DATA/**/processed/
+
+# Large or noisy training artifacts should stay outside the public wiki unless
+# a task explicitly reviews and documents their inclusion.
+experiments/**/checkpoints/
+experiments/**/checkpoint-*/
+experiments/**/wandb/
+experiments/**/runs/**/events.out.tfevents*

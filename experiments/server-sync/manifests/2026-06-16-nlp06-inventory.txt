@@ -1,0 +1,626 @@
+host=cuda12-8-1-cudnn-devel-ub24-web-1f6b12ece72844fb9d-5bdcd5fks85c
+user=cjt
+date=2026-06-16T14:13:15+08:00
+
+## PATH /data/cjt/hate/Try/RA-HMD_text
+1.6G	/data/cjt/hate/Try/RA-HMD_text
+
+### top-level directories
+/data/cjt/hate/Try/RA-HMD_text/.upload_tmp
+/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY
+/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints
+/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data
+/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/my_configs
+/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/my_scripts
+/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/scripts
+/data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/src
+/data/cjt/hate/Try/RA-HMD_text/Stage2
+/data/cjt/hate/Try/RA-HMD_text/Stage2/data
+/data/cjt/hate/Try/RA-HMD_text/Stage2/scripts
+/data/cjt/hate/Try/RA-HMD_text/Stage2/src
+/data/cjt/hate/Try/RA-HMD_text/docs
+/data/cjt/hate/Try/RA-HMD_text/runs
+/data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938
+/data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907
+/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_dry_target_20260611_1525
+/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_dry_text_20260611_1525
+/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_smoke_text_20260611_1526
+/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_20260611_154812
+/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514
+/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora_no4bit_20260611_155154
+/data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_completed_targets_3epoch_lora8_alpha16_no4bit_20260611_172452
+/data/cjt/hate/Try/RA-HMD_text/runs/smoke_target_predicted_target_level_20260611
+/data/cjt/hate/Try/RA-HMD_text/runs/smoke_target_predicted_target_level_20260611_v2
+/data/cjt/hate/Try/RA-HMD_text/runs/stage1_finetune_retrain_retrieval_20260609_2300
+/data/cjt/hate/Try/RA-HMD_text/runs/stage1_ft_retrieval_smoke_bm25
+/data/cjt/hate/Try/RA-HMD_text/runs/stage1_test_eval_20260611_131817
+/data/cjt/hate/Try/RA-HMD_text/runs/stage1_test_eval_smoke2_20260611_131722
+/data/cjt/hate/Try/RA-HMD_text/runs/stage1_test_eval_smoke_20260611_131613
+/data/cjt/hate/Try/RA-HMD_text/runs/target_dropout_before_gate_20260613_153016
+/data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814
+/data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_180123
+/data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_180150
+/data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_180247
+/data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182414
+/data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600
+/data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840
+/data/cjt/hate/Try/RA-HMD_text/runs/text_pipeline_1epoch_20260608_135057
+/data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_20260611_121754
+/data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_20260611_121938
+/data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_smoke2_20260611_121713
+/data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_smoke_20260611_121550
+/data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_smoke_20260611_121607
+/data/cjt/hate/Try/RA-HMD_text/runs/uncertainty_gated_target_cluster080_20260612_211500
+/data/cjt/hate/Try/RA-HMD_text/scripts
+/data/cjt/hate/Try/RA-HMD_text/target_clustering_20260612_semantic
+
+### extension counts
+88 .json
+86 .py
+64 .jsonl
+57 .log
+21 .txt
+18 .sh
+11 .md
+10 .yaml
+9 .pt
+7 .bin
+4 .safetensors
+4 .png
+4 .jinja
+3 .bak_20260612_dual_adapter
+2 .tsv
+2 .bak_20260611_target_predicted
+1 [no_ext]
+1 .toml
+1 .pid
+1 .in
+1 .bak_20260613_yes_token_fallback
+1 .bak_20260613_target_dropout_prompt
+1 .bak_20260613_target_dropout
+1 .bak_20260613_disable_retrieval
+1 .bak_20260612_macro_threshold
+1 .bak_20260612_cluster_threshold
+1 .bak_20260612_112336_target_parse
+
+### largest files
+1008.07 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/qlora/ihc_text_target_v1/text_only/classifier_seed42_1epoch/adapter_model.safetensors
+73.36 MiB	 /data/cjt/hate/Try/RA-HMD_text/Stage2/data/Embedding/qwen3-4b/IHCText_seed42_1epoch/train_IHCText_qwen3-4b_text_only.pt
+63.06 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/lora/ihc_text_target_v1/text_only/classifier_seed42_3epoch_lora8_alpha16_no4bit/adapter_model.safetensors
+63.06 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/lora/ihc_text_target_v1/target_then_classifier/classifier_seed42_3epoch_lora8_alpha16_no4bit/adapter_model.safetensors
+63.06 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/lora/ihc_text_target_v1/target_extraction/extractor_seed42_3epoch_lora8_alpha16_no4bit/adapter_model.safetensors
+10.89 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/qlora/ihc_text_target_v1/text_only/classifier_seed42_1epoch/tokenizer.json
+10.89 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/lora/ihc_text_target_v1/text_only/classifier_seed42_3epoch_lora8_alpha16_no4bit/tokenizer.json
+10.89 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/lora/ihc_text_target_v1/target_then_classifier/classifier_seed42_3epoch_lora8_alpha16_no4bit/tokenizer.json
+10.89 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/lora/ihc_text_target_v1/target_extraction/extractor_seed42_3epoch_lora8_alpha16_no4bit/tokenizer.json
+10.58 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/train.json
+10.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_pipeline_1epoch_20260608_135057/stage2_outputs/Retrieval/IHCText/qwen3-4b_text_seed42_1epoch/RAC_qwen3-4b_lr0.0001_Bz64_Ep1_innerProduct_contrastive_seed42_hybrid_loss_rahmd_text_1epoch/ckpt/last_model_0_0.7662198391420911.pt
+10.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_pipeline_1epoch_20260608_135057/stage2_outputs/Retrieval/IHCText/qwen3-4b_text_seed42_1epoch/RAC_qwen3-4b_lr0.0001_Bz64_Ep1_innerProduct_contrastive_seed42_hybrid_loss_rahmd_text_1epoch/ckpt/best_model_0_tensor(0.7512).pt
+10.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/qlora/ihc_text_target_v1/text_only/classifier_seed42_1epoch/classifier.bin
+10.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/lora/ihc_text_target_v1/text_only/classifier_seed42_3epoch_lora8_alpha16_no4bit/classifier.bin
+10.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/checkpoints/qwen3-4b/lora/ihc_text_target_v1/target_then_classifier/classifier_seed42_3epoch_lora8_alpha16_no4bit/classifier.bin
+9.81 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/train.json
+9.78 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/train.json
+9.73 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/train.json
+9.18 MiB	 /data/cjt/hate/Try/RA-HMD_text/Stage2/data/Embedding/qwen3-4b/IHCText_seed42_1epoch/test_IHCText_qwen3-4b_text_only.pt
+9.16 MiB	 /data/cjt/hate/Try/RA-HMD_text/Stage2/data/Embedding/qwen3-4b/IHCText_seed42_1epoch/val_IHCText_qwen3-4b_text_only.pt
+8.93 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/train.jsonl
+7.95 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/train.jsonl
+7.92 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/train.jsonl
+7.89 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/train.jsonl
+5.96 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/train.json
+5.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_smoke_20260611_121607/best_model.pt
+5.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_smoke2_20260611_121713/best_model.pt
+5.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_20260611_121938/best_model.pt
+5.01 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_20260611_121754/best_model.pt
+4.70 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/train.jsonl
+3.75 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_mix/test_predictions.jsonl
+3.73 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_mix/valid_predictions.jsonl
+3.73 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_mix/test_predictions.jsonl
+3.69 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_mix/valid_predictions.jsonl
+3.41 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_mix/test_predictions.jsonl
+3.39 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_mix/valid_predictions.jsonl
+3.28 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_mix/test_predictions.jsonl
+3.26 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_mix/valid_predictions.jsonl
+3.10 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_text_only/test_predictions.jsonl
+3.10 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_text_only/test_predictions.jsonl
+3.08 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_text_only/valid_predictions.jsonl
+3.08 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_text_only/valid_predictions.jsonl
+2.68 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_target_only/test_predictions.jsonl
+2.66 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_target_only/test_predictions.jsonl
+2.60 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_target_only/valid_predictions.jsonl
+2.59 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_target_only/valid_predictions.jsonl
+2.53 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514/single_stage_text_eval/test_predictions.jsonl
+2.53 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_completed_targets_3epoch_lora8_alpha16_no4bit_20260611_172452/test_predictions.jsonl
+2.51 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514/single_stage_text_eval/valid_predictions.jsonl
+2.51 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_completed_targets_3epoch_lora8_alpha16_no4bit_20260611_172452/valid_predictions.jsonl
+2.48 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/uncertainty_gated_target_cluster080_20260612_211500/test_predictions.jsonl
+2.39 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/uncertainty_gated_target_cluster080_20260612_211500/valid_predictions.jsonl
+2.28 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600/dual_adapter_cluster080_eval/test_predictions.jsonl
+2.20 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600/dual_adapter_cluster080_eval/valid_predictions.jsonl
+1.33 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/test.json
+1.32 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/valid.json
+1.23 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/test.json
+1.23 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/test.json
+1.23 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/test.json
+1.23 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/valid.json
+1.23 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/valid.json
+1.23 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/valid.json
+1.21 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_070/test_predictions.jsonl
+1.20 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_070/test_predictions.jsonl
+1.20 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_080/test_predictions.jsonl
+1.19 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_080/test_predictions.jsonl
+1.16 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_070/valid_predictions.jsonl
+1.16 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_070/valid_predictions.jsonl
+1.15 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_080/valid_predictions.jsonl
+1.15 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_080/valid_predictions.jsonl
+1.12 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/test.jsonl
+1.12 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_extraction/valid.jsonl
+1.10 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_target_only/test_predictions.jsonl
+1.08 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_target_only/test_predictions.jsonl
+1.06 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_target_only/valid_predictions.jsonl
+1.04 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_target_only/valid_predictions.jsonl
+1.00 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/test.jsonl
+1.00 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/test.jsonl
+1.00 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/test.jsonl
+1.00 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic050/valid.jsonl
+1.00 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic030/valid.jsonl
+1.00 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/target_dropout_toxic015/valid.jsonl
+0.75 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/test.json
+0.75 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/valid.json
+0.69 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600/queue.log
+0.64 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/queue.log
+0.59 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/test.jsonl
+0.59 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/data/gt/IHCText/text_only/valid.jsonl
+0.48 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/queue.log
+0.35 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514/nohup.log
+0.28 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514/logs/stage1_3epoch_lora_no4bit.log
+0.28 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600/logs/train_target_then_classifier.log
+0.28 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600/logs/train_target_extractor.log
+0.22 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/queue.log
+0.22 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/queue.log
+0.17 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_pipeline_1epoch_20260608_135057/logs/extract.log
+0.16 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/uncertainty_gated_target_cluster080_20260612_211500/nohup.log
+0.16 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/uncertainty_gated_target_cluster080_20260612_211500/run.log
+0.15 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/stage1_test_eval_20260611_131817/predictions.jsonl
+0.14 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_20260611_121938/test_predictions.jsonl
+0.14 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_20260611_121754/test_predictions.jsonl
+0.14 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_stage2_classifier_smoke2_20260611_121713/test_predictions.jsonl
+0.13 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_mix/run.log
+0.13 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_mix/run.log
+0.13 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_mix/run.log
+0.13 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_mix/run.log
+0.13 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_then_classifier_training_20260612_182600/dual_adapter_cluster080_eval/run.log
+0.13 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/full_target_target_only/run.log
+0.13 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_view_6way_20260611_191840/nonfull_target_target_only/run.log
+0.12 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/text_pipeline_1epoch_20260608_135057/logs/stage1.log
+0.11 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_070/run.log
+0.11 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_070/run.log
+0.11 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/full_target_cluster_rag_threshold_2way_20260612_162907/full_cluster_080/run.log
+0.11 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/full_target_target_only/run.log
+0.11 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/cluster_rag_threshold_2way_20260612_153938/cluster_080/run.log
+0.11 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/target_parse_fix_4way_20260612_112814/nonfull_target_target_only/run.log
+0.10 MiB	 /data/cjt/hate/Try/RA-HMD_text/LLAMA-FACTORY/src/llamafactory/extras/constants.py
+0.06 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514/logs/single_stage_text_eval_no4bit.log
+0.06 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_3epoch_lora8_alpha16_no4bit_20260611_155514/single_stage_text_eval/run.log
+0.06 MiB	 /data/cjt/hate/Try/RA-HMD_text/runs/single_stage_text_completed_targets_3epoch_lora8_alpha16_no4bit_20260611_172452/nohup.log
+
+## PATH /data/cjt/hate/AnyCode-xu-l20/DATA
+75M	/data/cjt/hate/AnyCode-xu-l20/DATA
+
+### top-level directories
+/data/cjt/hate/AnyCode-xu-l20/DATA/IHC
+/data/cjt/hate/AnyCode-xu-l20/DATA/PLEAD
+/data/cjt/hate/AnyCode-xu-l20/DATA/SBIC
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_filled_target
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_filled_target/IHC
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/__pycache__
+/data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive
+
+### extension counts
+23 .json
+17 .log
+13 .jsonl
+7 .md
+5 .py
+3 [no_ext]
+3 .bak_20260530_103033
+2 .pyc
+2 .before
+2 .bak_20260529_225755
+2 .bak_20260529_224418
+1 .gz
+1 .bak_20260529_224244
+
+### largest files
+10.92 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/hate_data.tar.gz
+7.86 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/statement_cache.jsonl
+7.86 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+5.89 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/train.json
+5.75 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/text_label_target.json
+5.69 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/text_label.json
+5.58 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/text_only.json
+4.27 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_full.run.log
+3.93 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/deferred_requests.jsonl
+1.02 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/statement_cache.jsonl
+1.02 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+1.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/statement_cache.jsonl
+1.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+0.74 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/test.json
+0.74 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/valid.json
+0.72 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/text_label_target.json
+0.72 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_label_target.json
+0.71 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_label.json
+0.71 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_deferred_fill_deepseek.run.log
+0.71 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/text_label.json
+0.69 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_only.json
+0.69 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/text_only.json
+0.64 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/PLEAD/test.jsonl
+0.63 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/PLEAD/validation.jsonl
+0.58 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_filled_target/IHC/processed/valid.json
+0.58 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_filled_target/IHC/processed/test.json
+0.58 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/target_cache.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/runs/test_full_deepseek.run.log
+0.48 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/deferred_requests.jsonl
+0.38 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/runs/valid_full.run.log
+0.28 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_0001_1000.run.log
+0.25 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/runs/valid_full_deepseek.run.log
+0.25 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/audit/deferred_requests.jsonl
+0.21 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/deferred_requests.jsonl
+0.09 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_0001_0400.run.log
+0.09 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/target_lexicon.json
+0.06 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/runs/test_deferred_fill_deepseek.run.log
+0.06 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/__pycache__/build_minimal_restructured.cpython-312.pyc
+0.05 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/runs/valid_deferred_fill_deepseek.run.log
+0.05 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/text_label_target.run.log
+0.05 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/build_minimal_restructured.py
+0.04 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/text_only.run.log
+0.04 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/text_label.run.log
+0.02 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/SBIC/LICENSE
+0.02 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/IHC/LICENSE
+0.02 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/__pycache__/run_statement_trial.cpython-312.pyc
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/run_statement_trial.py
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/run_statement_trial.py.bak_20260529_225755
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/run_statement_trial.py.bak_20260529_224418
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_filled_target/fill_not_toxic_targets_with_llm.py
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/validate_target_completed.py
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/README.md
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/validate_statement_trial.py
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/COMMANDS.md
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/README.md.bak_20260530_103033
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/README.md.bak_20260529_224418
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/README.md.bak_20260529_224244
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/IHC/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/STATUS.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/20260607_project_organization/STATUS.md.before
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/SBIC/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/PROJECT.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/PLEAD/gitattributes
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/COMMANDS.md.bak_20260530_103033
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/validation.json
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/COMMANDS.md.bak_20260529_225755
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/20260607_project_organization/PROJECT.md.before
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/archive/manual_backups/PROJECT.md.bak_20260530_103033
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/audit/runs/IHC_target_only_all_native_v1.rerun.nohup.log
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/validation.json
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/audit/runs/IHC_target_only_all_native_v1.nohup.log
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/validation.json
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_target_v1/summary.json
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/validation.json
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/runs/valid_fallback_refresh.run.log
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_fallback_refresh.run.log
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/runs/test_fallback_refresh.run.log
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/PLEAD/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_v1/summary.json
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_valid_v1/summary.json
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/DATA/llm_restructed/IHC_statement_trial_test_v1/summary.json
+
+## PATH /data/cjt/hate/AnyCode-xu-l20/FineTune
+21M	/data/cjt/hate/AnyCode-xu-l20/FineTune
+
+### top-level directories
+/data/cjt/hate/AnyCode-xu-l20/FineTune/configs
+/data/cjt/hate/AnyCode-xu-l20/FineTune/data
+/data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed
+/data/cjt/hate/AnyCode-xu-l20/FineTune/experiments
+/data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline
+/data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1
+/data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1
+/data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1
+/data/cjt/hate/AnyCode-xu-l20/FineTune/logs
+/data/cjt/hate/AnyCode-xu-l20/FineTune/scripts
+/data/cjt/hate/AnyCode-xu-l20/FineTune/src
+/data/cjt/hate/AnyCode-xu-l20/FineTune/src/data
+/data/cjt/hate/AnyCode-xu-l20/FineTune/src/eval
+/data/cjt/hate/AnyCode-xu-l20/FineTune/src/train
+
+### extension counts
+322 .json
+69 .md
+45 .jinja
+23 .jsonl
+7 .sh
+6 .py
+4 .yaml
+1 .txt
+1 .gitignore
+
+### largest files
+3.58 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc/train.jsonl
+1.48 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/sbic/test.jsonl
+1.47 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/sbic/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_restructured_target_v1/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s2_text_only_1x/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s2_text_label_target_1x/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s2_text_label_4x/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s2_text_label_1x/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s1_native_toxic/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_full_text_only_1x/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_full_text_label_target_1x/validation.jsonl
+0.57 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_full_text_label_1x/validation.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_restructured_target_v1/test.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s2_text_only_1x/test.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s2_text_label_target_1x/test.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s2_text_label_4x/test.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s2_text_label_1x/test.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_pilot_s1_native_toxic/test.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_full_text_only_1x/test.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_full_text_label_target_1x/test.jsonl
+0.56 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc_statement_full_text_label_1x/test.jsonl
+0.51 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc/validation.jsonl
+0.50 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/data/processed/ihc/test.jsonl
+0.02 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/src/eval/evaluate_generative_binary.py
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/eval_results.md
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/src/train/train_qlora_sft_binary.py
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/src/data/prepare_binary_data.py
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/README.md
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/STATUS.md
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen3-4B/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen3-4B/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s2_text_only_1x/Qwen3-4B/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s2_text_label_target_1x/Qwen3-4B/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s2_text_label_4x/Qwen3-4B/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s2_text_label_1x/Qwen3-4B/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s1_native_toxic/Qwen3-4B/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-4B/class_target_toxic_only/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_toxic_only/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_statement_toxic_only/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-4B/class/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-4B/class_target_toxic_only/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-4B/class_hate_class_target_statement_toxic_only/chat_template.jinja
+0.01 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_target_all_rows/Mistral-7B-Instruct-v0.3/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Mistral-7B-Instruct-v0.3/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_only_1x/Mistral-7B-Instruct-v0.3/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_label_target_1x/Mistral-7B-Instruct-v0.3/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_label_1x/Mistral-7B-Instruct-v0.3/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_hate_class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_hate_class_target_statement_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Mistral-7B-Instruct-v0.3/class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Mistral-7B-Instruct-v0.3/class_hate_class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Mistral-7B-Instruct-v0.3/class_hate_class_target_statement_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Mistral-7B-Instruct-v0.3/class/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_hate_class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_hate_class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen2.5-7B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen2.5-7B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_only_1x/Qwen2.5-7B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen2.5-7B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_label_1x/Qwen2.5-7B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_hate_class_target_statement_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_hate_class_target_statement_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen3-8B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen3-8B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s2_text_only_1x/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s2_text_label_target_1x/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s2_text_label_4x/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s2_text_label_1x/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_pilot_v1/s1_native_toxic/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_only_1x/Qwen3-8B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_only_1x/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen3-8B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_label_1x/Qwen3-8B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/text_label_1x/Qwen3-4B/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-8B/class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_statement_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-8B/class/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-4B/class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_statement_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-4B/class/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-8B/class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-8B/class_hate_class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-8B/class_hate_class_target_statement_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-8B/class/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-4B/class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-4B/class_hate_class_target_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-4B/class_hate_class_target_statement_toxic_only/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-4B/class/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/statement_full_v1/README.md
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/src/data/prepare_statement_pilot.py
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen3-8B/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen3-8B/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-8B/class_target_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_statement_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Qwen3-8B/class/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-8B/class_target_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-8B/class_hate_class_target_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-8B/class_hate_class_target_statement_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-8B/class/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-4B/class_hate_class_target_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/ihc/Qwen3-4B/class/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_target_all_rows/Mistral-7B-Instruct-v0.3/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Mistral-7B-Instruct-v0.3/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_target_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_hate_class_target_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_hate_class_target_statement_toxic_only/chat_template.jinja
+0.00 MiB	 /data/cjt/hate/AnyCode-xu-l20/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class/chat_template.jinja
+
+## PATH /data/cjt/nlpcourse
+1.9G	/data/cjt/nlpcourse
+
+### top-level directories
+/data/cjt/nlpcourse/experiment1
+/data/cjt/nlpcourse/experiment1/outputs
+/data/cjt/nlpcourse/experiment2
+/data/cjt/nlpcourse/experiment2/bert
+/data/cjt/nlpcourse/experiment2/macbert
+/data/cjt/nlpcourse/experiment3
+/data/cjt/nlpcourse/experiment3/logs
+/data/cjt/nlpcourse/experiment3/outputs
+/data/cjt/nlpcourse/experiment4
+/data/cjt/nlpcourse/experiment4/extended
+/data/cjt/nlpcourse/experiment4/final
+/data/cjt/nlpcourse/experiment4/outputs
+/data/cjt/nlpcourse/experiment4/scripts
+/data/cjt/nlpcourse/experiment4/sft
+
+### extension counts
+45 .json
+39 .csv
+20 .py
+9 .md
+6 .log
+5 .pid
+4 .txt
+3 .safetensors
+2 .sh
+2 .html
+
+### largest files
+1241.95 MiB	 /data/cjt/nlpcourse/experiment2/macbert/outputs/best_model/model.safetensors
+390.24 MiB	 /data/cjt/nlpcourse/experiment2/bert/outputs/best_model/model.safetensors
+166.56 MiB	 /data/cjt/nlpcourse/experiment4/sft/checkpoints/qwen3_8b_qlora_sft_lr0.0002_ep5/adapter_model.safetensors
+4.00 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen2.5-7b_few-shot.csv
+4.00 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen2.5-7b_zero-shot.csv
+3.90 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_mistral-7b_zero-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-0.6b_few-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-0.6b_zero-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_mistral-7b_few-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-4b_zero-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-4b_few-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-8b_few-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_glm4-9b_few-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_glm4-9b_zero-shot.csv
+3.88 MiB	 /data/cjt/nlpcourse/experiment3/outputs/dev_predictions_qwen3-8b_zero-shot.csv
+0.42 MiB	 /data/cjt/nlpcourse/experiment2/bert/outputs/best_model/tokenizer.json
+0.42 MiB	 /data/cjt/nlpcourse/experiment2/macbert/outputs/best_model/tokenizer.json
+0.17 MiB	 /data/cjt/nlpcourse/experiment3/outputs/submission_readable.csv
+0.16 MiB	 /data/cjt/nlpcourse/experiment1/outputs/submission_category.csv
+0.06 MiB	 /data/cjt/nlpcourse/experiment1/outputs/experiment_results.csv
+0.05 MiB	 /data/cjt/nlpcourse/experiment2/macbert/outputs/macbert_submission.csv
+0.05 MiB	 /data/cjt/nlpcourse/experiment2/macbert/best_macbert_submission.csv
+0.05 MiB	 /data/cjt/nlpcourse/experiment2/bert/outputs/bert_submission.csv
+0.05 MiB	 /data/cjt/nlpcourse/experiment2/bert/best_bert_submission.csv
+0.05 MiB	 /data/cjt/nlpcourse/experiment1/outputs/submission.csv
+0.05 MiB	 /data/cjt/nlpcourse/experiment3/outputs/submission.csv
+0.05 MiB	 /data/cjt/nlpcourse/experiment4/final/submission.csv
+0.02 MiB	 /data/cjt/nlpcourse/experiment1/outputs/experiment_results_report.html
+0.02 MiB	 /data/cjt/nlpcourse/experiment3/logs/pending_nohup_retry.log
+0.02 MiB	 /data/cjt/nlpcourse/experiment1/run_unified_experiments.py
+0.02 MiB	 /data/cjt/nlpcourse/experiment3/logs/pending_nohup.log
+0.02 MiB	 /data/cjt/nlpcourse/experiment3/logs/final_test_qwen3-8b_zero-shot.log
+0.01 MiB	 /data/cjt/nlpcourse/experiment2/run_experiment2.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment4/scripts/run_lora_classification.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment4/scripts/run_qwen3_8b_qlora_sft.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment4/scripts/run_prompt_eval_strict.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment3/run_prompt_experiment3.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment1/run_experiment_gpu.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment4/scripts/run_peft_variants.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment2/bert/run_bert_finetune.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment2/macbert/run_macbert_finetune.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment3/logs/full_remaining.log
+0.01 MiB	 /data/cjt/nlpcourse/experiment4/scripts/run_glm_lora.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment4/scripts/run_qlora_classification.py
+0.01 MiB	 /data/cjt/nlpcourse/experiment4/scripts/run_additional_models.py
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/sft/checkpoints/qwen3_8b_qlora_sft_lr0.0002_ep5/README.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/build_report.py
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/scripts/run_best_qwen3_8b_qlora_sft_test.py
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/logs/glm4-9b_nohup.log
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/FINAL_REPORT.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/README.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/outputs/experiment_results_report.html
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/scripts/select_best_submission.py
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/logs/glm4-9b_test_nohup.log
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/macbert/outputs/history.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/bert/outputs/history.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/README.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/macbert/outputs/best_model/config.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/bert/outputs/best_model/config.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/extended_results.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/scripts/summarize_extended_results.py
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/all_model_results.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/README.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment1/README.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/EXTENDED_EXPERIMENTS.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/summary.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/scripts/validate_final_submission.py
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/bert/README.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment1/outputs/summary.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/inspect_experiment3.py
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/macbert/README.md
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/sft/checkpoints/qwen3_8b_qlora_sft_lr0.0002_ep5/adapter_config.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/validate_submission.py
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/run_pending_nohup.sh
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/sft/outputs/sft_results.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/bert/outputs/run_summary.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/macbert/outputs/run_summary.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/best_model.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/result_mistral_7b.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/result_qwen3_0.6b.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/result_qwen2.5_7b.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/result_glm4_9b.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/result_qwen3_8b.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/outputs/experiment_results.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/run_remaining_full.sh
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/outputs/experiment_results.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/macbert/outputs/best_model/tokenizer_config.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen2.5_7b_qlora.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_0.6b_qlora.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_mistral_7b_qlora.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_8b_qlora.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_4b_qlora.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_mistral_7b_prefix_encoder.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen2.5_7b_prefix_encoder.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_4b_prefix_encoder.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen2.5_7b_prompt_tuning.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment2/bert/outputs/best_model/tokenizer_config.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_0.6b_prompt_tuning.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_0.6b_prefix_encoder.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_mistral_7b_prompt_tuning.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_8b_prefix_encoder.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/sft/outputs/result_qwen3_8b_qlora_sft_lr0.0002_ep8.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/sft/outputs/result_qwen3_8b_qlora_sft_lr0.0002_ep5.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/sft/outputs/best_sft.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/sft/outputs/result_qwen3_8b_qlora_sft_lr0.0001_ep8.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/sft/outputs/result_qwen3_8b_qlora_sft_lr0.0001_ep5.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_8b_prompt_tuning.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_4b_prompt_tuning.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen2.5_7b_adapter.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_mistral_7b_adapter.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_0.6b_adapter.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_4b_adapter.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/result_qwen3_8b_adapter.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/outputs/summary.json
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/prompt_qwen3-0.6b.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/outputs/eval_qwen3-0.6b.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/prompt_qwen2.5-7b.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment4/extended/outputs/prompt_mistral-7b.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/outputs/eval_qwen2.5-7b.csv
+0.00 MiB	 /data/cjt/nlpcourse/experiment3/outputs/eval_mistral-7b.csv

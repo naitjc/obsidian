@@ -1,0 +1,335 @@
+host=cuda12-9-1-cudnn-devel-ub24-web-d3b9d1e0cbc640e6bd-78d849bdp5kf
+user=chenjiatian
+date=2026-06-16T14:05:50+08:00
+
+## PATH /data/chenjt/hate/DATA
+995M	/data/chenjt/hate/DATA
+
+### top-level directories
+/data/chenjt/hate/DATA/HARE
+/data/chenjt/hate/DATA/HARE/cross_eval
+/data/chenjt/hate/DATA/HARE/implicit-hate
+/data/chenjt/hate/DATA/HARE/sbic
+/data/chenjt/hate/DATA/IHC
+/data/chenjt/hate/DATA/IHC/processed
+/data/chenjt/hate/DATA/PLEAD
+/data/chenjt/hate/DATA/SBIC
+/data/chenjt/hate/DATA/SBIC/processed
+/data/chenjt/hate/DATA/__pycache__
+/data/chenjt/hate/DATA/llm_filled_target_not_toxic_old
+/data/chenjt/hate/DATA/llm_filled_target_not_toxic_old/IHC
+/data/chenjt/hate/DATA/llm_restructed
+/data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1
+/data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1
+/data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1
+/data/chenjt/hate/DATA/llm_restructed/IHC_target_v1
+/data/chenjt/hate/DATA/llm_restructed/__pycache__
+/data/chenjt/hate/DATA/llm_restructed/archive
+
+### extension counts
+46 .json
+17 .log
+14 .jsonl
+9 .csv
+7 .tsv
+7 .md
+5 .py
+4 .pyc
+3 [no_ext]
+3 .bak_20260530_103033
+2 .before
+2 .bak_20260529_225755
+2 .bak_20260529_224418
+1 .gz
+1 .bak_20260529_224244
+
+### largest files
+216.96 MiB	 /data/chenjt/hate/DATA/HARE/implicit-hate/IH_exp_co_hare.json
+199.91 MiB	 /data/chenjt/hate/DATA/HARE/implicit-hate/IH_exp_fr_hare.json
+181.18 MiB	 /data/chenjt/hate/DATA/HARE/sbic/sbic_train_co_hare.json
+160.44 MiB	 /data/chenjt/hate/DATA/HARE/sbic/sbic_train_fr_hare.json
+45.25 MiB	 /data/chenjt/hate/DATA/HARE/sbic/sbic_train.json
+26.44 MiB	 /data/chenjt/hate/DATA/SBIC/SBIC.v2.trn.csv
+11.60 MiB	 /data/chenjt/hate/DATA/SBIC/processed/train_denoised.json
+10.92 MiB	 /data/chenjt/hate/DATA/hate_data.tar.gz
+10.42 MiB	 /data/chenjt/hate/DATA/SBIC/processed/train_pure.json
+7.86 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/statement_cache.jsonl
+7.86 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+7.21 MiB	 /data/chenjt/hate/DATA/SBIC/SBIC.v2.agg.trn.csv
+5.89 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/train.json
+5.75 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/text_label_target.json
+5.69 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/text_label.json
+5.58 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/text_only.json
+5.28 MiB	 /data/chenjt/hate/DATA/HARE/implicit-hate/IH_exp_cti.json
+5.06 MiB	 /data/chenjt/hate/DATA/PLEAD/train.jsonl
+4.93 MiB	 /data/chenjt/hate/DATA/IHC/processed/IHC_pure.json
+4.65 MiB	 /data/chenjt/hate/DATA/llm_filled_target_not_toxic_old/IHC/processed/train.json
+4.45 MiB	 /data/chenjt/hate/DATA/IHC/processed/train_denoised.json
+4.27 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_full.run.log
+4.19 MiB	 /data/chenjt/hate/DATA/SBIC/SBIC.v2.tst.csv
+3.97 MiB	 /data/chenjt/hate/DATA/SBIC/SBIC.v2.dev.csv
+3.93 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/deferred_requests.jsonl
+3.00 MiB	 /data/chenjt/hate/DATA/HARE/sbic/sbic_test.json
+2.58 MiB	 /data/chenjt/hate/DATA/HARE/sbic/sbic_valid.json
+2.11 MiB	 /data/chenjt/hate/DATA/IHC/implicit_hate_v1_stg1_posts.tsv
+1.79 MiB	 /data/chenjt/hate/DATA/HARE/implicit-hate/IH_exp_test.json
+1.79 MiB	 /data/chenjt/hate/DATA/HARE/implicit-hate/IH_exp_val.json
+1.65 MiB	 /data/chenjt/hate/DATA/SBIC/processed/test_denoised.json
+1.60 MiB	 /data/chenjt/hate/DATA/IHC/implicit_hate_v1_stg3_posts.tsv
+1.60 MiB	 /data/chenjt/hate/DATA/SBIC/processed/valid_denoised.json
+1.51 MiB	 /data/chenjt/hate/DATA/SBIC/processed/test_pure.json
+1.46 MiB	 /data/chenjt/hate/DATA/SBIC/processed/dev_pure.json
+1.32 MiB	 /data/chenjt/hate/DATA/HARE/implicit-hate/IH_train.csv
+1.07 MiB	 /data/chenjt/hate/DATA/SBIC/SBIC.v2.agg.tst.csv
+1.03 MiB	 /data/chenjt/hate/DATA/SBIC/SBIC.v2.agg.dev.csv
+1.02 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/statement_cache.jsonl
+1.02 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+1.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/statement_cache.jsonl
+1.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/backups/statement_cache.before_fallback_20260603_140049.jsonl
+0.78 MiB	 /data/chenjt/hate/DATA/HARE/cross_eval/dynahate_test.json
+0.74 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/test.json
+0.74 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/valid.json
+0.72 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/text_label_target.json
+0.72 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_label_target.json
+0.72 MiB	 /data/chenjt/hate/DATA/IHC/implicit_hate_v1_stg3.tsv
+0.71 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_label.json
+0.71 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_deferred_fill_deepseek.run.log
+0.71 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/text_label.json
+0.69 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/text_only.json
+0.69 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/text_only.json
+0.67 MiB	 /data/chenjt/hate/DATA/IHC/implicit_hate_v1_stg2_posts.tsv
+0.64 MiB	 /data/chenjt/hate/DATA/PLEAD/test.jsonl
+0.63 MiB	 /data/chenjt/hate/DATA/PLEAD/validation.jsonl
+0.61 MiB	 /data/chenjt/hate/DATA/IHC/implicit_hate_v1_stg1.tsv
+0.58 MiB	 /data/chenjt/hate/DATA/llm_filled_target_not_toxic_old/IHC/processed/valid.json
+0.58 MiB	 /data/chenjt/hate/DATA/llm_filled_target_not_toxic_old/IHC/processed/test.json
+0.58 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/target_cache.jsonl
+0.56 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/runs/test_full_deepseek.run.log
+0.56 MiB	 /data/chenjt/hate/DATA/IHC/processed/valid_denoised.json
+0.56 MiB	 /data/chenjt/hate/DATA/IHC/processed/test_denoised.json
+0.48 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/deferred_requests.jsonl
+0.44 MiB	 /data/chenjt/hate/DATA/HARE/implicit-hate/IH_test.csv
+0.44 MiB	 /data/chenjt/hate/DATA/HARE/implicit-hate/IH_val.csv
+0.38 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/runs/valid_full.run.log
+0.36 MiB	 /data/chenjt/hate/DATA/HARE/cross_eval/hateX_test.json
+0.28 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_0001_1000.run.log
+0.25 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/runs/valid_full_deepseek.run.log
+0.25 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/audit/deferred_requests.jsonl
+0.21 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/deferred_requests.jsonl
+0.19 MiB	 /data/chenjt/hate/DATA/IHC/implicit_hate_v1_stg2.tsv
+0.09 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_0001_0400.run.log
+0.09 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/target_lexicon.json
+0.06 MiB	 /data/chenjt/hate/DATA/IHC/implicit_hate_v1_SAP_posts.tsv
+0.06 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/runs/test_deferred_fill_deepseek.run.log
+0.06 MiB	 /data/chenjt/hate/DATA/llm_restructed/__pycache__/build_minimal_restructured.cpython-312.pyc
+0.05 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/runs/valid_deferred_fill_deepseek.run.log
+0.05 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/text_label_target.run.log
+0.05 MiB	 /data/chenjt/hate/DATA/llm_restructed/build_minimal_restructured.py
+0.04 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/text_only.run.log
+0.04 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/text_label.run.log
+0.02 MiB	 /data/chenjt/hate/DATA/SBIC/LICENSE
+0.02 MiB	 /data/chenjt/hate/DATA/IHC/LICENSE
+0.02 MiB	 /data/chenjt/hate/DATA/llm_restructed/__pycache__/run_statement_trial.cpython-312.pyc
+0.02 MiB	 /data/chenjt/hate/DATA/IHC/processed/__pycache__/denoise_ihc_with_llm.cpython-313.pyc
+0.02 MiB	 /data/chenjt/hate/DATA/__pycache__/fill_not_toxic_targets_with_llm.cpython-312.pyc
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/run_statement_trial.py
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/run_statement_trial.py.bak_20260529_225755
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/run_statement_trial.py.bak_20260529_224418
+0.01 MiB	 /data/chenjt/hate/DATA/llm_filled_target_not_toxic_old/fill_not_toxic_targets_with_llm.py
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/validate_target_completed.py
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/README.md
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/validate_statement_trial.py
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/COMMANDS.md
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/README.md.bak_20260530_103033
+0.01 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/README.md.bak_20260529_224418
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/README.md.bak_20260529_224244
+0.00 MiB	 /data/chenjt/hate/DATA/IHC/README.md
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/STATUS.md
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/20260607_project_organization/STATUS.md.before
+0.00 MiB	 /data/chenjt/hate/DATA/SBIC/README.md
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/PROJECT.md
+0.00 MiB	 /data/chenjt/hate/DATA/PLEAD/gitattributes
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/COMMANDS.md.bak_20260530_103033
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/validation.json
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/COMMANDS.md.bak_20260529_225755
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/20260607_project_organization/PROJECT.md.before
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/archive/manual_backups/PROJECT.md.bak_20260530_103033
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/audit/runs/IHC_target_only_all_native_v1.rerun.nohup.log
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/validation.json
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/audit/runs/IHC_target_only_all_native_v1.nohup.log
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/validation.json
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_target_v1/summary.json
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/validation.json
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_valid_v1/audit/runs/valid_fallback_refresh.run.log
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_v1/audit/runs/train_fallback_refresh.run.log
+0.00 MiB	 /data/chenjt/hate/DATA/llm_restructed/IHC_statement_trial_test_v1/audit/runs/test_fallback_refresh.run.log
+0.00 MiB	 /data/chenjt/hate/DATA/PLEAD/README.md
+
+## PATH /data/chenjt/hate/FineTune
+4.7G	/data/chenjt/hate/FineTune
+
+### top-level directories
+/data/chenjt/hate/FineTune/backups
+/data/chenjt/hate/FineTune/backups/20260601_221535_statement_pilot
+/data/chenjt/hate/FineTune/backups/20260601_experiments_hierarchy_migration
+/data/chenjt/hate/FineTune/backups/20260601_field_schema_ids
+/data/chenjt/hate/FineTune/backups/20260601_readable_schema_dirs
+/data/chenjt/hate/FineTune/backups/20260602_project_organization
+/data/chenjt/hate/FineTune/backups/20260607_docs_status_update
+/data/chenjt/hate/FineTune/backups/20260607_project_organization
+/data/chenjt/hate/FineTune/backups/full_statement_20260525_170242
+/data/chenjt/hate/FineTune/backups/restructured_target_20260530_132420
+/data/chenjt/hate/FineTune/configs
+/data/chenjt/hate/FineTune/data
+/data/chenjt/hate/FineTune/data/processed
+/data/chenjt/hate/FineTune/experiments
+/data/chenjt/hate/FineTune/experiments/baseline
+/data/chenjt/hate/FineTune/experiments/statement_full_v1
+/data/chenjt/hate/FineTune/experiments/statement_pilot_v1
+/data/chenjt/hate/FineTune/experiments/target_completion_v1
+/data/chenjt/hate/FineTune/logs
+/data/chenjt/hate/FineTune/logs/archive
+/data/chenjt/hate/FineTune/scripts
+/data/chenjt/hate/FineTune/src
+/data/chenjt/hate/FineTune/src/data
+/data/chenjt/hate/FineTune/src/eval
+/data/chenjt/hate/FineTune/src/train
+
+### extension counts
+429 .json
+213 .jsonl
+105 .md
+57 .safetensors
+57 .jinja
+57 .bin
+38 .sh
+25 .log
+15 .py
+9 .before
+4 .yaml
+3 .gitignore
+2 .tsv
+2 .bak_20260605_statement_full
+1 .txt
+
+### largest files
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen3-8B/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen3-8B/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_only_1x/Qwen3-8B/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen3-8B/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_1x/Qwen3-8B/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class_target_toxic_only/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_toxic_only/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_statement_toxic_only/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-8B/class_target_toxic_only/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-8B/class_hate_class_target_toxic_only/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-8B/class_hate_class_target_statement_toxic_only/adapter_model.safetensors
+83.31 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-8B/class/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_target_all_rows/Mistral-7B-Instruct-v0.3/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Mistral-7B-Instruct-v0.3/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_only_1x/Mistral-7B-Instruct-v0.3/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_target_1x/Mistral-7B-Instruct-v0.3/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_1x/Mistral-7B-Instruct-v0.3/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_target_toxic_only/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_hate_class_target_toxic_only/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_hate_class_target_statement_toxic_only/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Mistral-7B-Instruct-v0.3/class_target_toxic_only/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Mistral-7B-Instruct-v0.3/class_hate_class_target_toxic_only/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Mistral-7B-Instruct-v0.3/class_hate_class_target_statement_toxic_only/adapter_model.safetensors
+80.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Mistral-7B-Instruct-v0.3/class/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen2.5-7B/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen2.5-7B/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_only_1x/Qwen2.5-7B/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen2.5-7B/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_1x/Qwen2.5-7B/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_target_toxic_only/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_hate_class_target_toxic_only/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_hate_class_target_statement_toxic_only/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_target_toxic_only/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_hate_class_target_toxic_only/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_hate_class_target_statement_toxic_only/adapter_model.safetensors
+77.05 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-4B/class_hate_class_target_toxic_only/adapter_model.safetensors
+63.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-4B/class/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s2_text_only_1x/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s2_text_label_target_1x/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s2_text_label_4x/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s2_text_label_1x/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s1_native_toxic/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_only_1x/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_1x/Qwen3-4B/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class_target_toxic_only/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_toxic_only/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_statement_toxic_only/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-4B/class_target_toxic_only/adapter_model.safetensors
+40.53 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-4B/class_hate_class_target_statement_toxic_only/adapter_model.safetensors
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s2_text_only_1x/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s2_text_label_target_1x/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s2_text_label_4x/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s2_text_label_1x/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_pilot_v1/s1_native_toxic/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_only_1x/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_1x/Qwen3-4B/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class_target_toxic_only/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_toxic_only/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_statement_toxic_only/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-4B/class_target_toxic_only/tokenizer.json
+19.06 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-4B/class_hate_class_target_statement_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen3-8B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen3-8B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_only_1x/Qwen3-8B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen3-8B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_1x/Qwen3-8B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_statement_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-8B/class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-8B/class_hate_class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-8B/class_hate_class_target_statement_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-8B/class/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-4B/class_hate_class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen3-4B/class/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_target_all_rows/Qwen2.5-7B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Qwen2.5-7B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_only_1x/Qwen2.5-7B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_target_1x/Qwen2.5-7B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_label_1x/Qwen2.5-7B/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_hate_class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_hate_class_target_statement_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_hate_class_target_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class_hate_class_target_statement_toxic_only/tokenizer.json
+10.89 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/ihc/Qwen2.5-7B/class/tokenizer.json
+10.49 MiB	 /data/chenjt/hate/FineTune/data/processed/sbic/train.jsonl
+5.98 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_statement_full_text_label_1x/train.jsonl
+5.91 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_statement_full_text_label_target_1x/train.jsonl
+5.88 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_statement_full_text_only_1x/train.jsonl
+5.23 MiB	 /data/chenjt/hate/FineTune/logs/archive/statement_full_v1_statement_eval_20260605_225542/statement_full_statement_eval_serial.nohup.log
+4.74 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_statement_pilot_s2_text_label_4x/train.jsonl
+4.51 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_restructured_target_v1/train.jsonl
+4.48 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_statement_pilot_s2_text_label_1x/train.jsonl
+4.48 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_statement_pilot_s2_text_label_target_1x/train.jsonl
+4.48 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_statement_pilot_s2_text_only_1x/train.jsonl
+4.45 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc_statement_pilot_s1_native_toxic/train.jsonl
+3.99 MiB	 /data/chenjt/hate/FineTune/data/processed/ihc/train.jsonl
+3.73 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-8B/class_hate_class_target_statement_toxic_only/eval/test_predictions.jsonl
+3.72 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen3-4B/class_hate_class_target_statement_toxic_only/eval/test_predictions.jsonl
+3.63 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Mistral-7B-Instruct-v0.3/class_hate_class_target_statement_toxic_only/eval/test_predictions.jsonl
+3.60 MiB	 /data/chenjt/hate/FineTune/experiments/baseline/sbic/Qwen2.5-7B/class_hate_class_target_statement_toxic_only/eval/test_predictions.jsonl
+3.50 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_target_all_rows/Mistral-7B-Instruct-v0.3/tokenizer.json
+3.50 MiB	 /data/chenjt/hate/FineTune/experiments/target_completion_v1/class_hate_class_target_all_rows/Mistral-7B-Instruct-v0.3/tokenizer.json
+3.50 MiB	 /data/chenjt/hate/FineTune/experiments/statement_full_v1/text_only_1x/Mistral-7B-Instruct-v0.3/tokenizer.json

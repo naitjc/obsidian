@@ -1,0 +1,34 @@
+# Baselines should keep source code, docs, configs, and compact metadata.
+# Keep bulky data, checkpoints, caches, and generated outputs local.
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+data/
+Data/
+*_DATA/
+*DATA/
+save/
+saves/
+outputs/
+output/
+results/
+checkpoints/
+checkpoint-*/
+wandb/
+runs/
+
+*.log
+*.pid
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.gzip

@@ -1,0 +1,5 @@
+# sbic-explain-dataset/*
+sbic-explain-dataset/*.png
+sbic-explain-dataset/*.zip
+sbic-explain-dataset_10k_random_subset/*.zip
+*.zip

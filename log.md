@@ -465,3 +465,23 @@
 - Added a post-ablation direction audit after checking the full remote project tree: dedicated target extraction, target-then-classifier, always-on retrieval, cluster retrieval, uncertainty gating, parser cleanup, and Macro-F1 thresholding have already been tried. The revised next step is retrieval-trust calibration/error slicing rather than more target extraction or broad cluster sweeps.
 - Updated [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]] and [[index]] to route the experiment lineage.
 - Re-ran `scripts/lint_wiki.py` and `scripts/wiki_inventory.py`; the wiki now contains 349 pages and 106 concept pages with no reported structural failures.
+
+## [2026-06-16] maintenance | Server-portable code and data workspace
+- Added `experiments/server-sync/` as the local-only staging and mirror area for server-runnable code, configs, and datasets.
+- Updated `EXPERIMENTS.md` with the rule that future server-side tasks should prepare runnable bundles locally first, then sync them to the chosen server for execution.
+- Set remote mirrors, staging payloads, large datasets, caches, checkpoints, and bulk outputs as local-only artifacts, with durable summaries and workflow changes promoted separately when needed.
+- Added a non-destructive `experiments/server-sync/merged/` symlink view: `xu-l20` is canonical for hate DATA and FineTune, `nlp06` is canonical for RA-HMD_text and nlpcourse, and Huashan-specific older projects stay under `legacy/` or `study/`.
+- Added the local-first modification rule: future model-framework edits or new frameworks should be made under `experiments/server-sync/staging/{task-slug}/`, with the staging README and task manifest refreshed automatically before any server upload.
+
+## [2026-06-16] maintenance | Project operating guide cleanup
+- Removed macOS `.DS_Store` artifacts from the vault workspace.
+- Expanded `.gitignore` with local cache, environment, checkpoint, and training-artifact boundaries, while allowing `experiments/server-sync/manifests/*.log` to remain trackable as sync evidence.
+- Reworked `AGENTS.md` into the project-level operating guide, adding request-handling rules, directory write boundaries, server-sync workflow rules, local/public artifact boundaries, required update rules, and routine maintenance checks.
+- Added a root `README.md` for project-level entry points and `baselines/README.md` for external baseline boundaries.
+- Updated [[index]] and [[maintenance/index]] to route the server-sync workflow and refresh the latest maintenance-check date.
+
+## [2026-06-16] maintenance | Baseline code boundary cleanup
+- Clarified that `baselines/` is the durable home for external method repositories, while `experiments/server-sync/` is for staging, server snapshots, transfer manifests, and run diagnostics.
+- Added code-only baseline mirrors for AmpleHate, CADET, HARM, HateXplain, HARE, and privacy-filter under `baselines/`, excluding datasets, checkpoints, remote Git metadata, caches, and generated outputs.
+- Recorded source server paths, upstream remotes, and exclusion boundaries in `baselines/README.md`.
+- Added a code-only `baselines/rgcl-main/` mirror from `nlp06:/data/cjt/hate/RGCL-main` after confirming the corrected password, excluding RA-HMD datasets, LLAMA-FACTORY data, logs, zip archives, checkpoints, generated embeddings, caches, and model artifacts.

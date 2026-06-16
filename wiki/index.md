@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-06-13
+updated: 2026-06-16
 tags: [index]
 sources: []
 ---
@@ -19,7 +19,7 @@ sources: []
 | Maintenance pages | 24 pages |
 | Deep-ingested source pages | 191 PDF source pages tagged `deep-ingest-v2` |
 | Auto-ingest PDF source pages | 0 remaining among the 191 numbered PDF source pages |
-| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-06-06; `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py` passed on 2026-06-06 |
+| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-06-16; `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py` passed on 2026-06-16 |
 
 ## Entities
 
@@ -111,6 +111,7 @@ sources: []
 | Research direction registry | [[research-direction-registry]] |
 | Navigation audit | [[navigation-audit-2026-05-19]] |
 | Experiment workflow | `EXPERIMENTS.md` |
+| Server sync workflow | `experiments/server-sync/README.md` |
 
 ## Output
 
@@ -156,4 +157,4 @@ sources: []
 | [[rahmd-text-migration-lineage-2026-06-13]] | Query answer tracing the nlp06 RA-HMD_text migration from native RA-HMD RAC to text-only predicted-target retrieval and dual-adapter ablations |
 
 ---
-_Last updated: 2026-06-13_
+_Last updated: 2026-06-16_

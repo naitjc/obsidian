@@ -63,6 +63,14 @@ After each meaningful run:
 - Keep large checkpoint artifacts out of the vault unless a task explicitly requires them and the storage decision has been reviewed.
 - Document deliberately omitted artifacts in the archive README so recovery assumptions remain explicit.
 
+## Server-Portable Code and Data
+
+Use `experiments/server-sync/` as the local staging and mirror area for code/data that should be runnable on different servers. It is not the durable archive for external paper repositories; those belong under `baselines/` once their code/data boundary is clear. For server-side experiment tasks, first prepare the code, configs, and needed dataset files locally under `experiments/server-sync/staging/{task-slug}/`, then sync that bundle to the selected server and run it there. Keep remote snapshots under `experiments/server-sync/remotes/{server}/` as local-only evidence, and record inventories and omitted high-value artifacts under `experiments/server-sync/manifests/`.
+
+For model-framework modifications or new framework creation, always make task edits in the local staging folder first. Automatically update that staging folder's README and a matching manifest whenever code, configs, prompts, or small deterministic task data are changed. Use `baselines/` for reusable external method code, use `experiments/server-sync/merged/` only as a read-only server-snapshot selection layer, and keep `remotes/{server}/` as server snapshots unless a task explicitly asks to resync or promote a new local canonical baseline.
+
+Do not store credentials in this folder. Do not commit remote mirrors, large datasets, checkpoints, package caches, model caches, virtual environments, or bulk generated outputs. Promote only durable conclusions or reusable workflow changes into `wiki/`.
+
 ## Current Active Experiment
 
 No active experiment is assumed by the global rules. When a new experiment becomes active, create or update the relevant `experiments/{dataset}/notes/` files and link durable conclusions back into the appropriate wiki pages.

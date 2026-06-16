@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19
-updated: 2026-06-01
+updated: 2026-06-16
 tags: [maintenance, index]
 sources: []
 ---
@@ -23,6 +23,7 @@ This page routes wiki schema, lint, direction registry, and maintenance workflow
 | Archived maintenance reports | `wiki/maintenance/reports/` |
 | Legacy maintenance playbook | [[wiki-maintenance-playbook]] |
 | Current maintenance status | [[wiki-maintenance-status-2026-05-06]] |
+| Server sync workflow | `experiments/server-sync/README.md` |
 
 ## Active Log
 
