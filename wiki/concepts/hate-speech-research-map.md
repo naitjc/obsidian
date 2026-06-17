@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-21
+updated: 2026-06-17
 tags: [concept, hate-speech, research-direction]
 sources: []
 ---
@@ -28,6 +28,7 @@ This direction covers explicit/implicit hate speech, multilingual and cross-plat
 - The latest pure-text additions emphasize target spans, intent tags, rationale spans, compositional slot generalization, construct definitions, multilingual prompting, and retrieval memory.
 - The target-relation line now separates post-level target categories, target-expression span links, context modifiers, and bias/shortcut audits.
 - [[174-casula-tonelli-2023-generation-based-data-augmentation-for-offensive-language-detection-is-it-worth-it]] and [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content]] add explicit controls for generated-data utility and generated-explanation evaluation.
+- The new agentic-reasoning additions suggest a bounded design principle: trigger reasoning or consultation on uncertain examples, and require structured anchors such as community context, latent hate components, or evidence/relation fields rather than unbounded free-form chain-of-thought.
 
 
 ## Navigation

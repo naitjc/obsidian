@@ -1,11 +1,15 @@
 ---
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-06-17
 tags: [maintenance, workflow]
 sources: []
 ---
 
 # Task Routing and Promotion
+
+## Subagent Coordination
+
+Use [[subagent-collaboration-workflow]] when a task needs bounded context gathering, remote run inspection, result diagnosis, wiki/literature deduplication, or cleanup/publish auditing before the main thread acts. The main thread may choose these subagents autonomously; the user does not need to request them explicitly. Subagents should report evidence and risks; the main thread remains responsible for final judgment, edits, experiment launches, commits, pushes, and durable wiki promotion.
 
 ## Ingest Workflow
 
@@ -23,6 +27,17 @@ sources: []
 3. Synthesize the answer with citations and confidence boundaries.
 4. If the answer has durable research value, file it using [[query-answer-template]] or the nearest existing wiki page.
 5. Update [[index]] and append `log.md` when a durable page is created or materially changed.
+
+## Idea-Scouting Workflow
+
+Use this route when the task is to find new research ideas or transferable mechanisms from papers that are not yet part of the wiki.
+
+1. Read [[ai-assisted-research-ideation-workflow]] before screening.
+2. Define the local research profile: target task, preferred mechanisms, downweighted paper types, keywords, and scoring dimensions.
+3. Use rule-based filtering only to reduce candidate volume; do not equate keyword hits with research value.
+4. Rank candidates by inferred core idea, transferable mechanism, local fit, feasibility, evaluation value, and risk.
+5. Record useful screening outputs with [[transfer-idea-screening-template]] when the result should be reused.
+6. Promote only read and checked papers into `wiki/sources/`; keep unverified LLM rankings as reading queues or planning notes.
 
 ## Experiment Workflow
 

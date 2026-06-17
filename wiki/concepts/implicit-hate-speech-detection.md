@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-12
+updated: 2026-06-17
 tags: [concept, hate-speech, nlp]
 sources:
   - raw/sources/ElSherief 等 - 2021 - Latent Hatred A Benchmark for Understanding Implicit Hate Speech.pdf
@@ -12,6 +12,9 @@ sources:
   - raw/sources/2025.emnlp-main.703.pdf
   - raw/sources/2025.woah-1.21.pdf
   - raw/sources/2025.woah-1.42.pdf
+  - raw/sources/2601.09342v2.pdf
+  - raw/sources/3774904.3792159.pdf
+  - raw/sources/07936-AAAI24.ZhangJ-SRRAI.pdf
 ---
 
 # Implicit Hate Speech Detection
@@ -44,6 +47,14 @@ Recent pure-text work shifts from sentence labels toward internal structure. [[1
 
 ### Knowledge Infusion
 KIDDIN (Garg et al. 2026) infuses knowledge into LLM for indecent meme detection.
+
+### Agentic and Structured Reasoning
+Recent LLM-based work shifts from one-shot labels toward gated reasoning systems.
+[[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework]] triggers Community Agent consultation only for uncertain target-sensitive cases, using target-group context to improve balanced moderation outcomes.
+[[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation]] argues that implicit hate should be grounded in Latent Hate Components and shows that structured component mining plus pro/con deliberation is stronger than generic CoT or debate.
+[[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models]] contributes a broader toxic-content mechanism: confidence-gated DToT refinement and rationale distillation into smaller models.
+
+For the local IHC/SBIC line, these papers support bounded verifier designs: trigger expensive reasoning on uncertain or shortcut-prone rows, expose compact intermediate objects, and evaluate false positives and false negatives separately instead of relying only on aggregate F1.
 
 ## Datasets
 

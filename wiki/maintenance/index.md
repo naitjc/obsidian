@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19
-updated: 2026-06-16
+updated: 2026-06-17
 tags: [maintenance, index]
 sources: []
 ---
@@ -16,6 +16,8 @@ This page routes wiki schema, lint, direction registry, and maintenance workflow
 | Schema and namespace rules | [[wiki-schema]] |
 | Frontmatter and status vocabulary | [[frontmatter-conventions]] |
 | Task routing and promotion rules | [[task-routing-and-promotion]] |
+| Subagent collaboration workflow | [[subagent-collaboration-workflow]] |
+| AI-assisted idea scouting workflow | [[ai-assisted-research-ideation-workflow]] |
 | Maintenance checks and scripts | [[wiki-maintenance-checklist]] |
 | Completed direction registry | [[research-direction-registry]] |
 | Integrity report 2026-06-01 | [[wiki-integrity-report-2026-06-01]] |
@@ -31,4 +33,4 @@ The current append-only activity log remains `log.md` at the vault root for cont
 
 ## Maintenance Boundary
 
-Keep long-term rules here. Keep source-derived knowledge in `wiki/sources/`, direction synthesis in `wiki/concepts/`, raw files in `raw/`, experiment artifacts in `experiments/`, and third-party baseline repositories in `baselines/`.
+Keep long-term rules here. Keep source-derived knowledge in `wiki/sources/`, direction synthesis in `wiki/concepts/`, reusable templates in `wiki/templates/`, raw files in `raw/`, experiment artifacts in `experiments/`, and third-party baseline repositories in `baselines/`.

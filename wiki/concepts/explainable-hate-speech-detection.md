@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-27
+updated: 2026-06-17
 tags: [concept, hate-speech, explainability]
 sources:
   - raw/sources/17745-13-21239-1-2-20210518.pdf
@@ -14,6 +14,9 @@ sources:
   - raw/sources/2023.acl-short.66.pdf
   - raw/sources/2022.naacl-main.433.pdf
   - raw/sources/2026.findings-eacl.230.pdf
+  - raw/sources/2601.09342v2.pdf
+  - raw/sources/3774904.3792159.pdf
+  - raw/sources/07936-AAAI24.ZhangJ-SRRAI.pdf
 ---
 
 # Explainable Hate Speech Detection
@@ -46,3 +49,6 @@ Moderation decisions require auditability, appeal support, and reduced annotator
 - [[155-carvallo-2025-hate-explained-evaluating-ner-enriched-text-in-human-and-machine-moderation-of-hate-speech]] evaluates intent/group tags for both machine classifiers and human moderators.
 - [[156-melis-2025-a-modular-taxonomy-for-hate-speech-definitions-and-its-impact-on-zero-shot-llm-classification-performance]] shows that definition wording changes zero-shot LLM behavior and error tradeoffs.
 - [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content]] shows that generic reward models can underrate richer offensive-content explanations and provides a hate-aware evaluation resource for generated explanations.
+- [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework]] adds an agentic explanation path where Moderator and Community Agent rationales are fused for uncertain implicit-hate cases.
+- [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation]] makes explanation more structured by forcing the system to mine latent hate components and deliberate over each component before final classification.
+- [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models]] shows a distillation path: use DToT-generated rationales as supervision for smaller toxic-content detectors, while keeping rationale faithfulness as a separate evaluation risk.

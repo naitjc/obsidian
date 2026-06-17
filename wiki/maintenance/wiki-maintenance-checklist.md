@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-06-17
 tags: [maintenance, checklist]
 sources: []
 ---
@@ -50,6 +50,8 @@ Add `--write` to `scripts/regenerate_source_hubs.py` only when intentionally rep
 - Source tag drift check: `python3 scripts/check_source_tag_drift.py`
 - PDF text artifact check: `python3 scripts/check_pdf_text_artifacts.py`
 - Query answer template: `wiki/templates/query-answer-template.md`
+- Transfer idea screening template: `wiki/templates/transfer-idea-screening-template.md`
+- Subagent collaboration workflow: `wiki/maintenance/subagent-collaboration-workflow.md`
 - Local attachment target: `raw/assets/`
 - Rendered PDF verification cache: `tmp/pdfs/`
 

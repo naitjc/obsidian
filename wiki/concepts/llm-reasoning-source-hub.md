@@ -7,7 +7,7 @@ sources: []
 
 # LLM Reasoning and Evaluation Source Hub
 
-Total linked papers: **48**
+Total linked papers: **52**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -60,6 +60,10 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[189-lin-2024-preflmr-scaling-up-fine-grained-late-interaction-multi-modal-retrievers|Lin 等 - 2024 - PreFLMR Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers]]
 - [[190-yang-2025-retrieval-augmented-defense-adaptive-and-controllable-jailbreak-prevention-for-large-language-models|Yang 等 - 2025 - Retrieval-Augmented Defense Adaptive and Controllable Jailbreak Prevention for Large Language Models]]
 - [[191-chen-2026-berag-bayesian-ensemble-retrieval-augmented-generation-for-knowledge-based-visual-question-answering|Chen 等 - 2026 - BERAG Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering]]
+- [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework|Gajewska 等 - 2026 - Improving Implicit Hate Speech Detection via a Community-Driven Multi-Agent Framework]]
+- [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation|Sun 等 - 2026 - Rethinking Implicit Hate Speech Detection Focusing on Latent Hate Components via Dual-Process Argumentation]]
+- [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models|Zhang 等 - 2024 - Efficient Toxic Content Detection by Bootstrapping and Distilling Large Language Models]]
+- [[195-yao-2023-react-synergizing-reasoning-and-acting-in-language-models|Yao 等 - 2023 - ReAct Synergizing Reasoning and Acting in Language Models]]
 
 ## Cross-Cutting Concept Links
 - [[llm-reasoning]]

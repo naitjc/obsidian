@@ -1,13 +1,13 @@
 ---
 created: 2026-04-23
-updated: 2026-06-06
+updated: 2026-06-17
 tags: [index, sources]
 sources: []
 ---
 
 # Sources Index
 
-Total source PDFs ingested: **191**
+Total source PDFs ingested: **195**
 
 Note: `raw/sources/2024.acl-long.291.pdf` duplicates the already indexed RGCL paper [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]], so it is not assigned a new source page.
 
@@ -58,6 +58,7 @@ Note: `raw/sources/2024.acl-long.291.pdf` duplicates the already indexed RGCL pa
 | [[063-li-2023-ms-tcn-multi-stage-temporal-convolutional-network-for-action-segmentation|Li 等 - 2023 - MS-TCN++ Multi-Stage Temporal Convolutional Network for Action Segmentation]] | 2023 | multimodal, benchmark |
 | [[150-2604-18519v1|LLM Safety From Within: Detecting Harmful Content with Internal Representations]] | 2023 | hate-speech, representation-learning, llm-reasoning, benchmark, generalization |
 | [[087-qin-2023-end-to-end-task-oriented-dialogue-a-survey-of-tasks-methods-and-future-directions|Qin 等 - 2023 - End-to-end Task-oriented Dialogue A Survey of Tasks, Methods, and Future Directions]] | 2023 | dialogue, zero-shot, few-shot, prompting, synthetic-data, retrieval, benchmark, graph |
+| [[195-yao-2023-react-synergizing-reasoning-and-acting-in-language-models|Yao 等 - 2023 - ReAct Synergizing Reasoning and Acting in Language Models]] | 2023 | llm-reasoning, prompting, retrieval, benchmark, few-shot |
 | [[136-zhang-2023-tot-topology-aware-optimal-transport-for-multimodal-hate-detection|Zhang 等 - 2023 - TOT Topology-Aware Optimal Transport For Multimodal Hate Detection]] | 2023 | hate-speech, implicit, multimodal, benchmark, contrastive-learning, causal, explainability |
 | [[012-ahn-2024-sharedcon-implicit-hate-speech-detection-using-shared-semantics|Ahn 等 - 2024 - SharedCon Implicit Hate Speech Detection using Shared Semantics]] | 2024 | hate-speech, implicit, benchmark, contrastive-learning, causal, prompting, explainability |
 | [[013-ahn-2024-timechara-evaluating-point-in-time-character-hallucination-of-role-playing-large-language-models|Ahn 等 - 2024 - TimeChara Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models]] | 2024 | role-playing, zero-shot, few-shot, prompting, synthetic-data, retrieval, benchmark, graph |
@@ -204,3 +205,6 @@ Note: `raw/sources/2024.acl-long.291.pdf` duplicates the already indexed RGCL pa
 | [[189-lin-2024-preflmr-scaling-up-fine-grained-late-interaction-multi-modal-retrievers|Lin 等 - 2024 - PreFLMR Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers]] | 2024 | multimodal, llm-reasoning, retrieval, benchmark, prompting |
 | [[190-yang-2025-retrieval-augmented-defense-adaptive-and-controllable-jailbreak-prevention-for-large-language-models|Yang 等 - 2025 - Retrieval-Augmented Defense Adaptive and Controllable Jailbreak Prevention for Large Language Models]] | 2025 | llm-reasoning, safety-alignment, retrieval, benchmark, prompting |
 | [[191-chen-2026-berag-bayesian-ensemble-retrieval-augmented-generation-for-knowledge-based-visual-question-answering|Chen 等 - 2026 - BERAG Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering]] | 2026 | multimodal, llm-reasoning, retrieval, benchmark |
+| [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework|Gajewska 等 - 2026 - Improving Implicit Hate Speech Detection via a Community-Driven Multi-Agent Framework]] | 2026 | hate-speech, implicit, llm-reasoning, prompting, retrieval, benchmark, bias, explainability |
+| [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation|Sun 等 - 2026 - Rethinking Implicit Hate Speech Detection Focusing on Latent Hate Components via Dual-Process Argumentation]] | 2026 | hate-speech, implicit, llm-reasoning, prompting, benchmark, explainability |
+| [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models|Zhang 等 - 2024 - Efficient Toxic Content Detection by Bootstrapping and Distilling Large Language Models]] | 2024 | hate-speech, implicit, llm-reasoning, prompting, benchmark, explainability |

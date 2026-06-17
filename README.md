@@ -11,6 +11,19 @@ This repository is a local research vault for source-grounded NLP research notes
 - `wiki/maintenance/index.md`: schema, lint, and maintenance router.
 - `log.md`: append-only activity log for meaningful ingest, maintenance, and promoted experiment changes.
 
+## Task Router
+
+| Need | Start Here | Then Check |
+|---|---|---|
+| Answer a research question from the built wiki | `wiki/index.md` | Relevant direction map, source hub, source pages, and entity pages |
+| Scout external papers for transferable ideas | `wiki/concepts/ai-assisted-research-ideation-workflow.md` | `wiki/templates/transfer-idea-screening-template.md` |
+| Ingest a new source | `wiki/index.md` | `wiki/sources/sources-index.md`, relevant direction hub, `log.md` |
+| Inspect or record experiment work | `EXPERIMENTS.md` | `experiments/{dataset}/notes/` and linked concept pages |
+| Prepare server-runnable experiment code/data | `experiments/server-sync/README.md` | `experiments/server-sync/staging/{task-slug}/` and manifests |
+| Inspect or preserve third-party method code | `baselines/README.md` | `baselines/{method}/README.md` |
+| Check wiki health or publish readiness | `wiki/maintenance/index.md` | `wiki/maintenance/wiki-maintenance-checklist.md` and `git diff --check` |
+| Coordinate subagents for context, remote runs, diagnostics, dedup, or cleanup | `wiki/maintenance/subagent-collaboration-workflow.md` | Main thread merges evidence before state-changing work |
+
 ## Directory Boundaries
 
 - `raw/`: immutable source files. Do not edit or write generated files here.

@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-17
 tags: [query-answer, hate-speech, ihc, target-relation, small-llm, research-planning]
 sources:
   - raw/sources/2022.tacl-1.82.pdf
@@ -13,6 +13,9 @@ sources:
   - raw/sources/2026.eacl-long.198.pdf
   - raw/sources/2026.findings-eacl.230.pdf
   - raw/sources/2025.tacl-1.67.pdf
+  - raw/sources/2601.09342v2.pdf
+  - raw/sources/3774904.3792159.pdf
+  - raw/sources/07936-AAAI24.ZhangJ-SRRAI.pdf
 promotion_reason: "Durable research-planning answer after full IHC target and statement completion, constrained to small generative LLMs and no further dataset augmentation."
 ---
 
@@ -45,6 +48,9 @@ The paper-level novelty should not be "we completed IHC" or "we add more generat
 - [[180-chen-wang-2025-pragmatic-inference-chain-improving-llms-reasoning-of-authentic-implicit-toxic-language]] supports optional pragmatic cues for implicit toxicity, but long reasoning should remain an ablation.
 - [[181-korre-2025-untangling-hate-speech-definitions-a-semantic-componential-analysis-across-cultures-and-domains]] and [[156-melis-2025-a-modular-taxonomy-for-hate-speech-definitions-and-its-impact-on-zero-shot-llm-classification-performance]] support explicit definition frames.
 - [[182-hu-lee-2026-hatexscore-a-metric-suite-for-evaluating-reasoning-quality-in-hate-speech-explanations]] and [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content]] support evaluating explanation faithfulness and hate-aware explanation quality rather than trusting free-form statement fluency.
+- [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework]] supports gated community-context consultation for uncertain implicit-hate cases, but also warns that broad demographic agents should not replace explicit target-relation labels.
+- [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation]] supports using structured latent components as reasoning anchors before agentic deliberation, which maps cleanly to compact relation/evidence fields in the local project.
+- [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models]] supports DToT-style confidence-gated context refinement and distilling expensive reasoning traces into smaller models.
 - [[058-kim-2022-generalizable-implicit-hate-speech-detection-using-contrastive-learning]], [[060-kim-2024-label-aware-hard-negative-sampling-strategies-with-momentum-contrastive-learning-for-implicit-hate-s]], and [[056-jiang-2025-learn-from-failure-causality-guided-contrastive-learning-for-generalizable-implicit-hate-speech-det]] support hard-negative and failure-guided contrastive learning for implicit hate.
 - [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]], [[081-mei-2025-robust-adaptation-of-large-multimodal-models-for-retrieval-augmented-hateful-meme-detection]], [[121-yang-2024-uncertainty-aware-cross-modal-alignment-for-hate-speech-detection]], and [[136-zhang-2023-tot-topology-aware-optimal-transport-for-multimodal-hate-detection]] motivate retrieval-guided contrast, cross-view alignment, and uncertainty gating.
 - [[184-ao-2025-safe-pruning-lora-robust-distance-guided-pruning-for-safety-alignment-in-adaptation-of-llms]] is relevant to post-QLoRA adapter reliability checks for small generative LLM adaptation.
@@ -150,6 +156,47 @@ Expected contribution:
 - Gives a clean ablation: no retrieval, same-target retrieval, same-relation retrieval, failure-neighbor retrieval.
 
 For the concrete RA-HMD-style implementation, use [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]]: stage 1 jointly trains constrained JSON generation and a relation head, stage 2 freezes the LLM and tunes retrieval-aligned relation embeddings, and inference compares JSON, relation-head, and retrieval-KNN modes.
+
+### Idea 2b: ReAct-Style Relation Verifier With Gated Actions
+
+The new agentic papers make the ReAct-style idea plausible only under a controlled verifier design:
+
+```text
+base pass:
+  FineTune classifier -> label probability, uncertainty, error-slice flag
+
+actions, only when triggered:
+  retrieve same-target opposite-relation rows
+  extract candidate target / evidence cue
+  mine latent hate component
+  check definition frame or community context
+  compare attacked vs mentioned_not_attacked readings
+
+output:
+  compact JSON fields, not free-form chain-of-thought
+```
+
+Trigger rule:
+
+- activate the verifier for borderline classifier probabilities, trigger-word false positives, implicit/contextual false negatives, target-present benign rows, and definition-sensitive cases;
+- keep direct classifier output for easy high-confidence rows;
+- report how often the verifier fires, because token/API cost is part of the method claim.
+
+Why this is safer than always-on ReAct:
+
+- It matches [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework]] and [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models]]: extra reasoning is gated by uncertainty or low confidence.
+- It matches [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation]]: deliberation should be anchored to explicit components, not applied as generic debate over the whole text.
+- It respects the local retrieval evidence: previous all-sample retrieval prompting hurt toxic recall, so retrieval or ReAct actions should be selective and auditable.
+
+Evaluation:
+
+- primary: row Macro F1, toxic recall, target-present benign false-positive rate;
+- verifier-specific: baseline-correct-to-verifier-wrong conversions, verifier-corrected false negatives, JSON validity, action ablations;
+- robustness: target shuffle, evidence deletion, same-target opposite-relation support, and definition-frame perturbations.
+
+Distillation option:
+
+- If verifier inference is too expensive, use its accepted structured traces as weak supervision or auxiliary features for a smaller relation verifier. Do not claim explanation faithfulness unless checked with [[182-hu-lee-2026-hatexscore-a-metric-suite-for-evaluating-reasoning-quality-in-hate-speech-explanations]]-style diagnostics.
 
 ### Idea 3: Statement-as-Teacher With Artifact Gating
 

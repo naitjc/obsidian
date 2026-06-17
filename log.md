@@ -1,5 +1,15 @@
 # Log
 
+## [2026-06-18] maintenance | Wiki publish cleanup
+- Refreshed [[index]] inventory counts after the new generative-LLM transfer screening page: 356 wiki pages, 203 source pages, 107 concept pages, 18 entity pages, and 25 maintenance pages.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, `scripts/check_pdf_text_artifacts.py`, and `git diff --check`; no structural, tag-drift, PDF-artifact, or whitespace failures were reported before GitHub upload.
+- Kept `.obsidian/graph.json` and `.obsidian/workspace.json` as local UI-state changes rather than staging them for the publish commit.
+
+## [2026-06-18] query-answer | Generative LLM transfer ideas for IHC hate detection
+- Added [[generative-llm-transfer-ideas-for-ihc-2026-06-18]] as a transfer-screening report grounded in the current IHC target-relation task.
+- Screened 42 candidate mechanisms from structured information extraction, RAG, ReAct/tool use, multi-agent debate, weak supervision, preference optimization, distillation, prompt optimization, bias testing, red teaming, and explanation evaluation.
+- Kept the output as a reading and experiment-idea queue rather than source-grounded claims; marked already-local anchors such as PIC, HateXScore, HARM, community agents, DuPL, Target Span Detection, and ReAct separately from external candidates.
+
 ## [2026-06-08] query-answer | Remote RA-HMD IHC implementation snapshot
 - Inspected `nlp06:/data/cjt/hate/Try/RA-HMD` and updated [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]] with the active project layout, stage-1/stage-2 scripts, dataset counts, saved Qwen3-4B seed-42 artifacts, feature paths, and latest Stage2 run status.
 - Recorded that the one-epoch Stage1 run saved usable adapter and classifier artifacts before being marked failed by a post-save `evaluate(... do_sample=...)` API mismatch.
@@ -485,3 +495,44 @@
 - Added code-only baseline mirrors for AmpleHate, CADET, HARM, HateXplain, HARE, and privacy-filter under `baselines/`, excluding datasets, checkpoints, remote Git metadata, caches, and generated outputs.
 - Recorded source server paths, upstream remotes, and exclusion boundaries in `baselines/README.md`.
 - Added a code-only `baselines/rgcl-main/` mirror from `nlp06:/data/cjt/hate/RGCL-main` after confirming the corrected password, excluding RA-HMD datasets, LLAMA-FACTORY data, logs, zip archives, checkpoints, generated embeddings, caches, and model artifacts.
+
+## [2026-06-16] query-answer | Profile-guided transfer idea screening
+- Extracted the durable components from the external `research-idea-scout-main` project into the wiki: research profiles, transferable-mechanism screening, compact candidate records, and the boundary between reading queues and source-grounded claims.
+- Updated [[ai-assisted-research-ideation-workflow]] so future idea-generation tasks distinguish source-grounded conflict search from outside-field profile-guided paper scouting.
+- Added [[transfer-idea-screening-template]] for reusable screening records and updated [[task-routing-and-promotion]], [[maintenance/index]], and [[index]] to route idea-scouting tasks through the new workflow.
+- Deliberately did not import the project's FastAPI portal, Codex retry runner, generated rankings, or example-domain profiles because they are tool/UI artifacts rather than durable vault knowledge.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, `scripts/check_pdf_text_artifacts.py`, and `git diff --check`; the wiki now contains 350 pages with no reported structural, tag-drift, PDF-artifact, or whitespace failures.
+
+## [2026-06-16] maintenance | Agent task routing optimization
+- Added compact task-router tables to `README.md`, `AGENTS.md`, and [[index]] so future research, source-ingest, idea-scouting, experiment, server-sync, baseline, and maintenance tasks start from the correct entry point.
+- Updated [[global-research-map]] to point to the latest global integrity report and the current maintenance router rather than the older 2026-05-06 integrity page.
+- Updated [[wiki-maintenance-checklist]] to list the transfer idea screening template alongside the query-answer template.
+- Kept the change to routing and checklist layers only; no source pages, experiment artifacts, raw files, or baseline code were moved.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, `scripts/check_pdf_text_artifacts.py`, and `git diff --check`; no structural, tag-drift, PDF-artifact, or whitespace failures were reported.
+
+## [2026-06-17] maintenance | Subagent collaboration workflow
+- Added [[subagent-collaboration-workflow]] to make the five proposed Codex subagent roles reusable: context router, remote experiment monitor, result diagnostician, wiki/literature deduper, and publish/cleanup auditor.
+- Recorded dispatch templates and the main-thread merge rule so subagents gather bounded evidence while the main Codex thread keeps responsibility for final judgment, edits, runs, commits, pushes, and durable promotion.
+- Updated [[task-routing-and-promotion]], [[maintenance/index]], [[wiki-maintenance-checklist]], and [[index]] to route multi-context tasks through the new workflow.
+- Added the autonomous-dispatch rule: future main-thread work may choose the relevant subagents without an explicit user request, while keeping subagents read-only by default and reserving state-changing actions for the merged main-thread decision.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, `scripts/check_pdf_text_artifacts.py`, and `git diff --check`; no structural, tag-drift, PDF-artifact, or whitespace failures were reported.
+
+## [2026-06-17] maintenance | Codex and vault cleanup pass
+- Removed regenerated `.DS_Store` files from `/Users/chen/Documents/Codex` and `/Users/chen/Documents/Obsidian Vault`, including Finder metadata under `experiments/`, `wiki/`, `baselines/`, and the vault `.git/` directory.
+- Updated `/Users/chen/Documents/Codex` cleanup notes and ignore rules to reflect the current source-only course workspace: generated `outputs/`, `logs/`, `checkpoints/`, prediction files, submissions, and model weights stay remote or ignored.
+- Fixed ambiguous maintenance-router links in [[index]] and [[global-research-map]] by replacing `[[index]] under wiki/maintenance/` with explicit markdown links to `wiki/maintenance/index.md`.
+- Left `raw/`, `experiments/server-sync/remotes/`, `baselines/`, sample-level experiment evidence, and `.obsidian` UI-state files untouched.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, `scripts/check_pdf_text_artifacts.py`, and `git diff --check`; no structural, tag-drift, PDF-artifact, or whitespace failures were reported.
+
+## [2026-06-17] ingest | Agentic and structured implicit-hate reasoning papers
+- Detected three user-added PDFs under `raw/sources/` and added deep-ingested source pages [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework]], [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation]], and [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models]].
+- Integrated community-agent consultation, latent-hate-component argumentation, and DToT rationale distillation into implicit/explainable hate detection, target-relation grounding, LLM-reasoning, hate-speech synthesis, and the current IHC small-LLM method-planning page.
+- Added a ReAct-style relation-verifier idea that gates expensive actions by uncertainty, exposes `candidate_target`, `evidence_span`, `relation_state`, and `context_modifier`, and treats retrieval/community consultation as bounded actions rather than all-sample prompting.
+- Regenerated hate-speech and LLM-reasoning source hubs; hate-speech source coverage is now 63 and LLM-reasoning source coverage is now 51.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, `scripts/check_pdf_text_artifacts.py`, and `git diff --check`; no structural, tag-drift, PDF-artifact, or whitespace failures were reported.
+
+## [2026-06-17] ingest | ReAct reasoning-action prompting paper
+- Detected `raw/sources/2210.03629v3.pdf` as the remaining newly added PDF without a source page after local deduplication against the existing 192-194 ingest.
+- Added [[195-yao-2023-react-synergizing-reasoning-and-acting-in-language-models]] as a deep-ingested LLM-reasoning source page covering the ReAct thought-action-observation loop, HotpotQA/FEVER and ALFWorld/WebShop setups, hybrid ReAct/CoT routing, and action-space limitations.
+- Updated [[sources-index]], [[nlp-research-collection]], [[llm-reasoning-source-hub]], [[llm-reasoning]], and [[index]] so the corpus reflects 196 raw PDFs, 195 unique indexed PDF sources, and 52 LLM-reasoning source pages.
+- Re-ran `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, `scripts/check_pdf_text_artifacts.py`, `scripts/regenerate_source_hubs.py`, and `git diff --check`; no structural, tag-drift, PDF-artifact, source-hub drift, or whitespace failures were reported.

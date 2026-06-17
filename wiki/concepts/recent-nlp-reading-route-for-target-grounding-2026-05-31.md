@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31
-updated: 2026-06-01
+updated: 2026-06-17
 tags: [query-answer, hate-speech, target-relation, structured-prediction, information-extraction, evaluation]
 sources: []
 promotion_reason: "Durable deduplicated reading route for the active IHC/SBIC target-relation grounding work, expanded into adjacent NLP extraction and moderation robustness methods."
@@ -90,7 +90,7 @@ The following entries were checked against `wiki/`, `experiments/`, `log.md`, an
 
 | Paper | Date | Why Read It Now |
 |---|---|---|
-| Gajewska et al., [Improving Implicit Hate Speech Detection via a Community-Driven Multi-Agent Framework](https://arxiv.org/abs/2601.09342) | arXiv 2026-01 | Extends implicit-hate detection with dynamically constructed demographic-group agents and socio-cultural context. It is a useful contrast to the current compact relation-grounding path: compare explicit candidate relations against community-context consultation. |
+| [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework|Gajewska et al., Improving Implicit Hate Speech Detection via a Community-Driven Multi-Agent Framework]] | arXiv 2026-01 / ICAART 2026 | Promoted to a source page on 2026-06-17. Extends implicit-hate detection with dynamically constructed demographic-group agents and socio-cultural context. It is a useful contrast to the current compact relation-grounding path: compare explicit candidate relations against community-context consultation. |
 | Herrmann et al., [Beyond Hate: Differentiating Uncivil and Intolerant Speech in Multimodal Content Moderation](https://arxiv.org/abs/2603.22985) | arXiv 2026-03 | Separates rude tone from group- or identity-directed intolerance. This is relevant to the planned relation schema because it tests whether a fine-grained semantic decomposition improves moderation error balance. |
 | Proskurina et al., [HatePrototypes: Interpretable and Transferable Representations for Implicit and Explicit Hate Speech Detection](https://arxiv.org/abs/2511.06391) | arXiv 2025-11 | Uses class-level prototypes for transfer between explicit and implicit hate. It is a useful efficiency and representation-learning comparison if the project evaluates compact baselines or cross-dataset transfer. |
 | Park et al., [LLM-C3MOD: A Human-LLM Collaborative System for Cross-Cultural Hate Speech Moderation](https://arxiv.org/abs/2503.07237) | arXiv 2025-03 | A broader human-in-the-loop moderation reference. It adds RAG-supported cultural context, LLM consensus checks, and targeted human escalation for cross-cultural cases. |

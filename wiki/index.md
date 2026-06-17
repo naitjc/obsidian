@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-06-16
+updated: 2026-06-18
 tags: [index]
 sources: []
 ---
@@ -11,15 +11,29 @@ sources: []
 
 | Area | Current state |
 |---|---|
-| Raw PDFs | 192 files in `raw/sources/`; 191 unique source PDFs indexed because `2024.acl-long.291.pdf` duplicates [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]] |
-| Wiki pages | 349 pages under `wiki/` |
-| Source pages | 199 pages, including catalog and alias stubs |
-| Concept pages | 106 pages |
+| Raw PDFs | 196 files in `raw/sources/`; 195 unique source PDFs indexed because `2024.acl-long.291.pdf` duplicates [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]] |
+| Wiki pages | 356 pages under `wiki/` |
+| Source pages | 203 pages, including catalog and alias stubs |
+| Concept pages | 107 pages |
 | Entity pages | 18 pages |
-| Maintenance pages | 24 pages |
-| Deep-ingested source pages | 191 PDF source pages tagged `deep-ingest-v2` |
-| Auto-ingest PDF source pages | 0 remaining among the 191 numbered PDF source pages |
-| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-06-16; `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py` passed on 2026-06-16 |
+| Maintenance pages | 25 pages |
+| Deep-ingested source pages | 195 PDF source pages tagged `deep-ingest-v2` |
+| Auto-ingest PDF source pages | 0 remaining among the 195 numbered PDF source pages |
+| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-06-18; `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py` passed on 2026-06-18 |
+
+## Fast Task Router
+
+| Task | Start Here | Follow-on Pages |
+|---|---|---|
+| Answer a wiki-grounded research question | [[global-research-map]] | Relevant source hub, direction map, source pages, and entity pages |
+| Inspect hate speech target/relation work | [[target-relation-grounding-literature-map]] | [[leakage-resistant-target-relation-modeling]], [[rahmd-text-migration-lineage-2026-06-13]] |
+| Scout outside-field transferable ideas | [[ai-assisted-research-ideation-workflow]] | [[transfer-idea-screening-template]] |
+| Ingest a new source | [[sources-index]] | Relevant direction source hub and `log.md` |
+| Record or inspect experiment workflow | `EXPERIMENTS.md` | `experiments/{dataset}/notes/` |
+| Prepare server-runnable work | `experiments/server-sync/README.md` | `experiments/server-sync/staging/{task-slug}/` |
+| Inspect external baseline code | `baselines/README.md` | `baselines/{method}/README.md` |
+| Check wiki health or publish readiness | [wiki/maintenance/index.md](maintenance/index.md) | [[wiki-maintenance-checklist]] |
+| Coordinate subagents for context, remote runs, diagnostics, dedup, or cleanup | [[subagent-collaboration-workflow]] | [[task-routing-and-promotion]] |
 
 ## Entities
 
@@ -52,7 +66,7 @@ sources: []
 | [[role-playing-agents]] | Role-playing and social behavior of LLM agents |
 | [[llm-reasoning]] | Inference-time reasoning and computation |
 | [[llm-evaluation]] | Evaluation methods and benchmarks for LLM behavior |
-| [[ai-assisted-research-ideation-workflow]] | Source-grounded LLM workflow for conflict search, constraints, metrics, and adversarial review |
+| [[ai-assisted-research-ideation-workflow]] | Source-grounded and profile-guided LLM workflow for conflict search, transferable-mechanism screening, constraints, metrics, and adversarial review |
 | [[synthetic-data-generation]] | LLM-generated and augmented training/evaluation data |
 | [[zero-shot-learning]] | Generalization without in-domain labeled examples |
 | [[retrieval-augmented-generation]] | Retrieval-conditioned generation and adaptation |
@@ -107,7 +121,9 @@ sources: []
 | Wiki schema | [[wiki-schema]] |
 | Frontmatter conventions | [[frontmatter-conventions]] |
 | Task routing and promotion | [[task-routing-and-promotion]] |
+| Subagent collaboration workflow | [[subagent-collaboration-workflow]] |
 | Maintenance checklist | [[wiki-maintenance-checklist]] |
+| Idea scouting workflow | [[ai-assisted-research-ideation-workflow]], [[transfer-idea-screening-template]] |
 | Research direction registry | [[research-direction-registry]] |
 | Navigation audit | [[navigation-audit-2026-05-19]] |
 | Experiment workflow | `EXPERIMENTS.md` |
@@ -142,7 +158,7 @@ sources: []
 | [[leakage-resistant-target-relation-modeling]] | Query answer refining target leakage observations into a focused relation-aware hate detection paper thesis |
 | [[target-relation-modeling-reject-review]] | Query answer preserving a strict rejection-oriented review of the target-relation modeling paper idea |
 | [[cross-direction-innovation-ideas-2026-05-18]] | Query answer proposing preliminary innovation ideas from the wiki's cross-direction common problems |
-| [[ai-assisted-research-ideation-workflow]] | Query answer recording how to use LLMs for source-grounded conflict search, constraint hardening, metrics, and reviewer attacks |
+| [[ai-assisted-research-ideation-workflow]] | Query answer recording how to use LLMs for source-grounded conflict search, profile-guided transferable-mechanism screening, constraint hardening, metrics, and reviewer attacks |
 | [[hate-speech-grounding-directions-review-2026-05-18]] | Query answer assessing novelty and feasibility of three hate-speech grounding directions from a reviewer perspective |
 | [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] | Query answer giving an experiment plan for definition-controllable candidate-target relation grounding |
 | [[target-relation-grounding-literature-map]] | Literature map connecting target categories, target-expression spans, context, and bias audits for relation-grounded hate detection |
@@ -153,8 +169,9 @@ sources: []
 | [[dual-view-target-statement-relation-alignment]] | Method design for using completed not-toxic target and statement fields through training-only semantic alignment |
 | [[multimodal-inspired-ihc-relation-methods-2026-06-05]] | Query answer translating multimodal hate-detection retrieval, alignment, uncertainty, and knowledge ideas into IHC relation modeling |
 | [[ihc-completed-small-llm-innovation-ideas-2026-06-05]] | Query answer ranking innovation ideas after completed IHC target and statement fills under small generative LLM and no-augmentation constraints |
+| [[generative-llm-transfer-ideas-for-ihc-2026-06-18]] | Transfer-screening report mapping generative-LLM mechanisms across CS fields into IHC target-relation hate detection ideas |
 | [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]] | Query answer mapping RA-HMD's two-stage retrieval-augmented adaptation method into completed-IHC candidate-target relation modeling |
 | [[rahmd-text-migration-lineage-2026-06-13]] | Query answer tracing the nlp06 RA-HMD_text migration from native RA-HMD RAC to text-only predicted-target retrieval and dual-adapter ablations |
 
 ---
-_Last updated: 2026-06-16_
+_Last updated: 2026-06-18_

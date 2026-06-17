@@ -1,6 +1,6 @@
 ---
 created: 2026-05-06
-updated: 2026-05-27
+updated: 2026-06-17
 tags: [index, synthesis, research-map]
 sources: []
 ---
@@ -35,6 +35,7 @@ This page is the top-level research map for the current wiki. Direction pages re
 
 ## Maintenance
 
-- Latest global integrity report: [[wiki-integrity-report-2026-05-06]]
+- Latest global integrity report: [[wiki-integrity-report-2026-06-01]]
 - Maintenance playbook: [[wiki-maintenance-playbook]]
 - Current maintenance status: [[wiki-maintenance-status-2026-05-06]]
+- Current maintenance router: [wiki/maintenance/index.md](../maintenance/index.md)

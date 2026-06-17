@@ -7,7 +7,7 @@ sources: []
 
 # Hate Speech Source Hub
 
-Total linked papers: **60**
+Total linked papers: **63**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -72,6 +72,9 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[181-korre-2025-untangling-hate-speech-definitions-a-semantic-componential-analysis-across-cultures-and-domains|Korre 等 - 2025 - Untangling Hate Speech Definitions A Semantic Componential Analysis Across Cultures and Domains]]
 - [[182-hu-lee-2026-hatexscore-a-metric-suite-for-evaluating-reasoning-quality-in-hate-speech-explanations|Hu 和 Lee - 2026 - HateXScore A Metric Suite for Evaluating Reasoning Quality in Hate Speech Explanations]]
 - [[187-mei-2026-expo-hm-learning-to-explain-then-detect-for-hateful-meme-detection|Mei 等 - 2026 - ExPO-HM Learning to Explain-then-Detect for Hateful Meme Detection]]
+- [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework|Gajewska 等 - 2026 - Improving Implicit Hate Speech Detection via a Community-Driven Multi-Agent Framework]]
+- [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation|Sun 等 - 2026 - Rethinking Implicit Hate Speech Detection Focusing on Latent Hate Components via Dual-Process Argumentation]]
+- [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models|Zhang 等 - 2024 - Efficient Toxic Content Detection by Bootstrapping and Distilling Large Language Models]]
 
 ## Cross-Cutting Concept Links
 - [[hate-speech-research-map]]

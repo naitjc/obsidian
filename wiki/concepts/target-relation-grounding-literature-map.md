@@ -1,6 +1,6 @@
 ---
 created: 2026-05-21
-updated: 2026-05-27
+updated: 2026-06-17
 tags: [concept, hate-speech, target-relation, explainability]
 sources:
   - raw/sources/1804.04257v1.pdf
@@ -11,6 +11,8 @@ sources:
   - raw/sources/2023.acl-short.66.pdf
   - raw/sources/S18-2018.pdf
   - raw/sources/2021.acl-long.277.pdf
+  - raw/sources/2601.09342v2.pdf
+  - raw/sources/3774904.3792159.pdf
 ---
 
 # Target-Relation Grounding Literature Map
@@ -44,6 +46,13 @@ The useful gap is not simply missing target labels. The gap is that many systems
 
 - [[166-davidson-2019-racial-bias-in-hate-speech-and-abusive-language-detection-datasets]] shows that hate and abuse classifiers can over-predict negative labels for African-American English, motivating shortcut-resistant evaluation.
 - [[043-hartvigsen-2022-toxigen-a-large-scale-machine-generated-dataset-for-adversarial-and-implicit-hate-speech-detection]] and [[059-kim-2023-conprompt-pre-training-a-language-model-with-machine-generated-data-for-implicit-hate-speech-detect]] remain useful for identity-term and implicit-hate shortcut framing.
+- [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework]] adds a community-context route for reducing under-detection of implicitly hateful content against marginalised groups, but its broad demographic agents are not a replacement for explicit candidate-target relation labels.
+
+### Agentic Verifiers Need Structured Anchors
+
+- [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation]] is the closest new anchor for a ReAct-style verifier. It does not simply ask multiple agents to debate the whole post; it first mines Latent Hate Components, filters noisy candidates, and then performs component-wise pro/con deliberation.
+- The local transfer is to replace free-form chain-of-thought with auditable intermediate fields: `candidate_target`, `evidence_span`, `relation_state`, and `context_modifier`.
+- The paper's false-positive and false-negative framing matches the local need to separate target-mentioned benign rows from implicit hateful rows rather than optimizing only aggregate classification.
 
 ### Partial Relation Supervision Is a Method Analogy
 

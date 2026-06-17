@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-05-27
+updated: 2026-06-17
 tags: [status, hate-speech, completion]
 sources: []
 ---
@@ -9,7 +9,7 @@ sources: []
 
 ## Done
 - Direction map and subarea pages are established (`[[hate-speech-research-map]]`).
-- Source hub exists with 55 hate-speech papers (`[[hate-speech-source-hub]]`).
+- Source hub exists with 63 hate-speech papers (`[[hate-speech-source-hub]]`).
 - Priority queue is defined (`[[hate-speech-priority-papers]]`).
 - SOTA synthesis and contradiction tracker are in place (`[[hate-speech-sota-landscape]]`).
 - Lint is clean in-scope: no broken links, no orphans (`[[hate-speech-lint-report-2026-04-23]]`).
@@ -17,6 +17,7 @@ sources: []
 - Latest completion report exists (`[[hate-speech-completion-report-2026-04-29]]`).
 - `AGENTS.md` now defines hate speech detection as the active completed direction and preserves publication-grade metric verification as a separate checklist item.
 - New generated-data and explanation-evaluation sources are integrated: [[174-casula-tonelli-2023-generation-based-data-augmentation-for-offensive-language-detection-is-it-worth-it]] and [[176-puppi-vecchi-2026-harm-learning-hate-aware-reward-model-for-evaluating-natural-language-explanations-of-offensive-content]].
+- New agentic and structured-reasoning sources are integrated: [[192-gajewska-2026-improving-implicit-hate-speech-detection-via-a-community-driven-multi-agent-framework]], [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation]], and [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models]].
 
 ## In Progress
 - Publication-grade numeric verification remains optional/manual. The matrix now distinguishes table-located evidence from unresolved automatic candidates.

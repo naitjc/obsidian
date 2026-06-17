@@ -11,6 +11,7 @@ This vault is a persistent LLM-maintained research wiki. It stores immutable sou
 - Prefer the smallest complete solution that satisfies the goal. If the shortest path would create structural debt, choose the smallest structurally correct solution instead.
 - Do not add unrelated fallback branches, alternative task paths, or speculative future features. Necessary input constraints, state checks, and boundary protection are allowed.
 - Before proposing or applying a structural change, check the full path: inputs, processing flow, state changes, outputs, and upstream/downstream impact. Mark assumptions and unverified premises explicitly.
+- When a task would benefit from bounded context gathering, remote run inspection, result diagnosis, wiki/literature deduplication, or cleanup/publish auditing, autonomously use the subagent workflow in `wiki/maintenance/subagent-collaboration-workflow.md`. The user does not need to request subagents explicitly. Keep subagents read-only by default and merge their outputs in the main thread before edits, runs, commits, pushes, or durable wiki promotion.
 
 ## Mission
 
@@ -29,12 +30,16 @@ This vault is a persistent LLM-maintained research wiki. It stores immutable sou
 
 Start from the file that routes the task:
 
-- research question or source interpretation -> `wiki/index.md`
-- source ingestion -> `wiki/index.md`, then the relevant direction hub under `wiki/concepts/`
-- active experiment work -> `EXPERIMENTS.md`
-- server-side experiment setup, sync, or remote-run work -> `EXPERIMENTS.md`, then `experiments/server-sync/README.md`
-- wiki health, schema, or lint work -> `wiki/maintenance/index.md`
-- manuscript work -> `papers/{paper-slug}/README.md` when it exists
+| Task | Start from | Then check |
+|---|---|---|
+| Research question or source interpretation | `wiki/index.md` | Relevant direction map, source hub, source pages, and entity pages |
+| Source ingestion | `wiki/index.md` | `wiki/sources/sources-index.md`, relevant source hub, `log.md` |
+| External paper idea scouting | `wiki/concepts/ai-assisted-research-ideation-workflow.md` | `wiki/templates/transfer-idea-screening-template.md` |
+| Active experiment work | `EXPERIMENTS.md` | `experiments/{dataset}/notes/` and linked concept pages |
+| Server-side setup, sync, or remote-run work | `EXPERIMENTS.md` | `experiments/server-sync/README.md` |
+| External baseline code | `baselines/README.md` | `baselines/{method}/README.md` |
+| Wiki health, schema, lint, or publish readiness | `wiki/maintenance/index.md` | `wiki/maintenance/wiki-maintenance-checklist.md` and `git diff --check` |
+| Manuscript work | `papers/{paper-slug}/README.md` | Relevant wiki claim, source, and experiment pages |
 
 ## Namespace Map
 
@@ -91,6 +96,13 @@ The direction registry and canonical entry points live in `wiki/maintenance/rese
 2. Keep direct source claims separate from synthesis and inference.
 3. If the answer has durable research value, file it in the nearest existing wiki page or a page based on `wiki/templates/query-answer-template.md`.
 4. Update routing pages and `log.md` only when durable knowledge is created or materially changed.
+
+### External Idea Scouting
+
+1. Read `wiki/concepts/ai-assisted-research-ideation-workflow.md`.
+2. Define the target task, preferred mechanisms, downweighted paper types, and scoring dimensions before ranking papers.
+3. Use `wiki/templates/transfer-idea-screening-template.md` for reusable screening records.
+4. Treat LLM scores and inferred mechanisms as a reading queue until the original paper is read and promoted through source ingestion.
 
 ### Experiment Result
 
