@@ -52,7 +52,9 @@ def wiki_links(text: str) -> list[str]:
 def main() -> int:
     all_md = markdown_files(ROOT)
     wiki_md = markdown_files(WIKI)
-    slug_to_file = {path.stem: path for path in all_md}
+    slug_paths = defaultdict(list)
+    for path in all_md:
+        slug_paths[path.stem].append(path)
     wiki_slug_paths = defaultdict(list)
     for path in wiki_md:
         wiki_slug_paths[path.stem].append(path)
@@ -64,6 +66,7 @@ def main() -> int:
 
     missing_frontmatter = []
     broken_links = []
+    ambiguous_links = []
     misplaced_maintenance_pages = []
     inbound_links = {path.stem: set() for path in wiki_md}
     for path in wiki_md:
@@ -78,8 +81,17 @@ def main() -> int:
         ):
             misplaced_maintenance_pages.append(str(path.relative_to(ROOT)))
         for target in wiki_links(text):
-            if target not in slug_to_file:
+            candidates = slug_paths.get(target, [])
+            if not candidates:
                 broken_links.append({"from": str(path.relative_to(ROOT)), "target": target})
+            elif len(candidates) > 1:
+                ambiguous_links.append(
+                    {
+                        "from": str(path.relative_to(ROOT)),
+                        "target": target,
+                        "candidates": [str(candidate.relative_to(ROOT)) for candidate in candidates],
+                    }
+                )
             elif target != path.stem and target in inbound_links:
                 inbound_links[target].add(path.stem)
 
@@ -128,6 +140,7 @@ def main() -> int:
         "concept_pages": len(list(CONCEPTS.glob("*.md"))),
         "entity_pages": len(list((WIKI / "entities").glob("*.md"))),
         "broken_links": broken_links,
+        "ambiguous_links": ambiguous_links,
         "missing_frontmatter": missing_frontmatter,
         "orphan_pages": orphan_pages,
         "duplicate_slugs": duplicate_slugs,
@@ -145,6 +158,7 @@ def main() -> int:
     )
     return 1 if (
         broken_links
+        or ambiguous_links
         or missing_frontmatter
         or orphan_pages
         or duplicate_slugs

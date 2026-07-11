@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19
-updated: 2026-06-17
+updated: 2026-07-11
 tags: [maintenance, index]
 sources: []
 ---
@@ -20,6 +20,7 @@ This page routes wiki schema, lint, direction registry, and maintenance workflow
 | AI-assisted idea scouting workflow | [[ai-assisted-research-ideation-workflow]] |
 | Maintenance checks and scripts | [[wiki-maintenance-checklist]] |
 | Completed direction registry | [[research-direction-registry]] |
+| Vault organization audit 2026-06-29 (refreshed 2026-07-11) | [[vault-organization-audit-2026-06-29]] |
 | Integrity report 2026-06-01 | [[wiki-integrity-report-2026-06-01]] |
 | Navigation audit 2026-05-19 | [[navigation-audit-2026-05-19]] |
 | Archived maintenance reports | `wiki/maintenance/reports/` |

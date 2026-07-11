@@ -1,13 +1,13 @@
 ---
 created: 2026-04-23
-updated: 2026-06-17
+updated: 2026-07-01
 tags: [research, nlp, ai]
 sources: []
 ---
 
 # NLP/AI Research Papers
 
-Personal research collection focused on NLP and AI. Current corpus contains **196** PDF files under `raw/sources/`, with **195** unique source PDFs indexed in the wiki. `raw/sources/2024.acl-long.291.pdf` is a duplicate copy of the already indexed RGCL paper.
+Personal research collection focused on NLP and AI. Current corpus contains **197** PDF files under `raw/sources/`, with **196** unique source PDFs indexed in the wiki. `raw/sources/2024.acl-long.291.pdf` is a duplicate copy of the already indexed RGCL paper.
 
 ## Core Research Themes
 
@@ -22,7 +22,7 @@ Personal research collection focused on NLP and AI. Current corpus contains **19
 ## Navigation
 
 - Full paper catalog: [[sources-index]]
-- Master wiki index: [[index]]
+- Master wiki index: [index](../index.md)
 - Activity log: [log](../../log.md)
 
 ## Current Coverage Snapshot
@@ -32,8 +32,8 @@ Personal research collection focused on NLP and AI. Current corpus contains **19
 - Sarcasm/humor related: 17
 - Role-playing related: 13
 - Multimodal related: 38
-- LLM-reasoning related: 52
+- LLM-reasoning related: 53
 - Emotion-related: 9
 - Dialogue/intent related: 29
 
-The corpus now also includes five P0 follow-up PDFs for target grounding, four newer structured-output, safety, and bias-alignment papers (FnCTOD, SPLoRA, inference-time trajectory safety, and BiasGRPO), ExPO-HM for explain-then-detect hateful meme detection, FLMR/PreFLMR/BERAG for multimodal retrieval-augmented QA, RAD for retrieval-augmented jailbreak defense, three agentic or structured moderation-reasoning papers, and ReAct as the canonical reasoning-action tool-use prompting paper.
+The corpus now also includes five P0 follow-up PDFs for target grounding, four newer structured-output, safety, and bias-alignment papers (FnCTOD, SPLoRA, inference-time trajectory safety, and BiasGRPO), ExPO-HM for explain-then-detect hateful meme detection, FLMR/PreFLMR/BERAG for multimodal retrieval-augmented QA, RAD for retrieval-augmented jailbreak defense, three agentic or structured moderation-reasoning papers, ReAct as the canonical reasoning-action tool-use prompting paper, and ReasonRAG for process-supervised agentic retrieval decisions.

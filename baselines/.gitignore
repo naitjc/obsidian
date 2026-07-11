@@ -32,3 +32,30 @@ runs/
 *.npz
 *.parquet
 *.gzip
+
+# Keep source-code directories and an explicit allowlist of compact synthetic
+# upstream fixtures whose paths happen to contain `data`. Do not use recursive
+# fixture allowlists here: future sample files must be reviewed individually.
+!rgcl-main/RA-HMD/LLAMA-FACTORY/src/llamafactory/data/
+!rgcl-main/RA-HMD/LLAMA-FACTORY/src/llamafactory/data/**
+!rgcl-main/RA-HMD/LLAMA-FACTORY/tests/data/
+!rgcl-main/RA-HMD/LLAMA-FACTORY/tests/data/**
+
+!privacy-filter/examples/data/
+privacy-filter/examples/data/*
+!privacy-filter/examples/data/README.md
+!privacy-filter/examples/data/sample_eval_five_examples.jsonl
+!privacy-filter/examples/data/sample_eval_five_examples_alt_labels.jsonl
+!privacy-filter/examples/data/finetuning_custom_label_demo/
+privacy-filter/examples/data/finetuning_custom_label_demo/*
+!privacy-filter/examples/data/finetuning_custom_label_demo/README.md
+!privacy-filter/examples/data/finetuning_custom_label_demo/label_space.json
+!privacy-filter/examples/data/finetuning_custom_label_demo/test.jsonl
+!privacy-filter/examples/data/finetuning_custom_label_demo/train.jsonl
+!privacy-filter/examples/data/finetuning_custom_label_demo/validation.jsonl
+!privacy-filter/examples/data/finetuning_secret_demo/
+privacy-filter/examples/data/finetuning_secret_demo/*
+!privacy-filter/examples/data/finetuning_secret_demo/README.md
+!privacy-filter/examples/data/finetuning_secret_demo/test.jsonl
+!privacy-filter/examples/data/finetuning_secret_demo/train.jsonl
+!privacy-filter/examples/data/finetuning_secret_demo/validation.jsonl

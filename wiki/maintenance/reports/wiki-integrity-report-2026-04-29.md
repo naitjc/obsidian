@@ -33,7 +33,7 @@ This pass checked the current wiki structure, navigation entry points, frontmatt
 
 ## Changes Made
 
-- Expanded [[index]] into a practical navigation dashboard with inventory, entity, concept, source, and output sections.
+- Expanded the [master index](../../index.md) into a practical navigation dashboard with inventory, entity, concept, source, and output sections.
 - Linked dataset entity pages through [[hate-speech-dataset-alias-map]] so dataset pages are no longer disconnected from the main graph.
 - Expanded [[synthetic-data-generation]] from a seed stub into a usable concept page.
 - Updated `AGENTS.md` status to reflect that initial ingestion, concept mapping, and entity creation are complete.

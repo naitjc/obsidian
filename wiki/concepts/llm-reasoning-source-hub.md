@@ -7,7 +7,7 @@ sources: []
 
 # LLM Reasoning and Evaluation Source Hub
 
-Total linked papers: **52**
+Total linked papers: **53**
 
 Use this page as the canonical entry point generated from source page frontmatter tags.
 
@@ -64,6 +64,7 @@ Use this page as the canonical entry point generated from source page frontmatte
 - [[193-sun-2026-rethinking-implicit-hate-speech-detection-focusing-on-latent-hate-components-via-dual-process-argumentation|Sun 等 - 2026 - Rethinking Implicit Hate Speech Detection Focusing on Latent Hate Components via Dual-Process Argumentation]]
 - [[194-zhang-2024-efficient-toxic-content-detection-by-bootstrapping-and-distilling-large-language-models|Zhang 等 - 2024 - Efficient Toxic Content Detection by Bootstrapping and Distilling Large Language Models]]
 - [[195-yao-2023-react-synergizing-reasoning-and-acting-in-language-models|Yao 等 - 2023 - ReAct Synergizing Reasoning and Acting in Language Models]]
+- [[196-zhang-2025-process-vs-outcome-reward-which-is-better-for-agentic-rag-reinforcement-learning|Zhang 等 - 2025 - Process vs. Outcome Reward: Which is Better for Agentic RAG Reinforcement Learning?]]
 
 ## Cross-Cutting Concept Links
 - [[llm-reasoning]]

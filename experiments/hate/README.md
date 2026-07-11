@@ -4,6 +4,7 @@ This folder stores selected local experiment evidence for hate-speech modeling w
 
 ## Archives
 
+- `rahmd-text-architecture/`: editable SVG and rendered PNG architecture exports for the text-only RA-HMD experiment line.
 - `xu-l20-snapshot-2026-05-19/`: selected evidence copied from `xu-l20:/data/chenjt/hate` for IHC/SBIC fine-tuning, filled-not-toxic target-input leakage diagnostics, and older Hidden CoT trials.
 - `xu-l20-full-statement-2026-05-27/`: supplemental evidence for the completed `text -> class + hate_class + target + statement` runs, including evaluation outputs, processed data with `statement`, pipeline code, and execution logs.
 

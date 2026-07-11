@@ -31,6 +31,7 @@ Add `--write` to `scripts/regenerate_source_hubs.py` only when intentionally rep
 ## Expected Structural State
 
 - 0 broken wiki links.
+- 0 ambiguous Wikilinks when multiple pages share the same slug.
 - 0 wiki pages missing required frontmatter.
 - 0 non-exempt wiki orphan pages; intentional alias stubs or historical reports should be linked from a maintenance audit or archive page.
 - 0 non-exempt duplicate wiki slugs; `index` is allowed because the vault has both the root wiki router and the maintenance router.
@@ -57,7 +58,7 @@ Add `--write` to `scripts/regenerate_source_hubs.py` only when intentionally rep
 
 ## Link and Log Checklist
 
-- New durable page is linked from [[index]] or a relevant hub page.
+- New durable page is linked from the [master index](../index.md) or a relevant hub page.
 - New source page is linked from [[sources-index]] and the relevant source hub.
 - Meaningful maintenance, ingest, or promoted query-answer changes are appended to `log.md`.
 - Raw files remain untouched except for intentional source additions by the user.

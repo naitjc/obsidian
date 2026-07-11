@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23
-updated: 2026-06-18
+updated: 2026-07-11
 tags: [index]
 sources: []
 ---
@@ -11,15 +11,15 @@ sources: []
 
 | Area | Current state |
 |---|---|
-| Raw PDFs | 196 files in `raw/sources/`; 195 unique source PDFs indexed because `2024.acl-long.291.pdf` duplicates [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]] |
-| Wiki pages | 356 pages under `wiki/` |
-| Source pages | 203 pages, including catalog and alias stubs |
-| Concept pages | 107 pages |
+| Raw PDFs | 197 files in `raw/sources/`; 196 unique source PDFs indexed because `2024.acl-long.291.pdf` duplicates [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]] |
+| Wiki pages | 359 pages under `wiki/` |
+| Source pages | 204 pages, including catalog and alias stubs |
+| Concept pages | 108 pages |
 | Entity pages | 18 pages |
-| Maintenance pages | 25 pages |
-| Deep-ingested source pages | 195 PDF source pages tagged `deep-ingest-v2` |
-| Auto-ingest PDF source pages | 0 remaining among the 195 numbered PDF source pages |
-| Integrity status | 0 broken links, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-06-18; `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py` passed on 2026-06-18 |
+| Maintenance pages | 26 pages |
+| Deep-ingested source pages | 196 PDF source pages tagged `deep-ingest-v2` |
+| Auto-ingest PDF source pages | 0 remaining among the 196 numbered PDF source pages |
+| Integrity status | 0 broken links, 0 ambiguous Wikilinks, 0 missing frontmatter, 0 orphan pages, 0 duplicate slugs, 0 misplaced maintenance pages, 0 tag drift, and 0 PDF text artifacts found on 2026-07-11; `scripts/lint_wiki.py`, `scripts/wiki_inventory.py`, `scripts/check_source_tag_drift.py`, and `scripts/check_pdf_text_artifacts.py` passed on 2026-07-11 |
 
 ## Fast Task Router
 
@@ -27,6 +27,7 @@ sources: []
 |---|---|---|
 | Answer a wiki-grounded research question | [[global-research-map]] | Relevant source hub, direction map, source pages, and entity pages |
 | Inspect hate speech target/relation work | [[target-relation-grounding-literature-map]] | [[leakage-resistant-target-relation-modeling]], [[rahmd-text-migration-lineage-2026-06-13]] |
+| Inspect the active IHC factor-pool design | [[llm-guided-hate-factor-structure-induction-2026-06-30]] | Historical CATCH Baseline 0, frozen M/T/S schema, Auditor, and 2.0 pool-update boundary |
 | Scout outside-field transferable ideas | [[ai-assisted-research-ideation-workflow]] | [[transfer-idea-screening-template]] |
 | Ingest a new source | [[sources-index]] | Relevant direction source hub and `log.md` |
 | Record or inspect experiment workflow | `EXPERIMENTS.md` | `experiments/{dataset}/notes/` |
@@ -126,6 +127,7 @@ sources: []
 | Idea scouting workflow | [[ai-assisted-research-ideation-workflow]], [[transfer-idea-screening-template]] |
 | Research direction registry | [[research-direction-registry]] |
 | Navigation audit | [[navigation-audit-2026-05-19]] |
+| Vault organization audit | [[vault-organization-audit-2026-06-29]] |
 | Experiment workflow | `EXPERIMENTS.md` |
 | Server sync workflow | `experiments/server-sync/README.md` |
 
@@ -172,6 +174,7 @@ sources: []
 | [[generative-llm-transfer-ideas-for-ihc-2026-06-18]] | Transfer-screening report mapping generative-LLM mechanisms across CS fields into IHC target-relation hate detection ideas |
 | [[rahmd-inspired-ihc-relation-adaptation-2026-06-05]] | Query answer mapping RA-HMD's two-stage retrieval-augmented adaptation method into completed-IHC candidate-target relation modeling |
 | [[rahmd-text-migration-lineage-2026-06-13]] | Query answer tracing the nlp06 RA-HMD_text migration from native RA-HMD RAC to text-only predicted-target retrieval and dual-adapter ablations |
+| [[llm-guided-hate-factor-structure-induction-2026-06-30]] | Active pre-implementation M/T/S factor-pool design with label-blind Mapper/Auditor contracts, historical CATCH Baseline 0, and held-out pool-revision rules |
 
 ---
-_Last updated: 2026-06-18_
+_Last updated: 2026-07-11_

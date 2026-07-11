@@ -21,7 +21,7 @@ sources: []
 - [[wiki-maintenance-playbook]] records repeatable maintenance and query workflows.
 - The vault root was initialized as a git repository for local version history.
 - The remaining 21 numbered PDF source pages were upgraded from `auto-ingest`/`peripheral-source` navigation nodes to `deep-ingest-v2` source pages.
-- [[index]] was refreshed with current inventory counts and source status boundaries.
+- The [master index](../../index.md) was refreshed with current inventory counts and source status boundaries.
 - [[wiki-integrity-report-2026-05-06]] records the current post-alignment integrity state.
 - User selected [[hate-speech-metrics-matrix]] and [[llm-reasoning-metrics-matrix]] for publication-grade priority metrics checking. Their priority rows are now marked `publication-checked` where exact table values or source-statement ranges were checked against rendered/layout-preserved PDF evidence.
 - User selected high-impact source-summary review for hate speech and LLM reasoning. The highest-noise priority source pages were rewritten from PDF-extraction fragments into clean evidence-oriented summaries, and two misleading `cross-lingual` tags were removed from cross-modality/cross-dataset hate pages.

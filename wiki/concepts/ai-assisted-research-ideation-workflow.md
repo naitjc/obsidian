@@ -33,7 +33,7 @@ Use this page when the user asks for:
 - a reading queue that should distinguish topic similarity from method transfer;
 - reviewer-risk checks before turning an idea into an experiment plan.
 
-Start with [[index]], the relevant direction/source/entity pages, and recent `experiments/` notes. For broad external paper collections, record the screening profile and shortlisted outputs with [[transfer-idea-screening-template]] rather than creating unlinked ad hoc notes.
+Start with the [master index](../index.md), the relevant direction/source/entity pages, and recent `experiments/` notes. For broad external paper collections, record the screening profile and shortlisted outputs with [[transfer-idea-screening-template]] rather than creating unlinked ad hoc notes.
 
 Do not use this workflow to promote LLM-scored candidates into source claims. A candidate paper becomes source-grounded knowledge only after its original paper is read and ingested under `wiki/sources/`.
 

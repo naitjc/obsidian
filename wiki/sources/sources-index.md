@@ -1,13 +1,13 @@
 ---
 created: 2026-04-23
-updated: 2026-06-17
+updated: 2026-07-01
 tags: [index, sources]
 sources: []
 ---
 
 # Sources Index
 
-Total source PDFs ingested: **195**
+Total source PDFs ingested: **196**
 
 Note: `raw/sources/2024.acl-long.291.pdf` duplicates the already indexed RGCL paper [[080-mei-2024-improving-hateful-meme-detection-through-retrieval-guided-contrastive-learning]], so it is not assigned a new source page.
 
@@ -167,6 +167,7 @@ Note: `raw/sources/2024.acl-long.291.pdf` duplicates the already indexed RGCL pa
 | [[139-zhang-2025-incongruity-aware-tension-field-network-for-multi-modal-sarcasm-detection|Zhang 等 - 2025 - Incongruity-aware Tension Field Network for Multi-modal Sarcasm Detection]] | 2025 | multimodal, sarcasm, prompting, retrieval, benchmark, graph |
 | [[140-zhang-2025-mprf-interpretable-stance-detection-through-multi-path-reasoning-framework|Zhang 等 - 2025 - MPRF Interpretable Stance Detection through Multi-Path Reasoning Framework]] | 2025 | stance-detection, llm-reasoning, zero-shot, few-shot, prompting, synthetic-data, retrieval, cross-lingual, conversational, target-adaptive, bias, verification |
 | [[141-zhang-2025-mpvstance-mitigating-hallucinations-in-stance-detection-with-multi-perspective-verification|Zhang 等 - 2025 - MPVStance Mitigating Hallucinations in Stance Detection with Multi-Perspective Verification]] | 2025 | stance-detection, zero-shot, few-shot, prompting, synthetic-data, retrieval, target-adaptive, bias, verification |
+| [[196-zhang-2025-process-vs-outcome-reward-which-is-better-for-agentic-rag-reinforcement-learning|Zhang 等 - 2025 - Process vs. Outcome Reward Which is Better for Agentic RAG Reinforcement Learning]] | 2025 | llm-reasoning, retrieval, prompting, synthetic-data, benchmark |
 | [[142-zhang-2025-t-mad-target-driven-multimodal-alignment-for-stance-detection|Zhang 等 - 2025 - T-MAD Target-driven Multimodal Alignment for Stance Detection]] | 2025 | multimodal, stance-detection, zero-shot, few-shot, prompting, retrieval, cross-lingual, conversational, target-adaptive, bias |
 | [[145-zhao-caragea-2025-bilingual-zero-shot-stance-detection|Zhao和Caragea - 2025 - Bilingual Zero-Shot Stance Detection]] | 2025 | stance-detection, zero-shot, few-shot, prompting, synthetic-data, retrieval, cross-lingual, conversational, bias, verification |
 | [[151-salles-2025-hatebrxplain-a-benchmark-dataset-with-human-annotated-rationales-for-explainable-hate-speech-detection-in-brazilian-portuguese|Salles 等 - 2025 - HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese]] | 2025 | hate-speech, cross-lingual, benchmark, explainability |

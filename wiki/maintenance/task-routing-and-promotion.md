@@ -17,16 +17,16 @@ Use [[subagent-collaboration-workflow]] when a task needs bounded context gather
 2. Create or update the relevant page under `wiki/sources/`.
 3. Create or update relevant entity and concept pages.
 4. Update the relevant direction source hub, map, metrics workspace, or status page if the source changes direction-level knowledge.
-5. Update [[index]].
+5. Update the [master index](../index.md).
 6. Append `log.md`.
 
 ## Query Workflow
 
-1. Check [[index]] for relevant pages.
+1. Check the [master index](../index.md) for relevant pages.
 2. Read the relevant direction map, source hub, synthesis, and evidence-bearing source pages.
 3. Synthesize the answer with citations and confidence boundaries.
 4. If the answer has durable research value, file it using [[query-answer-template]] or the nearest existing wiki page.
-5. Update [[index]] and append `log.md` when a durable page is created or materially changed.
+5. Update the [master index](../index.md) and append `log.md` when a durable page is created or materially changed.
 
 ## Idea-Scouting Workflow
 

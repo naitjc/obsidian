@@ -19,7 +19,7 @@ Use [wiki/maintenance/index.md](index.md) for current schema, routing, direction
 4. Answer with source-page links and explicit confidence boundaries.
 5. If the answer adds reusable synthesis, automatically create a new page using [[query-answer-template]].
 6. Do not create a page for one-off operational answers, simple status answers, or local maintenance confirmations.
-7. Update [[index]] and append to [[log]] whenever a query answer page is created.
+7. Update the [master index](../index.md) and append to [[log]] whenever a query answer page is created.
 
 ## Query Answer Promotion Rule
 
@@ -63,7 +63,7 @@ Use `python3 scripts/regenerate_source_hubs.py` to preview flat source-hub outpu
 3. Add `deep-ingest-v2` only after the source page has the required sections.
 4. Update the relevant direction source hub.
 5. Update concept/synthesis/status pages if the source changes direction-level conclusions.
-6. Update [[sources-index]], [[index]], and [[log]].
+6. Update [[sources-index]], the [master index](../index.md), and [[log]].
 
 ## Quantitative Claim Rule
 

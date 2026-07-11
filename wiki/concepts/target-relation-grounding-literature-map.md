@@ -1,6 +1,6 @@
 ---
 created: 2026-05-21
-updated: 2026-06-17
+updated: 2026-07-11
 tags: [concept, hate-speech, target-relation, explainability]
 sources:
   - raw/sources/1804.04257v1.pdf
@@ -66,6 +66,7 @@ The useful gap is not simply missing target labels. The gap is that many systems
 - [[leakage-resistant-target-relation-modeling]] is the current thesis page: use uniform candidate construction, relation labels, and target-present non-hateful tests rather than feeding row-level targets as features.
 - [[hate-speech-intent-slot-refactor-plan]] provides the structured task framing: mentions, harmful relation or intent, target links, evidence spans, context modifiers, and derived verdict.
 - [[candidate-target-relation-grounding-experiment-plan-2026-05-18]] moves this literature map into a concrete experiment design, but the literature-level claim should stay focused on the missing relation unit.
+- [[llm-guided-hate-factor-structure-induction-2026-06-30]] binds observable communicative motives to extracted targets through `motive_target_assignments`, separates expression style, and keeps final labels outside the factor path. Only repeated audited pool gaps—not mapper, binding, missing-context, or label errors—can propose a later pool change.
 
 ## Boundary
 
